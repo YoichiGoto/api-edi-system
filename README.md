@@ -4,7 +4,7 @@
 
 ## 概要
 
-OrderfulのようなREST APIを通じて、JSONとXML（UN/CEFACT標準）間の変換、バリデーション、マッピング機能を提供する共通EDIプロバイダシステムです。
+REST APIを通じて、JSONとXML（UN/CEFACT標準）間の変換、バリデーション、マッピング機能を提供する共通EDIプロバイダシステムです。
 
 ## 主な機能
 
