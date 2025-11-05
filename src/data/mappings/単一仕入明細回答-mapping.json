@@ -1,0 +1,2659 @@
+{
+  "sheetName": "単一仕入明細回答",
+  "messageType": "単一仕入明細回答",
+  "fields": [
+    {
+      "appField": "行番号",
+      "ediField": "鑑ヘッダ/文書ヘッダ/明細行",
+      "ediId": "項目種",
+      "required": false,
+      "description": "鑑ヘッダ/文書ヘッダ/明細行"
+    },
+    {
+      "appField": "1",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL1",
+      "required": true,
+      "description": "インボイス文書に関する情報項目のクラス"
+    },
+    {
+      "appField": "2",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID1",
+      "required": false,
+      "description": "インボイス文書を識別する文書ID"
+    },
+    {
+      "appField": "3",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID2",
+      "required": false,
+      "description": "インボイス文書の文書名称"
+    },
+    {
+      "appField": "4",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID3",
+      "required": true,
+      "description": "インボイス文書タイプコード"
+    },
+    {
+      "appField": "5",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID4",
+      "required": false,
+      "description": "インボイス文書の発行日付，またはインボイス文書の書面上の発行日付。"
+    },
+    {
+      "appField": "6",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID5",
+      "required": true,
+      "description": "インボイス文書目的コード"
+    },
+    {
+      "appField": "7",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID6",
+      "required": false,
+      "description": "インボイス文書履歴ID"
+    },
+    {
+      "appField": "8",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID8",
+      "required": false,
+      "description": "インボイス文書サブタイプコード"
+    },
+    {
+      "appField": "9",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID9",
+      "required": false,
+      "description": "鑑ヘッダ回答タイプコード"
+    },
+    {
+      "appField": "10",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL2",
+      "required": false,
+      "description": "インボイス文書注釈クラス"
+    },
+    {
+      "appField": "11",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID10",
+      "required": false,
+      "description": "インボイス文書注釈表題"
+    },
+    {
+      "appField": "12",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID11",
+      "required": false,
+      "description": "インボイス文書注釈内容"
+    },
+    {
+      "appField": "13",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID12",
+      "required": false,
+      "description": "インボイス文書注釈ID"
+    },
+    {
+      "appField": "14",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL3",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書クラス"
+    },
+    {
+      "appField": "15",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID13",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書ID"
+    },
+    {
+      "appField": "16",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID407",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書URL_ID"
+    },
+    {
+      "appField": "17",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID14",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書発行日"
+    },
+    {
+      "appField": "18",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID15",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書参照タイプコード"
+    },
+    {
+      "appField": "19",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID16",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書履歴ID"
+    },
+    {
+      "appField": "20",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID408",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書情報"
+    },
+    {
+      "appField": "21",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID17",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書タイプコード"
+    },
+    {
+      "appField": "22",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID18",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書添付ファイル"
+    },
+    {
+      "appField": "23",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID19",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書サブタイプコード"
+    },
+    {
+      "appField": "24",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL4",
+      "required": true,
+      "description": "添付バイナリファイルクラス"
+    },
+    {
+      "appField": "25",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID20",
+      "required": false,
+      "description": "添付バイナリファイルID"
+    },
+    {
+      "appField": "26",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID21",
+      "required": false,
+      "description": "添付バイナリファイル名"
+    },
+    {
+      "appField": "27",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID22",
+      "required": false,
+      "description": "添付バイナリファイルURI ID"
+    },
+    {
+      "appField": "28",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID23",
+      "required": false,
+      "description": "添付バイナリファイルのMIMEコード"
+    },
+    {
+      "appField": "29",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID24",
+      "required": false,
+      "description": "添付バイナリファイルの説明文"
+    },
+    {
+      "appField": "30",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL5",
+      "required": true,
+      "description": "受注者に関する情報からなるクラス。"
+    },
+    {
+      "appField": "31",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID25",
+      "required": false,
+      "description": "注文を受ける企業/工場・事業所・事業部門等を表すID。デフォルトはデータなし。"
+    },
+    {
+      "appField": "32",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID26",
+      "required": false,
+      "description": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨"
+    },
+    {
+      "appField": "33",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID27",
+      "required": false,
+      "description": "注文を受ける企業/工場・事業所・事業部門等を表す名称。仕入明細書を受け取る事業者名。"
+    },
+    {
+      "appField": "34",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID28",
+      "required": false,
+      "description": "適格請求書発行事業者登録番号"
+    },
+    {
+      "appField": "35",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID29",
+      "required": false,
+      "description": "適格請求書発行事業者の課税区分を識別するコード"
+    },
+    {
+      "appField": "36",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL6",
+      "required": false,
+      "description": "連絡先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "37",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID30",
+      "required": false,
+      "description": "受注者の受注部門を表すID。"
+    },
+    {
+      "appField": "38",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID31",
+      "required": false,
+      "description": "受注者連絡先の個人の、文字で表現された名前。"
+    },
+    {
+      "appField": "39",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID32",
+      "required": false,
+      "description": "受注者の受注部門の名称。"
+    },
+    {
+      "appField": "40",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID33",
+      "required": false
+    },
+    {
+      "appField": "41",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID34",
+      "required": false,
+      "description": "? ?  Seller contact telephone number"
+    },
+    {
+      "appField": "42",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID35",
+      "required": false
+    },
+    {
+      "appField": "43",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID36",
+      "required": false,
+      "description": "受注者の電子メールアドレス。"
+    },
+    {
+      "appField": "44",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL7",
+      "required": true,
+      "description": "受注者住所に関する情報からなるクラス。"
+    },
+    {
+      "appField": "45",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID37",
+      "required": false,
+      "description": "? ?  Seller post code"
+    },
+    {
+      "appField": "46",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID38",
+      "required": false,
+      "description": "? ?  Seller address line 1"
+    },
+    {
+      "appField": "47",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID39",
+      "required": false,
+      "description": "? ?  Seller address line 2"
+    },
+    {
+      "appField": "48",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID40",
+      "required": false,
+      "description": "? ?  Seller address line 3"
+    },
+    {
+      "appField": "49",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID41",
+      "required": true,
+      "description": "受注者の国ID。デフォルトは「JP」"
+    },
+    {
+      "appField": "50",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL8",
+      "required": true,
+      "description": "国際アドレスクラス\r\n（JP-PINTのアドレス方式に対応）"
+    },
+    {
+      "appField": "51",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID42",
+      "required": true,
+      "description": "国際アドレス登録機関コード"
+    },
+    {
+      "appField": "52",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID43",
+      "required": true,
+      "description": "国際アドレス登録機関が付与する国際アドレス番号\r\n（わが国ではJP-PINTアドレスとしてデジタル庁が付与する番号）"
+    },
+    {
+      "appField": "53",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL9",
+      "required": true,
+      "description": "発注者に関する情報からなるクラス。"
+    },
+    {
+      "appField": "54",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID44",
+      "required": false,
+      "description": "注文を行う企業/工場・事業所・事業部門等を表すID。デフォルトはデータなし。"
+    },
+    {
+      "appField": "55",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID45",
+      "required": false,
+      "description": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨"
+    },
+    {
+      "appField": "56",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID46",
+      "required": false,
+      "description": "発注を行う企業/工場・事業所・事業部門等の名称"
+    },
+    {
+      "appField": "57",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID47",
+      "required": false,
+      "description": "適格請求書発行事業者登録番号"
+    },
+    {
+      "appField": "58",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID48",
+      "required": false,
+      "description": "インボイス制度対象事業者の課税区分を識別するコード\r\n正規、簡易課税、2割特例、免税"
+    },
+    {
+      "appField": "59",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL10",
+      "required": false,
+      "description": "連絡先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "60",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID49",
+      "required": false,
+      "description": "発注者の発注部門を表すID。"
+    },
+    {
+      "appField": "61",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID50",
+      "required": false,
+      "description": "発注者の発注担当者の名称"
+    },
+    {
+      "appField": "62",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID51",
+      "required": false,
+      "description": "発注者の発注部門の名称。"
+    },
+    {
+      "appField": "63",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID52",
+      "required": false
+    },
+    {
+      "appField": "64",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID53",
+      "required": false,
+      "description": "? ?  Buyer contact telephone number"
+    },
+    {
+      "appField": "65",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID54",
+      "required": false
+    },
+    {
+      "appField": "66",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID55",
+      "required": false,
+      "description": "発注者の電子メールアドレス。"
+    },
+    {
+      "appField": "67",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL11",
+      "required": true,
+      "description": "発注者住所に関する情報からなるクラス。"
+    },
+    {
+      "appField": "68",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID56",
+      "required": false,
+      "description": "? ?  Buyer post code"
+    },
+    {
+      "appField": "69",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID57",
+      "required": false,
+      "description": "? ?  Buyer address line 1"
+    },
+    {
+      "appField": "70",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID58",
+      "required": false,
+      "description": "? ?  Buyer address line 2"
+    },
+    {
+      "appField": "71",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID59",
+      "required": false,
+      "description": "? ?  Buyer address line 3"
+    },
+    {
+      "appField": "72",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID60",
+      "required": true,
+      "description": "発注者の国ID。デフォルトは「JP」"
+    },
+    {
+      "appField": "73",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL12",
+      "required": true,
+      "description": "国際アドレスクラス\r\n（JP-PINTのアドレス方式に対応）"
+    },
+    {
+      "appField": "74",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID61",
+      "required": true,
+      "description": "国際アドレス登録機関コード"
+    },
+    {
+      "appField": "75",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID62",
+      "required": true,
+      "description": "国際アドレス登録機関が付与する国際アドレス番号\r\n（わが国ではJP-PINTアドレスとしてデジタル庁が付与する番号）"
+    },
+    {
+      "appField": "76",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL13",
+      "required": false,
+      "description": "プロジェクト調達クラス"
+    },
+    {
+      "appField": "77",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID63",
+      "required": false,
+      "description": "発注品に関するプロジェクト・工事案件等を管理するためのID。"
+    },
+    {
+      "appField": "78",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID64",
+      "required": false,
+      "description": "発注品に関するプロジェクト・工事案件等の名称。"
+    },
+    {
+      "appField": "79",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL14",
+      "required": true,
+      "description": "インボイス文書決済クラス"
+    },
+    {
+      "appField": "80",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID65",
+      "required": true,
+      "description": "税の通貨コード。\r\n＝JPY（デフォルト）"
+    },
+    {
+      "appField": "81",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID66",
+      "required": true,
+      "description": "インボイス文書の通貨コード。\r\n＝JPY（デフォルト）"
+    },
+    {
+      "appField": "82",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID67",
+      "required": false,
+      "description": "請求支払通貨コード（デフォルトはJPY）"
+    },
+    {
+      "appField": "83",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL23",
+      "required": false,
+      "description": "支払先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "84",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID104",
+      "required": false,
+      "description": "?  Payee identifier"
+    },
+    {
+      "appField": "85",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID105",
+      "required": false,
+      "description": "支払先の国際企業ID。"
+    },
+    {
+      "appField": "86",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID106",
+      "required": false,
+      "description": "支払先の企業等を表す名称。"
+    },
+    {
+      "appField": "87",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL29",
+      "required": false,
+      "description": "請求為替に関する情報からなるクラス"
+    },
+    {
+      "appField": "88",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID134",
+      "required": false,
+      "description": "為替における交換元通貨を表すコード\r\nデフォルト＝「JPY」"
+    },
+    {
+      "appField": "89",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID135",
+      "required": false,
+      "description": "為替における交換先通貨を表すコード\r\nデフォルト＝「JPY」"
+    },
+    {
+      "appField": "90",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID136",
+      "required": false
+    },
+    {
+      "appField": "91",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID137",
+      "required": false,
+      "description": "為替交換レートの適用日。"
+    },
+    {
+      "appField": "92",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL31",
+      "required": false,
+      "description": "取引決済の目的で支払が行われる、あるいは行われた手段のクラス"
+    },
+    {
+      "appField": "93",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID142",
+      "required": false,
+      "description": "取引決済手段のタイプを識別するコード"
+    },
+    {
+      "appField": "94",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID143",
+      "required": false,
+      "description": "取引決済手段に関する情報"
+    },
+    {
+      "appField": "95",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID144",
+      "required": false,
+      "description": "取引決済手段で支払う金額"
+    },
+    {
+      "appField": "96",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL32",
+      "required": false,
+      "description": "債権者の銀行口座のクラス"
+    },
+    {
+      "appField": "97",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID145",
+      "required": false,
+      "description": "債権者金融口座の、文字で表現された口座名。\r\n半角カナ（日本の場合）"
+    },
+    {
+      "appField": "98",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID146",
+      "required": false,
+      "description": "債権者金融口座の一意の所有者ID。"
+    },
+    {
+      "appField": "99",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID147",
+      "required": false,
+      "description": "債権者金融口座種別のコード。"
+    },
+    {
+      "appField": "100",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL33",
+      "required": false,
+      "description": "金額を受け取る当事者の銀行、住宅金融組合、信用金庫、証券会社、あるいはそれと類似の事業機関。"
+    },
+    {
+      "appField": "101",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID148",
+      "required": false,
+      "description": "債権者金融機関の、文字で表現された名前。"
+    },
+    {
+      "appField": "102",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID149",
+      "required": false,
+      "description": "債権者の金融機関番号（日本の場合）"
+    },
+    {
+      "appField": "103",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL34",
+      "required": false,
+      "description": "銀行、住宅金融組合、信用金庫、証券会社、あるいはそれと類似の事業の部門のクラス。主に金融サービスと金融取引を提供するために設立された機関の支店。"
+    },
+    {
+      "appField": "104",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID150",
+      "required": false,
+      "description": "金融機関のこの支店の一意ID"
+    },
+    {
+      "appField": "105",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID151",
+      "required": false,
+      "description": "金融機関のこの支店の、文字で表現された名前"
+    },
+    {
+      "appField": "106",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL35",
+      "required": true,
+      "description": "支払人の金融カードのクラス"
+    },
+    {
+      "appField": "107",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID152",
+      "required": true,
+      "description": "支払人の金融カード番号"
+    },
+    {
+      "appField": "108",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID153",
+      "required": false
+    },
+    {
+      "appField": "109",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID154",
+      "required": false,
+      "description": "支払人の金融カード名義人名"
+    },
+    {
+      "appField": "110",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID155",
+      "required": false,
+      "description": "金融カードの発行企業名"
+    },
+    {
+      "appField": "111",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL38",
+      "required": false,
+      "description": "取引決済の目的で支払が行われる、あるいは行われた条件のクラス"
+    },
+    {
+      "appField": "112",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID164",
+      "required": false,
+      "description": "?  Terms payment instructions ID"
+    },
+    {
+      "appField": "113",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID165",
+      "required": false,
+      "description": "支払条件の文字による説明"
+    },
+    {
+      "appField": "114",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID166",
+      "required": false,
+      "description": "支払条件で示された支払期日"
+    },
+    {
+      "appField": "115",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID167",
+      "required": false,
+      "description": "取引決済の支払条件のタイプを識別するコード"
+    },
+    {
+      "appField": "116",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID168",
+      "required": false,
+      "description": "?  Terms amount"
+    },
+    {
+      "appField": "117",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL39",
+      "required": true,
+      "description": "インボイス文書合計金額クラス"
+    },
+    {
+      "appField": "118",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID169",
+      "required": false,
+      "description": "インボイス文書総合計金額（税抜き）"
+    },
+    {
+      "appField": "119",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID170",
+      "required": false,
+      "description": "鑑ヘッダ課税分類税額の総合計税額"
+    },
+    {
+      "appField": "120",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID171",
+      "required": false,
+      "description": "インボイス文書総合計金額（税込み）"
+    },
+    {
+      "appField": "121",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID172",
+      "required": true,
+      "description": "インボイス文書総合計金額のうち、すでに前払いで支払済合計金額\r\n前払いユースケースでは必須"
+    },
+    {
+      "appField": "122",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID173",
+      "required": true,
+      "description": "前払いユースケースの支払責務金額＝"
+    },
+    {
+      "appField": "123",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID174",
+      "required": false,
+      "description": "鑑ヘッダ譲渡資産合計金額(税抜き)"
+    },
+    {
+      "appField": "124",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID175",
+      "required": false,
+      "description": "鑑ヘッダ譲渡資産合計金額(税込み)"
+    },
+    {
+      "appField": "125",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL40",
+      "required": false,
+      "description": "鑑ヘッダ調整に関する情報からなるクラス"
+    },
+    {
+      "appField": "126",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID176",
+      "required": false,
+      "description": "鑑ヘッダ調整理由コード"
+    },
+    {
+      "appField": "127",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID177",
+      "required": false,
+      "description": "鑑ヘッダ調整の内容説明"
+    },
+    {
+      "appField": "128",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID178",
+      "required": true,
+      "description": "鑑ヘッダ調整金額\r\n'＝（修正インボイス金額ー誤りインボイス金額）\r\n調整ユースケースでは必須"
+    },
+    {
+      "appField": "129",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID179",
+      "required": true,
+      "description": "鑑ヘッダ調整取引方向コード"
+    },
+    {
+      "appField": "130",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL41",
+      "required": false,
+      "description": "インボイス調整参照文書クラス"
+    },
+    {
+      "appField": "131",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID180",
+      "required": false,
+      "description": "インボイス調整参照文書ID"
+    },
+    {
+      "appField": "132",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID181",
+      "required": false,
+      "description": "インボイス調整参照文書発行日"
+    },
+    {
+      "appField": "133",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID182",
+      "required": false,
+      "description": "インボイス調整参照文書参照タイプコード"
+    },
+    {
+      "appField": "134",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID183",
+      "required": false,
+      "description": "インボイス参照文書履歴ID"
+    },
+    {
+      "appField": "135",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID184",
+      "required": false,
+      "description": "インボイス調整参照文書タイプコード"
+    },
+    {
+      "appField": "136",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID185",
+      "required": false,
+      "description": "インボイス調整参照文書サブタイプコード"
+    },
+    {
+      "appField": "137",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL42",
+      "required": false,
+      "description": "鑑ヘッダ調整の税クラス"
+    },
+    {
+      "appField": "138",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID186",
+      "required": false,
+      "description": "鑑ヘッダの調整税額\r\n＝修正インボイス税額ー誤りインボイス税額"
+    },
+    {
+      "appField": "139",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID187",
+      "required": false
+    },
+    {
+      "appField": "140",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID188",
+      "required": false,
+      "description": "鑑ヘッダ調整課税分類コード"
+    },
+    {
+      "appField": "141",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL43",
+      "required": false,
+      "description": "Paid amounts"
+    },
+    {
+      "appField": "142",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID189",
+      "required": false,
+      "description": "?  Paid amount"
+    },
+    {
+      "appField": "143",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID190",
+      "required": false,
+      "description": "?  The date when the paid amount is debited to the invoice."
+    },
+    {
+      "appField": "144",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID191",
+      "required": false,
+      "description": "前払者が付与した前払ID"
+    },
+    {
+      "appField": "145",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID192",
+      "required": false,
+      "description": "前払い支払条件のタイプを指定するコード"
+    },
+    {
+      "appField": "146",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL44",
+      "required": true,
+      "description": "消費税外合計金額クラス"
+    },
+    {
+      "appField": "147",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID193",
+      "required": false,
+      "description": "追加請求合計金額（消費税対象外）"
+    },
+    {
+      "appField": "148",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID194",
+      "required": false,
+      "description": "返金合計金額（消費税対象外）"
+    },
+    {
+      "appField": "149",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID195",
+      "required": true,
+      "description": "前回インボイス総合計金額（税込み）"
+    },
+    {
+      "appField": "150",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID196",
+      "required": true,
+      "description": "入金済金額（前回インボイス分）"
+    },
+    {
+      "appField": "151",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID197",
+      "required": false,
+      "description": "消費税外総合計金額＝\r\n前回インボイス総合計金額（税込み）ー入金済金額(前回インボイス分)＋追加請求合計額（消費税対象外）ー返金合計額（消費税対象外）"
+    },
+    {
+      "appField": "152",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRCL45",
+      "required": false,
+      "description": "消費税外参照文書クラス"
+    },
+    {
+      "appField": "153",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID198",
+      "required": false,
+      "description": "消費税外合計金額が参照する文書に記載の文書ID"
+    },
+    {
+      "appField": "154",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID199",
+      "required": false,
+      "description": "消費税外参照文書発行日"
+    },
+    {
+      "appField": "155",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID200",
+      "required": false,
+      "description": "消費税外参照文書参照タイプコード"
+    },
+    {
+      "appField": "156",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID201",
+      "required": false,
+      "description": "消費税外参照文書履歴ID"
+    },
+    {
+      "appField": "157",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID202",
+      "required": false,
+      "description": "消費税外合計金額が参照する文書に関する情報"
+    },
+    {
+      "appField": "158",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID203",
+      "required": false,
+      "description": "消費税外参照文書タイプコード"
+    },
+    {
+      "appField": "159",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID204",
+      "required": false,
+      "description": "消費税外参照文書添付ファイル"
+    },
+    {
+      "appField": "160",
+      "ediField": "鑑ヘッダ",
+      "ediId": "SIRID205",
+      "required": false,
+      "description": "消費税外参照文書サブタイプコード"
+    },
+    {
+      "appField": "161",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL46",
+      "required": true,
+      "description": "統合文書へ統合される明細文書のクラス"
+    },
+    {
+      "appField": "162",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID206",
+      "required": false,
+      "description": "この統合文書に統合する複数の明細文書を特定し、識別するために付与したID。EDIプロバイダがセットする。\r\nデフォルトは「１」"
+    },
+    {
+      "appField": "163",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL49",
+      "required": true,
+      "description": "（文書ヘッダ参照）受注書クラス"
+    },
+    {
+      "appField": "164",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID217",
+      "required": true,
+      "description": "（文書ヘッダ参照）受注書ID"
+    },
+    {
+      "appField": "165",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID218",
+      "required": false,
+      "description": "（文書ヘッダ参照）受注書履歴ID"
+    },
+    {
+      "appField": "166",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL50",
+      "required": true,
+      "description": "（文書ヘッダ参照）注文書クラス"
+    },
+    {
+      "appField": "167",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID219",
+      "required": true,
+      "description": "（文書ヘッダ参照）注文書ID"
+    },
+    {
+      "appField": "168",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID220",
+      "required": false,
+      "description": "（文書ヘッダ参照）注文書履歴ID"
+    },
+    {
+      "appField": "169",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL51",
+      "required": true,
+      "description": "（文書ヘッダ参照）契約文書クラス"
+    },
+    {
+      "appField": "170",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID221",
+      "required": true,
+      "description": "（文書ヘッダ参照）契約文書ID"
+    },
+    {
+      "appField": "171",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID222",
+      "required": false,
+      "description": "（文書ヘッダ参照）契約書履歴ID"
+    },
+    {
+      "appField": "172",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL52",
+      "required": false,
+      "description": "納入先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "173",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID223",
+      "required": false,
+      "description": "納入先の企業/工場・事業所・事業部門等を表す発注者が付与したID。"
+    },
+    {
+      "appField": "174",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID224",
+      "required": false,
+      "description": "納入先企業を表す国際企業ID。"
+    },
+    {
+      "appField": "175",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID225",
+      "required": false,
+      "description": "納入先の企業/工場・事業所・事業部門等の名称"
+    },
+    {
+      "appField": "176",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL53",
+      "required": false,
+      "description": "住所に関する情報からなるクラス。"
+    },
+    {
+      "appField": "177",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID226",
+      "required": false,
+      "description": "? ?  Deliver to post code"
+    },
+    {
+      "appField": "178",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID227",
+      "required": false,
+      "description": "? ?  Deliver to address line 1"
+    },
+    {
+      "appField": "179",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID228",
+      "required": false,
+      "description": "? ?  Deliver to address line 2"
+    },
+    {
+      "appField": "180",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID229",
+      "required": false,
+      "description": "? ?  Deliver to address line 3"
+    },
+    {
+      "appField": "181",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID230",
+      "required": false,
+      "description": "納入先の国ID。デフォルトは「JP」"
+    },
+    {
+      "appField": "182",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL54",
+      "required": false,
+      "description": "配送にかかわるイベントのクラス"
+    },
+    {
+      "appField": "183",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID231",
+      "required": false,
+      "description": "?  Actual delivery date"
+    },
+    {
+      "appField": "184",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL55",
+      "required": true,
+      "description": "（文書ヘッダ参照）出荷案内書クラス"
+    },
+    {
+      "appField": "185",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID232",
+      "required": true,
+      "description": "（文書ヘッダ参照）出荷案内書ID"
+    },
+    {
+      "appField": "186",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID233",
+      "required": false,
+      "description": "（文書ヘッダ参照）出荷案内書履歴ID"
+    },
+    {
+      "appField": "187",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID234",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書タイプコード"
+    },
+    {
+      "appField": "188",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID235",
+      "required": false,
+      "description": "（文書ヘッダ参照）出荷案内書類型コード"
+    },
+    {
+      "appField": "189",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID236",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書サブタイプコード"
+    },
+    {
+      "appField": "190",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL56",
+      "required": true,
+      "description": "（文書ヘッダ参照）出荷回答書クラス"
+    },
+    {
+      "appField": "191",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID237",
+      "required": true,
+      "description": "（文書ヘッダ参照）出荷回答書ID"
+    },
+    {
+      "appField": "192",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID238",
+      "required": false,
+      "description": "（文書ヘッダ参照）出荷回答書履歴ID"
+    },
+    {
+      "appField": "193",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID239",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書タイプコード"
+    },
+    {
+      "appField": "194",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID240",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書サブタイプコード"
+    },
+    {
+      "appField": "195",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL57",
+      "required": true,
+      "description": "文書ヘッダの決済に関する情報からなるクラス。"
+    },
+    {
+      "appField": "196",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID241",
+      "required": false,
+      "description": "文書ヘッダ取引方向コード"
+    },
+    {
+      "appField": "197",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL58",
+      "required": true,
+      "description": "文書ヘッダ返金のクラス"
+    },
+    {
+      "appField": "198",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID242",
+      "required": true,
+      "description": "文書ヘッダ返金・追加請求判別子\r\n＝返金（Allowance）"
+    },
+    {
+      "appField": "199",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID243",
+      "required": false,
+      "description": "この文書ヘッダ返金を計算するための率"
+    },
+    {
+      "appField": "200",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID244",
+      "required": false,
+      "description": "この文書ヘッダ返金の請求金額"
+    },
+    {
+      "appField": "201",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID245",
+      "required": false,
+      "description": "文書ヘッダ返金理由コード"
+    },
+    {
+      "appField": "202",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID246",
+      "required": false,
+      "description": "この文書ヘッダ返金の理由（内容）の説明"
+    },
+    {
+      "appField": "203",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID247",
+      "required": false,
+      "description": "文書ヘッダ返金計算根拠金額"
+    },
+    {
+      "appField": "204",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL59",
+      "required": true,
+      "description": "文書ヘッダ返金税クラス"
+    },
+    {
+      "appField": "205",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID248",
+      "required": true,
+      "description": "文書ヘッダ返金課税分類コード"
+    },
+    {
+      "appField": "206",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID249",
+      "required": false,
+      "description": "?  Document level allowance TAX category code"
+    },
+    {
+      "appField": "207",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL60",
+      "required": true,
+      "description": "文書ヘッダ追加請求クラス"
+    },
+    {
+      "appField": "208",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID250",
+      "required": true,
+      "description": "文書ヘッダ返金・追加請求判別子\r\n＝追加請求（Charge）"
+    },
+    {
+      "appField": "209",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID251",
+      "required": false,
+      "description": "文書ヘッダ追加請求計算率"
+    },
+    {
+      "appField": "210",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID252",
+      "required": false,
+      "description": "文書ヘッダ追加請求金額"
+    },
+    {
+      "appField": "211",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID253",
+      "required": false,
+      "description": "文書ヘッダ追加請求理由コード"
+    },
+    {
+      "appField": "212",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID254",
+      "required": false,
+      "description": "文書ヘッダ追加請求理由"
+    },
+    {
+      "appField": "213",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID255",
+      "required": false,
+      "description": "文書ヘッダ追加請求計算根拠金額"
+    },
+    {
+      "appField": "214",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL61",
+      "required": true,
+      "description": "文書ヘッダ追加請求税クラス"
+    },
+    {
+      "appField": "215",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID256",
+      "required": true,
+      "description": "文書ヘッダ追加請求課税分類コード"
+    },
+    {
+      "appField": "216",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID257",
+      "required": false,
+      "description": "文書ヘッダ追加請求税率"
+    },
+    {
+      "appField": "217",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL62",
+      "required": true,
+      "description": "文書ヘッダの税に関する情報からなるクラス"
+    },
+    {
+      "appField": "218",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID258",
+      "required": false,
+      "description": "文書ヘッダ課税分類税額"
+    },
+    {
+      "appField": "219",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID259",
+      "required": false,
+      "description": "文書ヘッダ税タイプコード"
+    },
+    {
+      "appField": "220",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID260",
+      "required": false,
+      "description": "文書ヘッダ課税分類譲渡資産合計金額（税抜き）"
+    },
+    {
+      "appField": "221",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID261",
+      "required": false,
+      "description": "文書ヘッダ課税分類コード"
+    },
+    {
+      "appField": "222",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID262",
+      "required": true,
+      "description": "=「JPY」または「外貨」。デフォルトは「JPY」\r\n文書通貨コード（UN01005914）の指定と合わせる。文書通貨コードが「外貨」を指定された場合は文書ヘッダ税クラス（外貨建て適格請求書用）とセットで利用する"
+    },
+    {
+      "appField": "223",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID263",
+      "required": false,
+      "description": "文書ヘッダの課税分類（標準税率、軽減税率、不課税、非課税、免税等）の名称"
+    },
+    {
+      "appField": "224",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID264",
+      "required": false,
+      "description": "文書ヘッダヘッダの課税分類毎の税額計算のための率。"
+    },
+    {
+      "appField": "225",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID265",
+      "required": false,
+      "description": "文書ヘッダ課税分類譲渡資産合計金額(税込み)"
+    },
+    {
+      "appField": "226",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID266",
+      "required": true,
+      "description": "文書ヘッダの金額の税込み、税抜きを指定。\r\nデフォルトは「税抜き」"
+    },
+    {
+      "appField": "227",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID267",
+      "required": false,
+      "description": "文書ヘッダ適用税制ID"
+    },
+    {
+      "appField": "228",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL63",
+      "required": true,
+      "description": "（外貨建て請求書）文書ヘッダ税クラス"
+    },
+    {
+      "appField": "229",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID268",
+      "required": true,
+      "description": "（外貨建て請求書）文書ヘッダ課税分類税額"
+    },
+    {
+      "appField": "230",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID269",
+      "required": true,
+      "description": "（外貨建て請求書）文書ヘッダ課税分類譲渡資産合計金額（税抜き）"
+    },
+    {
+      "appField": "231",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID270",
+      "required": true,
+      "description": "（外貨建て請求書）文書ヘッダ課税分類コード"
+    },
+    {
+      "appField": "232",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID271",
+      "required": true,
+      "description": "（外貨建て請求書）課税分類税通貨コード"
+    },
+    {
+      "appField": "233",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID272",
+      "required": true,
+      "description": "（外貨建て請求書）文書ヘッダ税率"
+    },
+    {
+      "appField": "234",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID273",
+      "required": false,
+      "description": "文書ヘッダ適用税制ID"
+    },
+    {
+      "appField": "235",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL64",
+      "required": true,
+      "description": "文書ヘッダ取引期間クラス"
+    },
+    {
+      "appField": "236",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID274",
+      "required": false,
+      "description": "この文書ヘッダの取引開始日"
+    },
+    {
+      "appField": "237",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID275",
+      "required": true,
+      "description": "この文書ヘッダの取引終了日\r\n文書ヘッダ、または明細行取引期間のいずれかのデータが必須"
+    },
+    {
+      "appField": "238",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL65",
+      "required": true,
+      "description": "文書ヘッダ合計金額クラス"
+    },
+    {
+      "appField": "239",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID276",
+      "required": false,
+      "description": "文書ヘッダ追加請求合計金額"
+    },
+    {
+      "appField": "240",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID277",
+      "required": false,
+      "description": "文書ヘッダ返金合計金額"
+    },
+    {
+      "appField": "241",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID278",
+      "required": true,
+      "description": "?  Invoice total TAX amount"
+    },
+    {
+      "appField": "242",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID279",
+      "required": true,
+      "description": "文書ヘッダグロス合計金額（税抜き）"
+    },
+    {
+      "appField": "243",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID280",
+      "required": true,
+      "description": "文書ヘッダ譲渡資産合計金額(税抜き)"
+    },
+    {
+      "appField": "244",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID281",
+      "required": false,
+      "description": "文書ヘッダ譲渡資産合計金額(税込み)"
+    },
+    {
+      "appField": "245",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID282",
+      "required": true,
+      "description": "文書ヘッダ総合計金額（税込み）"
+    },
+    {
+      "appField": "246",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL66",
+      "required": false,
+      "description": "（外貨建て請求書）文書ヘッダ合計金額クラス"
+    },
+    {
+      "appField": "247",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID283",
+      "required": false,
+      "description": "（外貨建て請求書）文書ヘッダ合計税額"
+    },
+    {
+      "appField": "248",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL69",
+      "required": true,
+      "description": "（文書ヘッダ参照）インボイス対象物クラス"
+    },
+    {
+      "appField": "249",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID291",
+      "required": true,
+      "description": "（文書ヘッダ参照）インボイス対象物ID"
+    },
+    {
+      "appField": "250",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID292",
+      "required": false,
+      "description": "（文書ヘッダ参照）インボイス対象物発行日"
+    },
+    {
+      "appField": "251",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID293",
+      "required": true,
+      "description": "（文書ヘッダ参照）文書参照タイプコード"
+    },
+    {
+      "appField": "252",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID294",
+      "required": false,
+      "description": "（文書ヘッダ参照）インボイス対象物履歴ID"
+    },
+    {
+      "appField": "253",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID295",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書タイプコード"
+    },
+    {
+      "appField": "254",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID296",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書サブタイプコード"
+    },
+    {
+      "appField": "255",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL70",
+      "required": true,
+      "description": "（文書ヘッダ参照）入札書クラス"
+    },
+    {
+      "appField": "256",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID297",
+      "required": true,
+      "description": "（文書ヘッダ参照）入札書ID"
+    },
+    {
+      "appField": "257",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID298",
+      "required": false,
+      "description": "（文書ヘッダ参照）入札書発行日"
+    },
+    {
+      "appField": "258",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID299",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書参照タイプコード"
+    },
+    {
+      "appField": "259",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID300",
+      "required": false,
+      "description": "（文書ヘッダ参照）入札書履歴ID"
+    },
+    {
+      "appField": "260",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID301",
+      "required": false,
+      "description": "（文書ヘッダ参照）入札書説明"
+    },
+    {
+      "appField": "261",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID302",
+      "required": true,
+      "description": "（文書ヘッダ参照）文書タイプコード"
+    },
+    {
+      "appField": "262",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID303",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書添付ファイル"
+    },
+    {
+      "appField": "263",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID304",
+      "required": false,
+      "description": "（文書ヘッ参照）文書サブタイプコード"
+    },
+    {
+      "appField": "264",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL71",
+      "required": true,
+      "description": "（文書ヘッダ参照）前回インボイス文書クラス"
+    },
+    {
+      "appField": "265",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID305",
+      "required": true,
+      "description": "（文書ヘッダ参照）前回インボイス文書ID"
+    },
+    {
+      "appField": "266",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID306",
+      "required": true,
+      "description": "（文書ヘッダ参照）前回インボイス文書発行日"
+    },
+    {
+      "appField": "267",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID307",
+      "required": true,
+      "description": "（文書ヘッダ参照）インボイス文書参照タイプコード"
+    },
+    {
+      "appField": "268",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID308",
+      "required": false,
+      "description": "（文書ヘッダ参照）前回インボイス文書履歴ID"
+    },
+    {
+      "appField": "269",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID309",
+      "required": false,
+      "description": "（文書ヘッダ参照）前回インボイス文書説明"
+    },
+    {
+      "appField": "270",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID310",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書タイプコード"
+    },
+    {
+      "appField": "271",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID311",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書添付ファイル"
+    },
+    {
+      "appField": "272",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID312",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書サブタイプコード"
+    },
+    {
+      "appField": "273",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRCL72",
+      "required": false,
+      "description": "購買会計アカウントクラス"
+    },
+    {
+      "appField": "274",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID313",
+      "required": false,
+      "description": "購買会計アカウントタイプコード"
+    },
+    {
+      "appField": "275",
+      "ediField": "文書ヘッダ",
+      "ediId": "SIRID314",
+      "required": false,
+      "description": "買い手の購買会計アカウント名"
+    },
+    {
+      "appField": "276",
+      "ediField": "明細行",
+      "ediId": "SIRCL73",
+      "required": true,
+      "description": "明細行に関する情報からなるクラス"
+    },
+    {
+      "appField": "277",
+      "ediField": "明細行",
+      "ediId": "SIRID315",
+      "required": false,
+      "description": "この文書の明細行に関する情報を特定するために付与した行ID。明細行をユニークに識別するために付番する場合は文書IDとの複合キーで明細行を特定する。"
+    },
+    {
+      "appField": "278",
+      "ediField": "明細行",
+      "ediId": "SIRID316",
+      "required": false,
+      "description": "この明細行の取引類型（資産譲渡、返金・追加請求、調整等）を識別するコード。\r\nデフォルトは「資産譲渡」"
+    },
+    {
+      "appField": "279",
+      "ediField": "明細行",
+      "ediId": "SIRID317",
+      "required": true,
+      "description": "仕入明細書明細行回答タイプコード"
+    },
+    {
+      "appField": "280",
+      "ediField": "明細行",
+      "ediId": "SIRCL74",
+      "required": false,
+      "description": "明細行の注釈を記述するクラス"
+    },
+    {
+      "appField": "281",
+      "ediField": "明細行",
+      "ediId": "SIRID318",
+      "required": false,
+      "description": "明細行の注釈内容の表題を示す。\r\n一部に利用制限あり。標準仕様書３．３．５項参照"
+    },
+    {
+      "appField": "282",
+      "ediField": "明細行",
+      "ediId": "SIRID319",
+      "required": false,
+      "description": "明細行の注釈表題毎の内容情報を入力するフリースペース。\r\n一部に利用制限あり。標準仕様書３．３．５項参照"
+    },
+    {
+      "appField": "283",
+      "ediField": "明細行",
+      "ediId": "SIRID320",
+      "required": false,
+      "description": "明細行注釈の識別ID\r\n共通EDIプロバイダがシリアル番号をセット。標準仕様書３．３．５項参照"
+    },
+    {
+      "appField": "284",
+      "ediField": "明細行",
+      "ediId": "SIRCL75",
+      "required": false,
+      "description": "明細行参照受注書クラス"
+    },
+    {
+      "appField": "285",
+      "ediField": "明細行",
+      "ediId": "SIRID321",
+      "required": false,
+      "description": "（明細行参照）受注書ID"
+    },
+    {
+      "appField": "286",
+      "ediField": "明細行",
+      "ediId": "SIRID322",
+      "required": false,
+      "description": "（明細行参照）受注書明細行ID"
+    },
+    {
+      "appField": "287",
+      "ediField": "明細行",
+      "ediId": "SIRID323",
+      "required": false,
+      "description": "（明細行参照）受注書履歴ID"
+    },
+    {
+      "appField": "288",
+      "ediField": "明細行",
+      "ediId": "SIRCL76",
+      "required": true,
+      "description": "明細行参照注文書クラス"
+    },
+    {
+      "appField": "289",
+      "ediField": "明細行",
+      "ediId": "SIRID324",
+      "required": true,
+      "description": "（明細行参照）注文書ID"
+    },
+    {
+      "appField": "290",
+      "ediField": "明細行",
+      "ediId": "SIRID325",
+      "required": false,
+      "description": "（明細行参照）注文書明細行ID"
+    },
+    {
+      "appField": "291",
+      "ediField": "明細行",
+      "ediId": "SIRID326",
+      "required": false,
+      "description": "（明細行参照）注文書履歴ID"
+    },
+    {
+      "appField": "292",
+      "ediField": "明細行",
+      "ediId": "SIRCL78",
+      "required": true,
+      "description": "（明細行参照）出荷案内書クラス"
+    },
+    {
+      "appField": "293",
+      "ediField": "明細行",
+      "ediId": "SIRID334",
+      "required": true,
+      "description": "（明細行参照）出荷案内書ID"
+    },
+    {
+      "appField": "294",
+      "ediField": "明細行",
+      "ediId": "SIRID335",
+      "required": false,
+      "description": "（明細行参照）出荷案内書明細行ID"
+    },
+    {
+      "appField": "295",
+      "ediField": "明細行",
+      "ediId": "SIRID336",
+      "required": false,
+      "description": "（明細行参照）文書参照タイプコード"
+    },
+    {
+      "appField": "296",
+      "ediField": "明細行",
+      "ediId": "SIRID337",
+      "required": false,
+      "description": "（明細行参照）出荷案内書履歴ID"
+    },
+    {
+      "appField": "297",
+      "ediField": "明細行",
+      "ediId": "SIRID338",
+      "required": true,
+      "description": "（明細行参照）文書タイプコード"
+    },
+    {
+      "appField": "298",
+      "ediField": "明細行",
+      "ediId": "SIRID339",
+      "required": false,
+      "description": "（明細行参照）文書添付ファイル"
+    },
+    {
+      "appField": "299",
+      "ediField": "明細行",
+      "ediId": "SIRID340",
+      "required": false,
+      "description": "（明細行参照）文書サブタイプコード"
+    },
+    {
+      "appField": "300",
+      "ediField": "明細行",
+      "ediId": "SIRCL79",
+      "required": true,
+      "description": "（明細行参照）文書クラス"
+    },
+    {
+      "appField": "301",
+      "ediField": "明細行",
+      "ediId": "SIRID341",
+      "required": true,
+      "description": "（明細行参照）文書ID"
+    },
+    {
+      "appField": "302",
+      "ediField": "明細行",
+      "ediId": "SIRID342",
+      "required": false,
+      "description": "（明細行参照）文書明細行ID"
+    },
+    {
+      "appField": "303",
+      "ediField": "明細行",
+      "ediId": "SIRID343",
+      "required": false,
+      "description": "（明細行参照）文書参照タイプコード"
+    },
+    {
+      "appField": "304",
+      "ediField": "明細行",
+      "ediId": "SIRID344",
+      "required": false,
+      "description": "（明細行参照）文書履歴ID"
+    },
+    {
+      "appField": "305",
+      "ediField": "明細行",
+      "ediId": "SIRID345",
+      "required": true,
+      "description": "（明細行参照）文書タイプコード"
+    },
+    {
+      "appField": "306",
+      "ediField": "明細行",
+      "ediId": "SIRID346",
+      "required": false,
+      "description": "（明細行参照）文書添付ファイル"
+    },
+    {
+      "appField": "307",
+      "ediField": "明細行",
+      "ediId": "SIRID347",
+      "required": false,
+      "description": "（明細行参照）文書サブタイプコード"
+    },
+    {
+      "appField": "308",
+      "ediField": "明細行",
+      "ediId": "SIRCL80",
+      "required": true,
+      "description": "明細行の契約単価に関する情報からなるクラス。"
+    },
+    {
+      "appField": "309",
+      "ediField": "明細行",
+      "ediId": "SIRID348",
+      "required": false,
+      "description": "単価の区分（確定、仮単価等）を識別するコード"
+    },
+    {
+      "appField": "310",
+      "ediField": "明細行",
+      "ediId": "SIRID349",
+      "required": false,
+      "description": "発注者と受注者が合意した明細発注品の単価。単価基準数量と単価基準数量単位の指定に従う。\r\n税込み、税抜きの識別はヘッダ部の「UN01013096：税計算方式」で指定（指定がない場合（デフォルト）は税抜き）。"
+    },
+    {
+      "appField": "311",
+      "ediField": "明細行",
+      "ediId": "SIRID350",
+      "required": false,
+      "description": "✔定貫品目の場合：空欄（デフォルト）、または単価基準数量＝１\r\n✔不定貫品目、ハイブリッド品目の場合：単価基準数量＝単価の基準となる重量・容量"
+    },
+    {
+      "appField": "312",
+      "ediField": "明細行",
+      "ediId": "SIRID351",
+      "required": false,
+      "description": "単価基準数量単位コード"
+    },
+    {
+      "appField": "313",
+      "ediField": "明細行",
+      "ediId": "SIRCL81",
+      "required": true,
+      "description": "明細行の納入に関する情報からなるクラス"
+    },
+    {
+      "appField": "314",
+      "ediField": "明細行",
+      "ediId": "SIRID352",
+      "required": false,
+      "description": "この明細行品目の検収セット数量\r\n流通業の固有仕様"
+    },
+    {
+      "appField": "315",
+      "ediField": "明細行",
+      "ediId": "SIRID354",
+      "required": false,
+      "description": "請求セット数量単位コード"
+    },
+    {
+      "appField": "316",
+      "ediField": "明細行",
+      "ediId": "SIRID355",
+      "required": false,
+      "description": "この明細行品目の検収バラ数量\r\n流通業の固有仕様"
+    },
+    {
+      "appField": "317",
+      "ediField": "明細行",
+      "ediId": "SIRID356",
+      "required": false,
+      "description": "請求バラ数量単位コード"
+    },
+    {
+      "appField": "318",
+      "ediField": "明細行",
+      "ediId": "SIRID357",
+      "required": false,
+      "description": "検収セット単位数量(入り数）"
+    },
+    {
+      "appField": "319",
+      "ediField": "明細行",
+      "ediId": "SIRID353",
+      "required": true,
+      "description": "請求入り数数量単位コード"
+    },
+    {
+      "appField": "320",
+      "ediField": "明細行",
+      "ediId": "SIRID358",
+      "required": false,
+      "description": "この情報項目は取引数量の指定に利用する。\r\nこの項目の属性として数量単位コードを指定することにより、ずべての品目の取引数量指定に利用できる。\r\n流通業の定貫品目取引では、この項目は利用せず「セット数量」または「バラ数量」を利用する。"
+    },
+    {
+      "appField": "321",
+      "ediField": "明細行",
+      "ediId": "SIRID359",
+      "required": false,
+      "description": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む"
+    },
+    {
+      "appField": "322",
+      "ediField": "明細行",
+      "ediId": "SIRCL82",
+      "required": false,
+      "description": "明細行の決済入に関する情報からなるクラス"
+    },
+    {
+      "appField": "323",
+      "ediField": "明細行",
+      "ediId": "SIRID360",
+      "required": false,
+      "description": "明細行の取引方向を識別するコード\r\nデフォルトは「プラス」\r\n明細行取引類型コードが「調整」を指定場合に利用する。\r\n金額の「プラス」「マイナス」表示を許容する場合は実装しない。"
+    },
+    {
+      "appField": "324",
+      "ediField": "明細行",
+      "ediId": "SIRCL83",
+      "required": true,
+      "description": "明細行の税に関する情報に関するクラス"
+    },
+    {
+      "appField": "325",
+      "ediField": "明細行",
+      "ediId": "SIRID361",
+      "required": false,
+      "description": "税の種類を識別するコード。デフォルトは消費税；VAT"
+    },
+    {
+      "appField": "326",
+      "ediField": "明細行",
+      "ediId": "SIRID362",
+      "required": true,
+      "description": "明細行譲渡資産金額（税抜き）"
+    },
+    {
+      "appField": "327",
+      "ediField": "明細行",
+      "ediId": "SIRID363",
+      "required": false,
+      "description": "この明細行の消費税の課税分類（標準税率、軽減税率、不課税、非課税、免税等）を識別するコード"
+    },
+    {
+      "appField": "328",
+      "ediField": "明細行",
+      "ediId": "SIRID364",
+      "required": false,
+      "description": "消費税の課税分類（標準税率、軽減税率、不課税、非課税、免税等）の名称"
+    },
+    {
+      "appField": "329",
+      "ediField": "明細行",
+      "ediId": "SIRID365",
+      "required": false,
+      "description": "この明細行の税率。\r\n2014年度税制の場合は、明細行課税分類コードと組み合わせて利用する。"
+    },
+    {
+      "appField": "330",
+      "ediField": "明細行",
+      "ediId": "SIRID366",
+      "required": true,
+      "description": "明細行譲渡資産金額(税込み)"
+    },
+    {
+      "appField": "331",
+      "ediField": "明細行",
+      "ediId": "SIRID367",
+      "required": false,
+      "description": "この明細行取引の税制年度を識別するID\r\nデフォルトは「2019」（2019年度税制）"
+    },
+    {
+      "appField": "332",
+      "ediField": "明細行",
+      "ediId": "SIRCL84",
+      "required": true,
+      "description": "明細行インボイス対象物クラス"
+    },
+    {
+      "appField": "333",
+      "ediField": "明細行",
+      "ediId": "SIRID368",
+      "required": true,
+      "description": "（明細行参照）インボイス対象物ID"
+    },
+    {
+      "appField": "334",
+      "ediField": "明細行",
+      "ediId": "SIRID369",
+      "required": false,
+      "description": "（明細行参照）インボイス対象物発行日"
+    },
+    {
+      "appField": "335",
+      "ediField": "明細行",
+      "ediId": "SIRID370",
+      "required": false,
+      "description": "（明細行参照）インボイス対象物明細行ID"
+    },
+    {
+      "appField": "336",
+      "ediField": "明細行",
+      "ediId": "SIRID371",
+      "required": true,
+      "description": "（明細行参照）文書参照タイプコード"
+    },
+    {
+      "appField": "337",
+      "ediField": "明細行",
+      "ediId": "SIRID372",
+      "required": false,
+      "description": "（明細行参照）インボイス対象物履歴ID"
+    },
+    {
+      "appField": "338",
+      "ediField": "明細行",
+      "ediId": "SIRID373",
+      "required": false,
+      "description": "（明細行参照）文書タイプコード"
+    },
+    {
+      "appField": "339",
+      "ediField": "明細行",
+      "ediId": "SIRID375",
+      "required": false,
+      "description": "（明細行参照）文書サブタイプコード"
+    },
+    {
+      "appField": "340",
+      "ediField": "明細行",
+      "ediId": "SIRCL85",
+      "required": true,
+      "description": "?  INVOICE LINE ALLOWANCES"
+    },
+    {
+      "appField": "341",
+      "ediField": "明細行",
+      "ediId": "SIRID376",
+      "required": true,
+      "description": "明細行返金・追加請求判別子\r\n    =返金（Allowance）"
+    },
+    {
+      "appField": "342",
+      "ediField": "明細行",
+      "ediId": "SIRID377",
+      "required": false,
+      "description": "? ?  Invoice line allowance percentage"
+    },
+    {
+      "appField": "343",
+      "ediField": "明細行",
+      "ediId": "SIRID378",
+      "required": false,
+      "description": "? ?  Invoice line allowance amount"
+    },
+    {
+      "appField": "344",
+      "ediField": "明細行",
+      "ediId": "SIRID379",
+      "required": false,
+      "description": "? ?  Invoice line allowance reason code"
+    },
+    {
+      "appField": "345",
+      "ediField": "明細行",
+      "ediId": "SIRID380",
+      "required": false,
+      "description": "? ?  Invoice line allowance reason"
+    },
+    {
+      "appField": "346",
+      "ediField": "明細行",
+      "ediId": "SIRID381",
+      "required": false,
+      "description": "明細行返金計算根拠金額"
+    },
+    {
+      "appField": "347",
+      "ediField": "明細行",
+      "ediId": "SIRCL86",
+      "required": true,
+      "description": "?  INVOICE LINE CHARGES"
+    },
+    {
+      "appField": "348",
+      "ediField": "明細行",
+      "ediId": "SIRID382",
+      "required": true,
+      "description": "明細行返金・追加請求判別子\r\n    =追加請求（Charge）"
+    },
+    {
+      "appField": "349",
+      "ediField": "明細行",
+      "ediId": "SIRID383",
+      "required": false,
+      "description": "この明細行追加請求を計算するための率"
+    },
+    {
+      "appField": "350",
+      "ediField": "明細行",
+      "ediId": "SIRID384",
+      "required": false,
+      "description": "この明細行の追加請求金額。"
+    },
+    {
+      "appField": "351",
+      "ediField": "明細行",
+      "ediId": "SIRID385",
+      "required": false,
+      "description": "明細行追加請求理由コード"
+    },
+    {
+      "appField": "352",
+      "ediField": "明細行",
+      "ediId": "SIRID386",
+      "required": false,
+      "description": "この明細行の追加請求理由（内容）の説明"
+    },
+    {
+      "appField": "353",
+      "ediField": "明細行",
+      "ediId": "SIRID387",
+      "required": false,
+      "description": "明細行追加請求計算根拠金額"
+    },
+    {
+      "appField": "354",
+      "ediField": "明細行",
+      "ediId": "SIRCL87",
+      "required": false,
+      "description": "明細行の調整に関する情報からなるクラス"
+    },
+    {
+      "appField": "355",
+      "ediField": "明細行",
+      "ediId": "SIRID388",
+      "required": false,
+      "description": "この明細行の調整理由を示す識別コード"
+    },
+    {
+      "appField": "356",
+      "ediField": "明細行",
+      "ediId": "SIRID389",
+      "required": false,
+      "description": "この明細行の調整理由を文字で表現した内容"
+    },
+    {
+      "appField": "357",
+      "ediField": "明細行",
+      "ediId": "SIRID390",
+      "required": true,
+      "description": "この明細行の調整金額\r\n調整ユースケースの場合は必須"
+    },
+    {
+      "appField": "358",
+      "ediField": "明細行",
+      "ediId": "SIRCL88",
+      "required": true,
+      "description": "明細行の取引期間に関する情報からなるクラス\r\n文書ヘッダ取引期間クラスのデータ入力が無い場合は、すべての明細行取引期間クラスにデータ入力しなければならない。"
+    },
+    {
+      "appField": "359",
+      "ediField": "明細行",
+      "ediId": "SIRID391",
+      "required": false,
+      "description": "この明細行の取引開始日"
+    },
+    {
+      "appField": "360",
+      "ediField": "明細行",
+      "ediId": "SIRID392",
+      "required": true,
+      "description": "この明細行の取引終了日.。\r\n文書ヘッダまたは明細行取引期間のいずれかのデータが必須"
+    },
+    {
+      "appField": "361",
+      "ediField": "明細行",
+      "ediId": "SIRCL89",
+      "required": false,
+      "description": "明細行購買会計アカウントクラス"
+    },
+    {
+      "appField": "362",
+      "ediField": "明細行",
+      "ediId": "SIRID393",
+      "required": false,
+      "description": "明細行購買会計アカウントタイプコード"
+    },
+    {
+      "appField": "363",
+      "ediField": "明細行",
+      "ediId": "SIRID394",
+      "required": false,
+      "description": "明細行購買会計アカウント名"
+    },
+    {
+      "appField": "364",
+      "ediField": "明細行",
+      "ediId": "SIRCL90",
+      "required": true,
+      "description": "取引品目に関する情報からなるクラス。"
+    },
+    {
+      "appField": "365",
+      "ediField": "明細行",
+      "ediId": "SIRID395",
+      "required": false,
+      "description": "品目名を特定するために付与したID"
+    },
+    {
+      "appField": "366",
+      "ediField": "明細行",
+      "ediId": "SIRID396",
+      "required": false,
+      "description": "GTIN、JANIDなどの国際的に登録された品目ID"
+    },
+    {
+      "appField": "367",
+      "ediField": "明細行",
+      "ediId": "SIRID397",
+      "required": false,
+      "description": "受注者が品目を特定するために付与したID"
+    },
+    {
+      "appField": "368",
+      "ediField": "明細行",
+      "ediId": "SIRID398",
+      "required": false,
+      "description": "発注者が品目を特定するために付与したID"
+    },
+    {
+      "appField": "369",
+      "ediField": "明細行",
+      "ediId": "SIRID399",
+      "required": false,
+      "description": "品目を特定するために製造者が付与したID"
+    },
+    {
+      "appField": "370",
+      "ediField": "明細行",
+      "ediId": "SIRID400",
+      "required": false,
+      "description": "? ?  Item name"
+    },
+    {
+      "appField": "371",
+      "ediField": "明細行",
+      "ediId": "SIRID401",
+      "required": false,
+      "description": "この取引品目内容を文字で説明したもの"
+    },
+    {
+      "appField": "372",
+      "ediField": "明細行",
+      "ediId": "SIRID402",
+      "required": true,
+      "description": "品目数量単位の区分（定貫品目、不定貫品目、ハイブリッド品目、実測不定貫品目、実測ハイブリッド品目）の判別子。デフォルトは定貫品目"
+    },
+    {
+      "appField": "373",
+      "ediField": "明細行",
+      "ediId": "SIRCL93",
+      "required": false,
+      "description": "取引品目の分類に関するクラス"
+    },
+    {
+      "appField": "374",
+      "ediField": "明細行",
+      "ediId": "SIRID403",
+      "required": false,
+      "description": "この取引品目の分類のID"
+    },
+    {
+      "appField": "375",
+      "ediField": "明細行",
+      "ediId": "SIRCL91",
+      "required": false,
+      "description": "取引品目の特性に関するクラス"
+    },
+    {
+      "appField": "376",
+      "ediField": "明細行",
+      "ediId": "SIRID404",
+      "required": false,
+      "description": "この取引品目内容を文字で説明したもの"
+    },
+    {
+      "appField": "377",
+      "ediField": "明細行",
+      "ediId": "SIRID405",
+      "required": false,
+      "description": "? ? ?  Item attribute value"
+    },
+    {
+      "appField": "378",
+      "ediField": "明細行",
+      "ediId": "SIRCL92",
+      "required": false,
+      "description": "取引品目の原産地に関するクラス"
+    },
+    {
+      "appField": "379",
+      "ediField": "明細行",
+      "ediId": "SIRID406",
+      "required": false,
+      "description": "この取引品目の原産国を識別する国ID"
+    }
+  ]
+}

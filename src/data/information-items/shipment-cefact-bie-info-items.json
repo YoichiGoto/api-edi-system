@@ -1,0 +1,2236 @@
+{
+  "sheetName": "出荷回答 (cefact-bie)",
+  "messageType": "shipment",
+  "tableType": "cefact-bie",
+  "region": {
+    "startRow": 16,
+    "endRow": 263,
+    "startCol": 1,
+    "endCol": 20
+  },
+  "items": [
+    {
+      "itemName": "出荷回答書",
+      "rowNumber": "1",
+      "headerDetail": "ヘッダ",
+      "clId": "",
+      "itemDefinition": "発注者が受注者に通知する出荷回答文書（メッセージ）。",
+      "repetition": "－",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "取引設定クラス",
+      "rowNumber": "2",
+      "headerDetail": "ヘッダ",
+      "clId": "CL1",
+      "itemDefinition": "メッセージの設定内容に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引ID",
+      "rowNumber": "3",
+      "headerDetail": "ヘッダ",
+      "clId": "ID1",
+      "itemDefinition": "メッセージがやり取りされる取引識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "処理日時",
+      "rowNumber": "4",
+      "headerDetail": "ヘッダ",
+      "clId": "ID2",
+      "itemDefinition": "メッセージがやり取りされる日時",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "取引プロセス設定クラス",
+      "rowNumber": "5",
+      "headerDetail": "ヘッダ",
+      "clId": "CL2",
+      "itemDefinition": "取引プロセスに関する情報のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引プロセスID",
+      "rowNumber": "7",
+      "headerDetail": "ヘッダ",
+      "clId": "ID3",
+      "itemDefinition": "取引プロセスの識別番号\r\n共通EDIプロバイダがプロセスをセットする",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引プロセス名",
+      "rowNumber": "8",
+      "headerDetail": "ヘッダ",
+      "clId": "ID4",
+      "itemDefinition": "取引プロセスの名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョンID",
+      "rowNumber": "11",
+      "headerDetail": "ヘッダ",
+      "clId": "ID5",
+      "itemDefinition": "取引プロセスのバージョン識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョン発行日",
+      "rowNumber": "12",
+      "headerDetail": "ヘッダ",
+      "clId": "ID6",
+      "itemDefinition": "取引プロセスのバージョン発行日",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引シナリオ設定クラス",
+      "rowNumber": "13",
+      "headerDetail": "ヘッダ",
+      "clId": "CL3",
+      "itemDefinition": "取引シナリオに関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引シナリオID",
+      "rowNumber": "15",
+      "headerDetail": "ヘッダ",
+      "clId": "ID7",
+      "itemDefinition": "取引シナリオの識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引シナリオ名",
+      "rowNumber": "16",
+      "headerDetail": "ヘッダ",
+      "clId": "ID8",
+      "itemDefinition": "取引シナリオの名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "アプリケーション設定クラス",
+      "rowNumber": "17",
+      "headerDetail": "ヘッダ",
+      "clId": "CL4",
+      "itemDefinition": "アプリケーションに関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "アプリケーションID",
+      "rowNumber": "19",
+      "headerDetail": "ヘッダ",
+      "clId": "ID9",
+      "itemDefinition": "業務アプリケーションの識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "アプリケーション名",
+      "rowNumber": "20",
+      "headerDetail": "ヘッダ",
+      "clId": "ID10",
+      "itemDefinition": "業務アプリケーションの名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "ドメイン設定クラス",
+      "rowNumber": "21",
+      "headerDetail": "ヘッダ",
+      "clId": "CL5",
+      "itemDefinition": "JEC業界横断EDIメッセージドメインに関する情報のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "ドメインID",
+      "rowNumber": "23",
+      "headerDetail": "ヘッダ",
+      "clId": "ID11",
+      "itemDefinition": "SIPSが付与したメッセージドメイン識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "ドメイン名",
+      "rowNumber": "24",
+      "headerDetail": "ヘッダ",
+      "clId": "ID12",
+      "itemDefinition": "SIPSが付与したメッセージドメイン名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョンID",
+      "rowNumber": "27",
+      "headerDetail": "ヘッダ",
+      "clId": "ID13",
+      "itemDefinition": "ドメインのバージョン識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョン発行日",
+      "rowNumber": "28",
+      "headerDetail": "ヘッダ",
+      "clId": "ID14",
+      "itemDefinition": "ドメインのバージョン発行日",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷回答書クラス",
+      "rowNumber": "29",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL1",
+      "itemDefinition": "出荷回答情報の文書全体に関する情報からなるクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷回答書ID",
+      "rowNumber": "30",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID1",
+      "itemDefinition": "発注者が付与した出荷回答書を識別するIDまたは文字列",
+      "repetition": "1..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "出荷回答書名",
+      "rowNumber": "31",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID2",
+      "itemDefinition": "発注者が付与した出荷回答書の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷回答書文書タイプコード",
+      "rowNumber": "32",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID3",
+      "itemDefinition": "この文書が出荷回答書であることを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v4"
+    },
+    {
+      "itemName": "出荷回答書発効日",
+      "rowNumber": "33",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID4",
+      "itemDefinition": "出荷回答書発行日付，または出荷回答書の書面上の発行日付。",
+      "repetition": "1..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "出荷回答書目的コード",
+      "rowNumber": "34",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID5",
+      "itemDefinition": "受注者が出荷回答書の目的（新規、変更、取消、打切り）を管理するために付番した識別コード",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ヘッダ出荷回答タイプコード",
+      "rowNumber": "35",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID6",
+      "itemDefinition": "出荷回答書の回答理由のタイプを示すコード。回答理由タイプは一括受領回答、部分受領回答、一括受領不可回答\r\nデフォルトは一括受領回答\r\n部分確認の場合は明細行の回答理由コードを利用して確認不可の項目を指定する",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "出荷回答書履歴ID",
+      "rowNumber": "36",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID7",
+      "itemDefinition": "出荷回答書の変更履歴を管理する番",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "出荷回答書類型コード",
+      "rowNumber": "37",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID8",
+      "itemDefinition": "この文書の類型（適格請求書対応、適格請求書非対応など）を識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "出荷回答書文書サブタイプコード",
+      "rowNumber": "38",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID9",
+      "itemDefinition": "この文書が出荷回答書であることを識別するサブタイプコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4.0.1"
+    },
+    {
+      "itemName": "出荷回答注釈クラス",
+      "rowNumber": "39",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL2",
+      "itemDefinition": "出荷回答注釈を記述するためのクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷回答注釈表題",
+      "rowNumber": "41",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID10",
+      "itemDefinition": "ヘッダ注釈内容の表題を示す。\r\n一部に利用制限あり。標準仕様書３．３．５項参照。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷回答注釈内容",
+      "rowNumber": "42",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID11",
+      "itemDefinition": "ヘッダ注釈表題毎の内容情報を入力するフリースペース。\r\n一部に利用制限あり。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷回答注釈ID",
+      "rowNumber": "43",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID12",
+      "itemDefinition": "ヘッダ注釈の識別ID\r\n共通EDIプロバイダがシリアル番号をセット。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "添付バイナリファイルクラス",
+      "rowNumber": "44",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL3",
+      "itemDefinition": "添付バイナリファイルを記述するためのクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイルID",
+      "rowNumber": "46",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID13",
+      "itemDefinition": "添付バイナリファイルのID",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイル版数",
+      "rowNumber": "47",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID14",
+      "itemDefinition": "添付バイナリファイルのバージョンID",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイル名",
+      "rowNumber": "48",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID15",
+      "itemDefinition": "添付バイナリファイルの名称",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイルURIID",
+      "rowNumber": "49",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID16",
+      "itemDefinition": "添付バイナリファイルのURIID",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイルのMIMEコード",
+      "rowNumber": "50",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID17",
+      "itemDefinition": "添付バイナリファイルのMIMEコード",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイルエンコードコード",
+      "rowNumber": "51",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID18",
+      "itemDefinition": "添付バイナリファイルのエンコード用コード",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイル出力コード",
+      "rowNumber": "52",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID19",
+      "itemDefinition": "添付バイナリファイルの出力コード",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイルの説明文",
+      "rowNumber": "53",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID20",
+      "itemDefinition": "添付バイナリファイルの説明文",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "受注者クラス",
+      "rowNumber": "57",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL4",
+      "itemDefinition": "受注者に関する情報からなるクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者ID",
+      "rowNumber": "59",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID21",
+      "itemDefinition": "注文を受ける企業等を表す発注者が付与した企業ID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v4"
+    },
+    {
+      "itemName": "受注者国際企業ID",
+      "rowNumber": "60",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID22",
+      "itemDefinition": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者名称",
+      "rowNumber": "61",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID23",
+      "itemDefinition": "注文を受ける企業等を表す名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v4"
+    },
+    {
+      "itemName": "請求者事業者登録番号",
+      "rowNumber": "62",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID24",
+      "itemDefinition": "登録された請求者の適格請求書発行事業者番号",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "受注者連絡先クラス",
+      "rowNumber": "63",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL5",
+      "itemDefinition": "受注者連絡先に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者部門ID",
+      "rowNumber": "65",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID25",
+      "itemDefinition": "受注者の受注部門を表すID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者担当名",
+      "rowNumber": "66",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID26",
+      "itemDefinition": "取引連絡先の個人の、文字で表現された名前。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者部門名",
+      "rowNumber": "67",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID27",
+      "itemDefinition": "受注者の受注部門の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者電話番号",
+      "rowNumber": "70",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID28",
+      "itemDefinition": "受注者の電話番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者FAX番号",
+      "rowNumber": "73",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID29",
+      "itemDefinition": "受注者のFAX番号",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "受注者メールアドレス",
+      "rowNumber": "76",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID30",
+      "itemDefinition": "受注者の電子メールアドレス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "受注者住所クラス",
+      "rowNumber": "77",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL6",
+      "itemDefinition": "取引関連の組織または人が見つかるか、または連絡がとれる場所のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者郵便番号",
+      "rowNumber": "79",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID31",
+      "itemDefinition": "住所の郵便番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者住所",
+      "rowNumber": "80",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID32",
+      "itemDefinition": "住所の1行目の、文字で表現された自由記述欄。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者クラス",
+      "rowNumber": "81",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL7",
+      "itemDefinition": "発注者に関する情報からなるクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者ID",
+      "rowNumber": "83",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID33",
+      "itemDefinition": "注文を行う企業等を表す発注者が付与した企業ID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v4."
+    },
+    {
+      "itemName": "発注者国際企業ID",
+      "rowNumber": "84",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID34",
+      "itemDefinition": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者名称",
+      "rowNumber": "85",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID35",
+      "itemDefinition": "注文を行う企業等の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v4"
+    },
+    {
+      "itemName": "発注者連絡先クラス",
+      "rowNumber": "86",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL8",
+      "itemDefinition": "発注者連絡先に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者部門ID",
+      "rowNumber": "88",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID36",
+      "itemDefinition": "発注者の発注部門を表すID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者担当名",
+      "rowNumber": "89",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID37",
+      "itemDefinition": "発注者の発注担当者の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者部門名",
+      "rowNumber": "90",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID38",
+      "itemDefinition": "発注者の発注部門を表す名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者電話番号",
+      "rowNumber": "93",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID39",
+      "itemDefinition": "発注者の電話番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者FAX番号",
+      "rowNumber": "96",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID40",
+      "itemDefinition": "発注者のFAX番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者メールアドレス",
+      "rowNumber": "99",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID41",
+      "itemDefinition": "発注者の電子メールアドレス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "発注者住所クラス",
+      "rowNumber": "100",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL9",
+      "itemDefinition": "発注者住所に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者郵便番号",
+      "rowNumber": "102",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID42",
+      "itemDefinition": "発注者の郵便番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者住所",
+      "rowNumber": "103",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID43",
+      "itemDefinition": "発注者の住所。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）注文書クラス",
+      "rowNumber": "104",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL10",
+      "itemDefinition": "参照注文書に関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）注文書ID",
+      "rowNumber": "106",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID44",
+      "itemDefinition": "この出荷案内書が参照する注文書に契約を特定するために発注者が付番した管理ID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）注文書発行日",
+      "rowNumber": "107",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID45",
+      "itemDefinition": "この出荷案内書が参照する注文書に注文者が記載した契約を行った日付，または参照注文書の書面上の発行日付。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）注文履歴ID",
+      "rowNumber": "108",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID46",
+      "itemDefinition": "出荷案内書が参照する注文書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）注文書名",
+      "rowNumber": "109",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID47",
+      "itemDefinition": "この出荷案内書が参照する注文書に注文者が付与した文書名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）文書タイプコード",
+      "rowNumber": "110",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID48",
+      "itemDefinition": "この出荷案内回答書が参照する文書が出荷案内書であることを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（ヘッダ参照）注文書目的コード",
+      "rowNumber": "111",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID49",
+      "itemDefinition": "この出荷案内書が参照する注文書の目的（新規、変更、取消）を管理するために注文者が付番した識別コード",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "（ヘッダ参照）文書サブタイプコード",
+      "rowNumber": "112",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID50",
+      "itemDefinition": "この出荷案内書が参照する文書が注文書であることを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（ヘッダ参照）出荷案内書クラス",
+      "rowNumber": "113",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL42",
+      "itemDefinition": "参照出荷案内書に関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "（ヘッダ参照）出荷案内書ID",
+      "rowNumber": "115",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID173",
+      "itemDefinition": "この出荷案内回答書が参照する出荷案内書に出荷者が付番した管理ID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "（ヘッダ参照）出荷案内書発行日",
+      "rowNumber": "116",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID174",
+      "itemDefinition": "この出荷案内回答書が参照する出荷案内書に出荷者が付与した日付。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "（ヘッダ参照）出荷案内履歴ID",
+      "rowNumber": "117",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID175",
+      "itemDefinition": "この出荷案内回答書が参照する出荷案内書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "（ヘッダ参照）出荷案内書名",
+      "rowNumber": "118",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID176",
+      "itemDefinition": "この出荷案内書が参照する出荷案内書に出荷者が付与した文書名称",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "（ヘッダ参照）文書タイプコード",
+      "rowNumber": "119",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID177",
+      "itemDefinition": "この出荷案内回答書が参照する文書が出荷案内書であることを識別するコード（＝351）",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "（ヘッダ参照）文書サブタイプコード",
+      "rowNumber": "120",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID178",
+      "itemDefinition": "この出荷案内書が参照する文書が出荷案内書のサブタイプであることを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "プロジェクト調達クラス",
+      "rowNumber": "121",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL11",
+      "itemDefinition": "プロジェクト調達に関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "プロジェクトID",
+      "rowNumber": "123",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID51",
+      "itemDefinition": "発注品に関するプロジェクト・工事案件等を管理するためのID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "プロジェクト名",
+      "rowNumber": "124",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID52",
+      "itemDefinition": "発注品に関するプロジェクト・工事案件等の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "（ヘッダ参照）受注書クラス",
+      "rowNumber": "125",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL12",
+      "itemDefinition": "参照受注書に関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "（ヘッダ参照）受注書ID",
+      "rowNumber": "127",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID53",
+      "itemDefinition": "この出荷案内書が参照する受注書に契約を特定するために受注者が付番した管理ID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）受注書発行日",
+      "rowNumber": "128",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID54",
+      "itemDefinition": "この出荷案内書が参照する受注書に受注者が記載した契約を行った日付，または参照受注書の書面上の発行日付。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）受注履歴ID",
+      "rowNumber": "129",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID55",
+      "itemDefinition": "出荷案内書が参照する受注書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）受注書名",
+      "rowNumber": "130",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID56",
+      "itemDefinition": "この出荷案内書が参照する受注書に受注者が付与した文書名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）文書タイプコード",
+      "rowNumber": "131",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID57",
+      "itemDefinition": "この出荷案内回答書が参照する文書が出荷案内書であることを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（ヘッダ参照）文書サブタイプコード",
+      "rowNumber": "132",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID58",
+      "itemDefinition": "この出荷案内書が参照する文書が受注書であることを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "納入先クラス",
+      "rowNumber": "135",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL13",
+      "itemDefinition": "納入先企業に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "納入先ID",
+      "rowNumber": "137",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID59",
+      "itemDefinition": "納入先の企業等を表す発注者が付与したID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先国際企業ID",
+      "rowNumber": "138",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID60",
+      "itemDefinition": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先名称",
+      "rowNumber": "139",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID61",
+      "itemDefinition": "納入先の企業等の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先連絡先クラス",
+      "rowNumber": "140",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL14",
+      "itemDefinition": "納入先連絡先に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先担当部署ID",
+      "rowNumber": "142",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID62",
+      "itemDefinition": "納入先の発注品担当部署のID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先担当者氏名",
+      "rowNumber": "143",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID63",
+      "itemDefinition": "納入先の発注品担当者の氏名または担当者を表す名称・呼称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先担当部門名",
+      "rowNumber": "144",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID64",
+      "itemDefinition": "納入先の担当部門の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先担当者ID",
+      "rowNumber": "145",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID65",
+      "itemDefinition": "納入先の発注品担当者のID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先電話番号",
+      "rowNumber": "148",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID66",
+      "itemDefinition": "納入先の電話番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先FAX番号",
+      "rowNumber": "151",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID67",
+      "itemDefinition": "発注者のFAX番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先メールアドレス",
+      "rowNumber": "154",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID68",
+      "itemDefinition": "納入先の電子メールアドレス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先住所クラス",
+      "rowNumber": "155",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL15",
+      "itemDefinition": "納入先住所に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先郵便番号",
+      "rowNumber": "157",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID69",
+      "itemDefinition": "納入先の郵便番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先住所",
+      "rowNumber": "158",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID70",
+      "itemDefinition": "納入先の住所。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷元クラス",
+      "rowNumber": "159",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL16",
+      "itemDefinition": "出荷元に関する情報からなるクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "出荷元ID",
+      "rowNumber": "161",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID71",
+      "itemDefinition": "出荷元の企業等を表すID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷元名称",
+      "rowNumber": "162",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID72",
+      "itemDefinition": "出荷元の企業等の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "運輸事業者クラス",
+      "rowNumber": "165",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL17",
+      "itemDefinition": "運輸事業者に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "運輸事業者名",
+      "rowNumber": "167",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID73",
+      "itemDefinition": "運輸事業者の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "運輸事業者連絡先クラス",
+      "rowNumber": "168",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL18",
+      "itemDefinition": "運輸事業者連絡先に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "運輸事業者連絡先ID",
+      "rowNumber": "170",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID74",
+      "itemDefinition": "運輸事業者の連絡先（担当部門）を識別するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "運輸事業者連絡先担当者名",
+      "rowNumber": "171",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID75",
+      "itemDefinition": "運輸事業者の連絡先の担当者名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "運輸事業者連絡先部門名",
+      "rowNumber": "172",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID76",
+      "itemDefinition": "運輸事業者の連絡先の部門名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "運輸事業者連絡先担当者ID",
+      "rowNumber": "173",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID77",
+      "itemDefinition": "運輸事業者の連絡先担当者を識別するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "運輸事業者電話番号",
+      "rowNumber": "176",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID78",
+      "itemDefinition": "運輸事業者の連絡先電話番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "ヘッダ配送作業クラス",
+      "rowNumber": "177",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL19",
+      "itemDefinition": "ヘッダの配送作業の情報からなるクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "作業ID",
+      "rowNumber": "179",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID79",
+      "itemDefinition": "配送作業を識別するために付与したID",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "配送日",
+      "rowNumber": "180",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID80",
+      "itemDefinition": "配送作業を行った日",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "ヘッダ配送タイプコード",
+      "rowNumber": "181",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID81",
+      "itemDefinition": "配送品の配送条件を識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "配送説明",
+      "rowNumber": "182",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID82",
+      "itemDefinition": "配送作業の内容の説明文",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "指図温度クラス",
+      "rowNumber": "185",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL20",
+      "itemDefinition": "指図温度の情報のクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "指図温度管理コード",
+      "rowNumber": "187",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID83",
+      "itemDefinition": "指図温度を指定するコード。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "ヘッダ税クラス",
+      "rowNumber": "190",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL21",
+      "itemDefinition": "ヘッダの税に関する情報のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "税額",
+      "rowNumber": "192",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID84",
+      "itemDefinition": "課税分類毎の消費税額",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "ヘッダ税タイプコード",
+      "rowNumber": "193",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID85",
+      "itemDefinition": "税の種類を識別するコード\r\nデフォルトは消費税",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "ヘッダ課税対象合計金額（税抜き）",
+      "rowNumber": "194",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID86",
+      "itemDefinition": "税区分毎の税抜き課税対象合計金額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ヘッダ課税分類コード",
+      "rowNumber": "195",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID87",
+      "itemDefinition": "消費税の課税分類属性(標準税率、軽減税率など)を識別するための識別コード。税クラスの繰返しの自動識別キーとして使用",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "ヘッダ課税分類名",
+      "rowNumber": "196",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID88",
+      "itemDefinition": "消費税の課税分類属性(標準税率、軽減税率など)を識別するための分類名",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ヘッダ税率",
+      "rowNumber": "197",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID89",
+      "itemDefinition": "税区分毎の税額計算のための率。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "ヘッダ課税対象合計金額（税込み）",
+      "rowNumber": "198",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID90",
+      "itemDefinition": "税区分毎の税額を含む課税対象合計金額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "税計算方式",
+      "rowNumber": "199",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID91",
+      "itemDefinition": "金額の税込み、税抜きを指定。\r\nデフォルトは「税抜き」\r\n※金額が「税込み」の場合は必須。",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "出荷回答合計金額クラス",
+      "rowNumber": "200",
+      "headerDetail": "ヘッダ",
+      "clId": "DRCL22",
+      "itemDefinition": "出荷回答合計金額に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷回答総合計金額",
+      "rowNumber": "202",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID92",
+      "itemDefinition": "出荷回答金額の総合計金額\r\n=出荷案内合計金額（税抜き）＋請求合計税額",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷回答合計金額（税抜き）",
+      "rowNumber": "203",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID93",
+      "itemDefinition": "出荷回答明細金額（税抜き）の合計金額。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "出荷回答合計金額（税込み）",
+      "rowNumber": "204",
+      "headerDetail": "ヘッダ",
+      "clId": "DRID94",
+      "itemDefinition": "出荷回答明細金額（税込み）の合計金額。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "出荷回答明細行クラス",
+      "rowNumber": "205",
+      "headerDetail": "明細行",
+      "clId": "DRCL23",
+      "itemDefinition": "出荷回答明細行に関する情報からなるクラス。",
+      "repetition": "1..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷回答明細行ID",
+      "rowNumber": "209",
+      "headerDetail": "明細行",
+      "clId": "DRID95",
+      "itemDefinition": "複数出荷回答明細の場合に明細毎の受領を特定するために発注者が付与したID。明細行を識別するために付番する場合は出荷回答書IDとの複合キーで出荷回答明細を特定する。",
+      "repetition": "1..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "出荷回答明細回答タイプコード",
+      "rowNumber": "210",
+      "headerDetail": "明細行",
+      "clId": "DRID96",
+      "itemDefinition": "出荷回答明細毎の回答タイプ（受領、条件付き儒町、受領不可）を管理するために付番した識別コード\r\nデフォルトは明細行受領",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "出荷回答明細回答理由コード",
+      "rowNumber": "211",
+      "headerDetail": "明細行",
+      "clId": "DRID97",
+      "itemDefinition": "出荷回答明細毎の回答タイプの理由を示すコード。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "出荷回答明細注釈クラス",
+      "rowNumber": "212",
+      "headerDetail": "明細行",
+      "clId": "DRCL24",
+      "itemDefinition": "出荷回答明細の注釈に関するクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷回答明細注釈表題",
+      "rowNumber": "214",
+      "headerDetail": "明細行",
+      "clId": "DRID98",
+      "itemDefinition": "明細行の注釈内容の表題を示す。\r\n一部に利用制限あり。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷回答明細注釈内容",
+      "rowNumber": "215",
+      "headerDetail": "明細行",
+      "clId": "DRID99",
+      "itemDefinition": "明細行の注釈表題毎の内容情報を入力するフリースペース。\r\n一部に利用制限あり。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷回答明細注釈ID",
+      "rowNumber": "216",
+      "headerDetail": "明細行",
+      "clId": "DRID100",
+      "itemDefinition": "明細行注釈の識別ID\r\n共通EDIプロバイダがシリアル番号をセット。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）受注書明細クラス",
+      "rowNumber": "219",
+      "headerDetail": "明細行",
+      "clId": "DRCL25",
+      "itemDefinition": "参照受注書明細に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "（明細行参照）受注書ID",
+      "rowNumber": "221",
+      "headerDetail": "明細行",
+      "clId": "DRID101",
+      "itemDefinition": "当該出荷伝票が参照する受注書に記載の受注書ID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）受注明細行ID",
+      "rowNumber": "222",
+      "headerDetail": "明細行",
+      "clId": "DRID102",
+      "itemDefinition": "当該出荷明細が参照する受注書に記載の受注者が附番した受注明細行ID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）受注履歴ID",
+      "rowNumber": "223",
+      "headerDetail": "明細行",
+      "clId": "DRID103",
+      "itemDefinition": "この出荷伝票が参照する受注書の履歴ID",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（明細行参照）注文書明細クラス",
+      "rowNumber": "224",
+      "headerDetail": "明細行",
+      "clId": "DRCL26",
+      "itemDefinition": "参照注文書明細に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "（明細行参照）注文書ID",
+      "rowNumber": "226",
+      "headerDetail": "明細行",
+      "clId": "DRID104",
+      "itemDefinition": "この出荷伝票が参照する注文書に記載の注文書ID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）注文明細行ID",
+      "rowNumber": "227",
+      "headerDetail": "明細行",
+      "clId": "DRID105",
+      "itemDefinition": "この出荷伝票が参照する注文書に記載の注文者が附番した注文明細行ID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）注文履歴ID",
+      "rowNumber": "228",
+      "headerDetail": "明細行",
+      "clId": "DRID106",
+      "itemDefinition": "この出荷伝票が参照する注文書の履歴ID",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "価格クラス",
+      "rowNumber": "229",
+      "headerDetail": "明細行",
+      "clId": "DRCL27",
+      "itemDefinition": "価格に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "単価コード",
+      "rowNumber": "231",
+      "headerDetail": "明細行",
+      "clId": "DRID107",
+      "itemDefinition": "単価のタイプを示す識別コード",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷単価",
+      "rowNumber": "232",
+      "headerDetail": "明細行",
+      "clId": "DRID108",
+      "itemDefinition": "発注者と受注者が合意した明細発注品の１単位あたりの取引単価。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "単価基準数量",
+      "rowNumber": "233",
+      "headerDetail": "明細行",
+      "clId": "DRID109",
+      "itemDefinition": "✔定貫品目の場合：空欄（デフォルト）、または単価基準数量＝１\r\n✔不定貫品目、ハイブリッド品目の場合：単価基準数量＝単価の基準となる重量・容量",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "単価基準数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "DRID110",
+      "itemDefinition": "単価基準数量の数量単位を指定するコード。単価基準数量単位コード値を単価基準数量の属性として組込む",
+      "repetition": "",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "配送明細配送クラス",
+      "rowNumber": "234",
+      "headerDetail": "明細行",
+      "clId": "DRCL28",
+      "itemDefinition": "配送明細ごとの配送に関する情報からなるクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷セット数量",
+      "rowNumber": "236",
+      "headerDetail": "明細行",
+      "clId": "DRID111",
+      "itemDefinition": "この明細行品目をセットで出荷した場合のセット数量\r\n流通業の固有仕様。",
+      "repetition": "0..1",
+      "establishedRevised": "v４"
+    },
+    {
+      "itemName": "出荷セット数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "DRID112",
+      "itemDefinition": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "出荷バラ数量",
+      "rowNumber": "237",
+      "headerDetail": "明細行",
+      "clId": "DRID113",
+      "itemDefinition": "この明細行品目をバラで出荷した場合のバラ数量\r\n流通業の固有仕様。",
+      "repetition": "0..1",
+      "establishedRevised": "v４"
+    },
+    {
+      "itemName": "出荷バラ数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "DRID114",
+      "itemDefinition": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "出荷セット単位数量(入り数）",
+      "rowNumber": "238",
+      "headerDetail": "明細行",
+      "clId": "DRID115",
+      "itemDefinition": "✔定貫品目（個数でカウントできる品目）の数量単位指定が「セット」の場合：1セット当たりのバラ数量\r\n✔定貫品目の数量単位指定が「個」の場合：利用しない\r\n✔不定貫品目（個数でカウントできない品目）の数量単位指定の場合：利用しない。\r\n✔ハイブリッド品目（数量指定は定貫品目、金額計算は不定貫品目）の場合：指定した定貫品目数量単位の1単位当たりの重量等",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v4"
+    },
+    {
+      "itemName": "出荷入り数数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "DRID116",
+      "itemDefinition": "出荷回答セット単位数量（入り数）の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "出荷数量",
+      "rowNumber": "239",
+      "headerDetail": "明細行",
+      "clId": "DRID117",
+      "itemDefinition": "この情報項目は取引数量の指定に利用する。\r\nこの項目の属性として数量単位コードを指定することにより、ずべての品目の取引数量指定に利用できる。\r\n流通業の定貫品目取引では、この項目は利用せず「セット数量」または「バラ数量」を利用する。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "DRID118",
+      "itemDefinition": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "要求数量",
+      "rowNumber": "240",
+      "headerDetail": "明細行",
+      "clId": "DRID119",
+      "itemDefinition": "出荷明細毎の発注者の要求数量\r\n流通業取引の場合は利用しない",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "要求数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "DRID120",
+      "itemDefinition": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "欠品数量",
+      "rowNumber": "241",
+      "headerDetail": "明細行",
+      "clId": "DRID121",
+      "itemDefinition": "出荷明細毎の欠品数量",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "欠品数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "DRID122",
+      "itemDefinition": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "配送明細配送／納入先グループ",
+      "rowNumber": "242",
+      "headerDetail": "明細行",
+      "clId": "DRCL29",
+      "itemDefinition": "明細納入先に関するグループ",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先ID",
+      "rowNumber": "244",
+      "headerDetail": "明細行",
+      "clId": "DRID123",
+      "itemDefinition": "納入先の企業等を表すID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先国際企業ID",
+      "rowNumber": "245",
+      "headerDetail": "明細行",
+      "clId": "DRID124",
+      "itemDefinition": "納入先企業を表す法人ID。中小企業共通EDIでは法人番号を利用",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先名称",
+      "rowNumber": "246",
+      "headerDetail": "明細行",
+      "clId": "DRID125",
+      "itemDefinition": "納入先の企業等の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先連絡先クラス",
+      "rowNumber": "247",
+      "headerDetail": "明細行",
+      "clId": "DRCL30",
+      "itemDefinition": "明細欧入先の連携先の情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先担当者",
+      "rowNumber": "249",
+      "headerDetail": "明細行",
+      "clId": "DRID126",
+      "itemDefinition": "明細納入先の担当者名",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先部門名",
+      "rowNumber": "250",
+      "headerDetail": "明細行",
+      "clId": "DRID127",
+      "itemDefinition": "明細納入先の部門名",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先電話番号",
+      "rowNumber": "253",
+      "headerDetail": "明細行",
+      "clId": "DRID128",
+      "itemDefinition": "納入先の電話番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先FAX番号",
+      "rowNumber": "256",
+      "headerDetail": "明細行",
+      "clId": "DRID129",
+      "itemDefinition": "納入先のFAX番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先メールアドレス",
+      "rowNumber": "259",
+      "headerDetail": "明細行",
+      "clId": "DRID130",
+      "itemDefinition": "納入先の電子メールアドレス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先住所クラス",
+      "rowNumber": "260",
+      "headerDetail": "明細行",
+      "clId": "DRCL31",
+      "itemDefinition": "明細納入先住所に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先郵便番号",
+      "rowNumber": "262",
+      "headerDetail": "明細行",
+      "clId": "DRID131",
+      "itemDefinition": "納入先の郵便番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先住所",
+      "rowNumber": "263",
+      "headerDetail": "明細行",
+      "clId": "DRID132",
+      "itemDefinition": "納入先の住所",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細配送作業クラス",
+      "rowNumber": "264",
+      "headerDetail": "明細行",
+      "clId": "DRCL32",
+      "itemDefinition": "明細の配送作業に関する情報からなるクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷作業ID",
+      "rowNumber": "266",
+      "headerDetail": "明細行",
+      "clId": "DRID133",
+      "itemDefinition": "受注者が附番した出荷作業ID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷日時",
+      "rowNumber": "267",
+      "headerDetail": "明細行",
+      "clId": "DRID134",
+      "itemDefinition": "品目の出荷日/時刻。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細行配送タイプコード",
+      "rowNumber": "268",
+      "headerDetail": "明細行",
+      "clId": "DRID135",
+      "itemDefinition": "明細行の納入の配送タイプを指定するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細配送作業クラス",
+      "rowNumber": "269",
+      "headerDetail": "明細行",
+      "clId": "DRCL43",
+      "itemDefinition": "明細の配送作業に関する情報からなるクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "受領作業ID",
+      "rowNumber": "271",
+      "headerDetail": "明細行",
+      "clId": "DRID179",
+      "itemDefinition": "発注者が附番した受領作業ID",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "受領日時",
+      "rowNumber": "272",
+      "headerDetail": "明細行",
+      "clId": "DRID180",
+      "itemDefinition": "出荷案内品目の受領日/時刻。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "受領数量",
+      "rowNumber": "273",
+      "headerDetail": "明細行",
+      "clId": "DRID181",
+      "itemDefinition": "発注者が受領した品目の数量",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "受領数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "DRID182",
+      "itemDefinition": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "要求配送作業クラス",
+      "rowNumber": "274",
+      "headerDetail": "明細行",
+      "clId": "DRCL33",
+      "itemDefinition": "要求配送作業に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "要求納入日",
+      "rowNumber": "276",
+      "headerDetail": "明細行",
+      "clId": "DRID136",
+      "itemDefinition": "明細発注品の納入期日，または納入希望日。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入場所クラス",
+      "rowNumber": "277",
+      "headerDetail": "明細行",
+      "clId": "DRCL34",
+      "itemDefinition": "納入場所に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入場所ID",
+      "rowNumber": "279",
+      "headerDetail": "明細行",
+      "clId": "DRID137",
+      "itemDefinition": "納入場所または受渡場所を示すID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入場所名称",
+      "rowNumber": "280",
+      "headerDetail": "明細行",
+      "clId": "DRID138",
+      "itemDefinition": "納入場所または受渡場所の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細配送計画クラス",
+      "rowNumber": "283",
+      "headerDetail": "明細行",
+      "clId": "DRCL35",
+      "itemDefinition": "配送計画に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "計画納入日",
+      "rowNumber": "285",
+      "headerDetail": "明細行",
+      "clId": "DRID139",
+      "itemDefinition": "品目の計画納入日。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細行税クラス",
+      "rowNumber": "288",
+      "headerDetail": "明細行",
+      "clId": "DRCL36",
+      "itemDefinition": "明細行の税に関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "明細行税タイプコード",
+      "rowNumber": "290",
+      "headerDetail": "明細行",
+      "clId": "DRID140",
+      "itemDefinition": "税の種類を識別するコード\r\nデフォルトは消費税",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "掲載行課税対象金額（税抜き）",
+      "rowNumber": "291",
+      "headerDetail": "明細行",
+      "clId": "DRID141",
+      "itemDefinition": "税抜き消費税課税対象金額（＝単価(税抜き)×数量）",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "明細行課税分類コード",
+      "rowNumber": "292",
+      "headerDetail": "明細行",
+      "clId": "DRID142",
+      "itemDefinition": "消費税の課税分類属性(標準税率、軽減税率など)を識別するための識別コード。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "明細行課税分類名",
+      "rowNumber": "293",
+      "headerDetail": "明細行",
+      "clId": "DRID143",
+      "itemDefinition": "消費税の課税分類属性(標準税率、軽減税率など)を識別するための区分名",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "明細行税率",
+      "rowNumber": "294",
+      "headerDetail": "明細行",
+      "clId": "DRID144",
+      "itemDefinition": "税区分に対応する消費税率",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "明細行課税対象金額（税込み）",
+      "rowNumber": "295",
+      "headerDetail": "明細行",
+      "clId": "DRID145",
+      "itemDefinition": "税込み消費税課税対象金額（＝単価(税込み)×数量）",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "明細合計金額クラス",
+      "rowNumber": "296",
+      "headerDetail": "明細行",
+      "clId": "DRCL37",
+      "itemDefinition": "明細合計金額に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷明細金額(税抜き)",
+      "rowNumber": "298",
+      "headerDetail": "明細行",
+      "clId": "DRID146",
+      "itemDefinition": "明細発注品の出荷明細金額(税抜き）。（単価(税抜き)×数量）",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "出荷明細金額（税込み）",
+      "rowNumber": "299",
+      "headerDetail": "明細行",
+      "clId": "DRID147",
+      "itemDefinition": "明細発注品の出荷明細金額(税込み)。\r\n(単価(税込み)×数量)",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "取引品目クラス",
+      "rowNumber": "300",
+      "headerDetail": "明細行",
+      "clId": "DRCL38",
+      "itemDefinition": "出荷明細行の出荷品に関する情報からなるクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "品目ID",
+      "rowNumber": "302",
+      "headerDetail": "明細行",
+      "clId": "DRID148",
+      "itemDefinition": "発注品目をユニークに識別するために付加したID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "グローバル品目ID",
+      "rowNumber": "303",
+      "headerDetail": "明細行",
+      "clId": "DRID149",
+      "itemDefinition": "GTIN、JANコードなどの国際的に登録された品目ID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者品目ID",
+      "rowNumber": "304",
+      "headerDetail": "明細行",
+      "clId": "DRID150",
+      "itemDefinition": "受注者が品目を特定するために付与したID",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "発注者品目ID",
+      "rowNumber": "305",
+      "headerDetail": "明細行",
+      "clId": "DRID151",
+      "itemDefinition": "発注者が品目を特定するために付与したID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "メーカー品目ID",
+      "rowNumber": "306",
+      "headerDetail": "明細行",
+      "clId": "DRID152",
+      "itemDefinition": "品目を特定するために製造者が付与したID",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "品目名",
+      "rowNumber": "307",
+      "headerDetail": "明細行",
+      "clId": "DRID153",
+      "itemDefinition": "発注品（出荷品）の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "品目摘要",
+      "rowNumber": "308",
+      "headerDetail": "明細行",
+      "clId": "DRID154",
+      "itemDefinition": "この取引品目を文字で説明したもの",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v4"
+    },
+    {
+      "itemName": "機種",
+      "rowNumber": "309",
+      "headerDetail": "明細行",
+      "clId": "DRID155",
+      "itemDefinition": "この取引品目の完成品の種別を特定するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "品目数量単位判別子",
+      "rowNumber": "310",
+      "headerDetail": "明細行",
+      "clId": "DRID156",
+      "itemDefinition": "品目数量単位の区分（定貫品目、不定貫品目、ハイブリッド品目、実測不定貫品目、実測ハイブリッド品目）の判別子。デフォルトは定貫品目",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "サイズコード",
+      "rowNumber": "311",
+      "headerDetail": "明細行",
+      "clId": "DRID157",
+      "itemDefinition": "この取引品目のサイズを特定するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "サイズ記述",
+      "rowNumber": "312",
+      "headerDetail": "明細行",
+      "clId": "DRID158",
+      "itemDefinition": "この取引品目のサイズに関する文字による記述",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "品目個品クラス",
+      "rowNumber": "313",
+      "headerDetail": "明細行",
+      "clId": "DRCL44",
+      "itemDefinition": "品目の個品の情報に関するクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "賞味期限",
+      "rowNumber": "315",
+      "headerDetail": "明細行",
+      "clId": "DRID183",
+      "itemDefinition": "品目個品の賞味期限",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "検査文書クラス",
+      "rowNumber": "316",
+      "headerDetail": "明細行",
+      "clId": "DRCL41",
+      "itemDefinition": "品質・検査に関する参照文書の情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "検査文書ID",
+      "rowNumber": "318",
+      "headerDetail": "明細行",
+      "clId": "DRID167",
+      "itemDefinition": "品質・検査に関する検査文書管理ID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "検査文書URI",
+      "rowNumber": "319",
+      "headerDetail": "明細行",
+      "clId": "DRID168",
+      "itemDefinition": "品質・検査に関する検査文書のURI",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "検査文書ファイル名",
+      "rowNumber": "320",
+      "headerDetail": "明細行",
+      "clId": "DRID169",
+      "itemDefinition": "検査文書のファイル名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "品質・検査説明文。",
+      "rowNumber": "321",
+      "headerDetail": "明細行",
+      "clId": "DRID170",
+      "itemDefinition": "品質・検査に関する説明",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "検査文書添付ファイル",
+      "rowNumber": "322",
+      "headerDetail": "明細行",
+      "clId": "DRID171",
+      "itemDefinition": "この文書ヘッダ参照文書の添付バイナリファイルの有無を指定\r\nありの場合はUN01006015のバイナリファイルID（BASE64）を入力",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "文書サブタイプコード",
+      "rowNumber": "323",
+      "headerDetail": "明細行",
+      "clId": "DRID172",
+      "itemDefinition": "この文書が検査文書であることを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "製造者クラス",
+      "rowNumber": "324",
+      "headerDetail": "明細行",
+      "clId": "DRCL39",
+      "itemDefinition": "品目製造者の情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "指定メーカーID",
+      "rowNumber": "326",
+      "headerDetail": "明細行",
+      "clId": "DRID159",
+      "itemDefinition": "品目の製造者を特定するために付与したID",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "指定メーカー名",
+      "rowNumber": "327",
+      "headerDetail": "明細行",
+      "clId": "DRID160",
+      "itemDefinition": "品目の製造者の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "梱包クラス",
+      "rowNumber": "328",
+      "headerDetail": "明細行",
+      "clId": "DRCL40",
+      "itemDefinition": "物流梱包に関する情報からなるクラス。",
+      "repetition": "0..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷梱包単位数量",
+      "rowNumber": "330",
+      "headerDetail": "明細行",
+      "clId": "DRID161",
+      "itemDefinition": "出荷梱包単位の数量",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷梱包単位数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "DRID162",
+      "itemDefinition": "出荷梱包単位数量の数量単位を指定するコード。出荷梱包数量単位コード値を出荷梱包単位数量の属性として組込む",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "荷姿コード",
+      "rowNumber": "331",
+      "headerDetail": "明細行",
+      "clId": "DRID163",
+      "itemDefinition": "物流梱包の荷姿コード",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷梱包シリアル番号",
+      "rowNumber": "332",
+      "headerDetail": "明細行",
+      "clId": "DRID164",
+      "itemDefinition": "荷主、または運送会社が附番する輸送用梱包単位のシリアル識別コード（SSCC）\r\nTDED7070/UNCL1153/CW",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "梱包ID",
+      "rowNumber": "333",
+      "headerDetail": "明細行",
+      "clId": "DRID165",
+      "itemDefinition": "出荷者が附番する出荷識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "GSIN出荷識別ID",
+      "rowNumber": "334",
+      "headerDetail": "明細行",
+      "clId": "DRID166",
+      "itemDefinition": "荷主、または運送会社が附番するGSIN国際梱包ID。同時配送される単数、または複数の梱包単位を識別するために附番し、梱包に表示する出荷識別番号\r\nUNCL7405/DD",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    }
+  ]
+}

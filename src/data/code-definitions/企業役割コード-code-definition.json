@@ -1,0 +1,61 @@
+{
+  "codeType": "企業役割コード-code-definition",
+  "sheetName": "企業役割コード (code-definition)",
+  "tableType": "code-definition",
+  "region": {
+    "startRow": 9,
+    "endRow": 19,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "CC",
+      "codeName": "Claimant",
+      "internationalCode": "CC",
+      "internationalCodeName": "Claimant"
+    },
+    {
+      "code": "CN",
+      "codeName": "Consignee",
+      "internationalCode": "CN",
+      "internationalCodeName": "Consignee"
+    },
+    {
+      "code": "DDB",
+      "codeName": "Initial sender",
+      "internationalCode": "DDB",
+      "internationalCodeName": "Initial sender"
+    },
+    {
+      "code": "FT",
+      "codeName": "Financial settlement party",
+      "internationalCode": "FT",
+      "internationalCodeName": "Financial settlement party"
+    },
+    {
+      "code": "MF",
+      "codeName": "Manufacturer of goods",
+      "internationalCode": "MF",
+      "internationalCodeName": "Manufacturer of goods"
+    },
+    {
+      "code": "PC",
+      "codeName": "Actual purchaser's customer",
+      "internationalCode": "PC",
+      "internationalCodeName": "Actual purchaser's customer"
+    },
+    {
+      "code": "RE",
+      "codeName": "Party to receive commercial invoice remittance",
+      "internationalCode": "RE",
+      "internationalCodeName": "Party to receive commercial invoice remittance"
+    },
+    {
+      "code": "UD",
+      "codeName": "Ultimate customer",
+      "internationalCode": "UD",
+      "internationalCodeName": "Ultimate customer"
+    }
+  ]
+}

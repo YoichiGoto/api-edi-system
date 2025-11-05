@@ -1,0 +1,2173 @@
+{
+  "sheetName": "見積回答 (cefact-bie)",
+  "messageType": "quotation",
+  "tableType": "cefact-bie",
+  "region": {
+    "startRow": 16,
+    "endRow": 256,
+    "startCol": 1,
+    "endCol": 20
+  },
+  "items": [
+    {
+      "itemName": "見積回答書",
+      "rowNumber": "1",
+      "headerDetail": "ヘッダ",
+      "clId": "",
+      "itemDefinition": "見積回答者が見積依頼者に交付する見積回答文書（メッセージ）。",
+      "repetition": "－",
+      "establishedRevised": "v1/v4.2"
+    },
+    {
+      "itemName": "取引設定クラス",
+      "rowNumber": "2",
+      "headerDetail": "ヘッダ",
+      "clId": "CL1",
+      "itemDefinition": "メッセージの設定内容に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引ID",
+      "rowNumber": "3",
+      "headerDetail": "ヘッダ",
+      "clId": "ID1",
+      "itemDefinition": "メッセージがやり取りされる取引識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "処理日時",
+      "rowNumber": "4",
+      "headerDetail": "ヘッダ",
+      "clId": "ID2",
+      "itemDefinition": "メッセージがやり取りされる日時",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "取引プロセス設定クラス",
+      "rowNumber": "5",
+      "headerDetail": "ヘッダ",
+      "clId": "CL2",
+      "itemDefinition": "取引プロセスに関する情報のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引プロセスID",
+      "rowNumber": "7",
+      "headerDetail": "ヘッダ",
+      "clId": "ID3",
+      "itemDefinition": "取引プロセスの識別番号\r\n共通EDIプロバイダがプロセスをセットする",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引プロセス名",
+      "rowNumber": "8",
+      "headerDetail": "ヘッダ",
+      "clId": "ID4",
+      "itemDefinition": "取引プロセスの名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョンID",
+      "rowNumber": "11",
+      "headerDetail": "ヘッダ",
+      "clId": "ID5",
+      "itemDefinition": "取引プロセスのバージョン識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョン発行日",
+      "rowNumber": "12",
+      "headerDetail": "ヘッダ",
+      "clId": "ID6",
+      "itemDefinition": "取引プロセスのバージョン発行日",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引シナリオ設定クラス",
+      "rowNumber": "13",
+      "headerDetail": "ヘッダ",
+      "clId": "CL3",
+      "itemDefinition": "取引シナリオに関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引シナリオID",
+      "rowNumber": "15",
+      "headerDetail": "ヘッダ",
+      "clId": "ID7",
+      "itemDefinition": "取引シナリオの識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引シナリオ名",
+      "rowNumber": "16",
+      "headerDetail": "ヘッダ",
+      "clId": "ID8",
+      "itemDefinition": "取引シナリオの名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "アプリケーション設定クラス",
+      "rowNumber": "17",
+      "headerDetail": "ヘッダ",
+      "clId": "CL4",
+      "itemDefinition": "アプリケーションに関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "アプリケーションID",
+      "rowNumber": "19",
+      "headerDetail": "ヘッダ",
+      "clId": "ID9",
+      "itemDefinition": "業務アプリケーションの識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "アプリケーション名",
+      "rowNumber": "20",
+      "headerDetail": "ヘッダ",
+      "clId": "ID10",
+      "itemDefinition": "業務アプリケーションの名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "ドメイン設定クラス",
+      "rowNumber": "21",
+      "headerDetail": "ヘッダ",
+      "clId": "CL5",
+      "itemDefinition": "JEC業界横断EDIメッセージドメインに関する情報のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "ドメインID",
+      "rowNumber": "23",
+      "headerDetail": "ヘッダ",
+      "clId": "ID11",
+      "itemDefinition": "SIPSが付与したメッセージドメイン識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "ドメイン名",
+      "rowNumber": "24",
+      "headerDetail": "ヘッダ",
+      "clId": "ID12",
+      "itemDefinition": "SIPSが付与したメッセージドメイン名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョンID",
+      "rowNumber": "27",
+      "headerDetail": "ヘッダ",
+      "clId": "ID13",
+      "itemDefinition": "ドメインのバージョン識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョン発行日",
+      "rowNumber": "28",
+      "headerDetail": "ヘッダ",
+      "clId": "ID14",
+      "itemDefinition": "ドメインのバージョン発行日",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答文書クラス",
+      "rowNumber": "29",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL1",
+      "itemDefinition": "見積回答情報の文書全体に関する情報からなるクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答履歴ID",
+      "rowNumber": "30",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID1",
+      "itemDefinition": "見積回答書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答書ID",
+      "rowNumber": "31",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID2",
+      "itemDefinition": "見積回答者が見積回答書を特定するために付番する管理ID。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答書目的コード",
+      "rowNumber": "32",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID3",
+      "itemDefinition": "見積回答者が見積回答の目的（新規、変更、取消、）を管理するために付番したコード",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "見積回答タイプコード",
+      "rowNumber": "33",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID4",
+      "itemDefinition": "見積回答のタイプ（通常見積、条件付き見積など）を管理するために見積回答者が附番したコード",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答書文書タイプコード",
+      "rowNumber": "34",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID5",
+      "itemDefinition": "この文書が見積依頼書であることを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答書発行日",
+      "rowNumber": "35",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID6",
+      "itemDefinition": "見積回答者が見積回答を行った日付，または見積回答書の書面上の発行日付。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答書改定日",
+      "rowNumber": "36",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID7",
+      "itemDefinition": "見積回答書を改定した日付",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答書名",
+      "rowNumber": "37",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID8",
+      "itemDefinition": "見積回答者が見積依頼書に付与した文書名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答書文書サブタイプコード",
+      "rowNumber": "38",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID9",
+      "itemDefinition": "地域固有の文書のタイプを識別するコード\r\nデフォルトは見積依頼書",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "見積回答有効期間クラス",
+      "rowNumber": "39",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL2",
+      "itemDefinition": "見積回答有効期間の情報に関するクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積有効期限",
+      "rowNumber": "41",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID10",
+      "itemDefinition": "見積回答返信の有効期限",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "添付バイナリファイルクラス",
+      "rowNumber": "42",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL3",
+      "itemDefinition": "添付バイナリファイルを記述するためのクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイルID",
+      "rowNumber": "44",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID11",
+      "itemDefinition": "添付バイナリファイルのID",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイル版数",
+      "rowNumber": "45",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID12",
+      "itemDefinition": "添付バイナリファイルのバージョンID",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイル名",
+      "rowNumber": "46",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID13",
+      "itemDefinition": "添付バイナリファイルの名称",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイルURIID",
+      "rowNumber": "47",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID14",
+      "itemDefinition": "添付バイナリファイルのURIID",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイルのMIMEコード",
+      "rowNumber": "48",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID15",
+      "itemDefinition": "添付バイナリファイルのMIMEコード",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイルエンコードコード",
+      "rowNumber": "49",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID16",
+      "itemDefinition": "添付バイナリファイルのエンコード用コード",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイル出力コード",
+      "rowNumber": "50",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID17",
+      "itemDefinition": "添付バイナリファイルの出力コード",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "添付バイナリファイルの説明文",
+      "rowNumber": "51",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID18",
+      "itemDefinition": "添付バイナリファイルの説明文",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "見積回答注釈クラス",
+      "rowNumber": "52",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL4",
+      "itemDefinition": "見積回答のヘッダ注釈を記述するためのクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答注釈表題",
+      "rowNumber": "54",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID19",
+      "itemDefinition": "ヘッダ注釈内容の表題を示す。\r\n一部に利用制限あり。標準仕様書３．３．５項参照。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答注釈内容",
+      "rowNumber": "55",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID20",
+      "itemDefinition": "ヘッダ注釈表題毎の内容情報を入力するフリースペース。\r\n一部に利用制限あり。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答注釈ID",
+      "rowNumber": "56",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID21",
+      "itemDefinition": "ヘッダ注釈の識別ID\r\n共通EDIプロバイダがシリアル番号をセット。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積依頼者クラス",
+      "rowNumber": "60",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL5",
+      "itemDefinition": "見積依頼者に関する情報のクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積依頼者ID",
+      "rowNumber": "62",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID22",
+      "itemDefinition": "見積依頼を行う企業/工場・事業所・事業部門等を表す見積依頼者が付与した企業ID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積依頼者国際企業ID",
+      "rowNumber": "63",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID23",
+      "itemDefinition": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積依頼者名称",
+      "rowNumber": "64",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID24",
+      "itemDefinition": "見積依頼を行う企業/工場・事業所・事業部門等を表す名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "連絡先クラス",
+      "rowNumber": "65",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL6",
+      "itemDefinition": "連絡先に関する情報のクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積依頼者部門ID",
+      "rowNumber": "67",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID25",
+      "itemDefinition": "見積依頼者の見積依頼部門を表すID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積依頼者担当名",
+      "rowNumber": "68",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID26",
+      "itemDefinition": "見積依頼者の見積依頼担当者の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積依頼者部門名",
+      "rowNumber": "69",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID27",
+      "itemDefinition": "見積依頼者の見積依頼部門を表す名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積依頼者電話番号",
+      "rowNumber": "72",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID28",
+      "itemDefinition": "見積依頼者の電話番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積依頼者FAX番号",
+      "rowNumber": "75",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID29",
+      "itemDefinition": "見積依頼者のFAX番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積依頼者メールアドレス",
+      "rowNumber": "78",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID30",
+      "itemDefinition": "見積依頼者の電子メールアドレス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "住所クラス",
+      "rowNumber": "79",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL7",
+      "itemDefinition": "見積依頼の住所に関する情報のクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積依頼者郵便番号",
+      "rowNumber": "81",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID31",
+      "itemDefinition": "見積依頼者の郵便番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積依頼者住所",
+      "rowNumber": "82",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID32",
+      "itemDefinition": "見積依頼者の住所。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答者クラス",
+      "rowNumber": "83",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL8",
+      "itemDefinition": "見積回答者に関する情報のクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答者ID",
+      "rowNumber": "85",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID33",
+      "itemDefinition": "見積依頼を受ける企業/工場・事業所・事業部門等を表す見積籐当事者が付与した企業ID。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答者国際企業ID",
+      "rowNumber": "86",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID34",
+      "itemDefinition": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答者名称",
+      "rowNumber": "87",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID35",
+      "itemDefinition": "見積依頼を受ける企業/工場・事業所・事業部門等を表す名称。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "登録企業コード",
+      "rowNumber": "88",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID36",
+      "itemDefinition": "適格請求書発行事業者登録番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "連絡先クラス",
+      "rowNumber": "89",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL9",
+      "itemDefinition": "連絡先に関する情報のクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答者部門ID",
+      "rowNumber": "91",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID37",
+      "itemDefinition": "見積回答者の受注部門を表すID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答者担当名",
+      "rowNumber": "92",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID38",
+      "itemDefinition": "見積回答者の受注担当者を表す名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答者部門名",
+      "rowNumber": "93",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID39",
+      "itemDefinition": "見積回答者の受注部門を表す名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答者電話番号",
+      "rowNumber": "96",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID40",
+      "itemDefinition": "見積回答者の電話番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答者FAX番号",
+      "rowNumber": "99",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID41",
+      "itemDefinition": "見積回答者のFAX番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答者メールアドレス",
+      "rowNumber": "102",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID42",
+      "itemDefinition": "見積回答者の電子メールアドレス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "住所クラス",
+      "rowNumber": "103",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL10",
+      "itemDefinition": "見積回答者住所に関する情報のクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答者郵便番号",
+      "rowNumber": "105",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID43",
+      "itemDefinition": "見積回答者の郵便番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答者住所",
+      "rowNumber": "106",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID44",
+      "itemDefinition": "見積回答者の住所。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（参照）注文書クラス",
+      "rowNumber": "107",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL11",
+      "itemDefinition": "参照注文書に関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）注文書ID",
+      "rowNumber": "109",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID45",
+      "itemDefinition": "この見積依頼書が参照する注文書を特定するために注文者が付番した管理ID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）注文書発行日",
+      "rowNumber": "110",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID46",
+      "itemDefinition": "この見積依頼書が参照する注文書に注文者が記載した注文を行った日付，または注文書の書面上の発行日付。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）注文書履歴ID",
+      "rowNumber": "111",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID47",
+      "itemDefinition": "この見積依頼書が参照する注文書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）注文書情報",
+      "rowNumber": "112",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID48",
+      "itemDefinition": "この見積依頼書が参照する注文者が注文書に付与した情報",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）注文目的コード",
+      "rowNumber": "113",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID49",
+      "itemDefinition": "この見積依頼書が参照する注文書に注文者が注文の目的（新規、変更、取消）を管理するために付番したコード",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "（ヘッダ参照）文書サブタイプコード",
+      "rowNumber": "114",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID50",
+      "itemDefinition": "この見積依頼書が参照する文書が注文書であることを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（参照）見積依頼書クラス",
+      "rowNumber": "115",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL12",
+      "itemDefinition": "参照見積依頼書に関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）見積依頼書番号",
+      "rowNumber": "117",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID51",
+      "itemDefinition": "この見積回答書が参照する発注者が見積依頼書を特定するために付番した管理番号。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）見積依頼書発行日",
+      "rowNumber": "118",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID52",
+      "itemDefinition": "この見積回答書が参照する見積依頼書に発注者が記載した文書発行日付，または見積依頼書の書面上の発行日付。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）見積依頼履歴番号",
+      "rowNumber": "119",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID53",
+      "itemDefinition": "見積回答書が参照する見積依頼書の変更履歴を管理する番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）見積依頼書名",
+      "rowNumber": "120",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID54",
+      "itemDefinition": "この見積回答書が参照する発注者が見積依頼書に付与した文書名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）見積依頼書情報",
+      "rowNumber": "121",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID55",
+      "itemDefinition": "この見積回答書が参照する発注者が見積依頼書に付与した情報",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（ヘッダ参照）見積依頼書目的コード",
+      "rowNumber": "122",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID56",
+      "itemDefinition": "この見積回答書が参照する見積依頼書に発注者が見積依頼の目的（新規依頼、変更再見積依頼、取消、打切り）を管理するために付番したコード",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "（参照）文書サブタイプコード",
+      "rowNumber": "123",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID57",
+      "itemDefinition": "この見積回答書が参照する文書が見積依頼書であることを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "関係企業クラス",
+      "rowNumber": "124",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL13",
+      "itemDefinition": "見積に関係する企業（エンドユーザー、代理店など）のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "関係企業ID",
+      "rowNumber": "126",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID58",
+      "itemDefinition": "見積に関係する企業を示す見積依頼者が付与したID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "関係企業国際企業ID",
+      "rowNumber": "127",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID59",
+      "itemDefinition": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "関係企業名",
+      "rowNumber": "128",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID60",
+      "itemDefinition": "見積に関係する企業（エンドユーザー、代理店、請求先など）の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "関係企業役割コード",
+      "rowNumber": "129",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID61",
+      "itemDefinition": "関係企業の役割（エンドユーザー、代理店、請求先など）を特定するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "プロジェクト調達クラス",
+      "rowNumber": "130",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL14",
+      "itemDefinition": "プロジェクト調達に関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "プロジェクトID",
+      "rowNumber": "132",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID62",
+      "itemDefinition": "見積依頼品に関するプロジェクト・工事案件等を管理するためのID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "プロジェクト名",
+      "rowNumber": "133",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID63",
+      "itemDefinition": "見積依頼品に関するプロジェクト・工事案件等の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "検収条件クラス",
+      "rowNumber": "134",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL15",
+      "itemDefinition": "プロジェクト調達の検収に関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "検収条件タイプコード",
+      "rowNumber": "136",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID64",
+      "itemDefinition": "プロジェクト・工事案件の検収条件（工事完成基準、工事進行基準）を区分するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "検収条件",
+      "rowNumber": "137",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID65",
+      "itemDefinition": "プロジェクト・工事案件の検収条件を示す文言",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "工期クラス",
+      "rowNumber": "138",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL16",
+      "itemDefinition": "プロジェクトの工期に関するクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "着工日",
+      "rowNumber": "140",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID66",
+      "itemDefinition": "プロジェクトの着工日",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "竣工日",
+      "rowNumber": "141",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID67",
+      "itemDefinition": "プロジェクトの竣工日",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷元クラス",
+      "rowNumber": "144",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL17",
+      "itemDefinition": "出荷先企業に関する情報のクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷元ID",
+      "rowNumber": "146",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID68",
+      "itemDefinition": "出荷元の企業／工場・事業所・事業部門等を表すID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷元名称",
+      "rowNumber": "147",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID69",
+      "itemDefinition": "出荷元の企業／工場・事業所・事業部門等の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先クラス",
+      "rowNumber": "148",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL18",
+      "itemDefinition": "納入先企業に関する情報のクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先ID",
+      "rowNumber": "150",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID70",
+      "itemDefinition": "納入先の企業／工場・事業所・事業部門等を表すID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先国際企業ID",
+      "rowNumber": "151",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID71",
+      "itemDefinition": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先名称",
+      "rowNumber": "152",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID72",
+      "itemDefinition": "納入先の企業／工場・事業所・事業部門等の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "連絡先クラス",
+      "rowNumber": "153",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL19",
+      "itemDefinition": "連絡先に関する情報のクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先部門ID",
+      "rowNumber": "155",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID73",
+      "itemDefinition": "納入先の担当部門ID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先担当者名",
+      "rowNumber": "156",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID74",
+      "itemDefinition": "納入先の担当者の氏名",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先部門名",
+      "rowNumber": "157",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID75",
+      "itemDefinition": "納入先の担当部門名",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先担当者コード",
+      "rowNumber": "158",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID76",
+      "itemDefinition": "納入先の担当者コード",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先電話番号",
+      "rowNumber": "161",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID77",
+      "itemDefinition": "納入先の電話番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "住所クラス",
+      "rowNumber": "162",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL20",
+      "itemDefinition": "住所に関する情報のクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先郵便番号",
+      "rowNumber": "164",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID78",
+      "itemDefinition": "納入先の郵便番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先住所",
+      "rowNumber": "165",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID79",
+      "itemDefinition": "納入先の住所",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "配送作業クラス",
+      "rowNumber": "166",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL21",
+      "itemDefinition": "依頼の配送作業の情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4.0.1"
+    },
+    {
+      "itemName": "作業ID",
+      "rowNumber": "168",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID80",
+      "itemDefinition": "作業を識別するために付与したID",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "代表納期",
+      "rowNumber": "169",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID81",
+      "itemDefinition": "プロジェクトなどの代表納期",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "ヘッダ配送タイプコード",
+      "rowNumber": "170",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID82",
+      "itemDefinition": "見積依頼品の配送条件を識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "配送条件",
+      "rowNumber": "171",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID83",
+      "itemDefinition": "配送区分の内容の説明文",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "指図温度指図クラス",
+      "rowNumber": "174",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL22",
+      "itemDefinition": "指図温度の指図情報のクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "指図温度管理コード",
+      "rowNumber": "176",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID84",
+      "itemDefinition": "指図温度を指定するコード。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "見積回答決済クラス",
+      "rowNumber": "177",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL23",
+      "itemDefinition": "見積回答決済に関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "通貨コード",
+      "rowNumber": "179",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID85",
+      "itemDefinition": "通貨の種別を示すコード。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答金額集計クラス",
+      "rowNumber": "180",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL24",
+      "itemDefinition": "見積回答金額集計に関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答合計金額(税抜き)",
+      "rowNumber": "182",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID86",
+      "itemDefinition": "見積回答明細の金額（税抜き）合計。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "合計税額",
+      "rowNumber": "183",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID87",
+      "itemDefinition": "見積回答明細消費税額の合計金額。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "税込み見積回答総合計金額",
+      "rowNumber": "184",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID88",
+      "itemDefinition": "税込み見積回答明細金額の総合計金額。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "見積回答合計金額(税込み)",
+      "rowNumber": "185",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID89",
+      "itemDefinition": "見積回答明細の金額（税込み）合計",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "支払条件クラス",
+      "rowNumber": "186",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL25",
+      "itemDefinition": "支払条件に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "支払条件",
+      "rowNumber": "188",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID90",
+      "itemDefinition": "商取引上の支払方法等の支払い条件に関して受注者が提示する文言。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "支払条件タイプコード",
+      "rowNumber": "189",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID91",
+      "itemDefinition": "商取引上の支払条件を識別するためのコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "ヘッダ税クラス",
+      "rowNumber": "190",
+      "headerDetail": "ヘッダ",
+      "clId": "QRCL26",
+      "itemDefinition": "ヘッダの税に関する情報のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "税額",
+      "rowNumber": "192",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID92",
+      "itemDefinition": "税区分毎の消費税額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ヘッダ税タイプコード",
+      "rowNumber": "193",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID93",
+      "itemDefinition": "税の種類を識別するコード\r\nデフォルトは消費税",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "ヘッダ課税対象合計金額（税抜き）",
+      "rowNumber": "194",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID94",
+      "itemDefinition": "明細行税区分毎の税抜き課税対象金額の合計金額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ヘッダ課税分類コード",
+      "rowNumber": "195",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID95",
+      "itemDefinition": "消費税の課税分類属性(標準税率、軽減税率など)を識別するための識別コード。税クラスの繰返しの自動識別キーとして使用",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "ヘッダ課税分類名",
+      "rowNumber": "196",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID96",
+      "itemDefinition": "消費税の課税分類属性(標準税率、軽減税率など)を識別するための区分名",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ヘッダ税率",
+      "rowNumber": "197",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID97",
+      "itemDefinition": "税区分毎の税額計算のための率。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "ヘッダ課税対象合計金額（税込み）",
+      "rowNumber": "198",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID98",
+      "itemDefinition": "明細行税区分毎の税込課税対象金額の合計金額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "税計算方式",
+      "rowNumber": "199",
+      "headerDetail": "ヘッダ",
+      "clId": "QRID99",
+      "itemDefinition": "金額の税込み、税抜きを指定。\r\n※単価が「税込み」の場合は必須。「税抜き」の場合は任意",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "見積回答明細行クラス",
+      "rowNumber": "200",
+      "headerDetail": "明細行",
+      "clId": "QRCL27",
+      "itemDefinition": "見積回答の明細行に関する情報のクラス。",
+      "repetition": "0..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答明細行ID",
+      "rowNumber": "204",
+      "headerDetail": "明細行",
+      "clId": "QRID100",
+      "itemDefinition": "複数見積回答明細の場合に明細毎の内容を特定するために付与したID。行IDとして付与した場合は見積回答書IDとの複合キーで特定する。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答明細回答タイプコード",
+      "rowNumber": "205",
+      "headerDetail": "明細行",
+      "clId": "QRID101",
+      "itemDefinition": "見積回答者が見積回答明細の内容（見積受諾、条件付き見積受諾、見積辞退）を管理するために付番したコード",
+      "repetition": "1..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "見積回答明細回答理由コード",
+      "rowNumber": "206",
+      "headerDetail": "明細行",
+      "clId": "QRID102",
+      "itemDefinition": "見積回答明細の回答理由を示すコード。条件付受諾回答（納期、数量等を変更）",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "見積回答明細注釈クラス",
+      "rowNumber": "207",
+      "headerDetail": "明細行",
+      "clId": "QRCL28",
+      "itemDefinition": "見積回答明細行の注釈を記述するクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答明細注釈表題",
+      "rowNumber": "209",
+      "headerDetail": "明細行",
+      "clId": "QRID103",
+      "itemDefinition": "明細行の注釈内容の表題を示す。\r\n一部に利用制限あり。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答明細注釈内容",
+      "rowNumber": "210",
+      "headerDetail": "明細行",
+      "clId": "QRID104",
+      "itemDefinition": "明細行の注釈表題毎の内容情報を入力するフリースペース。\r\n一部に利用制限あり。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答明細注釈ID",
+      "rowNumber": "211",
+      "headerDetail": "明細行",
+      "clId": "QRID105",
+      "itemDefinition": "明細行注釈の識別ID\r\n共通EDIプロバイダがシリアル番号をセット。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入条件クラス",
+      "rowNumber": "214",
+      "headerDetail": "明細行",
+      "clId": "QRCL29",
+      "itemDefinition": "納入条件に関するクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入条件",
+      "rowNumber": "216",
+      "headerDetail": "明細行",
+      "clId": "QRID106",
+      "itemDefinition": "納入条件についての説明",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（参照）注文明細クラス",
+      "rowNumber": "217",
+      "headerDetail": "明細行",
+      "clId": "QRCL30",
+      "itemDefinition": "参照注文明細に関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）注文書ID",
+      "rowNumber": "219",
+      "headerDetail": "明細行",
+      "clId": "QRID107",
+      "itemDefinition": "この見積依頼書が参照する注文書を特定するために注文者が付番した管理ID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）注文明細行ID",
+      "rowNumber": "220",
+      "headerDetail": "明細行",
+      "clId": "QRID108",
+      "itemDefinition": "この見積依頼書が参照する注文明細に記載の注文明細行ID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）注文書履歴ID",
+      "rowNumber": "221",
+      "headerDetail": "明細行",
+      "clId": "QRID109",
+      "itemDefinition": "この見積依頼書が参照する注文書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）注文明細情報",
+      "rowNumber": "222",
+      "headerDetail": "明細行",
+      "clId": "QRID110",
+      "itemDefinition": "この見積依頼書が参照する注文者が注文明細に付与した情報",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）注文明細目的コード",
+      "rowNumber": "223",
+      "headerDetail": "明細行",
+      "clId": "QRID111",
+      "itemDefinition": "この見積依頼書明細が参照する注文書明細に注文者が注文の目的（新規、変更、取消）を管理するために付番したコード",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "（明細行参照）文書サブタイプコード",
+      "rowNumber": "224",
+      "headerDetail": "明細行",
+      "clId": "QRID112",
+      "itemDefinition": "この見積依頼 書が参照する文書が注文書であることを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（参照）見積依頼書明細クラス",
+      "rowNumber": "225",
+      "headerDetail": "明細行",
+      "clId": "QRCL31",
+      "itemDefinition": "参照文書（見積依頼書）に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）見積依頼書番号",
+      "rowNumber": "227",
+      "headerDetail": "明細行",
+      "clId": "QRID113",
+      "itemDefinition": "この見積回答書が参照する見積依頼書に記載の見積依頼書番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）見積依頼明細行番号",
+      "rowNumber": "228",
+      "headerDetail": "明細行",
+      "clId": "QRID114",
+      "itemDefinition": "当該見積回答書が参照する見積依頼書に記載の見積依頼明細行番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）見積依頼書履歴番号",
+      "rowNumber": "229",
+      "headerDetail": "明細行",
+      "clId": "QRID115",
+      "itemDefinition": "この見積回答書が参照する見積依頼書の変更履歴を管理する番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）見積依頼明細情報",
+      "rowNumber": "230",
+      "headerDetail": "明細行",
+      "clId": "QRID116",
+      "itemDefinition": "この見積回答書が参照する見積依頼明細に発注者が付与した情報",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）見積依頼明細目的コード",
+      "rowNumber": "231",
+      "headerDetail": "明細行",
+      "clId": "QRID117",
+      "itemDefinition": "この見積回答書が参照する見積依頼書明細に見積依頼の目的（新規、変更、取消）を管理するために付番したコード",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "（明細行参照）文書サブタイプコード",
+      "rowNumber": "232",
+      "headerDetail": "明細行",
+      "clId": "QRID118",
+      "itemDefinition": "この見積依頼 書が参照する文書が見積依頼書であることを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "見積回答価格クラス",
+      "rowNumber": "233",
+      "headerDetail": "明細行",
+      "clId": "QRCL32",
+      "itemDefinition": "見積回答の価格に関する情報のクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "単価コード",
+      "rowNumber": "235",
+      "headerDetail": "明細行",
+      "clId": "QRID119",
+      "itemDefinition": "単価の種別を示すコード",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答単価",
+      "rowNumber": "236",
+      "headerDetail": "明細行",
+      "clId": "QRID120",
+      "itemDefinition": "見積回答品の１単位あたりの見積回答者が提示する取引単価。\r\n税込み、税抜きの識別はヘッダ部の「UN01013096：税計算方式」で指定（指定がない場合は税抜き）。",
+      "repetition": "1..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "単価基準数量",
+      "rowNumber": "237",
+      "headerDetail": "明細行",
+      "clId": "QRID121",
+      "itemDefinition": "✔定貫品目の場合：空欄（デフォルト）、または単価基準数量＝１\r\n✔不定貫品目、ハイブリッド品目の場合：単価基準数量＝単価の基準となる重量・容量",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "単価基準数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "QRID122",
+      "itemDefinition": "単価基準数量の数量単位を指定するコード。単価基準数量単位コード値を単価基準数量の属性として組込む",
+      "repetition": "",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "見積回答明細配送クラス",
+      "rowNumber": "238",
+      "headerDetail": "明細行",
+      "clId": "QRCL33",
+      "itemDefinition": "見積回答明細行毎の配送に関する情報のクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1/v4.1"
+    },
+    {
+      "itemName": "見積回答数量、",
+      "rowNumber": "240",
+      "headerDetail": "明細行",
+      "clId": "QRID123",
+      "itemDefinition": "見積回答者が提示した明細見積品の回答数量。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "QRID124",
+      "itemDefinition": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "見積依頼数量",
+      "rowNumber": "241",
+      "headerDetail": "明細行",
+      "clId": "QRID125",
+      "itemDefinition": "この情報項目は取引数量の指定に利用する。\r\nこの項目の属性として数量単位コードを指定することにより、ずべての品目の取引数量指定に利用できる。\r\n流通業の定貫品目取引では、この項目は利用せず「セット数量」または「バラ数量」を利用する。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積依頼数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "QRID126",
+      "itemDefinition": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "見積回答セット単位数量(入り数）",
+      "rowNumber": "242",
+      "headerDetail": "明細行",
+      "clId": "QRID127",
+      "itemDefinition": "✔定貫品目（個数でカウントできる品目）の数量単位指定が「セット」の場合：1セット当たりのバラ数量\r\n✔定貫品目の数量単位指定が「個」の場合：利用しない\r\n✔不定貫品目（個数でカウントできない品目）の数量単位指定の場合：利用しない。\r\n✔ハイブリッド品目（数量指定は定貫品目、金額計算は不定貫品目）の場合：指定した定貫品目数量単位の1単位当たりの重量等",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v4"
+    },
+    {
+      "itemName": "見積回答入り数数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "QRID128",
+      "itemDefinition": "見積回答セット単位数量（入り数）の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "見積回答セット数量",
+      "rowNumber": "243",
+      "headerDetail": "明細行",
+      "clId": "QRID129",
+      "itemDefinition": "この明細行品目がセットで見積回答する場合のセット数量\r\n流通業の固有仕様。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.0.1"
+    },
+    {
+      "itemName": "見積回答セット数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "QRID130",
+      "itemDefinition": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "見積回答バラ数量",
+      "rowNumber": "244",
+      "headerDetail": "明細行",
+      "clId": "QRID131",
+      "itemDefinition": "この明細行品目が単体（バラ）で見積回答する場合のバラ数量\r\n流通業の固有仕様。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.0.1"
+    },
+    {
+      "itemName": "見積回答バラ数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "QRID132",
+      "itemDefinition": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細納入先クラス",
+      "rowNumber": "245",
+      "headerDetail": "明細行",
+      "clId": "QRCL34",
+      "itemDefinition": "納入先企業に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先ID",
+      "rowNumber": "247",
+      "headerDetail": "明細行",
+      "clId": "QRID133",
+      "itemDefinition": "納入先の企業／工場・事業所・事業部門等を表すID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先国際企業ID",
+      "rowNumber": "248",
+      "headerDetail": "明細行",
+      "clId": "QRID134",
+      "itemDefinition": "納入先企業を表す国際企業ID。中小企業共通EDIでは法人番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先名称",
+      "rowNumber": "249",
+      "headerDetail": "明細行",
+      "clId": "QRID135",
+      "itemDefinition": "納入先の企業／工場・事業所・事業部門等の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細見積連絡先クラス",
+      "rowNumber": "250",
+      "headerDetail": "明細行",
+      "clId": "QRCL35",
+      "itemDefinition": "納入先の連絡先の情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先担当者",
+      "rowNumber": "252",
+      "headerDetail": "明細行",
+      "clId": "QRID136",
+      "itemDefinition": "明細納入先の担当者名",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先部門名",
+      "rowNumber": "253",
+      "headerDetail": "明細行",
+      "clId": "QRID137",
+      "itemDefinition": "明細納入先の部門名",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "住所クラス",
+      "rowNumber": "254",
+      "headerDetail": "明細行",
+      "clId": "QRCL36",
+      "itemDefinition": "住所に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先郵便番号",
+      "rowNumber": "256",
+      "headerDetail": "明細行",
+      "clId": "QRID138",
+      "itemDefinition": "納入先の郵便番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細納入先住所",
+      "rowNumber": "257",
+      "headerDetail": "明細行",
+      "clId": "QRID139",
+      "itemDefinition": "納入先の住所",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "要求納期クラス",
+      "rowNumber": "258",
+      "headerDetail": "明細行",
+      "clId": "QRCL37",
+      "itemDefinition": "納入要求に関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "要求納入日",
+      "rowNumber": "260",
+      "headerDetail": "明細行",
+      "clId": "QRID140",
+      "itemDefinition": "見積依頼者か提示した、明細見積依頼品の納入期日，または納入希望日。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入場所クラス",
+      "rowNumber": "261",
+      "headerDetail": "明細行",
+      "clId": "QRCL38",
+      "itemDefinition": "納入場所に関する情報のクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入場所コード",
+      "rowNumber": "263",
+      "headerDetail": "明細行",
+      "clId": "QRID141",
+      "itemDefinition": "納入場所または受渡場所を示すコード。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入場所名称",
+      "rowNumber": "264",
+      "headerDetail": "明細行",
+      "clId": "QRID142",
+      "itemDefinition": "納入場所または受渡場所の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "回答納期クラス",
+      "rowNumber": "265",
+      "headerDetail": "明細行",
+      "clId": "QRCL39",
+      "itemDefinition": "回答納期に関する情報のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "回答納入日",
+      "rowNumber": "267",
+      "headerDetail": "明細行",
+      "clId": "QRID143",
+      "itemDefinition": "受注者が発注者に提示した、明細見積依頼品の回答納入日。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答明細金額クラス",
+      "rowNumber": "270",
+      "headerDetail": "明細行",
+      "clId": "QRCL40",
+      "itemDefinition": "見積回答書の明細行合計金額のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答明細金額(税抜き)",
+      "rowNumber": "272",
+      "headerDetail": "明細行",
+      "clId": "QRID144",
+      "itemDefinition": "明細見積回答品の見積回答金額(税抜き）。（単価(税抜き)×数量）",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答明細金額(税込み)",
+      "rowNumber": "273",
+      "headerDetail": "明細行",
+      "clId": "QRID145",
+      "itemDefinition": "明細見積回答品の見積回答金額(税込み）。（単価(税込み)×数量）",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "明細行税クラス",
+      "rowNumber": "274",
+      "headerDetail": "明細行",
+      "clId": "QRCL41",
+      "itemDefinition": "明細行の税に関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "明細行税タイプコード",
+      "rowNumber": "276",
+      "headerDetail": "明細行",
+      "clId": "QRID146",
+      "itemDefinition": "税の種類を識別するコード\r\nデフォルトは消費税",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "掲載行課税対象金額（税抜き）",
+      "rowNumber": "277",
+      "headerDetail": "明細行",
+      "clId": "QRID147",
+      "itemDefinition": "税抜き消費税課税対象金額（＝単価(税抜き)×数量）",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "明細行課税分類コード",
+      "rowNumber": "278",
+      "headerDetail": "明細行",
+      "clId": "QRID148",
+      "itemDefinition": "消費税の課税分類属性(標準税率、軽減税率など)を識別するための識別コード。",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "明細行課税分類名",
+      "rowNumber": "279",
+      "headerDetail": "明細行",
+      "clId": "QRID149",
+      "itemDefinition": "消費税の課税分類属性(標準税率、軽減税率など)を識別するための区分名",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "明細行税率",
+      "rowNumber": "280",
+      "headerDetail": "明細行",
+      "clId": "QRID150",
+      "itemDefinition": "税区分に対応する消費税率",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "明細行課税対象金額（税込み）",
+      "rowNumber": "281",
+      "headerDetail": "明細行",
+      "clId": "QRID151",
+      "itemDefinition": "税込み消費税課税対象金額（＝単価(税込み)×数量）",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "見積品目クラス",
+      "rowNumber": "282",
+      "headerDetail": "明細行",
+      "clId": "QRCL42",
+      "itemDefinition": "見積依頼品に関する情報のクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1/v4.1"
+    },
+    {
+      "itemName": "品目ID",
+      "rowNumber": "284",
+      "headerDetail": "明細行",
+      "clId": "QRID152",
+      "itemDefinition": "見積依頼者が見積依頼の品目を特定するために付与したID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "品目名",
+      "rowNumber": "285",
+      "headerDetail": "明細行",
+      "clId": "QRID153",
+      "itemDefinition": "見積依頼品の品目名。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "品目摘要",
+      "rowNumber": "286",
+      "headerDetail": "明細行",
+      "clId": "QRID154",
+      "itemDefinition": "この見積依頼品品を文字で説明したもの",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "機種",
+      "rowNumber": "287",
+      "headerDetail": "明細行",
+      "clId": "QRID155",
+      "itemDefinition": "この見積依頼品の完成品の種別を特定するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "品目数量単位判別子",
+      "rowNumber": "288",
+      "headerDetail": "明細行",
+      "clId": "QRID156",
+      "itemDefinition": "品目数量単位の区分（定貫品目、不定貫品目、ハイブリッド品目、実測不定貫品目、実測ハイブリッド品目）の判別子。デフォルトは定貫品目",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "サイズコード",
+      "rowNumber": "289",
+      "headerDetail": "明細行",
+      "clId": "QRID157",
+      "itemDefinition": "この見積品目のサイズを特定するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "サイズ記述",
+      "rowNumber": "290",
+      "headerDetail": "明細行",
+      "clId": "QRID158",
+      "itemDefinition": "この見積品目のサイズに関する文字による記述",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "品目特性クラス",
+      "rowNumber": "291",
+      "headerDetail": "明細行",
+      "clId": "QRCL43",
+      "itemDefinition": "品目特性に関する情報からなるクラス。",
+      "repetition": "0..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "品目特性ID",
+      "rowNumber": "293",
+      "headerDetail": "明細行",
+      "clId": "QRID159",
+      "itemDefinition": "品目の特性を識別するID、",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "品目特性タイプコード",
+      "rowNumber": "294",
+      "headerDetail": "明細行",
+      "clId": "QRID160",
+      "itemDefinition": "品目特性クラスの利用者を識別するコード\r\n・業種固有仕様の場合は業種ID入力\r\n・ユーザー固有仕様の場合は利用しない",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "品目特性説明",
+      "rowNumber": "295",
+      "headerDetail": "明細行",
+      "clId": "QRID161",
+      "itemDefinition": "この品目特性(材質、規格、寸法、形状など)を文字で説明したもの。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "品目特性内容コード",
+      "rowNumber": "296",
+      "headerDetail": "明細行",
+      "clId": "QRID162",
+      "itemDefinition": "この品目特性の内容を特定するために付与するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "製造者クラス",
+      "rowNumber": "297",
+      "headerDetail": "明細行",
+      "clId": "QRCL44",
+      "itemDefinition": "品目製造者の情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "指定メーカーコード",
+      "rowNumber": "299",
+      "headerDetail": "明細行",
+      "clId": "QRID163",
+      "itemDefinition": "見積依頼品の製造者を特定するために付与したコード",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "指定メーカー名",
+      "rowNumber": "300",
+      "headerDetail": "明細行",
+      "clId": "QRID164",
+      "itemDefinition": "見積依頼品の製造者の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答技術文書クラス",
+      "rowNumber": "301",
+      "headerDetail": "明細行",
+      "clId": "QRCL45",
+      "itemDefinition": "見積回答技術文書（（図面・仕様書等）に関する情報のクラス。",
+      "repetition": "0..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "見積回答技術文書ID",
+      "rowNumber": "303",
+      "headerDetail": "明細行",
+      "clId": "QRID165",
+      "itemDefinition": "見積回答者が提示する図面・仕様書等の技術文書管理ID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "技術文書URI",
+      "rowNumber": "304",
+      "headerDetail": "明細行",
+      "clId": "QRID166",
+      "itemDefinition": "技術文書のURI",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "版数",
+      "rowNumber": "305",
+      "headerDetail": "明細行",
+      "clId": "QRID167",
+      "itemDefinition": "図面・仕様書等の作成・変更回数を表す。品目・品目コードと共に品目の内容を特定する。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "技術文書ファイル名",
+      "rowNumber": "306",
+      "headerDetail": "明細行",
+      "clId": "QRID168",
+      "itemDefinition": "技術文書のファイル名称、参照URL等を示す。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "技術文書情報",
+      "rowNumber": "307",
+      "headerDetail": "明細行",
+      "clId": "QRID169",
+      "itemDefinition": "技術文書に関する情報",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "技術支給書添付ファイル",
+      "rowNumber": "308",
+      "headerDetail": "明細行",
+      "clId": "QRID170",
+      "itemDefinition": "この文書ヘッダ参照文書の添付バイナリファイルの有無を指定\r\nありの場合はUN01006015のバイナリファイルID（BASE64）を入力",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書サブタイプコード",
+      "rowNumber": "309",
+      "headerDetail": "明細行",
+      "clId": "QRID171",
+      "itemDefinition": "この文書が技術文書であることを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "梱包クラス",
+      "rowNumber": "310",
+      "headerDetail": "明細行",
+      "clId": "QRCL46",
+      "itemDefinition": "物流梱包に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v4.0.1"
+    },
+    {
+      "itemName": "出荷梱包単位数量",
+      "rowNumber": "312",
+      "headerDetail": "明細行",
+      "clId": "QRID172",
+      "itemDefinition": "出荷梱包単位の数量",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "出荷梱包単位数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "QRID173",
+      "itemDefinition": "出荷梱包単位数量の数量単位を指定するコード。出荷梱包数量単位コード値を出荷梱包単位数量の属性として組込む",
+      "repetition": "",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "荷姿コード",
+      "rowNumber": "313",
+      "headerDetail": "明細行",
+      "clId": "QRID174",
+      "itemDefinition": "納入品のパッケージの梱包方法を示すコード。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "codeType": "品目数量単位判別子-unknown-1",
+  "sheetName": "品目数量単位判別子 (unknown)",
+  "tableType": "unknown",
+  "region": {
+    "startRow": 16,
+    "endRow": 18,
+    "startCol": 7,
+    "endCol": 9
+  },
+  "codes": [
+    {
+      "code": "D",
+      "codeName": "不定貫品目"
+    },
+    {
+      "code": "D1",
+      "codeName": "実測不定貫品目"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "codeType": "課税分類コード-code-definition-0",
+  "sheetName": "課税分類コード (code-definition)",
+  "tableType": "code-definition",
+  "region": {
+    "startRow": 12,
+    "endRow": 20,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "AA",
+      "codeName": "Lower rate",
+      "internationalCode": "AA",
+      "internationalCodeName": "Lower rate"
+    },
+    {
+      "code": "AE",
+      "codeName": "VAT Reverse Charge",
+      "internationalCode": "AE",
+      "internationalCodeName": "VAT Reverse Charge"
+    },
+    {
+      "code": "E",
+      "codeName": "Exempt from tax",
+      "internationalCode": "E",
+      "internationalCodeName": "Exempt from tax"
+    },
+    {
+      "code": "G",
+      "codeName": "Free export item, tax not charged",
+      "internationalCode": "G",
+      "internationalCodeName": "Free export item, tax not charged"
+    },
+    {
+      "code": "O",
+      "codeName": "Services outside scope of tax",
+      "internationalCode": "O",
+      "internationalCodeName": "Services outside scope of tax"
+    },
+    {
+      "code": "S",
+      "codeName": "Standard rate",
+      "internationalCode": "S",
+      "internationalCodeName": "Standard rate"
+    }
+  ]
+}

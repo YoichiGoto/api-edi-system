@@ -1,0 +1,33 @@
+{
+  "codeType": "文書タイプコード-unknown-1",
+  "sheetName": "文書タイプコード (unknown)",
+  "tableType": "unknown",
+  "region": {
+    "startRow": 34,
+    "endRow": 43,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "389",
+      "codeName": "Self-billed invoice"
+    },
+    {
+      "code": "527",
+      "codeName": "Self billed debit note"
+    },
+    {
+      "code": "81",
+      "codeName": "Credit note related to goods or services"
+    },
+    {
+      "code": "82",
+      "codeName": "Metered services invoice"
+    },
+    {
+      "code": "380",
+      "codeName": "Commercial invoice\r\n（デフォルト）"
+    }
+  ]
+}

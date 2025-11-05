@@ -1,0 +1,37 @@
+{
+  "codeType": "国際アドレス登録機関コード-code-definition",
+  "sheetName": "国際アドレス登録機関コード (code-definition)",
+  "tableType": "code-definition",
+  "region": {
+    "startRow": 9,
+    "endRow": 16,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "0060",
+      "codeName": "D-U-N-S Number",
+      "internationalCode": "0060",
+      "internationalCodeName": "D-U-N-S Number"
+    },
+    {
+      "code": "0088",
+      "codeName": "GLN",
+      "internationalCode": "0088",
+      "internationalCodeName": "GLN"
+    },
+    {
+      "code": "0147",
+      "codeName": "Standard Company Code",
+      "internationalCode": "0147",
+      "internationalCodeName": "Standard Company Code"
+    },
+    {
+      "code": "0170",
+      "codeName": "Teikoku Company Code",
+      "internationalCode": "0170",
+      "internationalCodeName": "Teikoku Company Code"
+    }
+  ]
+}

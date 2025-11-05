@@ -1,0 +1,1667 @@
+{
+  "sheetName": "注文・中小全項目",
+  "messageType": "order",
+  "fields": [
+    {
+      "appField": "行番号",
+      "ediField": "ヘッダ/\r\n明細行",
+      "ediId": "CL/ID",
+      "required": false
+    },
+    {
+      "appField": "1",
+      "ediField": "ヘッダ",
+      "ediId": "OCL1",
+      "required": false,
+      "description": "注文文書全体に関する情報からなるクラス。"
+    },
+    {
+      "appField": "2",
+      "ediField": "ヘッダ",
+      "ediId": "OID1",
+      "required": false,
+      "description": "発注者が注文書を特定するために付番する管理ID。"
+    },
+    {
+      "appField": "3",
+      "ediField": "ヘッダ",
+      "ediId": "OID2",
+      "required": false,
+      "description": "発注者が注文書に付与した文書名称"
+    },
+    {
+      "appField": "4",
+      "ediField": "ヘッダ",
+      "ediId": "OID3",
+      "required": false,
+      "description": "注文書文書タイプコード"
+    },
+    {
+      "appField": "5",
+      "ediField": "ヘッダ",
+      "ediId": "OID4",
+      "required": false,
+      "description": "発注者が注文を行った日付，または注文書の書面上の発行日付。"
+    },
+    {
+      "appField": "6",
+      "ediField": "ヘッダ",
+      "ediId": "OID5",
+      "required": true,
+      "description": "発注者が注文の目的（新規、変更、取消、打切り）を管理するために付番したコード"
+    },
+    {
+      "appField": "7",
+      "ediField": "ヘッダ",
+      "ediId": "OID6",
+      "required": false
+    },
+    {
+      "appField": "8",
+      "ediField": "ヘッダ",
+      "ediId": "OID7",
+      "required": false,
+      "description": "注文書の変更履歴を管理するID。"
+    },
+    {
+      "appField": "9",
+      "ediField": "ヘッダ",
+      "ediId": "OID8",
+      "required": false,
+      "description": "注文の状態（確定／仮発注／内示など）を管理するために発注者が附番したコード"
+    },
+    {
+      "appField": "10",
+      "ediField": "ヘッダ",
+      "ediId": "OID9",
+      "required": false,
+      "description": "注文書文書サブタイプコード"
+    },
+    {
+      "appField": "11",
+      "ediField": "ヘッダ",
+      "ediId": "OCL2",
+      "required": false,
+      "description": "ヘッダ注釈を記述するためのクラス"
+    },
+    {
+      "appField": "12",
+      "ediField": "ヘッダ",
+      "ediId": "OID10",
+      "required": false,
+      "description": "ヘッダ注釈内容の表題を示す。\r\n一部に利用制限あり。標準仕様書３．３．５項参照。"
+    },
+    {
+      "appField": "13",
+      "ediField": "ヘッダ",
+      "ediId": "OID11",
+      "required": false,
+      "description": "ヘッダ注釈表題毎の内容情報を入力するフリースペース。\r\n一部に利用制限あり。標準仕様書３．３．５項参照"
+    },
+    {
+      "appField": "14",
+      "ediField": "ヘッダ",
+      "ediId": "OID12",
+      "required": false,
+      "description": "ヘッダ注釈の識別ID\r\n共通EDIプロバイダがシリアル番号をセット。標準仕様書３．３．５項参照"
+    },
+    {
+      "appField": "15",
+      "ediField": "ヘッダ",
+      "ediId": "OCL3",
+      "required": false,
+      "description": "添付バイナリファイルクラス"
+    },
+    {
+      "appField": "16",
+      "ediField": "ヘッダ",
+      "ediId": "OID13",
+      "required": false,
+      "description": "添付バイナリファイルID"
+    },
+    {
+      "appField": "17",
+      "ediField": "ヘッダ",
+      "ediId": "OID14",
+      "required": false,
+      "description": "添付バイナリファイル版数"
+    },
+    {
+      "appField": "18",
+      "ediField": "ヘッダ",
+      "ediId": "OID15",
+      "required": false,
+      "description": "添付バイナリファイル名"
+    },
+    {
+      "appField": "19",
+      "ediField": "ヘッダ",
+      "ediId": "OID16",
+      "required": false,
+      "description": "添付バイナリファイルURIID"
+    },
+    {
+      "appField": "20",
+      "ediField": "ヘッダ",
+      "ediId": "OID17",
+      "required": false,
+      "description": "添付バイナリファイルのMIMEコード"
+    },
+    {
+      "appField": "21",
+      "ediField": "ヘッダ",
+      "ediId": "OID18",
+      "required": false,
+      "description": "添付バイナリファイルエンコードコード"
+    },
+    {
+      "appField": "22",
+      "ediField": "ヘッダ",
+      "ediId": "OID19",
+      "required": false,
+      "description": "添付バイナリファイル出力コード"
+    },
+    {
+      "appField": "23",
+      "ediField": "ヘッダ",
+      "ediId": "OID20",
+      "required": false,
+      "description": "添付バイナリファイルの説明文"
+    },
+    {
+      "appField": "24",
+      "ediField": "ヘッダ",
+      "ediId": "OCL4",
+      "required": false,
+      "description": "受注者に関する情報からなるクラス。"
+    },
+    {
+      "appField": "25",
+      "ediField": "ヘッダ",
+      "ediId": "OID21",
+      "required": false,
+      "description": "注文を受ける企業を表す企業ID"
+    },
+    {
+      "appField": "26",
+      "ediField": "ヘッダ",
+      "ediId": "OID22",
+      "required": true,
+      "description": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨"
+    },
+    {
+      "appField": "27",
+      "ediField": "ヘッダ",
+      "ediId": "OID23",
+      "required": true,
+      "description": "注文を受ける企業/工場・事業所・事業部門等を表す名称。"
+    },
+    {
+      "appField": "28",
+      "ediField": "ヘッダ",
+      "ediId": "OID24",
+      "required": false,
+      "description": "登録された請求者の適格請求書発行事業者番号"
+    },
+    {
+      "appField": "29",
+      "ediField": "ヘッダ",
+      "ediId": "OCL5",
+      "required": false,
+      "description": "受注者連絡先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "30",
+      "ediField": "ヘッダ",
+      "ediId": "OID25",
+      "required": false,
+      "description": "受注者の受注部門を表すID"
+    },
+    {
+      "appField": "31",
+      "ediField": "ヘッダ",
+      "ediId": "OID26",
+      "required": false,
+      "description": "受注者の受注担当者を表す名称"
+    },
+    {
+      "appField": "32",
+      "ediField": "ヘッダ",
+      "ediId": "OID27",
+      "required": false,
+      "description": "受注者の受注部門を表す名称"
+    },
+    {
+      "appField": "33",
+      "ediField": "ヘッダ",
+      "ediId": "OID28",
+      "required": false
+    },
+    {
+      "appField": "34",
+      "ediField": "ヘッダ",
+      "ediId": "OID29",
+      "required": false
+    },
+    {
+      "appField": "35",
+      "ediField": "ヘッダ",
+      "ediId": "OID30",
+      "required": false,
+      "description": "受注者の電子メールアドレス。"
+    },
+    {
+      "appField": "36",
+      "ediField": "ヘッダ",
+      "ediId": "OCL6",
+      "required": false,
+      "description": "受注者住所に関する情報からなるクラス。"
+    },
+    {
+      "appField": "37",
+      "ediField": "ヘッダ",
+      "ediId": "OID31",
+      "required": false
+    },
+    {
+      "appField": "38",
+      "ediField": "ヘッダ",
+      "ediId": "OID32",
+      "required": false
+    },
+    {
+      "appField": "39",
+      "ediField": "ヘッダ",
+      "ediId": "OCL7",
+      "required": false,
+      "description": "発注者に関する情報からなるクラス。"
+    },
+    {
+      "appField": "40",
+      "ediField": "ヘッダ",
+      "ediId": "OID33",
+      "required": false,
+      "description": "注文を行う企業/工場・事業所・事業部門等を表すID"
+    },
+    {
+      "appField": "41",
+      "ediField": "ヘッダ",
+      "ediId": "OID34",
+      "required": true,
+      "description": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨"
+    },
+    {
+      "appField": "42",
+      "ediField": "ヘッダ",
+      "ediId": "OID35",
+      "required": true,
+      "description": "注文を行う企業/工場・事業所・事業部門等を表す名称。"
+    },
+    {
+      "appField": "43",
+      "ediField": "ヘッダ",
+      "ediId": "OCL8",
+      "required": false,
+      "description": "発注者連絡先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "44",
+      "ediField": "ヘッダ",
+      "ediId": "OID36",
+      "required": false,
+      "description": "発注者の発注部門を表すID"
+    },
+    {
+      "appField": "45",
+      "ediField": "ヘッダ",
+      "ediId": "OID37",
+      "required": false,
+      "description": "発注者の発注担当者の名称"
+    },
+    {
+      "appField": "46",
+      "ediField": "ヘッダ",
+      "ediId": "OID38",
+      "required": false,
+      "description": "発注者の発注部門を表す名称"
+    },
+    {
+      "appField": "47",
+      "ediField": "ヘッダ",
+      "ediId": "OID39",
+      "required": false
+    },
+    {
+      "appField": "48",
+      "ediField": "ヘッダ",
+      "ediId": "OID40",
+      "required": false
+    },
+    {
+      "appField": "49",
+      "ediField": "ヘッダ",
+      "ediId": "OID41",
+      "required": false,
+      "description": "発注者の電子メールアドレス。"
+    },
+    {
+      "appField": "50",
+      "ediField": "ヘッダ",
+      "ediId": "OCL9",
+      "required": false,
+      "description": "発注者住所に関する情報からなるクラス。"
+    },
+    {
+      "appField": "51",
+      "ediField": "ヘッダ",
+      "ediId": "OID42",
+      "required": false
+    },
+    {
+      "appField": "52",
+      "ediField": "ヘッダ",
+      "ediId": "OID43",
+      "required": false
+    },
+    {
+      "appField": "53",
+      "ediField": "ヘッダ",
+      "ediId": "OCL10",
+      "required": false,
+      "description": "（ヘッダ参照）見積回答書クラス"
+    },
+    {
+      "appField": "54",
+      "ediField": "ヘッダ",
+      "ediId": "OID44",
+      "required": false,
+      "description": "（ヘッダ参照）見積回答書ID"
+    },
+    {
+      "appField": "55",
+      "ediField": "ヘッダ",
+      "ediId": "OID45",
+      "required": false,
+      "description": "（ヘッダ参照）見積回答書発行日"
+    },
+    {
+      "appField": "56",
+      "ediField": "ヘッダ",
+      "ediId": "OID46",
+      "required": false,
+      "description": "（ヘッダ参照）見積回答履歴ID"
+    },
+    {
+      "appField": "57",
+      "ediField": "ヘッダ",
+      "ediId": "OID47",
+      "required": false,
+      "description": "（ヘッダ参照）見積回答書情報"
+    },
+    {
+      "appField": "58",
+      "ediField": "ヘッダ",
+      "ediId": "OID48",
+      "required": false,
+      "description": "（ヘッダ参照）見積回答書目的コード"
+    },
+    {
+      "appField": "59",
+      "ediField": "ヘッダ",
+      "ediId": "OID49",
+      "required": false,
+      "description": "（ヘッダ参照）文書サブタイプコード"
+    },
+    {
+      "appField": "60",
+      "ediField": "ヘッダ",
+      "ediId": "OCL11",
+      "required": false,
+      "description": "（ヘッダ参照）注文回答書クラス"
+    },
+    {
+      "appField": "61",
+      "ediField": "ヘッダ",
+      "ediId": "OID50",
+      "required": false,
+      "description": "（ヘッダ参照）注文回答書ID"
+    },
+    {
+      "appField": "62",
+      "ediField": "ヘッダ",
+      "ediId": "OID51",
+      "required": false,
+      "description": "（ヘッダ参照）注文回答書発行日"
+    },
+    {
+      "appField": "63",
+      "ediField": "ヘッダ",
+      "ediId": "OID52",
+      "required": false,
+      "description": "（ヘッダ参照）注文回答履歴ID"
+    },
+    {
+      "appField": "64",
+      "ediField": "ヘッダ",
+      "ediId": "OID53",
+      "required": false,
+      "description": "（ヘッダ参照）注文回答書情報"
+    },
+    {
+      "appField": "65",
+      "ediField": "ヘッダ",
+      "ediId": "OID54",
+      "required": false,
+      "description": "（ヘッダ参照）注文回答書目的コード"
+    },
+    {
+      "appField": "66",
+      "ediField": "ヘッダ",
+      "ediId": "OID55",
+      "required": false,
+      "description": "（ヘッダ参照）文書サブタイプコード"
+    },
+    {
+      "appField": "67",
+      "ediField": "ヘッダ",
+      "ediId": "OCL12",
+      "required": false,
+      "description": "注文に関係する企業（エンドユーザー、代理店など）のクラス"
+    },
+    {
+      "appField": "68",
+      "ediField": "ヘッダ",
+      "ediId": "OID56",
+      "required": false,
+      "description": "商社経由取引などで注文に関係する企業（エンドユーザー、代理店など）を示すID"
+    },
+    {
+      "appField": "69",
+      "ediField": "ヘッダ",
+      "ediId": "OID57",
+      "required": false,
+      "description": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨"
+    },
+    {
+      "appField": "70",
+      "ediField": "ヘッダ",
+      "ediId": "OID58",
+      "required": false,
+      "description": "商社経由取引などで注文に関係する企業（エンドユーザー、代理店など）の名称"
+    },
+    {
+      "appField": "71",
+      "ediField": "ヘッダ",
+      "ediId": "OID59",
+      "required": false,
+      "description": "関係企業の役割を特定するコード\r\n(付表３参照)"
+    },
+    {
+      "appField": "72",
+      "ediField": "ヘッダ",
+      "ediId": "OCL13",
+      "required": false,
+      "description": "関係企業の連絡先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "73",
+      "ediField": "ヘッダ",
+      "ediId": "OID60",
+      "required": false
+    },
+    {
+      "appField": "74",
+      "ediField": "ヘッダ",
+      "ediId": "OID61",
+      "required": false,
+      "description": "関係企業の担当者の氏名"
+    },
+    {
+      "appField": "75",
+      "ediField": "ヘッダ",
+      "ediId": "OID62",
+      "required": false
+    },
+    {
+      "appField": "76",
+      "ediField": "ヘッダ",
+      "ediId": "OCL14",
+      "required": false,
+      "description": "プロジェクト調達クラス"
+    },
+    {
+      "appField": "77",
+      "ediField": "ヘッダ",
+      "ediId": "OID63",
+      "required": false,
+      "description": "発注品に関するプロジェクト・工事案件等を管理するためのID。"
+    },
+    {
+      "appField": "78",
+      "ediField": "ヘッダ",
+      "ediId": "OID64",
+      "required": false,
+      "description": "発注品に関するプロジェクト・工事案件等の名称。"
+    },
+    {
+      "appField": "79",
+      "ediField": "ヘッダ",
+      "ediId": "OCL15",
+      "required": false,
+      "description": "プロジェクト調達の検収に関する情報のクラス"
+    },
+    {
+      "appField": "80",
+      "ediField": "ヘッダ",
+      "ediId": "OID65",
+      "required": false,
+      "description": "プロジェクト・工事案件の検収条件（工事完成基準、工事進行基準）を区分するコード"
+    },
+    {
+      "appField": "81",
+      "ediField": "ヘッダ",
+      "ediId": "OID66",
+      "required": false,
+      "description": "プロジェクト・工事案件の検収条件を示す文言"
+    },
+    {
+      "appField": "82",
+      "ediField": "ヘッダ",
+      "ediId": "OCL16",
+      "required": false,
+      "description": "プロジェクトの工期に関するクラス"
+    },
+    {
+      "appField": "83",
+      "ediField": "ヘッダ",
+      "ediId": "OID67",
+      "required": false
+    },
+    {
+      "appField": "84",
+      "ediField": "ヘッダ",
+      "ediId": "OID68",
+      "required": false
+    },
+    {
+      "appField": "85",
+      "ediField": "ヘッダ",
+      "ediId": "OCL17",
+      "required": false,
+      "description": "納入先企業に関する情報からなるヘッダクラス。"
+    },
+    {
+      "appField": "86",
+      "ediField": "ヘッダ",
+      "ediId": "OID69",
+      "required": false,
+      "description": "納入先の企業／工場・事業所・事業部門等を表すID"
+    },
+    {
+      "appField": "87",
+      "ediField": "ヘッダ",
+      "ediId": "OID70",
+      "required": false,
+      "description": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨"
+    },
+    {
+      "appField": "88",
+      "ediField": "ヘッダ",
+      "ediId": "OID71",
+      "required": false,
+      "description": "納入先の企業／工場・事業所・事業部門等の名称"
+    },
+    {
+      "appField": "89",
+      "ediField": "ヘッダ",
+      "ediId": "OCL18",
+      "required": false,
+      "description": "納入先の連絡先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "90",
+      "ediField": "ヘッダ",
+      "ediId": "OID72",
+      "required": false
+    },
+    {
+      "appField": "91",
+      "ediField": "ヘッダ",
+      "ediId": "OID73",
+      "required": false
+    },
+    {
+      "appField": "92",
+      "ediField": "ヘッダ",
+      "ediId": "OID74",
+      "required": false
+    },
+    {
+      "appField": "93",
+      "ediField": "ヘッダ",
+      "ediId": "OID75",
+      "required": false
+    },
+    {
+      "appField": "94",
+      "ediField": "ヘッダ",
+      "ediId": "OID76",
+      "required": false
+    },
+    {
+      "appField": "95",
+      "ediField": "ヘッダ",
+      "ediId": "OID77",
+      "required": false
+    },
+    {
+      "appField": "96",
+      "ediField": "ヘッダ",
+      "ediId": "OID78",
+      "required": false,
+      "description": "納入先の電子メールアドレス"
+    },
+    {
+      "appField": "97",
+      "ediField": "ヘッダ",
+      "ediId": "OCL19",
+      "required": false,
+      "description": "納入先の住所に関する情報からなるクラス。"
+    },
+    {
+      "appField": "98",
+      "ediField": "ヘッダ",
+      "ediId": "OID79",
+      "required": false
+    },
+    {
+      "appField": "99",
+      "ediField": "ヘッダ",
+      "ediId": "OID80",
+      "required": false
+    },
+    {
+      "appField": "100",
+      "ediField": "ヘッダ",
+      "ediId": "OCL20",
+      "required": false,
+      "description": "出荷先企業に関する情報からなるクラス。"
+    },
+    {
+      "appField": "101",
+      "ediField": "ヘッダ",
+      "ediId": "OID81",
+      "required": false,
+      "description": "出荷元の企業／工場・事業所・事業部門等を表すID"
+    },
+    {
+      "appField": "102",
+      "ediField": "ヘッダ",
+      "ediId": "OID82",
+      "required": false,
+      "description": "出荷元の企業／工場・事業所・事業部門等の名称"
+    },
+    {
+      "appField": "103",
+      "ediField": "ヘッダ",
+      "ediId": "OCL21",
+      "required": false,
+      "description": "配送作業の情報からなるクラス"
+    },
+    {
+      "appField": "104",
+      "ediField": "ヘッダ",
+      "ediId": "OID83",
+      "required": false,
+      "description": "作業を識別するために付与したID"
+    },
+    {
+      "appField": "105",
+      "ediField": "ヘッダ",
+      "ediId": "OID84",
+      "required": false,
+      "description": "プロジェクトなどの代表納期"
+    },
+    {
+      "appField": "106",
+      "ediField": "ヘッダ",
+      "ediId": "OID85",
+      "required": false,
+      "description": "ヘッダ配送タイプコード"
+    },
+    {
+      "appField": "107",
+      "ediField": "ヘッダ",
+      "ediId": "OID86",
+      "required": false,
+      "description": "配送作業の内容の説明文"
+    },
+    {
+      "appField": "108",
+      "ediField": "ヘッダ",
+      "ediId": "OCL22",
+      "required": false,
+      "description": "指図温度の情報に関するクラス。"
+    },
+    {
+      "appField": "109",
+      "ediField": "ヘッダ",
+      "ediId": "OID87",
+      "required": false,
+      "description": "指図温度を指定するコード。"
+    },
+    {
+      "appField": "110",
+      "ediField": "ヘッダ",
+      "ediId": "OCL23",
+      "required": true,
+      "description": "注文時の決済に関する情報からなるクラス。"
+    },
+    {
+      "appField": "111",
+      "ediField": "ヘッダ",
+      "ediId": "OID88",
+      "required": false,
+      "description": "通貨の種別を示すコード。"
+    },
+    {
+      "appField": "112",
+      "ediField": "ヘッダ",
+      "ediId": "OCL24",
+      "required": true,
+      "description": "ヘッダの税に関する情報のクラス"
+    },
+    {
+      "appField": "113",
+      "ediField": "ヘッダ",
+      "ediId": "OID89",
+      "required": true
+    },
+    {
+      "appField": "114",
+      "ediField": "ヘッダ",
+      "ediId": "OID90",
+      "required": false,
+      "description": "税の種類を識別するコード\r\nデフォルトは消費税"
+    },
+    {
+      "appField": "115",
+      "ediField": "ヘッダ",
+      "ediId": "OID91",
+      "required": true,
+      "description": "ヘッダ課税対象合計金額（税抜き）"
+    },
+    {
+      "appField": "116",
+      "ediField": "ヘッダ",
+      "ediId": "OID92",
+      "required": false,
+      "description": "消費税の課税分類属性(標準税率、軽減税率など)を識別するための識別コード。税クラスの繰返しの自動識別キーとして使用"
+    },
+    {
+      "appField": "117",
+      "ediField": "ヘッダ",
+      "ediId": "OID93",
+      "required": false,
+      "description": "消費税の課税分類属性(標準税率、軽減税率など)を識別するための分類名"
+    },
+    {
+      "appField": "118",
+      "ediField": "ヘッダ",
+      "ediId": "OID94",
+      "required": true,
+      "description": "税区分毎の税額計算のための率。"
+    },
+    {
+      "appField": "119",
+      "ediField": "ヘッダ",
+      "ediId": "OID95",
+      "required": true,
+      "description": "ヘッダ課税対象合計金額（税込み）"
+    },
+    {
+      "appField": "120",
+      "ediField": "ヘッダ",
+      "ediId": "OID96",
+      "required": true,
+      "description": "金額の税込み、税抜きを指定。\r\nデフォルトは「税抜き」\r\n※金額が「税込み」の場合は必須。"
+    },
+    {
+      "appField": "121",
+      "ediField": "ヘッダ",
+      "ediId": "OCL25",
+      "required": false,
+      "description": "支払条件に関する情報からなるクラス。"
+    },
+    {
+      "appField": "122",
+      "ediField": "ヘッダ",
+      "ediId": "OID97",
+      "required": false,
+      "description": "商取引上の支払い条件に関して発注者が提示する文言。"
+    },
+    {
+      "appField": "123",
+      "ediField": "ヘッダ",
+      "ediId": "OID98",
+      "required": false,
+      "description": "商取引上の支払条件を識別するためのコード"
+    },
+    {
+      "appField": "124",
+      "ediField": "ヘッダ",
+      "ediId": "OCL26",
+      "required": false,
+      "description": "注文書ヘッダ合計金額のクラス"
+    },
+    {
+      "appField": "125",
+      "ediField": "ヘッダ",
+      "ediId": "OID99",
+      "required": false,
+      "description": "発注明細消費税額の合計金額。"
+    },
+    {
+      "appField": "126",
+      "ediField": "ヘッダ",
+      "ediId": "OID100",
+      "required": false,
+      "description": "税込み明細発注金額の総合計金額。"
+    },
+    {
+      "appField": "127",
+      "ediField": "ヘッダ",
+      "ediId": "OID101",
+      "required": false,
+      "description": "注文合計金額(税抜き)"
+    },
+    {
+      "appField": "128",
+      "ediField": "ヘッダ",
+      "ediId": "OID102",
+      "required": false,
+      "description": "注文合計金額（税込み）"
+    },
+    {
+      "appField": "129",
+      "ediField": "明細行",
+      "ediId": "OCL27",
+      "required": true,
+      "description": "注文の明細行に関する情報からなるクラス。"
+    },
+    {
+      "appField": "130",
+      "ediField": "明細行",
+      "ediId": "OID103",
+      "required": false,
+      "description": "複数明細発注の行ID。明細発注を特定するためには注文書IDとの複合キーで特定する。"
+    },
+    {
+      "appField": "131",
+      "ediField": "明細行",
+      "ediId": "OID104",
+      "required": false,
+      "description": "発注者が注文明細の目的（新規、変更、取消、打切り）を管理するために付番したコード"
+    },
+    {
+      "appField": "132",
+      "ediField": "明細行",
+      "ediId": "OID105",
+      "required": false,
+      "description": "注文明細状態理由コード"
+    },
+    {
+      "appField": "133",
+      "ediField": "明細行",
+      "ediId": "OID106",
+      "required": false,
+      "description": "複数注文明細の場合に注文明細行をユニークに識別するために付与したシーケンスIDなど。"
+    },
+    {
+      "appField": "134",
+      "ediField": "明細行",
+      "ediId": "OID107",
+      "required": false,
+      "description": "注文明細の類型（一般品、特注品など）を管理するために発注者が附番したコード"
+    },
+    {
+      "appField": "135",
+      "ediField": "明細行",
+      "ediId": "OCL28",
+      "required": false,
+      "description": "明細注釈を記述するクラス"
+    },
+    {
+      "appField": "136",
+      "ediField": "明細行",
+      "ediId": "OID108",
+      "required": false,
+      "description": "明細行の注釈内容の表題を示す。\r\n一部に利用制限あり。標準仕様書３．３．５項参照"
+    },
+    {
+      "appField": "137",
+      "ediField": "明細行",
+      "ediId": "OID109",
+      "required": false,
+      "description": "明細行の注釈表題毎の内容情報を入力するフリースペース。\r\n一部に利用制限あり。標準仕様書３．３．５項参照"
+    },
+    {
+      "appField": "138",
+      "ediField": "明細行",
+      "ediId": "OID110",
+      "required": false,
+      "description": "明細行注釈の識別ID\r\n共通EDIプロバイダがシリアル番号をセット。標準仕様書３．３．５項参照"
+    },
+    {
+      "appField": "139",
+      "ediField": "明細行",
+      "ediId": "OCL29",
+      "required": false,
+      "description": "（明細行参照）見積回答書明細クラス"
+    },
+    {
+      "appField": "140",
+      "ediField": "明細行",
+      "ediId": "OID111",
+      "required": false,
+      "description": "（明細行参照）見積回答書ID"
+    },
+    {
+      "appField": "141",
+      "ediField": "明細行",
+      "ediId": "OID112",
+      "required": false,
+      "description": "（明細行参照）見積回答書明細行ID"
+    },
+    {
+      "appField": "142",
+      "ediField": "明細行",
+      "ediId": "OID113",
+      "required": false,
+      "description": "（明細行参照）見積回答履歴ID"
+    },
+    {
+      "appField": "143",
+      "ediField": "明細行",
+      "ediId": "OID114",
+      "required": false,
+      "description": "（明細行参照）見積回答明細参照情報"
+    },
+    {
+      "appField": "144",
+      "ediField": "明細行",
+      "ediId": "OCL30",
+      "required": false,
+      "description": "（明細行参照）エンドユーザー購買文書クラス"
+    },
+    {
+      "appField": "145",
+      "ediField": "明細行",
+      "ediId": "OID115",
+      "required": false,
+      "description": "エンドユーザー注文ID"
+    },
+    {
+      "appField": "146",
+      "ediField": "明細行",
+      "ediId": "OCL31",
+      "required": false,
+      "description": "注文価格に関する情報からなるクラス。"
+    },
+    {
+      "appField": "147",
+      "ediField": "明細行",
+      "ediId": "OID116",
+      "required": false,
+      "description": "単価の種別を示すコード"
+    },
+    {
+      "appField": "148",
+      "ediField": "明細行",
+      "ediId": "OID117",
+      "required": false,
+      "description": "発注者が提示した明細発注品の１単位あたりの取引単価。税込み、税抜きの識別はヘッダ部の「UN01013096：税計算方式」で指定（指定がない場合は税抜き）。"
+    },
+    {
+      "appField": "149",
+      "ediField": "明細行",
+      "ediId": "OID118",
+      "required": false,
+      "description": "✔定貫品目の場合：空欄（デフォルト）、または\r\n　単価基準数量＝１\r\n✔不定貫品目、ハイブリッド品目の場合：\r\n　単価基準数量＝単価の基準となる重量・容量"
+    },
+    {
+      "appField": "150",
+      "ediField": "明細行",
+      "ediId": "OID119",
+      "required": false,
+      "description": "単価基準数量単位コード"
+    },
+    {
+      "appField": "151",
+      "ediField": "明細行",
+      "ediId": "OCL32",
+      "required": false,
+      "description": "納入条件に関するクラス。"
+    },
+    {
+      "appField": "152",
+      "ediField": "明細行",
+      "ediId": "OID120",
+      "required": false,
+      "description": "納入条件についての説明"
+    },
+    {
+      "appField": "153",
+      "ediField": "明細行",
+      "ediId": "OCL33",
+      "required": false,
+      "description": "注文明細行の配送に関する情報からなるクラス。"
+    },
+    {
+      "appField": "154",
+      "ediField": "明細行",
+      "ediId": "OID121",
+      "required": false,
+      "description": "この情報項目は取引数量の指定に利用する。\r\nこの項目の属性として数量単位コードを指定することにより、ずべての品目の取引数量指定に利用できる。\r\n流通業の定貫品目取引では、この項目は利用せず「セット数量」または「バラ数量」を利用する。"
+    },
+    {
+      "appField": "155",
+      "ediField": "明細行",
+      "ediId": "OID122",
+      "required": true,
+      "description": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む"
+    },
+    {
+      "appField": "156",
+      "ediField": "明細行",
+      "ediId": "OID123",
+      "required": false,
+      "description": "セット単位数量(入り数）"
+    },
+    {
+      "appField": "157",
+      "ediField": "明細行",
+      "ediId": "OID124",
+      "required": true,
+      "description": "注文入り数数量単位コード"
+    },
+    {
+      "appField": "158",
+      "ediField": "明細行",
+      "ediId": "OID125",
+      "required": false,
+      "description": "この明細行品目が定貫品目（セット）で注文する場合のセット数量\r\n流通業の固有仕様。"
+    },
+    {
+      "appField": "159",
+      "ediField": "明細行",
+      "ediId": "OID126",
+      "required": false,
+      "description": "注文セット数量単位コード"
+    },
+    {
+      "appField": "160",
+      "ediField": "明細行",
+      "ediId": "OID127",
+      "required": false,
+      "description": "この明細行品目が定貫品目（バラ）で注文する場合のバラ数量\r\n流通業の固有仕様。"
+    },
+    {
+      "appField": "161",
+      "ediField": "明細行",
+      "ediId": "OID128",
+      "required": false,
+      "description": "注文バラ数量単位コード"
+    },
+    {
+      "appField": "162",
+      "ediField": "明細行",
+      "ediId": "OCL34",
+      "required": false,
+      "description": "明細納入先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "163",
+      "ediField": "明細行",
+      "ediId": "OID129",
+      "required": false,
+      "description": "明細納入先の企業／工場・事業所・事業部門等を表すID"
+    },
+    {
+      "appField": "164",
+      "ediField": "明細行",
+      "ediId": "OID130",
+      "required": false,
+      "description": "明細納入先国際企業ID"
+    },
+    {
+      "appField": "165",
+      "ediField": "明細行",
+      "ediId": "OID131",
+      "required": false,
+      "description": "納入先の企業／工場・事業所・事業部門等の名称"
+    },
+    {
+      "appField": "166",
+      "ediField": "明細行",
+      "ediId": "OCL35",
+      "required": false,
+      "description": "明細納入先連絡先クラス"
+    },
+    {
+      "appField": "167",
+      "ediField": "明細行",
+      "ediId": "OID132",
+      "required": false
+    },
+    {
+      "appField": "168",
+      "ediField": "明細行",
+      "ediId": "OID133",
+      "required": false
+    },
+    {
+      "appField": "169",
+      "ediField": "明細行",
+      "ediId": "OID134",
+      "required": false
+    },
+    {
+      "appField": "170",
+      "ediField": "明細行",
+      "ediId": "OID135",
+      "required": false,
+      "description": "明細納入先のFAX番号。"
+    },
+    {
+      "appField": "171",
+      "ediField": "明細行",
+      "ediId": "OID136",
+      "required": false,
+      "description": "明細納入先メールアドレス"
+    },
+    {
+      "appField": "172",
+      "ediField": "明細行",
+      "ediId": "OCL36",
+      "required": false,
+      "description": "明細住所に関する情報からなるクラス。"
+    },
+    {
+      "appField": "173",
+      "ediField": "明細行",
+      "ediId": "OID137",
+      "required": false
+    },
+    {
+      "appField": "174",
+      "ediField": "明細行",
+      "ediId": "OID138",
+      "required": false
+    },
+    {
+      "appField": "175",
+      "ediField": "明細行",
+      "ediId": "OCL37",
+      "required": false,
+      "description": "納明細入指示に関する情報からなるクラス"
+    },
+    {
+      "appField": "176",
+      "ediField": "明細行",
+      "ediId": "OID139",
+      "required": false,
+      "description": "明細納入指示（納期必着）を示すコード"
+    },
+    {
+      "appField": "177",
+      "ediField": "明細行",
+      "ediId": "OCL38",
+      "required": false,
+      "description": "要求納期に関する情報からなるクラス"
+    },
+    {
+      "appField": "178",
+      "ediField": "明細行",
+      "ediId": "OID140",
+      "required": false,
+      "description": "発注者から受注者に提示した、明細発注品の納入期日，または納入希望日。"
+    },
+    {
+      "appField": "179",
+      "ediField": "明細行",
+      "ediId": "OID141",
+      "required": false,
+      "description": "明細行配送タイプコード"
+    },
+    {
+      "appField": "180",
+      "ediField": "明細行",
+      "ediId": "OID142",
+      "required": false,
+      "description": "発注者から受注者に提示した、明細発注品の納入希望時間。"
+    },
+    {
+      "appField": "181",
+      "ediField": "明細行",
+      "ediId": "OCL39",
+      "required": false,
+      "description": "納入場所に関する情報からなるクラス。"
+    },
+    {
+      "appField": "182",
+      "ediField": "明細行",
+      "ediId": "OID143",
+      "required": false,
+      "description": "納入場所または受渡場所を示すID。"
+    },
+    {
+      "appField": "183",
+      "ediField": "明細行",
+      "ediId": "OID144",
+      "required": false,
+      "description": "納入場所または受渡場所の名称。"
+    },
+    {
+      "appField": "184",
+      "ediField": "明細行",
+      "ediId": "OCL40",
+      "required": true,
+      "description": "明細行の税に関する情報のクラス"
+    },
+    {
+      "appField": "185",
+      "ediField": "明細行",
+      "ediId": "OID145",
+      "required": false,
+      "description": "税の種類を識別するコード\r\nデフォルトは消費税"
+    },
+    {
+      "appField": "186",
+      "ediField": "明細行",
+      "ediId": "OID146",
+      "required": false,
+      "description": "掲載行課税対象金額（税抜き）"
+    },
+    {
+      "appField": "187",
+      "ediField": "明細行",
+      "ediId": "OID147",
+      "required": true,
+      "description": "消費税の計算属性(標準税率、軽減税率など)を識別するための識別コード。"
+    },
+    {
+      "appField": "188",
+      "ediField": "明細行",
+      "ediId": "OID148",
+      "required": false,
+      "description": "消費税の計算属性(標準税率、軽減税率など)を識別するための分類名"
+    },
+    {
+      "appField": "189",
+      "ediField": "明細行",
+      "ediId": "OID149",
+      "required": true,
+      "description": "税区分に対応する消費税率"
+    },
+    {
+      "appField": "190",
+      "ediField": "明細行",
+      "ediId": "OID150",
+      "required": false,
+      "description": "明細行課税対象金額（税込み）"
+    },
+    {
+      "appField": "191",
+      "ediField": "明細行",
+      "ediId": "OCL41",
+      "required": false,
+      "description": "注文明細金額集計クラス"
+    },
+    {
+      "appField": "192",
+      "ediField": "明細行",
+      "ediId": "OID151",
+      "required": false,
+      "description": "注文明細金額\r\n（税抜き）"
+    },
+    {
+      "appField": "193",
+      "ediField": "明細行",
+      "ediId": "OID152",
+      "required": false,
+      "description": "注文明細金額（税込み）"
+    },
+    {
+      "appField": "194",
+      "ediField": "明細行",
+      "ediId": "OCL42",
+      "required": true,
+      "description": "取引品目に関する情報からなるクラス。"
+    },
+    {
+      "appField": "195",
+      "ediField": "明細行",
+      "ediId": "OID153",
+      "required": false,
+      "description": "発注品目をユニークに識別するために付加したID"
+    },
+    {
+      "appField": "196",
+      "ediField": "明細行",
+      "ediId": "OID154",
+      "required": false,
+      "description": "GTIN、JANコードなどの国際的に登録された品目ID"
+    },
+    {
+      "appField": "197",
+      "ediField": "明細行",
+      "ediId": "OID155",
+      "required": false,
+      "description": "受注者が品目を特定するために付与したID"
+    },
+    {
+      "appField": "198",
+      "ediField": "明細行",
+      "ediId": "OID156",
+      "required": false,
+      "description": "発注者が品目を特定するために付与したID"
+    },
+    {
+      "appField": "199",
+      "ediField": "明細行",
+      "ediId": "OID157",
+      "required": false,
+      "description": "品目を特定するために製造者が付与したID"
+    },
+    {
+      "appField": "200",
+      "ediField": "明細行",
+      "ediId": "OID158",
+      "required": true
+    },
+    {
+      "appField": "201",
+      "ediField": "明細行",
+      "ediId": "OID159",
+      "required": true,
+      "description": "この取引品目を文字で説明したもの"
+    },
+    {
+      "appField": "202",
+      "ediField": "明細行",
+      "ediId": "OID160",
+      "required": false,
+      "description": "この取引品目の完成品の種別を特定するコード"
+    },
+    {
+      "appField": "203",
+      "ediField": "明細行",
+      "ediId": "OID161",
+      "required": true,
+      "description": "品目数量単位の区分（定貫品目、不定貫品目、ハイブリッド品目、実測不定貫品目、実測ハイブリッド品目）の判別子。デフォルトは定貫品目"
+    },
+    {
+      "appField": "204",
+      "ediField": "明細行",
+      "ediId": "OID162",
+      "required": false,
+      "description": "この取引品目のサイズを特定するコード"
+    },
+    {
+      "appField": "205",
+      "ediField": "明細行",
+      "ediId": "OID163",
+      "required": false,
+      "description": "この取引品目のサイズに関する文字による記述"
+    },
+    {
+      "appField": "206",
+      "ediField": "明細行",
+      "ediId": "OCL43",
+      "required": false,
+      "description": "品目特性に関する情報からなるクラス。"
+    },
+    {
+      "appField": "207",
+      "ediField": "明細行",
+      "ediId": "OID164",
+      "required": false,
+      "description": "品目特性（仕様）を識別するID"
+    },
+    {
+      "appField": "208",
+      "ediField": "明細行",
+      "ediId": "OID165",
+      "required": false,
+      "description": "品目特性クラスの利用者を識別するコード\r\n・業種固有仕様の場合は業種ID入力\r\n・ユーザー固有仕様の場合は利用しない"
+    },
+    {
+      "appField": "209",
+      "ediField": "明細行",
+      "ediId": "OID166",
+      "required": false,
+      "description": "この品目特性（仕様）を文字で説明したもの。"
+    },
+    {
+      "appField": "210",
+      "ediField": "明細行",
+      "ediId": "OID167",
+      "required": false,
+      "description": "・この品目特性（仕様）の内容(材質、規格、寸法、形状など)を特定するコード\r\n・ユーザー、または業種団体が規定する"
+    },
+    {
+      "appField": "211",
+      "ediField": "明細行",
+      "ediId": "OCL44",
+      "required": false,
+      "description": "取引対象の個品に関する情報からなるクラス。"
+    },
+    {
+      "appField": "212",
+      "ediField": "明細行",
+      "ediId": "OID168",
+      "required": false,
+      "description": "発注者が附番する品目個体識別ID"
+    },
+    {
+      "appField": "213",
+      "ediField": "明細行",
+      "ediId": "OID169",
+      "required": false,
+      "description": "発注者、または受注者が付番する製造ロットID"
+    },
+    {
+      "appField": "214",
+      "ediField": "明細行",
+      "ediId": "OCL45",
+      "required": false,
+      "description": "品質・検査に関する参照文書の情報からなるクラス"
+    },
+    {
+      "appField": "215",
+      "ediField": "明細行",
+      "ediId": "OID170",
+      "required": false,
+      "description": "品質・検査に関する検査文書管理ID。"
+    },
+    {
+      "appField": "216",
+      "ediField": "明細行",
+      "ediId": "OID171",
+      "required": false,
+      "description": "品質・検査に関する検査文書のURI"
+    },
+    {
+      "appField": "217",
+      "ediField": "明細行",
+      "ediId": "OID172",
+      "required": false,
+      "description": "検査文書のファイル名称。"
+    },
+    {
+      "appField": "218",
+      "ediField": "明細行",
+      "ediId": "OID173",
+      "required": false,
+      "description": "品質・検査に関する説明"
+    },
+    {
+      "appField": "219",
+      "ediField": "明細行",
+      "ediId": "OID174",
+      "required": false,
+      "description": "この文書が検査文書であることを識別するコード"
+    },
+    {
+      "appField": "220",
+      "ediField": "明細行",
+      "ediId": "OCL46",
+      "required": false,
+      "description": "品目製造者の情報からなるクラス"
+    },
+    {
+      "appField": "221",
+      "ediField": "明細行",
+      "ediId": "OID175",
+      "required": false,
+      "description": "品目の製造者を特定するために付与したID"
+    },
+    {
+      "appField": "222",
+      "ediField": "明細行",
+      "ediId": "OID176",
+      "required": false
+    },
+    {
+      "appField": "223",
+      "ediField": "明細行",
+      "ediId": "OCL47",
+      "required": false,
+      "description": "技術文書（（図面・仕様書等）に関する情報からなるクラス。"
+    },
+    {
+      "appField": "224",
+      "ediField": "明細行",
+      "ediId": "OID177",
+      "required": false,
+      "description": "図面・仕様書等の技術文書管理ID。"
+    },
+    {
+      "appField": "225",
+      "ediField": "明細行",
+      "ediId": "OID178",
+      "required": false
+    },
+    {
+      "appField": "226",
+      "ediField": "明細行",
+      "ediId": "OID179",
+      "required": false,
+      "description": "図面・仕様書等の作成・変更回数を表す。品目・品目IDと共に品目の内容を特定する。"
+    },
+    {
+      "appField": "227",
+      "ediField": "明細行",
+      "ediId": "OID180",
+      "required": false,
+      "description": "技術文書のファイル名称。"
+    },
+    {
+      "appField": "228",
+      "ediField": "明細行",
+      "ediId": "OID181",
+      "required": false
+    },
+    {
+      "appField": "229",
+      "ediField": "明細行",
+      "ediId": "OID182",
+      "required": false,
+      "description": "この文書ヘッダ参照文書の添付バイナリファイルの有無を指定\r\nありの場合はUN01006015のバイナリファイルID（BASE64）を入力"
+    },
+    {
+      "appField": "230",
+      "ediField": "明細行",
+      "ediId": "OID183",
+      "required": false,
+      "description": "この文書が技術文書であることを識別するコード"
+    },
+    {
+      "appField": "231",
+      "ediField": "明細行",
+      "ediId": "OCL48",
+      "required": false,
+      "description": "（明細行参照）支給文書クラス"
+    },
+    {
+      "appField": "232",
+      "ediField": "明細行",
+      "ediId": "OID184",
+      "required": false,
+      "description": "(明細行参照)支給書ID"
+    },
+    {
+      "appField": "233",
+      "ediField": "明細行",
+      "ediId": "OID185",
+      "required": false,
+      "description": "(明細行参照)支給書情報"
+    },
+    {
+      "appField": "234",
+      "ediField": "明細行",
+      "ediId": "OID186",
+      "required": false,
+      "description": "(明細行参照)支給書添付ファイル"
+    },
+    {
+      "appField": "235",
+      "ediField": "明細行",
+      "ediId": "OCL49",
+      "required": false,
+      "description": "物流梱包に関する情報からなるクラス"
+    },
+    {
+      "appField": "236",
+      "ediField": "明細行",
+      "ediId": "OID187",
+      "required": false
+    },
+    {
+      "appField": "237",
+      "ediField": "明細行",
+      "ediId": "OID188",
+      "required": false,
+      "description": "出荷梱包単位数量単位コード"
+    },
+    {
+      "appField": "238",
+      "ediField": "明細行",
+      "ediId": "OID189",
+      "required": false,
+      "description": "納入品のパッケージの梱包方法を示すコード。"
+    },
+    {
+      "appField": "239",
+      "ediField": "明細行",
+      "ediId": "OCL50",
+      "required": false,
+      "description": "生産の情報からなるクラス"
+    },
+    {
+      "appField": "240",
+      "ediField": "明細行",
+      "ediId": "OID190",
+      "required": false,
+      "description": "品目の生産を指示するID"
+    },
+    {
+      "appField": "241",
+      "ediField": "明細行",
+      "ediId": "OID191",
+      "required": false,
+      "description": "この品目の生産工程の名称"
+    }
+  ]
+}

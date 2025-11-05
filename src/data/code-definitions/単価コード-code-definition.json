@@ -1,0 +1,43 @@
+{
+  "codeType": "単価コード-code-definition",
+  "sheetName": "単価コード (code-definition)",
+  "tableType": "code-definition",
+  "region": {
+    "startRow": 9,
+    "endRow": 16,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "AA",
+      "codeName": "Cancellation price",
+      "internationalCode": "AA",
+      "internationalCodeName": "Cancellation price"
+    },
+    {
+      "code": "CT",
+      "codeName": "Contract",
+      "internationalCode": "CT",
+      "internationalCodeName": "Contract"
+    },
+    {
+      "code": "QT",
+      "codeName": "Quoted",
+      "internationalCode": "QT",
+      "internationalCodeName": "Quoted"
+    },
+    {
+      "code": "PV",
+      "codeName": "Provisional price",
+      "internationalCode": "PV",
+      "internationalCodeName": "Provisional price"
+    },
+    {
+      "code": "TW",
+      "codeName": "Theoretical weight",
+      "internationalCode": "TW",
+      "internationalCodeName": "Theoretical weight"
+    }
+  ]
+}

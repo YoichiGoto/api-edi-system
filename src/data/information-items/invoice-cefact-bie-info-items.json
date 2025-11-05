@@ -1,0 +1,4513 @@
+{
+  "sheetName": "統合請求 (cefact-bie)",
+  "messageType": "invoice",
+  "tableType": "cefact-bie",
+  "region": {
+    "startRow": 19,
+    "endRow": 519,
+    "startCol": 1,
+    "endCol": 23
+  },
+  "items": [
+    {
+      "itemName": "統合請求書",
+      "rowNumber": "1",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "",
+      "itemDefinition": "受注者が発注者に交付する統合請求文書（メッセージ）",
+      "repetition": "－",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "取引設定クラス",
+      "rowNumber": "2",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005479",
+      "itemDefinition": "メッセージの設定内容に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引ID",
+      "rowNumber": "3",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005480",
+      "itemDefinition": "メッセージがやり取りされる取引識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "処理日時",
+      "rowNumber": "4",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01012746",
+      "itemDefinition": "メッセージがやり取りされる日時",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "取引プロセスID",
+      "rowNumber": "5",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005481",
+      "itemDefinition": "取引プロセスの識別番号\r\n共通EDIプロバイダがプロセスをセットする",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引プロセスID",
+      "rowNumber": "7",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005472",
+      "itemDefinition": "取引プロセスの識別番号\r\n共通EDIプロバイダがプロセスをセットする",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引プロセス名",
+      "rowNumber": "8",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005473",
+      "itemDefinition": "取引プロセスの名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョンID",
+      "rowNumber": "11",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005476",
+      "itemDefinition": "取引プロセスのバージョン識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョン発行日",
+      "rowNumber": "12",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005478",
+      "itemDefinition": "取引プロセスのバージョン発行日",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引シナリオ設定クラス",
+      "rowNumber": "13",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005483",
+      "itemDefinition": "取引シナリオに関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引シナリオID",
+      "rowNumber": "15",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005472",
+      "itemDefinition": "取引シナリオの識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引シナリオ名",
+      "rowNumber": "16",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005473",
+      "itemDefinition": "取引シナリオの名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "アプリケーション設定クラス",
+      "rowNumber": "17",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005484",
+      "itemDefinition": "アプリケーションに関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "アプリケーションID",
+      "rowNumber": "19",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005472",
+      "itemDefinition": "業務アプリケーションが実装する業界・業種識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "アプリケーション名",
+      "rowNumber": "20",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005473",
+      "itemDefinition": "業務アプリケーションが実装する業界・業種名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "ドメイン設定クラス",
+      "rowNumber": "21",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005486",
+      "itemDefinition": "JEC業界横断EDIメッセージドメインに関する情報のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "ドメインID",
+      "rowNumber": "23",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005472",
+      "itemDefinition": "SIPSが付与したメッセージドメイン識別番号\r\n中小企業共通EDIドメイン＝JPSSMED",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "ドメイン名",
+      "rowNumber": "24",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005473",
+      "itemDefinition": "SIPSが付与したメッセージドメイン名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョンID",
+      "rowNumber": "27",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005476",
+      "itemDefinition": "ドメインのバージョン識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョン発行日",
+      "rowNumber": "28",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005478",
+      "itemDefinition": "ドメインのバージョン発行日",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "インボイス文書クラス",
+      "rowNumber": "29",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005861",
+      "itemDefinition": "インボイス文書に関する情報項目のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "インボイス文書ID",
+      "rowNumber": "30",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005862",
+      "itemDefinition": "インボイス文書を識別する文書ID",
+      "repetition": "1..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "インボイス文書名",
+      "rowNumber": "31",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005863",
+      "itemDefinition": "インボイス文書の文書名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "インボイス文書タイプコード",
+      "rowNumber": "32",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005864",
+      "itemDefinition": "インボイス文書のタイプを識別するコード\r\nデフォルトは「統合請求書」",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "インボイス文書発効日",
+      "rowNumber": "33",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005865",
+      "itemDefinition": "インボイス文書の発行日付，またはインボイス文書の書面上の発行日付。",
+      "repetition": "1..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "インボイス文書目的コード",
+      "rowNumber": "34",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005869",
+      "itemDefinition": "請求者が請求書の目的（新規、変更、取消、打切り）を管理するために付番したコード",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "インボイス文書履歴ID",
+      "rowNumber": "35",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005874",
+      "itemDefinition": "インボイス文書の変更履歴を管理するID",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "インボイス文書類型コード",
+      "rowNumber": "36",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005875",
+      "itemDefinition": "インボイス文書の類型（単一文書日本円取引、単一文書外貨建て取引、統合文書日本円取引等）を識別するコード\r\nデフォルトは「統合文書日本円取引」",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "インボイス文書サブタイプコード",
+      "rowNumber": "37",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01014636",
+      "itemDefinition": "地域固有の文書のタイプを識別するコード\r\nデフォルトは「統合請求書」",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "インボイス文書注釈クラス",
+      "rowNumber": "38",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005876",
+      "itemDefinition": "インボイス文書の注釈を記述するためのクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "インボイス文書注釈表題",
+      "rowNumber": "40",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005558",
+      "itemDefinition": "注釈内容の表題を示す。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "インボイス文書注釈内容",
+      "rowNumber": "41",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005560",
+      "itemDefinition": "注釈項目毎の内容情報を入力するフリースペース。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "インボイス文書注釈ID",
+      "rowNumber": "42",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005562",
+      "itemDefinition": "注釈の識別ID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（鑑ヘッダ参照）文書クラス",
+      "rowNumber": "43",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01012702",
+      "itemDefinition": "インボイス文書が参照する文書クラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（鑑ヘッダ参照）文書ID",
+      "rowNumber": "45",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005580",
+      "itemDefinition": "インボイス文書が参照する参照文書のID",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（鑑ヘッダ参照）文書URL_ID",
+      "rowNumber": "46",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005581",
+      "itemDefinition": "インボイス文書が参照する文書が所在するURL_ID",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "（鑑ヘッダ参照）文書発行日",
+      "rowNumber": "47",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005582",
+      "itemDefinition": "インボイス文書が参照する参照文書の発行日",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（鑑ヘッダ参照）文書参照タイプコード",
+      "rowNumber": "48",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005586",
+      "itemDefinition": "この調整で参照するインボイス文書の参照タイプを指定するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（鑑ヘッダ参照）文書履歴ID",
+      "rowNumber": "49",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005588",
+      "itemDefinition": "インボイス文書が参照する文書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（鑑ヘッダ参照）文書情報",
+      "rowNumber": "50",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01006415",
+      "itemDefinition": "インボイス文書が参照する参照文書に記載の情報",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "（鑑ヘッダ参照）文書タイプコード",
+      "rowNumber": "51",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01009672",
+      "itemDefinition": "インボイス文書が参照する参照文書の文書タイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（鑑ヘッダ参照）文書添付ファイル",
+      "rowNumber": "52",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01011455",
+      "itemDefinition": "この文書ヘッダ参照文書の添付バイナリファイルの有無を指定\r\nありの場合はUN01006015のバイナリファイルID（BASE64）を入力",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（鑑ヘッダ参照）文書サブタイプコード",
+      "rowNumber": "53",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01014899",
+      "itemDefinition": "インボイス文書が参照する参照文書の文書サブタイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "添付バイナリファイルクラス",
+      "rowNumber": "54",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01015490",
+      "itemDefinition": "添付バイナリファイルを記述するためのクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4.0.1"
+    },
+    {
+      "itemName": "添付バイナリファイルID",
+      "rowNumber": "56",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01006015",
+      "itemDefinition": "添付バイナリファイルのID",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "添付バイナリファイル名",
+      "rowNumber": "57",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01006019",
+      "itemDefinition": "添付バイナリファイルの名称",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "添付バイナリファイルURI ID",
+      "rowNumber": "58",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01006020",
+      "itemDefinition": "添付バイナリファイルの保管URIID",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "添付バイナリファイルのMIMEコード",
+      "rowNumber": "59",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01006021",
+      "itemDefinition": "添付バイナリファイルのMIMEコード",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "添付バイナリファイルの説明文",
+      "rowNumber": "60",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01006026",
+      "itemDefinition": "添付バイナリファイルの説明文",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "受注者クラス",
+      "rowNumber": "64",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005879",
+      "itemDefinition": "受注者に関する情報からなるクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者ID",
+      "rowNumber": "66",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005757",
+      "itemDefinition": "注文を受ける企業/工場・事業所・事業部門等を表すID。デフォルトはデータなし。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者国際企業ID",
+      "rowNumber": "67",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005758",
+      "itemDefinition": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者名称",
+      "rowNumber": "68",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005759",
+      "itemDefinition": "注文を受ける企業/工場・事業所・事業部門等を表す名称。適格請求書、または区分記載請求書を発行する事業者名。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "適格請求書発行事業者登録番号",
+      "rowNumber": "69",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01013039",
+      "itemDefinition": "国税庁へ登録された適格請求書発行事業者登録番号（区分記載請求書発行者についてはなし）\r\nT1234567890123",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "受注者タイプコード",
+      "rowNumber": "70",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01012925",
+      "itemDefinition": "事業者のインボイス課税区分を識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "受注者連絡先クラス",
+      "rowNumber": "71",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005761",
+      "itemDefinition": "連絡先に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注部門ID",
+      "rowNumber": "73",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005719",
+      "itemDefinition": "受注者の受注部門を表すID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者担当名",
+      "rowNumber": "74",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005720",
+      "itemDefinition": "受注者連絡先の個人の、文字で表現された名前。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者部門名",
+      "rowNumber": "75",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005721",
+      "itemDefinition": "受注者の受注部門の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者担当ID",
+      "rowNumber": "76",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005725",
+      "itemDefinition": "受注者個人を表すID",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "受注者電話番号",
+      "rowNumber": "79",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "受注者の電話番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者FAX番号",
+      "rowNumber": "82",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "受注者のFAX番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者メールアドレス",
+      "rowNumber": "85",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005858",
+      "itemDefinition": "受注者の電子メールアドレス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者住所クラス",
+      "rowNumber": "86",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005762",
+      "itemDefinition": "受注者住所に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者郵便番号",
+      "rowNumber": "88",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005689",
+      "itemDefinition": "受注者の郵便番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者住所1",
+      "rowNumber": "89",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005692",
+      "itemDefinition": "受注者の住所1行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "受注者住所2",
+      "rowNumber": "90",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005693",
+      "itemDefinition": "受注者の住所2行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "受注者住所3",
+      "rowNumber": "91",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005694",
+      "itemDefinition": "受注者の住所3行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "受注者国ID",
+      "rowNumber": "92",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005700",
+      "itemDefinition": "受注者の国ID。デフォルトは「JP」",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "国際アドレスクラス",
+      "rowNumber": "93",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005765",
+      "itemDefinition": "国際アドレスクラス\r\n（JP-PINTのアドレス方式に対応）",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "国際アドレス登録機関コード",
+      "rowNumber": "95",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005859",
+      "itemDefinition": "ISOがコード表6523に登録した国際アドレス登録機関のコード\r\n（デジタル庁／JP-PINTに対応）",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "受注者国際アドレス",
+      "rowNumber": "96",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "国際アドレス登録機関が付与する国際アドレス番号\r\n（わが国ではJP-PINTアドレスとしてデジタル庁が付与する番号）",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "発注者クラス",
+      "rowNumber": "97",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005880",
+      "itemDefinition": "発注者に関する情報からなるクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者ID",
+      "rowNumber": "99",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005757",
+      "itemDefinition": "注文を行う企業/工場・事業所・事業部門等を表すID。デフォルトはデータなし。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者国際企業ID",
+      "rowNumber": "100",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005758",
+      "itemDefinition": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者名称",
+      "rowNumber": "101",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005759",
+      "itemDefinition": "発注を行う企業/工場・事業所・事業部門等の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "適格請求書発行事業者登録番号",
+      "rowNumber": "102",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01013039",
+      "itemDefinition": "登録された発注者の適格請求書発行事業者登録番号\r\n（免税事業者についてはなし）",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "発注者タイプコード",
+      "rowNumber": "103",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01012925",
+      "itemDefinition": "事業者の消費税課税区分を識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "発注者連絡先クラス",
+      "rowNumber": "104",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005761",
+      "itemDefinition": "連絡先に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者部門ID",
+      "rowNumber": "106",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005719",
+      "itemDefinition": "発注者の発注部門を表すID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者担当名",
+      "rowNumber": "107",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005720",
+      "itemDefinition": "発注者の発注担当者の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者部門名",
+      "rowNumber": "108",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005721",
+      "itemDefinition": "発注者の発注部門の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者担当ID",
+      "rowNumber": "109",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005725",
+      "itemDefinition": "発注者個人を表すID",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "発注者電話番号",
+      "rowNumber": "112",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "発注者の電話番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "発注者FAX番号",
+      "rowNumber": "115",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "発注者のFAX番号",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "発注者メールアドレス",
+      "rowNumber": "118",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005858",
+      "itemDefinition": "発注者の電子メールアドレス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "発注者住所クラス",
+      "rowNumber": "119",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005762",
+      "itemDefinition": "発注者住所に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "発注者郵便番号",
+      "rowNumber": "121",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005689",
+      "itemDefinition": "発注者の郵便番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "発注者住所1",
+      "rowNumber": "122",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005692",
+      "itemDefinition": "発注者の住所1行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "発注者住所2",
+      "rowNumber": "123",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005693",
+      "itemDefinition": "発注者の住所2行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "発注者住所3",
+      "rowNumber": "124",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005694",
+      "itemDefinition": "発注者の住所3行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "発注者国ID",
+      "rowNumber": "125",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005700",
+      "itemDefinition": "発注者の国ID。デフォルトは「JP」",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "国際アドレスクラス",
+      "rowNumber": "126",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005765",
+      "itemDefinition": "国際アドレスクラス\r\n（JP-PINTのアドレス方式に対応）",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "国際アドレス登録機関コード",
+      "rowNumber": "128",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005859",
+      "itemDefinition": "ISOがコード表6523に登録した国際アドレス登録機関のコード\r\n（デジタル庁／JP-PINTに対応）",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "発注者国際アドレス",
+      "rowNumber": "129",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "国際アドレス登録機関が付与する国際アドレス番号\r\n（わが国ではJP-PINTアドレスとしてデジタル庁が付与する番号）",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "プロジェクト調達クラス",
+      "rowNumber": "130",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01011516",
+      "itemDefinition": "プロジェクト調達に関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "プロジェクトID",
+      "rowNumber": "132",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01000372",
+      "itemDefinition": "発注品に関するプロジェクト・工事案件等を管理するためのID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "プロジェクト名",
+      "rowNumber": "133",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01000374",
+      "itemDefinition": "発注品に関するプロジェクト・工事案件等の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "インボイス文書決済クラス",
+      "rowNumber": "134",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005939",
+      "itemDefinition": "インボイス文書の決済に関する情報からなるクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "税通貨コード",
+      "rowNumber": "136",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005913",
+      "itemDefinition": "税の通貨コード。\r\n＝JPY（デフォルト）",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書通貨コード",
+      "rowNumber": "137",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005914",
+      "itemDefinition": "インボイス文書の通貨コード。\r\n＝JPY（デフォルト）",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払通貨コード",
+      "rowNumber": "138",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005915",
+      "itemDefinition": "請求支払通貨コード（デフォルトはJPY）",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求者クラス",
+      "rowNumber": "139",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005916",
+      "itemDefinition": "請求者に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求者ID",
+      "rowNumber": "141",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005757",
+      "itemDefinition": "請求者のID。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求者国際企業ID",
+      "rowNumber": "142",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005758",
+      "itemDefinition": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求者名称",
+      "rowNumber": "143",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005759",
+      "itemDefinition": "請求者の企業等を表す名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求者適格請求書発行事業者登録番号",
+      "rowNumber": "144",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01013039",
+      "itemDefinition": "登録された請求者の適格請求書発行事業者登録番号",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求者タイプコード",
+      "rowNumber": "145",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01012925",
+      "itemDefinition": "事業者の消費税課税区分を識別するコード",
+      "repetition": "1..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "請求者連絡先クラス",
+      "rowNumber": "146",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005761",
+      "itemDefinition": "連絡先に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求部門ID",
+      "rowNumber": "148",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005719",
+      "itemDefinition": "請求者の請求部門を表すID。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求者担当名",
+      "rowNumber": "149",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005720",
+      "itemDefinition": "請求者個人の、文字で表現された名前。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求者部門名",
+      "rowNumber": "150",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005721",
+      "itemDefinition": "請求者の請求部門の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求者担当ID",
+      "rowNumber": "151",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005725",
+      "itemDefinition": "請求者個人を表すID",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求者電話番号",
+      "rowNumber": "154",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "請求者の電話番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求者FAX番号",
+      "rowNumber": "157",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "請求者のFAX番号",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求者メールアドレス",
+      "rowNumber": "160",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005858",
+      "itemDefinition": "請求者の電子メールアドレス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求者住所クラス",
+      "rowNumber": "161",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005762",
+      "itemDefinition": "請求者住所に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求者郵便番号",
+      "rowNumber": "163",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005689",
+      "itemDefinition": "請求者の郵便番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求者住所1",
+      "rowNumber": "164",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005692",
+      "itemDefinition": "請求者の住所1行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求者住所2",
+      "rowNumber": "165",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005693",
+      "itemDefinition": "請求者の住所2行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求者住所3",
+      "rowNumber": "166",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005694",
+      "itemDefinition": "請求者の住所3行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求者国ID",
+      "rowNumber": "167",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005700",
+      "itemDefinition": "請求者の国ID。デフォルトは「JP」",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "国際アドレスクラス",
+      "rowNumber": "168",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005765",
+      "itemDefinition": "国際アドレスクラス\r\n（JP-PINTのアドレス方式に対応）",
+      "repetition": "1..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "国際アドレス登録機関コード",
+      "rowNumber": "170",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005859",
+      "itemDefinition": "ISOがコード表6523に登録した国際アドレス登録機関のコード\r\n（デジタル庁／JP-PINTに対応）",
+      "repetition": "1..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "請求者国際アドレス",
+      "rowNumber": "171",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "国際アドレス登録機関が付与する国際アドレス番号\r\n（わが国ではJP-PINTアドレスとしてデジタル庁が付与する番号）",
+      "repetition": "1..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "請求先クラス",
+      "rowNumber": "172",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005917",
+      "itemDefinition": "請求先に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求先ID",
+      "rowNumber": "174",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005757",
+      "itemDefinition": "請求を受ける企業等を表すID。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求先国際企業ID",
+      "rowNumber": "175",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005758",
+      "itemDefinition": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求先名称",
+      "rowNumber": "176",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005759",
+      "itemDefinition": "請求を受ける企業等の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求先連絡先クラス",
+      "rowNumber": "177",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005761",
+      "itemDefinition": "連絡先に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求先部門ID",
+      "rowNumber": "179",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005719",
+      "itemDefinition": "請求先の部門を表すコード。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求先担当名",
+      "rowNumber": "180",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005720",
+      "itemDefinition": "請求先の担当者の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求先部門名",
+      "rowNumber": "181",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005721",
+      "itemDefinition": "請求先の部門を表す名称",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求先担当ID",
+      "rowNumber": "182",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005725",
+      "itemDefinition": "請求先個人を表すID",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求先電話番号",
+      "rowNumber": "185",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "請求先の電話番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求先FAX番号",
+      "rowNumber": "188",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "請求先のFAX番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "請求先メールアドレス",
+      "rowNumber": "191",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005858",
+      "itemDefinition": "請求先の電子メールアドレス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求先住所クラス",
+      "rowNumber": "192",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005762",
+      "itemDefinition": "請求先住所に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求先郵便番号",
+      "rowNumber": "194",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005689",
+      "itemDefinition": "請求先の郵便番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求先住所1",
+      "rowNumber": "195",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005692",
+      "itemDefinition": "請求先の住所1行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求先住所2",
+      "rowNumber": "196",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005693",
+      "itemDefinition": "請求先の住所2行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求先住所3",
+      "rowNumber": "197",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005694",
+      "itemDefinition": "請求先の住所3行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求先国ID",
+      "rowNumber": "198",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005700",
+      "itemDefinition": "請求先の国ID。デフォルトは「JP」",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "国際アドレスクラス",
+      "rowNumber": "199",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005765",
+      "itemDefinition": "国際アドレスクラス\r\n（JP-PINTのアドレス方式に対応）",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "国際アドレス登録機関コード",
+      "rowNumber": "201",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005859",
+      "itemDefinition": "ISOがコード表6523に登録した国際アドレス登録機関のコード\r\n（デジタル庁／JP-PINTに対応）",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "請求先国際アドレス",
+      "rowNumber": "202",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "国際アドレス登録機関が付与する国際アドレス番号\r\n（わが国ではJP-PINTアドレスとしてデジタル庁が付与する番号）",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "支払先クラス",
+      "rowNumber": "203",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005918",
+      "itemDefinition": "支払先に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先ID",
+      "rowNumber": "205",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005757",
+      "itemDefinition": "支払先のID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先国際企業ID",
+      "rowNumber": "206",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005758",
+      "itemDefinition": "支払先の国際企業ID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先名称",
+      "rowNumber": "207",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005759",
+      "itemDefinition": "支払先の企業等を表す名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先連絡先クラス",
+      "rowNumber": "208",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005761",
+      "itemDefinition": "連絡先に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先部門ID",
+      "rowNumber": "210",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005719",
+      "itemDefinition": "支払先の支払先部門を表すID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先担当名",
+      "rowNumber": "211",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005720",
+      "itemDefinition": "支払先個人の、文字で表現された名前。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先部門名",
+      "rowNumber": "212",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005721",
+      "itemDefinition": "支払先の請求部門の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先担当ID",
+      "rowNumber": "213",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005725",
+      "itemDefinition": "支払先個人を表すID",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先電話番号",
+      "rowNumber": "216",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "支払先の電話番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先FAX番号",
+      "rowNumber": "219",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "支払先のFAX番号",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先メールアドレス",
+      "rowNumber": "222",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005858",
+      "itemDefinition": "支払先の電子メールアドレス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先住所クラス",
+      "rowNumber": "223",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005762",
+      "itemDefinition": "支払先住所に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先郵便番号",
+      "rowNumber": "225",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005689",
+      "itemDefinition": "支払先の郵便番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先住所1",
+      "rowNumber": "226",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005692",
+      "itemDefinition": "支払先の住所1行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先住所2",
+      "rowNumber": "227",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005693",
+      "itemDefinition": "支払先の住所2行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先住所3",
+      "rowNumber": "228",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005694",
+      "itemDefinition": "支払先の住所3行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払先国ID",
+      "rowNumber": "229",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005700",
+      "itemDefinition": "支払先の国ID。デフォルトは「JP」",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人クラス",
+      "rowNumber": "230",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005919",
+      "itemDefinition": "支払人に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人ID",
+      "rowNumber": "232",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005757",
+      "itemDefinition": "支払人のID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人国際企業ID",
+      "rowNumber": "233",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005758",
+      "itemDefinition": "支払人の国際企業ID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人名称",
+      "rowNumber": "234",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005759",
+      "itemDefinition": "支払人の企業等を表す名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人連絡先クラス",
+      "rowNumber": "235",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005761",
+      "itemDefinition": "連絡先に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人部門ID",
+      "rowNumber": "237",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005719",
+      "itemDefinition": "支払人の支払人部門を表すID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人担当名",
+      "rowNumber": "238",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005720",
+      "itemDefinition": "支払人個人の、文字で表現された名前。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人部門名",
+      "rowNumber": "239",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005721",
+      "itemDefinition": "支払人の請求部門の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人担当ID",
+      "rowNumber": "240",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005725",
+      "itemDefinition": "支払人個人を表すID",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人電話番号",
+      "rowNumber": "243",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "支払人の電話番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人FAX番号",
+      "rowNumber": "246",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005860",
+      "itemDefinition": "支払人のFAX番号",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人メールアドレス",
+      "rowNumber": "249",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005858",
+      "itemDefinition": "支払人の電子メールアドレス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人住所クラス",
+      "rowNumber": "250",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005762",
+      "itemDefinition": "支払人住所に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人郵便番号",
+      "rowNumber": "252",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005689",
+      "itemDefinition": "支払人の郵便番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人住所1",
+      "rowNumber": "253",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005692",
+      "itemDefinition": "支払人の住所1行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人住所2",
+      "rowNumber": "254",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005693",
+      "itemDefinition": "支払人の住所2行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人住所3",
+      "rowNumber": "255",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005694",
+      "itemDefinition": "支払人の住所3行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払人国ID",
+      "rowNumber": "256",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005700",
+      "itemDefinition": "支払人の国ID。デフォルトは「JP」",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求為替クラス",
+      "rowNumber": "257",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005921",
+      "itemDefinition": "請求為替に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "為替交換元通貨コード",
+      "rowNumber": "259",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005739",
+      "itemDefinition": "為替における交換元通貨を表すコード\r\nデフォルト＝「JPY」",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "為替交換先通貨コード",
+      "rowNumber": "260",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005741",
+      "itemDefinition": "為替における交換先通貨を表すコード\r\nデフォルト＝「JPY」",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "為替レート",
+      "rowNumber": "261",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005744",
+      "itemDefinition": "為替交換のレート",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "為替レート日時",
+      "rowNumber": "262",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005745",
+      "itemDefinition": "為替交換レートの適用日。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "支払為替クラス",
+      "rowNumber": "263",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005922",
+      "itemDefinition": "支払為替に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "為替交換元通貨コード",
+      "rowNumber": "265",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005739",
+      "itemDefinition": "為替における交換元通貨を表すコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "為替交換先通貨コード",
+      "rowNumber": "266",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005741",
+      "itemDefinition": "為替における交換先通貨を表すコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "為替レート",
+      "rowNumber": "267",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005744",
+      "itemDefinition": "為替交換のレート",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "為替レート日時",
+      "rowNumber": "268",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005745",
+      "itemDefinition": "為替交換レートの適用日。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払手段クラス",
+      "rowNumber": "269",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005923",
+      "itemDefinition": "取引決済の目的で支払が行われる、あるいは行われた手段のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払手段タイプコード",
+      "rowNumber": "271",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005672",
+      "itemDefinition": "取引決済手段のタイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払手段情報",
+      "rowNumber": "272",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01011456",
+      "itemDefinition": "取引決済手段に関する情報",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払金額",
+      "rowNumber": "273",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01015504",
+      "itemDefinition": "取引決済手段で支払う金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4.0.1"
+    },
+    {
+      "itemName": "金融口座クラス",
+      "rowNumber": "274",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005677",
+      "itemDefinition": "債権者の銀行口座のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "口座名義",
+      "rowNumber": "276",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005400",
+      "itemDefinition": "債権者金融口座の、文字で表現された口座名。\r\n半角カナ（日本の場合）",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "口座番号",
+      "rowNumber": "277",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005401",
+      "itemDefinition": "債権者金融口座の一意の所有者ID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "口座種別コード",
+      "rowNumber": "278",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01012127",
+      "itemDefinition": "債権者金融口座種別のコード。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "金融機関クラス",
+      "rowNumber": "279",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005679",
+      "itemDefinition": "金額を受け取る当事者の銀行、住宅金融組合、信用金庫、証券会社、あるいはそれと類似の事業機関。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "金融機関名",
+      "rowNumber": "281",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005426",
+      "itemDefinition": "債権者金融機関の、文字で表現された名前。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "金融機関番号",
+      "rowNumber": "282",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01011521",
+      "itemDefinition": "債権者の金融機関番号（日本の場合）",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "金融機関支店クラス",
+      "rowNumber": "283",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005428",
+      "itemDefinition": "銀行、住宅金融組合、信用金庫、証券会社、あるいはそれと類似の事業の部門のクラス。主に金融サービスと金融取引を提供するために設立された機関の支店。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "金融機関支店番号",
+      "rowNumber": "285",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01003139",
+      "itemDefinition": "金融機関のこの支店の一意ID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "金融機関支店名",
+      "rowNumber": "286",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01003140",
+      "itemDefinition": "金融機関のこの支店の、文字で表現された名前",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "金融カードクラス",
+      "rowNumber": "287",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01006057",
+      "itemDefinition": "支払人の金融カードのクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "金融カード番号",
+      "rowNumber": "289",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01004495",
+      "itemDefinition": "支払人の金融カード番号",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "金融カードタイプ",
+      "rowNumber": "290",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01004496",
+      "itemDefinition": "金融カードのタイプ",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "金融カード名義人名",
+      "rowNumber": "291",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01004497",
+      "itemDefinition": "支払人の金融カード名義人名",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "金融カード発行企業名",
+      "rowNumber": "292",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01009966",
+      "itemDefinition": "金融カードの発行企業名",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ税クラス",
+      "rowNumber": "293",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005924",
+      "itemDefinition": "鑑ヘッダの税に関する情報からなるクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ課税分類税額",
+      "rowNumber": "295",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005833",
+      "itemDefinition": "鑑ヘッダの明細文書課税分類別税額の合計金\r\n鑑ヘッダでは複数明細文書税額の積み上げだけを行い、税額計算は行わない",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ課税分類コード",
+      "rowNumber": "296",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005841",
+      "itemDefinition": "消費税[VAT」の課税分類（標準税率、軽減税率、非課税、免税、不課税）を識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ課税分類名",
+      "rowNumber": "297",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005850",
+      "itemDefinition": "消費税の課税分類（標準税率、軽減税率、非課税、免税等）の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ税率",
+      "rowNumber": "298",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01007174",
+      "itemDefinition": "明細文書の課税分類毎の税額積み上げ計算のための率。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ税計算方式",
+      "rowNumber": "299",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01013096",
+      "itemDefinition": "金額の税込み、税抜き指定の要否を指定\r\nデフォルトは「空欄」（指定しない）",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ適用税制ID",
+      "rowNumber": "300",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01014650",
+      "itemDefinition": "取引の税制年度を識別するID\r\nデフォルトは「2019」（2019年度税制）",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ取引期間クラス",
+      "rowNumber": "301",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005925",
+      "itemDefinition": "鑑ヘッダ取引期間に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ取引開始日",
+      "rowNumber": "303",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005612",
+      "itemDefinition": "インボイス文書の取引開始日",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ取引終了日",
+      "rowNumber": "304",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005613",
+      "itemDefinition": "インボイス文書の取引終了日",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払条件クラス",
+      "rowNumber": "305",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005929",
+      "itemDefinition": "取引決済の目的で支払が行われる、あるいは行われた条件のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払条件ID",
+      "rowNumber": "307",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005780",
+      "itemDefinition": "支払条件のID",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "支払条件説明",
+      "rowNumber": "308",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005783",
+      "itemDefinition": "支払条件の文字による説明",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払期日",
+      "rowNumber": "309",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005784",
+      "itemDefinition": "支払条件で示された支払期日",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払条件タイプコード",
+      "rowNumber": "310",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01008502",
+      "itemDefinition": "取引決済の支払条件のタイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払条件金額",
+      "rowNumber": "311",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01015539",
+      "itemDefinition": "支払条件の金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "インボイス文書合計金額クラス",
+      "rowNumber": "312",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005930",
+      "itemDefinition": "インボイス文書の鑑ヘッダ合計金額に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "インボイス文書総合計金額（税抜き）",
+      "rowNumber": "314",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005945",
+      "itemDefinition": "インボイス文書の総合計金額（税抜き）＝\r\n鑑ヘッダ譲渡資産合計金額（税抜き）＋消費税外総合計金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ総合計税額",
+      "rowNumber": "315",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005946",
+      "itemDefinition": "鑑ヘッダ課税分類税額の総合計税額",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "インボイス文書総合計金額（税込み）",
+      "rowNumber": "316",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005948",
+      "itemDefinition": "インボイス文書総合計金額（税込み）\r\n＝鑑ヘッダ譲渡資産合計金額（税込み）+消費税外総合計金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "前払合計金額",
+      "rowNumber": "317",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005950",
+      "itemDefinition": "インボイス文書総合計金額のうち、すでに前払いで支払済合計金額\r\n前払いユースケースでは必須",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払責務金額総合計",
+      "rowNumber": "318",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01008445",
+      "itemDefinition": "前払いユースケースの支払責務金額＝",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ譲渡資産合計金額(税抜き)",
+      "rowNumber": "319",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01008451",
+      "itemDefinition": "鑑ヘッダ譲渡資産金額総合計金額（税抜き）＝∑文書ヘッダ課税分類譲渡資産合計金額（税抜き）",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ譲渡資産合計金額(税込み)",
+      "rowNumber": "320",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01013091",
+      "itemDefinition": "鑑ヘッダ譲渡資産金額総合計金額（税込み）＝∑文書ヘッダ課税分類譲渡資産合計金額（税込み）",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ調整クラス",
+      "rowNumber": "321",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005931",
+      "itemDefinition": "鑑ヘッダ調整に関する情報からなるクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ調整理由コード",
+      "rowNumber": "323",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005488",
+      "itemDefinition": "鑑ヘッダ調整金額の内容を識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ調整理由",
+      "rowNumber": "324",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005489",
+      "itemDefinition": "鑑ヘッダ調整の内容説明",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ調整金額",
+      "rowNumber": "325",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005490",
+      "itemDefinition": "鑑ヘッダ調整金額\r\n'＝（修正インボイス金額ー誤りインボイス金額）\r\n調整ユースケースでは必須",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ調整取引方向コード",
+      "rowNumber": "326",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01014649",
+      "itemDefinition": "鑑ヘッダ調整額、鑑ヘッダ調整税額の＋ーを識別するコード\r\n調整ユースケースでは必須",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "インボイス調整参照文書クラス",
+      "rowNumber": "327",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01009671",
+      "itemDefinition": "この調整でインボイス文書が参照する文書のクラス\r\n（この文書が修正インボイス文書の場合は、参照する前回の誤りインボイス文書）",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "インボイス調整参照文書ID",
+      "rowNumber": "329",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005580",
+      "itemDefinition": "この調整でインボイス文書が参照する文書に記載の文書ID",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "インボイス調整参照文書発行日",
+      "rowNumber": "330",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005582",
+      "itemDefinition": "この調整でインボイスが参照する文書に記載の発行日付",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "インボイス調整参照文書参照タイプコード",
+      "rowNumber": "331",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005586",
+      "itemDefinition": "この調整で参照する前回インボイス文書の参照タイプに関するコード\r\n＝OI  (Previous invoice number)",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "インボイス参照文書履歴ID",
+      "rowNumber": "332",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005588",
+      "itemDefinition": "この調整でインボイスが参照する文書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "インボイス調整参照文書タイプコード",
+      "rowNumber": "333",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01009672",
+      "itemDefinition": "この調整でインボイス文書が参照する文書の文書タイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "インボイス調整参照文書サブタイプコード",
+      "rowNumber": "334",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01014899",
+      "itemDefinition": "この調整で修正インボイス文書が参照する文書の文書サブタイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ調整税クラス",
+      "rowNumber": "335",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01014897",
+      "itemDefinition": "鑑ヘッダ調整の税クラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ調整税額",
+      "rowNumber": "337",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005833",
+      "itemDefinition": "鑑ヘッダの調整税額\r\n＝修正インボイス税額ー誤りインボイス税額",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ調整税率",
+      "rowNumber": "338",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005836",
+      "itemDefinition": "鑑ヘッダ調整の税率",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "鑑ヘッダ調整課税分類コード",
+      "rowNumber": "339",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005841",
+      "itemDefinition": "鑑ヘッダ調整の課税分類コード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "消費税外合計金額クラス",
+      "rowNumber": "340",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01015492",
+      "itemDefinition": "消費税外合計金額（消費税対象外）に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4.0.1"
+    },
+    {
+      "itemName": "追加請求合計金額（消費税対象外）",
+      "rowNumber": "342",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005943",
+      "itemDefinition": "消費税が関係しない追加請求合計金額。消費税不課税取引額（課税分類コード＝Ｏの取引）、立替金等。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "返金合計金額（消費税対象外）",
+      "rowNumber": "343",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005944",
+      "itemDefinition": "消費税が関係しない返金（減額）合計金額。消費税不課税取引返金額（課税分類コード＝Ｏの取引）、源泉徴収税等。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "前回インボイス総合計金額（税込み）",
+      "rowNumber": "344",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005948",
+      "itemDefinition": "前回インボイス文書の総合計金額（税込み）",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "入金済金額（前回インボイス分）",
+      "rowNumber": "345",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005950",
+      "itemDefinition": "前回インボイス文書総合計金額のうち、入金済合計金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "消費税外総合計金額",
+      "rowNumber": "346",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01008445",
+      "itemDefinition": "消費税外総合計金額＝\r\n前回インボイス総合計金額（税込み）ー入金済金額(前回インボイス分)＋追加請求合計額（消費税対象外）ー返金合計額（消費税対象外）",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "消費税外参照文書クラス",
+      "rowNumber": "347",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01015493",
+      "itemDefinition": "消費税外合計金額が参照する文書のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4.0.1"
+    },
+    {
+      "itemName": "消費税外参照文書ID",
+      "rowNumber": "349",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005580",
+      "itemDefinition": "消費税外合計金額が参照する文書に記載の文書ID",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "消費税外参照文書発行日",
+      "rowNumber": "350",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005582",
+      "itemDefinition": "消費税外合計金額が参照する文書に記載の発行日付",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "消費税外参照文書参照タイプコード",
+      "rowNumber": "351",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005586",
+      "itemDefinition": "消費税外合計金額が参照する文書を識別するコード。\r\n違算ユースケースの場合＝「OI」Previous invoice number",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "消費税外参照文書履歴ID",
+      "rowNumber": "352",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005588",
+      "itemDefinition": "消費税外合計金額が参照する文書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "消費税外参照文書情報",
+      "rowNumber": "353",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01006415",
+      "itemDefinition": "消費税外合計金額が参照する文書に関する情報",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "消費税外参照文書タイプコード",
+      "rowNumber": "354",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01009672",
+      "itemDefinition": "消費税外合計金額が参照する文書の文書タイプを識別するコード",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "消費税外参照文書添付ファイル",
+      "rowNumber": "355",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01011455",
+      "itemDefinition": "この文書ヘッダ参照文書の添付バイナリファイルの有無を指定\r\nありの場合はUN01006015のバイナリファイルID（BASE64）を入力",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "消費税外参照文書サブタイプコード",
+      "rowNumber": "356",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01014899",
+      "itemDefinition": "消費税外合計金額が参照する文書の文書サブタイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "前払クラス",
+      "rowNumber": "357",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "JPS2300021",
+      "itemDefinition": "前払に関するクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "前払金額",
+      "rowNumber": "359",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01015591",
+      "itemDefinition": "前払の金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "前払受領日",
+      "rowNumber": "360",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01015592",
+      "itemDefinition": "前払金額の受領日",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "前払ID",
+      "rowNumber": "361",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01015593",
+      "itemDefinition": "前払者が付与した前払ID",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "前払条件タイプコード",
+      "rowNumber": "364",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01008502",
+      "itemDefinition": "前払い支払条件のタイプを指定するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細文書クラス",
+      "rowNumber": "365",
+      "headerDetail": "鑑ヘッダ",
+      "clId": "UN01005940",
+      "itemDefinition": "統合文書へ統合される明細文書のクラス",
+      "repetition": "1..n",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細文書ID",
+      "rowNumber": "369",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005954",
+      "itemDefinition": "この統合文書に統合する複数の明細文書を特定し、識別するために付与したID。EDIプロバイダがセットする。\r\nデフォルトは「１」",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細文書類型コード",
+      "rowNumber": "370",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01014645",
+      "itemDefinition": "この明細文書の取引類型（資産譲渡、補完、返金・追加請求、相殺、調整、参照等）を識別するコード。\r\nデフォルトは資産譲渡",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ注釈クラス",
+      "rowNumber": "371",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005957",
+      "itemDefinition": "文書ヘッダの注釈を記述するクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ注釈表題",
+      "rowNumber": "373",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005558",
+      "itemDefinition": "文書ヘッダの注釈内容の表題を示す。\r\n一部に利用制限あり。標準仕様書３．３．５項参照。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ注釈内容",
+      "rowNumber": "374",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005560",
+      "itemDefinition": "文書ヘッダの注釈表題毎の内容情報を入力するフリースペース。\r\n一部に利用制限あり。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ注釈ID",
+      "rowNumber": "375",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005562",
+      "itemDefinition": "文書ヘッダ注釈の識別ID\r\n共通EDIプロバイダがシリアル番号をセット。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細統合文書クラス",
+      "rowNumber": "376",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01014895",
+      "itemDefinition": "この統合文書が統合する明細文書に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "統合明細文書ID",
+      "rowNumber": "378",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005580",
+      "itemDefinition": "この統合文書が統合する明細文書の文書ID",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "統合明細文書発行日",
+      "rowNumber": "379",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005582",
+      "itemDefinition": "この統合文書が統合する明細文書の発行日",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "統合明細文書履歴ID",
+      "rowNumber": "380",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005588",
+      "itemDefinition": "この統合文書が統合する明細文書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "統合明細文書タイプコード",
+      "rowNumber": "381",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01009672",
+      "itemDefinition": "この統合文書が統合する明細文書の文書タイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "統合明細文書サブタイプコード",
+      "rowNumber": "382",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01014899",
+      "itemDefinition": "この統合文書が統合する明細文書の文書サブタイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）受注書クラス",
+      "rowNumber": "385",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005960",
+      "itemDefinition": "文書ヘッダ契約が参照する受注書に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）受注書ID",
+      "rowNumber": "387",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005580",
+      "itemDefinition": "この文書ヘッダが参照する受注書に記載の文書ID",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）受注書履歴ID",
+      "rowNumber": "388",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005588",
+      "itemDefinition": "この文書ヘッダが参照する受注書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）注文書クラス",
+      "rowNumber": "389",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005961",
+      "itemDefinition": "文書ヘッダが参照する注文書に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）注文書ID",
+      "rowNumber": "391",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005580",
+      "itemDefinition": "この文書ヘッダが参照する注文書に記載の文書ID。",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）注文書履歴ID",
+      "rowNumber": "392",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005588",
+      "itemDefinition": "この文書ヘッダが参照する注文書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）契約文書クラス",
+      "rowNumber": "393",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005963",
+      "itemDefinition": "文書ヘッダが参照する契約文書に関る情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）契約文書ID",
+      "rowNumber": "395",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005580",
+      "itemDefinition": "この文書ヘッダが参照する契約書に記載の文書ID",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）契約書履歴ID",
+      "rowNumber": "396",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005588",
+      "itemDefinition": "この文書が参照する契約書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "納入先クラス",
+      "rowNumber": "399",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005980",
+      "itemDefinition": "納入先に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先ID",
+      "rowNumber": "401",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005757",
+      "itemDefinition": "納入先の企業/工場・事業所・事業部門等を表す発注者が付与したID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先国際企業ID",
+      "rowNumber": "402",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005758",
+      "itemDefinition": "納入先企業を表す国際企業ID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先名称",
+      "rowNumber": "403",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005759",
+      "itemDefinition": "納入先の企業/工場・事業所・事業部門等の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "納入先住所クラス",
+      "rowNumber": "404",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005762",
+      "itemDefinition": "住所に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "納入先郵便番号",
+      "rowNumber": "406",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005689",
+      "itemDefinition": "納入先の郵便番号",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "納入先住所1",
+      "rowNumber": "407",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005692",
+      "itemDefinition": "納入先の住所1行目",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "納入先住所2",
+      "rowNumber": "408",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005693",
+      "itemDefinition": "納入先の住所2行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "納入先住所3",
+      "rowNumber": "409",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005694",
+      "itemDefinition": "納入先の住所3行目。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "納入先国ID",
+      "rowNumber": "410",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005700",
+      "itemDefinition": "納入先の国ID。デフォルトは「JP」",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "配送イベントクラス",
+      "rowNumber": "411",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005986",
+      "itemDefinition": "配送にかかわるイベントのクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "配送日",
+      "rowNumber": "413",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005628",
+      "itemDefinition": "納入先へ発送した日時",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）出荷案内書クラス",
+      "rowNumber": "414",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01006039",
+      "itemDefinition": "文書ヘッダが参照する出荷案内書のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）出荷案内書ID",
+      "rowNumber": "416",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005580",
+      "itemDefinition": "この文書ヘッダが参照する受注者が付番した出荷案内書ID",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）出荷案内書履歴ID",
+      "rowNumber": "417",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005588",
+      "itemDefinition": "この文書ヘッダが参照する出荷案内書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）文書タイプコード",
+      "rowNumber": "418",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01009672",
+      "itemDefinition": "この文書ヘッダが参照する文書の文書タイプを識別するコード\r\n＝「351」（Despatch advice）（デフォルト）",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）文書サブタイプコード",
+      "rowNumber": "419",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01013318",
+      "itemDefinition": "この文書ヘッダが参照する出荷案内書の類型（適格請求書等対応、適格請求書の補完、適格請求書非適合）を識別するコード\r\nデフォルトは「適格請求書非適合」",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）文書サブタイプコード",
+      "rowNumber": "420",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01014899",
+      "itemDefinition": "この文書ヘッダが参照する出荷案内書の文書サブタイプを識別するコード\r\n＝[35101](一般納品書：デフォルト）",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）出荷回答書クラス",
+      "rowNumber": "421",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01006040",
+      "itemDefinition": "文書ヘッダが参照する出荷回答書のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）出荷回答書ID",
+      "rowNumber": "423",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005580",
+      "itemDefinition": "この文書ヘッダが参照する発注者が付番した出荷回答書ID",
+      "repetition": "1..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）出荷回答書履歴ID",
+      "rowNumber": "424",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005588",
+      "itemDefinition": "この文書ヘッダが参照する出荷回答書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）文書タイプコード",
+      "rowNumber": "425",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01009672",
+      "itemDefinition": "この文書ヘッダが参照する出荷回答書の文書タイプを識別するコード\r\n＝「632」（Goods receipt）（デフォルト）",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）文書サブタイプコード",
+      "rowNumber": "426",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01014899",
+      "itemDefinition": "この文書ヘッダが参照する出荷回答書の文書サブタイプを識別するコード＝[63201](出荷回答書：デフォルト）",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ決済クラス",
+      "rowNumber": "427",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005992",
+      "itemDefinition": "文書ヘッダの決済に関する情報からなるクラス。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ取引方向コード",
+      "rowNumber": "429",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01014647",
+      "itemDefinition": "この文書ヘッダの取引方向を識別するコード\r\nデフォルトは「プラス」",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ返金クラス",
+      "rowNumber": "430",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005998",
+      "itemDefinition": "文書ヘッダ返金のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ返金・追加請求判別子\r\n＝返金（Allowance）",
+      "rowNumber": "432",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005707",
+      "itemDefinition": "文書ヘッダ返金と文書ヘッダ追加請求を識別する判別子\r\n=false(Allowance)",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ返金計算率",
+      "rowNumber": "433",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005710",
+      "itemDefinition": "この文書ヘッダ返金を計算するための率",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ返金金額",
+      "rowNumber": "434",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005713",
+      "itemDefinition": "この文書ヘッダ返金の請求金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ返金理由コード",
+      "rowNumber": "435",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005714",
+      "itemDefinition": "この文書ヘッダ返金の理由を識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ返金理由",
+      "rowNumber": "436",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005715",
+      "itemDefinition": "この文書ヘッダ返金の理由（内容）の説明",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ返金計算根拠金額",
+      "rowNumber": "437",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01008286",
+      "itemDefinition": "この文書ヘッダ返金の計算根拠となる金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ返金税クラス",
+      "rowNumber": "438",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005716",
+      "itemDefinition": "文書ヘッダ返金の税クラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ返金課税分類コード",
+      "rowNumber": "440",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005841",
+      "itemDefinition": "文書ヘッダ返金の課税分類コード",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ返金税率",
+      "rowNumber": "441",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01007174",
+      "itemDefinition": "文書ヘッダ返金の税率",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ追加請求クラス",
+      "rowNumber": "442",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005998",
+      "itemDefinition": "文書ヘッダ返金・追加請求のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ返金・追加請求判別子\r\n＝追加請求（Charge）",
+      "rowNumber": "444",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005707",
+      "itemDefinition": "文書ヘッダ返金と文書ヘッダ追加請求を識別する判別子\r\n＝True(Charge)",
+      "repetition": "1..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ追加請求計算率",
+      "rowNumber": "445",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005710",
+      "itemDefinition": "この文書ヘッダ追加請求を計算するための率",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ追加請求金額",
+      "rowNumber": "446",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005713",
+      "itemDefinition": "この文書ヘッダ追加請求の請求金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ追加請求理由コード",
+      "rowNumber": "447",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005714",
+      "itemDefinition": "この文書ヘッダ追加請求の理由を識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ追加請求理由",
+      "rowNumber": "448",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005715",
+      "itemDefinition": "この文書ヘッダ追加請求の理由（内容）の説明",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ追加請求計算根拠金額",
+      "rowNumber": "449",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01008286",
+      "itemDefinition": "この文書ヘッダ追加請求の計算根拠となる金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ追加請求税クラス",
+      "rowNumber": "450",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005716",
+      "itemDefinition": "文書ヘッダ追加請求の税クラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ追加請求課税分類コード",
+      "rowNumber": "452",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005841",
+      "itemDefinition": "文書ヘッダ追加請求の課税分類コード",
+      "repetition": "1..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ追加請求税率",
+      "rowNumber": "453",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01007174",
+      "itemDefinition": "文書ヘッダ追加請求の税率",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ税クラス",
+      "rowNumber": "454",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005996",
+      "itemDefinition": "文書ヘッダの税に関する情報からなるクラス",
+      "repetition": "1..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "文書ヘッダ課税分類税額",
+      "rowNumber": "456",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005833",
+      "itemDefinition": "文書ヘッダの課税分類毎に端数処理計算した税額。\r\n文書ヘッダ課税分類資産譲渡合計金額×税率\r\n算出した税額は切り上げ、切り捨て、四捨五入のいずれかで処理し、税額は整数とする",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "文書ヘッダ税タイプコード",
+      "rowNumber": "457",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005834",
+      "itemDefinition": "税の種類を識別するコード。デフォルトは消費税\r\n消費税：VAT。源泉徴収税：SWT",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "文書ヘッダ課税分類譲渡資産合計金額（税抜き）",
+      "rowNumber": "458",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005839",
+      "itemDefinition": "明細文書明細行の課税分類毎の税抜き譲渡資産金額の合計金額\r\n文書ヘッダ譲渡資産総合計金額（税抜き）＝∑明細行譲渡資産金額（税抜き）＋Σ文書ヘッダ追加請求金額ーΣ文書ヘッダ返金金額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "文書ヘッダ課税分類コード",
+      "rowNumber": "459",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005841",
+      "itemDefinition": "文書ヘッダの課税分類（標準税率、軽減税率、不課税、非課税、免税等）を識別するコード\r\n課税分類ごとにクラスを設ける",
+      "repetition": "1..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "課税分類税通貨コード",
+      "rowNumber": "460",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005842",
+      "itemDefinition": "=「JPY」または「外貨」。デフォルトは「JPY」\r\n文書通貨コード（UN01005914）の指定と合わせる。文書通貨コードが「外貨」を指定された場合は文書ヘッダ税クラス（外貨建て適格請求書用）とセットで利用する",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ課税分類名",
+      "rowNumber": "461",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005850",
+      "itemDefinition": "文書ヘッダの課税分類（標準税率、軽減税率、不課税、非課税、免税等）の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "文書ヘッダ税率",
+      "rowNumber": "462",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01007174",
+      "itemDefinition": "文書ヘッダヘッダの課税分類毎の税額計算のための率。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "文書ヘッダ課税分類譲渡資産合計金額(税込み)",
+      "rowNumber": "463",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01013040",
+      "itemDefinition": "明細文書明細行の課税分類毎の税込み譲渡資産金額の合計金額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "文書ヘッダ税計算方式",
+      "rowNumber": "464",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01013096",
+      "itemDefinition": "文書ヘッダの金額の税込み、税抜きを指定。\r\nデフォルトは「税抜き」",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "文書ヘッダ適用税制ID",
+      "rowNumber": "465",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01014650",
+      "itemDefinition": "取引の税制年度を識別するID\r\nデフォルトは「2019」（2019年度税制）",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（外貨建て請求書）文書ヘッダ税クラス",
+      "rowNumber": "466",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005996",
+      "itemDefinition": "外貨建て請求書の文書ヘッダの税に関する情報からなるクラス\r\nUN01005914文書通貨コード＝「外貨」、UN01005913税通貨コード＝[JPY」の場合に利用する'。（円建て請求書の場合は利用しない）",
+      "repetition": "0..n",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（外貨建て請求書）文書ヘッダ課税分類税額",
+      "rowNumber": "468",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005833",
+      "itemDefinition": "外貨建て請求書の文書ヘッダの課税分類毎に端数処理計算した税額。\r\n属性＝「JPY」\r\n外貨建て請求書の文書ヘッダ課税分類資産譲渡合計金額×税率\r\n算出した税額は切り上げ、切り捨て、四捨五入のいずれかで処理し、税額は整数とする",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（外貨建て請求書）文書ヘッダ課税分類譲渡資産合計金額（税抜き）",
+      "rowNumber": "469",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005839",
+      "itemDefinition": "明細行の課税分類毎の税抜き譲渡資産金額の合計金額\r\n属性＝「JPY」\r\n文書ヘッダ譲渡資産総合計金額（税抜き）＝∑明細行譲渡資産金額（税抜き）＋Σ文書ヘッダ追加請求金額ーΣ文書ヘッダ返金金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（外貨建て請求書）文書ヘッダ課税分類コード",
+      "rowNumber": "470",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005841",
+      "itemDefinition": "外貨建て請求書の文書ヘッダの課税分類（標準税率、軽減税率）を識別するコード",
+      "repetition": "1..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（外貨建て請求書）課税分類税通貨コード",
+      "rowNumber": "471",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005842",
+      "itemDefinition": "外貨建て請求書の税額を日本円で表示することを指定するコード\r\n=「JPY」",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（外貨建て請求書）文書ヘッダ税率",
+      "rowNumber": "472",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01007174",
+      "itemDefinition": "外貨建て請求書の文書ヘッダの課税分類毎の税額計算のための率。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ適用税制ID",
+      "rowNumber": "473",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01014650",
+      "itemDefinition": "取引の税制年度を識別するID\r\nデフォルトは「2019」（2019年度税制）",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "文書ヘッダ取引期間クラス",
+      "rowNumber": "474",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005997",
+      "itemDefinition": "文書ヘッダの取引期間に関する情報からなるクラス\r\n文書ヘッダ取引期間クラスにデータ入力した場合は明細行取引期間クラスのデータ入力は省略することができる",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ取引開始日",
+      "rowNumber": "476",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005612",
+      "itemDefinition": "この文書ヘッダの取引開始日",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ取引終了日",
+      "rowNumber": "477",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005613",
+      "itemDefinition": "この文書ヘッダの取引終了日\r\n文書ヘッダ、または明細行取引期間のいずれかのデータが必須",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ合計金額クラス",
+      "rowNumber": "478",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01006002",
+      "itemDefinition": "文書ヘッダ合計金額に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "文書ヘッダ追加請求合計金額",
+      "rowNumber": "480",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01006008",
+      "itemDefinition": "文書ヘッダレベルの追加請求合計金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ返金合計金額",
+      "rowNumber": "481",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01006009",
+      "itemDefinition": "文書ヘッダレベルの返金合計金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "文書ヘッダ合計税額",
+      "rowNumber": "482",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01006011",
+      "itemDefinition": "文書ヘッダの合計税額",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "文書ヘッダグロス合計金額（税抜き）",
+      "rowNumber": "483",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01008455",
+      "itemDefinition": "文書ヘッダレベルの追加請求・返金を除く明細文薗の資産譲渡金額の合計金額（税抜き）",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "文書ヘッダ譲渡資産合計金額(税抜き)",
+      "rowNumber": "484",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01008456",
+      "itemDefinition": "文書ヘッダ明細行の合計金額（税抜き）\r\n文書ヘッダレベルの追加請求・返金を含む",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "文書ヘッダ譲渡資産合計金額(税込み)",
+      "rowNumber": "485",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01008457",
+      "itemDefinition": "文書ヘッダ明細行の合計金額（税込み）\r\n文書ヘッダレベルの追加請求・返金を含む",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "文書ヘッダ総合計金額（税込み）",
+      "rowNumber": "486",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01011519",
+      "itemDefinition": "文書ヘッダの総合計金額（税込み）\r\n=文書ヘッダ合計金額（税抜き）＋文書ヘッダ合計税額",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（外貨建て請求書）文書ヘッダ合計金額クラス",
+      "rowNumber": "487",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01006002",
+      "itemDefinition": "外貨建て請求書)文書ヘッダ合計金額に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（外貨建て請求書）文書ヘッダ合計税額",
+      "rowNumber": "489",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01006011",
+      "itemDefinition": "外貨建て適格請求文書ヘッダの日本円合計税額。\r\n通貨コード属性＝JPY\r\n文書通貨コード＝「外貨」、税通貨コード＝「JPY」の場合に利用する",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）インボイス対象物クラス",
+      "rowNumber": "490",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01006004",
+      "itemDefinition": "文書ヘッダの参照インボイス対象物クラス\r\n文書タイプコード=380以外のインボイス対象物を参照",
+      "repetition": "0..n",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）インボイス対象物ID",
+      "rowNumber": "492",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005580",
+      "itemDefinition": "この文書ヘッダが参照するインボイス対象物に記載の文書ID",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）インボイス対象物発行日",
+      "rowNumber": "493",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005582",
+      "itemDefinition": "この文書ヘッダが参照するインボイス対象物に記載の発行日付",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）文書参照タイプコード",
+      "rowNumber": "494",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005586",
+      "itemDefinition": "この文書ヘッダが参照する文書の参照タイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）インボイス対象物履歴ID",
+      "rowNumber": "495",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005588",
+      "itemDefinition": "この文書ヘッダが参照するインボイス対象物の変更履歴を管理するID",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）文書タイプコード",
+      "rowNumber": "496",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01009672",
+      "itemDefinition": "この文書ヘッダが参照するインボイス対象物の文書タイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）文書サブタイプコード",
+      "rowNumber": "497",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01014899",
+      "itemDefinition": "この文書ヘッダが参照するインボイス対象物の文書サブタイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）入札書クラス",
+      "rowNumber": "498",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01006005",
+      "itemDefinition": "文書ヘッダ参照の入札書クラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）入札書ID",
+      "rowNumber": "500",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005580",
+      "itemDefinition": "この文書ヘッダ参照入札書の文書ID",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）入札書発行日",
+      "rowNumber": "501",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005582",
+      "itemDefinition": "この文書ヘッダ参照入札書に記載の発行日付",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）文書参照タイプコード",
+      "rowNumber": "502",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005586",
+      "itemDefinition": "この文書ヘッダ参照入札書の参照タイプを識別するコード。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）入札書履歴ID",
+      "rowNumber": "503",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005588",
+      "itemDefinition": "この文書ヘッダ参照入札書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）入札書説明",
+      "rowNumber": "504",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01006415",
+      "itemDefinition": "この文書ヘッダ参照入札書の説明",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）文書タイプコード",
+      "rowNumber": "505",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01009672",
+      "itemDefinition": "この文書ヘッダ参照文書の文書タイプを識別するコード\r\n＝「758」(Tender：入札書)\r\n　　→JP-PINT[IBT-017]へマッピング",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）文書添付ファイル",
+      "rowNumber": "506",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01011455",
+      "itemDefinition": "この文書ヘッダ参照文書の添付バイナリファイルの有無を指定\r\nありの場合はUN01006015のバイナリファイルID（BASE64）を入力",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッ参照）文書サブタイプコード",
+      "rowNumber": "507",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01014899",
+      "itemDefinition": "この文書ヘッダ参照文書の文書サブタイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）前回インボイス文書クラス",
+      "rowNumber": "508",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01006005",
+      "itemDefinition": "文書ヘッダの参照前回インボイス文書クラス\r\nインボイス文書参照タイプコード＝「OI」Previous invoice number」指定",
+      "repetition": "0..n",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）前回インボイス文書ID",
+      "rowNumber": "510",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005580",
+      "itemDefinition": "この文書ヘッダが参照する前回インボイス文書の文書ID",
+      "repetition": "1..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）前回インボイス文書発行日",
+      "rowNumber": "511",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005582",
+      "itemDefinition": "この文書ヘッダが参照する前回インボイス文書に記載の発行日付",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）インボイス文書参照タイプコード",
+      "rowNumber": "512",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005586",
+      "itemDefinition": "この文書ヘッダが参照する前回インボイス文書の参照タイプを識別するコード。\r\n＝ 「OI」Previous invoice number」\r\n　　→JP-PINT[IBT-025]へマッピング",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）前回インボイス文書履歴ID",
+      "rowNumber": "513",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005588",
+      "itemDefinition": "この文書ヘッダの参照前回インボイス文書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）前回インボイス文書説明",
+      "rowNumber": "514",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01006415",
+      "itemDefinition": "この文書ヘッダの参照前回インボイス文書の説明",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）文書タイプコード",
+      "rowNumber": "515",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01009672",
+      "itemDefinition": "この文書ヘッダの参照文書の文書タイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）文書添付ファイル",
+      "rowNumber": "516",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01011455",
+      "itemDefinition": "この文書ヘッダ参照文書の添付バイナリファイルの有無を指定\r\nありの場合はUN01006015のバイナリファイルID（BASE64）を入力",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（文書ヘッダ参照）文書サブタイプコード",
+      "rowNumber": "517",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01014899",
+      "itemDefinition": "この文書ヘッダの参照文書の文書サブタイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "購買会計アカウントクラス",
+      "rowNumber": "518",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01006080",
+      "itemDefinition": "購買会計アカウントに関するクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "購買会計アカウントタイプコード",
+      "rowNumber": "520",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005683",
+      "itemDefinition": "売り手が付与する買い手の購買会計アカウント",
+      "repetition": "1..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "購買会計アカウント名",
+      "rowNumber": "521",
+      "headerDetail": "文書ヘッダ",
+      "clId": "UN01005685",
+      "itemDefinition": "買い手の購買会計アカウント名",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行クラス",
+      "rowNumber": "522",
+      "headerDetail": "明細行",
+      "clId": "UN01009669",
+      "itemDefinition": "明細行に関する情報からなるクラス",
+      "repetition": "1..n",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細行ID",
+      "rowNumber": "524",
+      "headerDetail": "明細行",
+      "clId": "UN01009648",
+      "itemDefinition": "この文書の明細行に関する情報を特定するために付与した行ID。明細行をユニークに識別するために付番する場合は文書IDとの複合キーで明細行を特定する。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細行類型コード",
+      "rowNumber": "525",
+      "headerDetail": "明細行",
+      "clId": "UN01014637",
+      "itemDefinition": "この明細行の取引類型（資産譲渡、返金・追加請求、調整等）を識別するコード。\r\nデフォルトは「資産譲渡」",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行注釈クラス",
+      "rowNumber": "526",
+      "headerDetail": "明細行",
+      "clId": "UN01015533",
+      "itemDefinition": "明細行の注釈を記述するクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "明細行注釈表題",
+      "rowNumber": "528",
+      "headerDetail": "明細行",
+      "clId": "UN01005558",
+      "itemDefinition": "明細行の注釈内容の表題を示す。\r\n一部に利用制限あり。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行注釈内容",
+      "rowNumber": "529",
+      "headerDetail": "明細行",
+      "clId": "UN01005560",
+      "itemDefinition": "明細行の注釈表題毎の内容情報を入力するフリースペース。\r\n一部に利用制限あり。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行注釈ID",
+      "rowNumber": "530",
+      "headerDetail": "明細行",
+      "clId": "UN01005562",
+      "itemDefinition": "明細行注釈の識別ID\r\n共通EDIプロバイダがシリアル番号をセット。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行参照受注書クラス",
+      "rowNumber": "533",
+      "headerDetail": "明細行",
+      "clId": "UN01009654",
+      "itemDefinition": "明細行の参照受注書クラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）受注書ID",
+      "rowNumber": "535",
+      "headerDetail": "明細行",
+      "clId": "UN01005580",
+      "itemDefinition": "この明細行が参照する受注書に記載の文書ID",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）受注書明細行ID",
+      "rowNumber": "536",
+      "headerDetail": "明細行",
+      "clId": "UN01005585",
+      "itemDefinition": "この明細行が参照する受注書に記載の明細行ID",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）受注書履歴ID",
+      "rowNumber": "537",
+      "headerDetail": "明細行",
+      "clId": "UN01005588",
+      "itemDefinition": "この明細行が参照する受注書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行参照注文書クラス",
+      "rowNumber": "538",
+      "headerDetail": "明細行",
+      "clId": "UN01009655",
+      "itemDefinition": "明細行の参照注文書クラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）注文書ID",
+      "rowNumber": "540",
+      "headerDetail": "明細行",
+      "clId": "UN01005580",
+      "itemDefinition": "この明細行が参照する注文書に記載の文書ID",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）注文書明細行ID",
+      "rowNumber": "541",
+      "headerDetail": "明細行",
+      "clId": "UN01005585",
+      "itemDefinition": "この明細行が参照する注文書に記載の明細行ID",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）注文書履歴ID",
+      "rowNumber": "542",
+      "headerDetail": "明細行",
+      "clId": "UN01005588",
+      "itemDefinition": "この明細行が参照する注文書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（明細行参照）出荷案内書クラス",
+      "rowNumber": "543",
+      "headerDetail": "明細行",
+      "clId": "UN01009656",
+      "itemDefinition": "明細行の参照出荷案内書クラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "（明細行参照）出荷案内書ID",
+      "rowNumber": "545",
+      "headerDetail": "明細行",
+      "clId": "UN01005580",
+      "itemDefinition": "この明細行が参照する文書に記載の文書ID。",
+      "repetition": "1..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "（明細行参照）出荷案内書明細行ID",
+      "rowNumber": "546",
+      "headerDetail": "明細行",
+      "clId": "UN01005585",
+      "itemDefinition": "この明細行が参照する文書に記載の文書明細行ID。",
+      "repetition": "1..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "（明細行参照）文書参照タイプコード",
+      "rowNumber": "547",
+      "headerDetail": "明細行",
+      "clId": "UN01005586",
+      "itemDefinition": "この明細行が参照する文書の参照タイプを識別するコード。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（明細行参照）出荷案内書履歴ID",
+      "rowNumber": "548",
+      "headerDetail": "明細行",
+      "clId": "UN01005588",
+      "itemDefinition": "この明細行が参照する出荷案内書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（明細行参照）文書タイプコード",
+      "rowNumber": "549",
+      "headerDetail": "明細行",
+      "clId": "UN01009672",
+      "itemDefinition": "この明細行が参照する文書の文書タイプを識別するコード。\r\nデフォルト＝「351」Despatch advice（出荷案内書）",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "（明細行参照）文書添付ファイル",
+      "rowNumber": "550",
+      "headerDetail": "明細行",
+      "clId": "UN01011455",
+      "itemDefinition": "この文書ヘッダ参照文書の添付バイナリファイルの有無を指定\r\nありの場合はUN01006015のバイナリファイルID（BASE64）を入力",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（明細行参照）文書サブタイプコード",
+      "rowNumber": "551",
+      "headerDetail": "明細行",
+      "clId": "UN01014899",
+      "itemDefinition": "この明細行が参照する文書の文書サブタイプを識別するコード。\r\nデフォルト属性＝「35101」一般納品書",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（明細行参照）文書クラス",
+      "rowNumber": "552",
+      "headerDetail": "明細行",
+      "clId": "UN01009656",
+      "itemDefinition": "明細行の参照文書クラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（明細行参照）文書ID",
+      "rowNumber": "554",
+      "headerDetail": "明細行",
+      "clId": "UN01005580",
+      "itemDefinition": "この明細行が参照する文書に記載の文書ID。",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（明細行参照）文書明細行ID",
+      "rowNumber": "555",
+      "headerDetail": "明細行",
+      "clId": "UN01005585",
+      "itemDefinition": "この明細行が参照する文書に記載の文書明細行ID。",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（明細行参照）文書参照タイプコード",
+      "rowNumber": "556",
+      "headerDetail": "明細行",
+      "clId": "UN01005586",
+      "itemDefinition": "この明細行が参照する文書の参照タイプを識別するコード。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（明細行参照）文書履歴ID",
+      "rowNumber": "557",
+      "headerDetail": "明細行",
+      "clId": "UN01005588",
+      "itemDefinition": "この明細行が参照する文書の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（明細行参照）文書タイプコード",
+      "rowNumber": "558",
+      "headerDetail": "明細行",
+      "clId": "UN01009672",
+      "itemDefinition": "この明細行が参照する文書の文書タイプを識別するコード。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（明細行参照）文書添付ファイル",
+      "rowNumber": "559",
+      "headerDetail": "明細行",
+      "clId": "UN01011455",
+      "itemDefinition": "この文書ヘッダ参照文書の添付バイナリファイルの有無を指定\r\nありの場合はUN01006015のバイナリファイルID（BASE64）を入力",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（明細行参照）文書サブタイプコード",
+      "rowNumber": "560",
+      "headerDetail": "明細行",
+      "clId": "UN01014899",
+      "itemDefinition": "この明細行が参照する文書の文書サブタイプを識別するコード。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "契約単価クラス",
+      "rowNumber": "561",
+      "headerDetail": "明細行",
+      "clId": "UN01009658",
+      "itemDefinition": "明細行の契約単価に関する情報からなるクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "単価コード",
+      "rowNumber": "563",
+      "headerDetail": "明細行",
+      "clId": "UN01005791",
+      "itemDefinition": "単価の区分（確定、仮単価等）を識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "契約単価",
+      "rowNumber": "564",
+      "headerDetail": "明細行",
+      "clId": "UN01005792",
+      "itemDefinition": "発注者と受注者が合意した明細発注品の単価。単価基準数量と単価基準数量単位の指定に従う。\r\n税込み、税抜きの識別はヘッダ部の「UN01013096：税計算方式」で指定（指定がない場合（デフォルト）は税抜き）。",
+      "repetition": "1..1",
+      "establishedRevised": "v1/v3"
+    },
+    {
+      "itemName": "単価基準数量",
+      "rowNumber": "565",
+      "headerDetail": "明細行",
+      "clId": "UN01005793",
+      "itemDefinition": "✔定貫品目の場合：空欄（デフォルト）、または単価基準数量＝１\r\n✔不定貫品目、ハイブリッド品目の場合：単価基準数量＝単価の基準となる重量・容量",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "単価基準数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "",
+      "itemDefinition": "単価基準数量の数量単位を指定するコード。不定貫品目の単価基準数量単位コード値を単価基準数量の属性として組込む。",
+      "repetition": "",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行納入クラス",
+      "rowNumber": "566",
+      "headerDetail": "明細行",
+      "clId": "UN01009650",
+      "itemDefinition": "明細行の納入に関する情報からなるクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "請求セット数量",
+      "rowNumber": "568",
+      "headerDetail": "明細行",
+      "clId": "UN01009660",
+      "itemDefinition": "この明細行品目の請求セット数量\r\n流通業の固有仕様",
+      "repetition": "0..1",
+      "establishedRevised": "v４"
+    },
+    {
+      "itemName": "請求セット数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "",
+      "itemDefinition": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求バラ数量",
+      "rowNumber": "569",
+      "headerDetail": "明細行",
+      "clId": "UN01009661",
+      "itemDefinition": "この明細行品目の請求バラ数量\r\n流通業の固有仕様",
+      "repetition": "0..1",
+      "establishedRevised": "v４"
+    },
+    {
+      "itemName": "請求バラ数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "",
+      "itemDefinition": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求セット単位数量(入り数）",
+      "rowNumber": "570",
+      "headerDetail": "明細行",
+      "clId": "UN01009662",
+      "itemDefinition": "✔請求数量の 数量単位指定が定貫品目（バラ）の場合：利用しない\r\n✔ 請求数量の数量単位指定が定貫品目（セット）の場合：1セット当たりのバラ数量を入力。\r\n✔ 請求数量の数量単位指定が不定貫品目（個数でカウントできない品目）の場合：利用しない。\r\n✔ 請求数量の数量単位指定がハイブリッド品目の場合：請求数量で指定した数量の1単位当たりの重量等を入力",
+      "repetition": "0..1",
+      "establishedRevised": "v3/v4"
+    },
+    {
+      "itemName": "請求入り数数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "",
+      "itemDefinition": "請求セット単位数量（入り数）の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求数量",
+      "rowNumber": "571",
+      "headerDetail": "明細行",
+      "clId": "UN01014639",
+      "itemDefinition": "この情報項目は取引数量の指定に利用する。\r\nこの項目の属性として数量単位コードを指定することにより、ずべての品目の取引数量指定に利用できる。\r\n流通業の定貫品目取引では、この項目は利用せず「セット数量」または「バラ数量」を利用する。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "請求数量単位コード",
+      "rowNumber": "",
+      "headerDetail": "明細行",
+      "clId": "",
+      "itemDefinition": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行決裁クラス",
+      "rowNumber": "572",
+      "headerDetail": "明細行",
+      "clId": "UN01009651",
+      "itemDefinition": "明細行の決済入に関する情報からなるクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細行取引方向コード",
+      "rowNumber": "574",
+      "headerDetail": "明細行",
+      "clId": "UN01014641",
+      "itemDefinition": "明細行の取引方向を識別するコード\r\nデフォルトは「プラス」\r\n明細行取引類型コードが「調整」を指定場合に利用する。\r\n金額の「プラス」「マイナス」表示を許容する場合は実装しない。",
+      "repetition": "0..1",
+      "establishedRevised": "v４"
+    },
+    {
+      "itemName": "明細行税クラス",
+      "rowNumber": "575",
+      "headerDetail": "明細行",
+      "clId": "UN01009665",
+      "itemDefinition": "明細行の税に関する情報に関するクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "明細行税タイプコード",
+      "rowNumber": "577",
+      "headerDetail": "明細行",
+      "clId": "UN01005834",
+      "itemDefinition": "税の種類を識別するコード。デフォルトは消費税；VAT",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "明細行譲渡資産金額（税抜き）",
+      "rowNumber": "578",
+      "headerDetail": "明細行",
+      "clId": "UN01005839",
+      "itemDefinition": "この明細行の税抜き譲渡資産金額（契約単価×請求数量＋明細行追加請求金額（税抜き）ー明細行返金金額（税抜き））\r\n契約単価×数量で指定できない場合は金額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "明細行課税分類コード",
+      "rowNumber": "579",
+      "headerDetail": "明細行",
+      "clId": "UN01005841",
+      "itemDefinition": "この明細行の消費税の課税分類（標準税率、軽減税率、不課税、非課税、免税等）を識別するコード",
+      "repetition": "1..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "明細行課税分類名",
+      "rowNumber": "580",
+      "headerDetail": "明細行",
+      "clId": "UN01005850",
+      "itemDefinition": "消費税の課税分類（標準税率、軽減税率、不課税、非課税、免税等）の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "明細行税率",
+      "rowNumber": "581",
+      "headerDetail": "明細行",
+      "clId": "UN01007174",
+      "itemDefinition": "この明細行の税率。\r\n2014年度税制の場合は、明細行課税分類コードと組み合わせて利用する。",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "明細行譲渡資産金額(税込み)",
+      "rowNumber": "582",
+      "headerDetail": "明細行",
+      "clId": "UN01013040",
+      "itemDefinition": "この明細行の税額を含む譲渡資産金額＋明細行追加請求金額（税込み）ー明細行返金金額（税込み）",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "明細行適用税制ID",
+      "rowNumber": "583",
+      "headerDetail": "明細行",
+      "clId": "UN01014650",
+      "itemDefinition": "この明細行取引の税制年度を識別するID\r\nデフォルトは「2019」（2019年度税制）",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行インボイス対象物クラス",
+      "rowNumber": "584",
+      "headerDetail": "明細行",
+      "clId": "UN01014642",
+      "itemDefinition": "明細行が参照するインボイス対象物クラス\r\n文書タイプコード＝380以外のインボイス対象物を参照",
+      "repetition": "0..n",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（明細行参照）インボイス対象物ID",
+      "rowNumber": "586",
+      "headerDetail": "明細行",
+      "clId": "UN01005580",
+      "itemDefinition": "この明細行が参照するインボイス対象物のID",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（明細行参照）インボイス対象物発行日",
+      "rowNumber": "587",
+      "headerDetail": "明細行",
+      "clId": "UN01005582",
+      "itemDefinition": "この明細行が参照するインボイス対象物の発行日",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（明細行参照）インボイス対象物明細行ID",
+      "rowNumber": "588",
+      "headerDetail": "明細行",
+      "clId": "UN01005585",
+      "itemDefinition": "この明細行が参照するインボイス対象物の明細行ID",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（明細行参照）文書参照タイプコード",
+      "rowNumber": "589",
+      "headerDetail": "明細行",
+      "clId": "UN01005586",
+      "itemDefinition": "この明細行が参照する文書の参照タイプを識別するコード。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "（明細行参照）インボイス対象物履歴ID",
+      "rowNumber": "590",
+      "headerDetail": "明細行",
+      "clId": "UN01005588",
+      "itemDefinition": "この明細行が参照するインボイス対象物の変更履歴を管理するID。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（明細行参照）文書タイプコード",
+      "rowNumber": "591",
+      "headerDetail": "明細行",
+      "clId": "UN01009672",
+      "itemDefinition": "この明細行が参照する文書タイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（明細行参照）文書サブタイプコード",
+      "rowNumber": "592",
+      "headerDetail": "明細行",
+      "clId": "UN01014899",
+      "itemDefinition": "この明細行が参照する文書の文書サブタイプコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行返金クラス",
+      "rowNumber": "593",
+      "headerDetail": "明細行",
+      "clId": "UN01014644",
+      "itemDefinition": "明細行返金のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行返金・追加請求判別子\r\n    =返金（Allowance）",
+      "rowNumber": "595",
+      "headerDetail": "明細行",
+      "clId": "UN01005707",
+      "itemDefinition": "明細行返金・追加請求判別子\r\n    =false (Allowance）",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行返金計算率",
+      "rowNumber": "596",
+      "headerDetail": "明細行",
+      "clId": "UN01005710",
+      "itemDefinition": "明細行返金計算率",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行返金金額",
+      "rowNumber": "597",
+      "headerDetail": "明細行",
+      "clId": "UN01005713",
+      "itemDefinition": "明細行返金金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行返金理由コード",
+      "rowNumber": "598",
+      "headerDetail": "明細行",
+      "clId": "UN01005714",
+      "itemDefinition": "明細行返金理由コード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行返金理由",
+      "rowNumber": "599",
+      "headerDetail": "明細行",
+      "clId": "UN01005715",
+      "itemDefinition": "明細行返金理由",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行返金計算根拠金額",
+      "rowNumber": "600",
+      "headerDetail": "明細行",
+      "clId": "UN01008286",
+      "itemDefinition": "明細行返金計算根拠金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行追加請求クラス",
+      "rowNumber": "601",
+      "headerDetail": "明細行",
+      "clId": "UN01014644",
+      "itemDefinition": "明細行追加請求クラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行返金・追加請求判別子\r\n    =追加請求（Charge）",
+      "rowNumber": "603",
+      "headerDetail": "明細行",
+      "clId": "UN01005707",
+      "itemDefinition": "明細行返金・追加請求判別子\r\n    =True (Charge)",
+      "repetition": "1..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行追加請求計算率",
+      "rowNumber": "604",
+      "headerDetail": "明細行",
+      "clId": "UN01005710",
+      "itemDefinition": "この明細行追加請求を計算するための率",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行追加請求金額",
+      "rowNumber": "605",
+      "headerDetail": "明細行",
+      "clId": "UN01005713",
+      "itemDefinition": "この明細行の追加請求金額。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行追加請求理由コード",
+      "rowNumber": "606",
+      "headerDetail": "明細行",
+      "clId": "UN01005714",
+      "itemDefinition": "この明細行の追加請求理由を識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行追加請求理由",
+      "rowNumber": "607",
+      "headerDetail": "明細行",
+      "clId": "UN01005715",
+      "itemDefinition": "この明細行の追加請求理由（内容）の説明",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行追加請求計算根拠金額",
+      "rowNumber": "608",
+      "headerDetail": "明細行",
+      "clId": "UN01008286",
+      "itemDefinition": "この明細行追加請求の計算根拠となる金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行調整クラス",
+      "rowNumber": "609",
+      "headerDetail": "明細行",
+      "clId": "UN01014643",
+      "itemDefinition": "明細行の調整に関する情報からなるクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行調整理由コード",
+      "rowNumber": "611",
+      "headerDetail": "明細行",
+      "clId": "UN01005488",
+      "itemDefinition": "この明細行の調整理由を示す識別コード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行調整理由",
+      "rowNumber": "612",
+      "headerDetail": "明細行",
+      "clId": "UN01005489",
+      "itemDefinition": "この明細行の調整理由を文字で表現した内容",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行調整金額",
+      "rowNumber": "613",
+      "headerDetail": "明細行",
+      "clId": "UN01005490",
+      "itemDefinition": "この明細行の調整金額\r\n調整ユースケースの場合は必須",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行取引期間クラス",
+      "rowNumber": "614",
+      "headerDetail": "明細行",
+      "clId": "UN01014894",
+      "itemDefinition": "明細行の取引期間に関する情報からなるクラス\r\n文書ヘッダ取引期間クラスのデータ入力が無い場合は、すべての明細行取引期間クラスにデータ入力しなければならない。",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行取引開始日",
+      "rowNumber": "616",
+      "headerDetail": "明細行",
+      "clId": "UN01005612",
+      "itemDefinition": "この明細行の取引開始日",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行取引終了日",
+      "rowNumber": "617",
+      "headerDetail": "明細行",
+      "clId": "UN01005613",
+      "itemDefinition": "この明細行の取引終了日.。\r\n文書ヘッダまたは明細行取引期間のいずれかのデータが必須",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行購買会計アカウントクラス",
+      "rowNumber": "618",
+      "headerDetail": "明細行",
+      "clId": "UN01015534",
+      "itemDefinition": "明細行購買会計アカウントに関するクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "明細行購買会計アカウントタイプコード",
+      "rowNumber": "620",
+      "headerDetail": "明細行",
+      "clId": "UN01005683",
+      "itemDefinition": "売り手が付与する買い手の明細行購買会計アカウント",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行購買会計アカウント名",
+      "rowNumber": "621",
+      "headerDetail": "明細行",
+      "clId": "UN01005685",
+      "itemDefinition": "買い手の明細行購買会計アカウント名",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "取引品目クラス",
+      "rowNumber": "622",
+      "headerDetail": "明細行",
+      "clId": "UN01010016",
+      "itemDefinition": "取引品目に関する情報からなるクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "品目ID",
+      "rowNumber": "624",
+      "headerDetail": "明細行",
+      "clId": "UN01005810",
+      "itemDefinition": "品目名を特定するために付与したID",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "グローバル品目ID",
+      "rowNumber": "625",
+      "headerDetail": "明細行",
+      "clId": "UN01005811",
+      "itemDefinition": "GTIN、JANIDなどの国際的に登録された品目ID",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "受注者品目ID",
+      "rowNumber": "626",
+      "headerDetail": "明細行",
+      "clId": "UN01005812",
+      "itemDefinition": "受注者が品目を特定するために付与したID",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "発注者品目ID",
+      "rowNumber": "627",
+      "headerDetail": "明細行",
+      "clId": "UN01005813",
+      "itemDefinition": "発注者が品目を特定するために付与したID",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "メーカー品目ID",
+      "rowNumber": "628",
+      "headerDetail": "明細行",
+      "clId": "UN01005814",
+      "itemDefinition": "品目を特定するために製造者が付与したID",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "品目名",
+      "rowNumber": "629",
+      "headerDetail": "明細行",
+      "clId": "UN01005815",
+      "itemDefinition": "この取引品目の名称。",
+      "repetition": "1..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "品目摘要",
+      "rowNumber": "630",
+      "headerDetail": "明細行",
+      "clId": "UN01005817",
+      "itemDefinition": "この取引品目内容を文字で説明したもの",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "品目数量単位判別子",
+      "rowNumber": "631",
+      "headerDetail": "明細行",
+      "clId": "UN01008533",
+      "itemDefinition": "品目数量単位の区分（定貫品目、不定貫品目、ハイブリッド品目、実測不定貫品目、実測ハイブリッド品目）の判別子。デフォルトは定貫品目",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "品目分類クラス",
+      "rowNumber": "632",
+      "headerDetail": "明細行",
+      "clId": "UN01005823",
+      "itemDefinition": "取引品目の分類に関するクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "品目分類",
+      "rowNumber": "634",
+      "headerDetail": "明細行",
+      "clId": "UN01005574",
+      "itemDefinition": "この取引品目の分類のID",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "品目特性クラス",
+      "rowNumber": "635",
+      "headerDetail": "明細行",
+      "clId": "UN01005821",
+      "itemDefinition": "取引品目の特性に関するクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "取引品目特性内容",
+      "rowNumber": "637",
+      "headerDetail": "明細行",
+      "clId": "UN01005570",
+      "itemDefinition": "この取引品目内容を文字で説明したもの",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "品目特性値",
+      "rowNumber": "638",
+      "headerDetail": "明細行",
+      "clId": "UN01011457",
+      "itemDefinition": "この取引品目特性の値",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "品目原産地クラス",
+      "rowNumber": "639",
+      "headerDetail": "明細行",
+      "clId": "UN01005827",
+      "itemDefinition": "取引品目の原産地に関するクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "原産国ID",
+      "rowNumber": "641",
+      "headerDetail": "明細行",
+      "clId": "UN01005736",
+      "itemDefinition": "この取引品目の原産国を識別する国ID",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    }
+  ]
+}

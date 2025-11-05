@@ -1,0 +1,29 @@
+{
+  "codeType": "文書タイプコード-unknown-2",
+  "sheetName": "文書タイプコード (unknown)",
+  "tableType": "unknown",
+  "region": {
+    "startRow": 68,
+    "endRow": 73,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "236",
+      "codeName": "Delivery forecast"
+    },
+    {
+      "code": "288",
+      "codeName": "Kanban schedule"
+    },
+    {
+      "code": "162",
+      "codeName": "Certified inspection and test results"
+    },
+    {
+      "code": "163",
+      "codeName": "Material inspection and receiving report"
+    }
+  ]
+}

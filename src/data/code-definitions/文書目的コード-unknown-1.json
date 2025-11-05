@@ -1,0 +1,37 @@
+{
+  "codeType": "文書目的コード-unknown-1",
+  "sheetName": "文書目的コード  (unknown)",
+  "tableType": "unknown",
+  "region": {
+    "startRow": 25,
+    "endRow": 33,
+    "startCol": 16,
+    "endCol": 18
+  },
+  "codes": [
+    {
+      "code": "3",
+      "codeName": "前回文書取消"
+    },
+    {
+      "code": "4",
+      "codeName": "変更"
+    },
+    {
+      "code": "6",
+      "codeName": "確定"
+    },
+    {
+      "code": "9",
+      "codeName": "新規（デフォルト）"
+    },
+    {
+      "code": "11",
+      "codeName": "回答"
+    },
+    {
+      "code": "63",
+      "codeName": "受取不可"
+    }
+  ]
+}

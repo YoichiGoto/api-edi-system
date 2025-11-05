@@ -1,0 +1,3334 @@
+{
+  "sheetName": "統合請求",
+  "messageType": "invoice",
+  "fields": [
+    {
+      "appField": "行番号",
+      "ediField": "鑑ヘッダ/文書ヘッダ/明細行",
+      "ediId": "項目種",
+      "required": false,
+      "description": "鑑ヘッダ/文書ヘッダ/明細行"
+    },
+    {
+      "appField": "1",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL1",
+      "required": true,
+      "description": "インボイス文書に関する情報項目のクラス"
+    },
+    {
+      "appField": "2",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID1",
+      "required": true,
+      "description": "インボイス文書を識別する文書ID"
+    },
+    {
+      "appField": "3",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID2",
+      "required": false,
+      "description": "インボイス文書の文書名称"
+    },
+    {
+      "appField": "4",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID3",
+      "required": true,
+      "description": "インボイス文書タイプコード"
+    },
+    {
+      "appField": "5",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID4",
+      "required": true,
+      "description": "インボイス文書の発行日付，またはインボイス文書の書面上の発行日付。"
+    },
+    {
+      "appField": "6",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID5",
+      "required": true,
+      "description": "インボイス文書目的コード"
+    },
+    {
+      "appField": "7",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID6",
+      "required": true,
+      "description": "インボイス文書履歴ID"
+    },
+    {
+      "appField": "8",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID7",
+      "required": true,
+      "description": "インボイス文書類型コード"
+    },
+    {
+      "appField": "9",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID8",
+      "required": true,
+      "description": "インボイス文書サブタイプコード"
+    },
+    {
+      "appField": "10",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL2",
+      "required": false,
+      "description": "インボイス文書注釈クラス"
+    },
+    {
+      "appField": "11",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID9",
+      "required": false,
+      "description": "インボイス文書注釈表題"
+    },
+    {
+      "appField": "12",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID10",
+      "required": false,
+      "description": "インボイス文書注釈内容"
+    },
+    {
+      "appField": "13",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID11",
+      "required": false,
+      "description": "インボイス文書注釈ID"
+    },
+    {
+      "appField": "14",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL3",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書クラス"
+    },
+    {
+      "appField": "15",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID12",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書ID"
+    },
+    {
+      "appField": "16",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID404",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書URL_ID"
+    },
+    {
+      "appField": "17",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID13",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書発行日"
+    },
+    {
+      "appField": "18",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID14",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書参照タイプコード"
+    },
+    {
+      "appField": "19",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID15",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書履歴ID"
+    },
+    {
+      "appField": "20",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID405",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書情報"
+    },
+    {
+      "appField": "21",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID16",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書タイプコード"
+    },
+    {
+      "appField": "22",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID17",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書添付ファイル"
+    },
+    {
+      "appField": "23",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID18",
+      "required": false,
+      "description": "（鑑ヘッダ参照）文書サブタイプコード"
+    },
+    {
+      "appField": "24",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL4",
+      "required": true,
+      "description": "添付バイナリファイルクラス"
+    },
+    {
+      "appField": "25",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID19",
+      "required": false,
+      "description": "添付バイナリファイルID"
+    },
+    {
+      "appField": "26",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID20",
+      "required": false,
+      "description": "添付バイナリファイル名"
+    },
+    {
+      "appField": "27",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID21",
+      "required": false,
+      "description": "添付バイナリファイルURI ID"
+    },
+    {
+      "appField": "28",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID22",
+      "required": false,
+      "description": "添付バイナリファイルのMIMEコード"
+    },
+    {
+      "appField": "29",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID23",
+      "required": false,
+      "description": "添付バイナリファイルの説明文"
+    },
+    {
+      "appField": "30",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL5",
+      "required": true,
+      "description": "受注者に関する情報からなるクラス。"
+    },
+    {
+      "appField": "31",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID24",
+      "required": false,
+      "description": "注文を受ける企業/工場・事業所・事業部門等を表すID。デフォルトはデータなし。"
+    },
+    {
+      "appField": "32",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID25",
+      "required": false,
+      "description": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨"
+    },
+    {
+      "appField": "33",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID26",
+      "required": true,
+      "description": "注文を受ける企業/工場・事業所・事業部門等を表す名称。適格請求書、または区分記載請求書を発行する事業者名。"
+    },
+    {
+      "appField": "34",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID27",
+      "required": true,
+      "description": "適格請求書発行事業者登録番号"
+    },
+    {
+      "appField": "35",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID28",
+      "required": false,
+      "description": "事業者のインボイス課税区分を識別するコード"
+    },
+    {
+      "appField": "36",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL6",
+      "required": false,
+      "description": "連絡先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "37",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID29",
+      "required": false,
+      "description": "受注者の受注部門を表すID。"
+    },
+    {
+      "appField": "38",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID30",
+      "required": false,
+      "description": "受注者連絡先の個人の、文字で表現された名前。"
+    },
+    {
+      "appField": "39",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID31",
+      "required": false,
+      "description": "受注者の受注部門の名称。"
+    },
+    {
+      "appField": "40",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID32",
+      "required": false
+    },
+    {
+      "appField": "41",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID33",
+      "required": false,
+      "description": "? ?  Seller contact telephone number"
+    },
+    {
+      "appField": "42",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID34",
+      "required": false
+    },
+    {
+      "appField": "43",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID35",
+      "required": false,
+      "description": "受注者の電子メールアドレス。"
+    },
+    {
+      "appField": "44",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL7",
+      "required": true,
+      "description": "受注者住所に関する情報からなるクラス。"
+    },
+    {
+      "appField": "45",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID36",
+      "required": false,
+      "description": "? ?  Seller post code"
+    },
+    {
+      "appField": "46",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID37",
+      "required": false,
+      "description": "? ?  Seller address line 1"
+    },
+    {
+      "appField": "47",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID38",
+      "required": false,
+      "description": "? ?  Seller address line 2"
+    },
+    {
+      "appField": "48",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID39",
+      "required": false,
+      "description": "? ?  Seller address line 3"
+    },
+    {
+      "appField": "49",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID40",
+      "required": true,
+      "description": "受注者の国ID。デフォルトは「JP」"
+    },
+    {
+      "appField": "50",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL8",
+      "required": true,
+      "description": "国際アドレスクラス\r\n（JP-PINTのアドレス方式に対応）"
+    },
+    {
+      "appField": "51",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID41",
+      "required": true,
+      "description": "国際アドレス登録機関コード"
+    },
+    {
+      "appField": "52",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID42",
+      "required": true,
+      "description": "国際アドレス登録機関が付与する国際アドレス番号\r\n（わが国ではJP-PINTアドレスとしてデジタル庁が付与する番号）"
+    },
+    {
+      "appField": "53",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL9",
+      "required": true,
+      "description": "発注者に関する情報からなるクラス。"
+    },
+    {
+      "appField": "54",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID43",
+      "required": false,
+      "description": "注文を行う企業/工場・事業所・事業部門等を表すID。デフォルトはデータなし。"
+    },
+    {
+      "appField": "55",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID44",
+      "required": false,
+      "description": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨"
+    },
+    {
+      "appField": "56",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID45",
+      "required": true,
+      "description": "発注を行う企業/工場・事業所・事業部門等の名称"
+    },
+    {
+      "appField": "57",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID46",
+      "required": false,
+      "description": "適格請求書発行事業者登録番号"
+    },
+    {
+      "appField": "58",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID47",
+      "required": false,
+      "description": "事業者の消費税課税区分を識別するコード"
+    },
+    {
+      "appField": "59",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL10",
+      "required": false,
+      "description": "連絡先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "60",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID48",
+      "required": false,
+      "description": "発注者の発注部門を表すID。"
+    },
+    {
+      "appField": "61",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID49",
+      "required": false,
+      "description": "発注者の発注担当者の名称"
+    },
+    {
+      "appField": "62",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID50",
+      "required": false,
+      "description": "発注者の発注部門の名称。"
+    },
+    {
+      "appField": "63",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID51",
+      "required": false
+    },
+    {
+      "appField": "64",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID52",
+      "required": false,
+      "description": "? ?  Buyer contact telephone number"
+    },
+    {
+      "appField": "65",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID53",
+      "required": false
+    },
+    {
+      "appField": "66",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID54",
+      "required": false,
+      "description": "発注者の電子メールアドレス。"
+    },
+    {
+      "appField": "67",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL11",
+      "required": true,
+      "description": "発注者住所に関する情報からなるクラス。"
+    },
+    {
+      "appField": "68",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID55",
+      "required": false,
+      "description": "? ?  Buyer post code"
+    },
+    {
+      "appField": "69",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID56",
+      "required": false,
+      "description": "? ?  Buyer address line 1"
+    },
+    {
+      "appField": "70",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID57",
+      "required": false,
+      "description": "? ?  Buyer address line 2"
+    },
+    {
+      "appField": "71",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID58",
+      "required": false,
+      "description": "? ?  Buyer address line 3"
+    },
+    {
+      "appField": "72",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID59",
+      "required": true,
+      "description": "発注者の国ID。デフォルトは「JP」"
+    },
+    {
+      "appField": "73",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL12",
+      "required": true,
+      "description": "国際アドレスクラス\r\n（JP-PINTのアドレス方式に対応）"
+    },
+    {
+      "appField": "74",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID60",
+      "required": true,
+      "description": "国際アドレス登録機関コード"
+    },
+    {
+      "appField": "75",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID61",
+      "required": true,
+      "description": "国際アドレス登録機関が付与する国際アドレス番号\r\n（わが国ではJP-PINTアドレスとしてデジタル庁が付与する番号）"
+    },
+    {
+      "appField": "76",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL13",
+      "required": false,
+      "description": "プロジェクト調達クラス"
+    },
+    {
+      "appField": "77",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID62",
+      "required": false,
+      "description": "発注品に関するプロジェクト・工事案件等を管理するためのID。"
+    },
+    {
+      "appField": "78",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID63",
+      "required": false,
+      "description": "発注品に関するプロジェクト・工事案件等の名称。"
+    },
+    {
+      "appField": "79",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL14",
+      "required": true,
+      "description": "インボイス文書決済クラス"
+    },
+    {
+      "appField": "80",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID64",
+      "required": true,
+      "description": "税の通貨コード。\r\n＝JPY（デフォルト）"
+    },
+    {
+      "appField": "81",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID65",
+      "required": true,
+      "description": "インボイス文書の通貨コード。\r\n＝JPY（デフォルト）"
+    },
+    {
+      "appField": "82",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID66",
+      "required": false,
+      "description": "請求支払通貨コード（デフォルトはJPY）"
+    },
+    {
+      "appField": "83",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL15",
+      "required": false,
+      "description": "請求者に関する情報からなるクラス。"
+    },
+    {
+      "appField": "84",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID67",
+      "required": false
+    },
+    {
+      "appField": "85",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID68",
+      "required": false,
+      "description": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨"
+    },
+    {
+      "appField": "86",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID69",
+      "required": false,
+      "description": "請求者の企業等を表す名称。"
+    },
+    {
+      "appField": "87",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID70",
+      "required": false,
+      "description": "請求者適格請求書発行事業者登録番号"
+    },
+    {
+      "appField": "88",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID71",
+      "required": false,
+      "description": "事業者の消費税課税区分を識別するコード"
+    },
+    {
+      "appField": "89",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL16",
+      "required": false,
+      "description": "連絡先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "90",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID72",
+      "required": false,
+      "description": "請求者の請求部門を表すID。"
+    },
+    {
+      "appField": "91",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID73",
+      "required": false,
+      "description": "請求者個人の、文字で表現された名前。"
+    },
+    {
+      "appField": "92",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID74",
+      "required": false,
+      "description": "請求者の請求部門の名称。"
+    },
+    {
+      "appField": "93",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID75",
+      "required": false
+    },
+    {
+      "appField": "94",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID76",
+      "required": false
+    },
+    {
+      "appField": "95",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID77",
+      "required": false
+    },
+    {
+      "appField": "96",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID78",
+      "required": false,
+      "description": "請求者の電子メールアドレス。"
+    },
+    {
+      "appField": "97",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL17",
+      "required": false,
+      "description": "請求者住所に関する情報からなるクラス。"
+    },
+    {
+      "appField": "98",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID79",
+      "required": false
+    },
+    {
+      "appField": "99",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID80",
+      "required": false
+    },
+    {
+      "appField": "100",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID81",
+      "required": false
+    },
+    {
+      "appField": "101",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID82",
+      "required": false
+    },
+    {
+      "appField": "102",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID83",
+      "required": false,
+      "description": "請求者の国ID。デフォルトは「JP」"
+    },
+    {
+      "appField": "103",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL18",
+      "required": false,
+      "description": "国際アドレスクラス\r\n（JP-PINTのアドレス方式に対応）"
+    },
+    {
+      "appField": "104",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID84",
+      "required": false,
+      "description": "国際アドレス登録機関コード"
+    },
+    {
+      "appField": "105",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID85",
+      "required": false,
+      "description": "国際アドレス登録機関が付与する国際アドレス番号\r\n（わが国ではJP-PINTアドレスとしてデジタル庁が付与する番号）"
+    },
+    {
+      "appField": "106",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL19",
+      "required": false,
+      "description": "請求先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "107",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID86",
+      "required": false,
+      "description": "請求を受ける企業等を表すID。"
+    },
+    {
+      "appField": "108",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID87",
+      "required": false,
+      "description": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨"
+    },
+    {
+      "appField": "109",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID88",
+      "required": false,
+      "description": "請求を受ける企業等の名称"
+    },
+    {
+      "appField": "110",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL20",
+      "required": false,
+      "description": "連絡先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "111",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID89",
+      "required": false,
+      "description": "請求先の部門を表すコード。"
+    },
+    {
+      "appField": "112",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID90",
+      "required": false
+    },
+    {
+      "appField": "113",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID91",
+      "required": false,
+      "description": "請求先の部門を表す名称"
+    },
+    {
+      "appField": "114",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID92",
+      "required": false
+    },
+    {
+      "appField": "115",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID93",
+      "required": false
+    },
+    {
+      "appField": "116",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID94",
+      "required": false
+    },
+    {
+      "appField": "117",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID95",
+      "required": false,
+      "description": "請求先の電子メールアドレス。"
+    },
+    {
+      "appField": "118",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL21",
+      "required": false,
+      "description": "請求先住所に関する情報からなるクラス。"
+    },
+    {
+      "appField": "119",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID96",
+      "required": false
+    },
+    {
+      "appField": "120",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID97",
+      "required": false
+    },
+    {
+      "appField": "121",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID98",
+      "required": false
+    },
+    {
+      "appField": "122",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID99",
+      "required": false
+    },
+    {
+      "appField": "123",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID100",
+      "required": false,
+      "description": "請求先の国ID。デフォルトは「JP」"
+    },
+    {
+      "appField": "124",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL22",
+      "required": false,
+      "description": "国際アドレスクラス\r\n（JP-PINTのアドレス方式に対応）"
+    },
+    {
+      "appField": "125",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID101",
+      "required": false,
+      "description": "国際アドレス登録機関コード"
+    },
+    {
+      "appField": "126",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID102",
+      "required": false,
+      "description": "国際アドレス登録機関が付与する国際アドレス番号\r\n（わが国ではJP-PINTアドレスとしてデジタル庁が付与する番号）"
+    },
+    {
+      "appField": "127",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL23",
+      "required": false,
+      "description": "支払先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "128",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID103",
+      "required": false,
+      "description": "?  Payee identifier"
+    },
+    {
+      "appField": "129",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID104",
+      "required": false,
+      "description": "支払先の国際企業ID。"
+    },
+    {
+      "appField": "130",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID105",
+      "required": false,
+      "description": "支払先の企業等を表す名称。"
+    },
+    {
+      "appField": "131",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL24",
+      "required": false,
+      "description": "連絡先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "132",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID106",
+      "required": false,
+      "description": "支払先の支払先部門を表すID。"
+    },
+    {
+      "appField": "133",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID107",
+      "required": false,
+      "description": "支払先個人の、文字で表現された名前。"
+    },
+    {
+      "appField": "134",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID108",
+      "required": false,
+      "description": "支払先の請求部門の名称。"
+    },
+    {
+      "appField": "135",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID109",
+      "required": false
+    },
+    {
+      "appField": "136",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID110",
+      "required": false
+    },
+    {
+      "appField": "137",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID111",
+      "required": false
+    },
+    {
+      "appField": "138",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID112",
+      "required": false,
+      "description": "支払先の電子メールアドレス。"
+    },
+    {
+      "appField": "139",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL25",
+      "required": false,
+      "description": "支払先住所に関する情報からなるクラス。"
+    },
+    {
+      "appField": "140",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID113",
+      "required": false
+    },
+    {
+      "appField": "141",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID114",
+      "required": false
+    },
+    {
+      "appField": "142",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID115",
+      "required": false
+    },
+    {
+      "appField": "143",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID116",
+      "required": false
+    },
+    {
+      "appField": "144",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID117",
+      "required": false,
+      "description": "支払先の国ID。デフォルトは「JP」"
+    },
+    {
+      "appField": "145",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL26",
+      "required": false,
+      "description": "支払人に関する情報からなるクラス。"
+    },
+    {
+      "appField": "146",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID118",
+      "required": false
+    },
+    {
+      "appField": "147",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID119",
+      "required": false,
+      "description": "支払人の国際企業ID。"
+    },
+    {
+      "appField": "148",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID120",
+      "required": false,
+      "description": "支払人の企業等を表す名称。"
+    },
+    {
+      "appField": "149",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL27",
+      "required": false,
+      "description": "連絡先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "150",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID121",
+      "required": false,
+      "description": "支払人の支払人部門を表すID。"
+    },
+    {
+      "appField": "151",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID122",
+      "required": false,
+      "description": "支払人個人の、文字で表現された名前。"
+    },
+    {
+      "appField": "152",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID123",
+      "required": false,
+      "description": "支払人の請求部門の名称。"
+    },
+    {
+      "appField": "153",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID124",
+      "required": false
+    },
+    {
+      "appField": "154",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID125",
+      "required": false
+    },
+    {
+      "appField": "155",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID126",
+      "required": false
+    },
+    {
+      "appField": "156",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID127",
+      "required": false,
+      "description": "支払人の電子メールアドレス。"
+    },
+    {
+      "appField": "157",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL28",
+      "required": false,
+      "description": "支払人住所に関する情報からなるクラス。"
+    },
+    {
+      "appField": "158",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID128",
+      "required": false
+    },
+    {
+      "appField": "159",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID129",
+      "required": false
+    },
+    {
+      "appField": "160",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID130",
+      "required": false
+    },
+    {
+      "appField": "161",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID131",
+      "required": false
+    },
+    {
+      "appField": "162",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID132",
+      "required": false,
+      "description": "支払人の国ID。デフォルトは「JP」"
+    },
+    {
+      "appField": "163",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL29",
+      "required": false,
+      "description": "請求為替に関する情報からなるクラス"
+    },
+    {
+      "appField": "164",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID133",
+      "required": false,
+      "description": "為替における交換元通貨を表すコード\r\nデフォルト＝「JPY」"
+    },
+    {
+      "appField": "165",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID134",
+      "required": false,
+      "description": "為替における交換先通貨を表すコード\r\nデフォルト＝「JPY」"
+    },
+    {
+      "appField": "166",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID135",
+      "required": false
+    },
+    {
+      "appField": "167",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID136",
+      "required": false,
+      "description": "為替交換レートの適用日。"
+    },
+    {
+      "appField": "168",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL30",
+      "required": false,
+      "description": "支払為替に関する情報からなるクラス"
+    },
+    {
+      "appField": "169",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID137",
+      "required": false,
+      "description": "為替における交換元通貨を表すコード"
+    },
+    {
+      "appField": "170",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID138",
+      "required": false,
+      "description": "為替における交換先通貨を表すコード"
+    },
+    {
+      "appField": "171",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID139",
+      "required": false
+    },
+    {
+      "appField": "172",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID140",
+      "required": false,
+      "description": "為替交換レートの適用日。"
+    },
+    {
+      "appField": "173",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL31",
+      "required": false,
+      "description": "取引決済の目的で支払が行われる、あるいは行われた手段のクラス"
+    },
+    {
+      "appField": "174",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID141",
+      "required": false,
+      "description": "取引決済手段のタイプを識別するコード"
+    },
+    {
+      "appField": "175",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID142",
+      "required": false,
+      "description": "取引決済手段に関する情報"
+    },
+    {
+      "appField": "176",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID143",
+      "required": false,
+      "description": "取引決済手段で支払う金額"
+    },
+    {
+      "appField": "177",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL32",
+      "required": false,
+      "description": "債権者の銀行口座のクラス"
+    },
+    {
+      "appField": "178",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID144",
+      "required": false,
+      "description": "債権者金融口座の、文字で表現された口座名。\r\n半角カナ（日本の場合）"
+    },
+    {
+      "appField": "179",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID145",
+      "required": false,
+      "description": "債権者金融口座の一意の所有者ID。"
+    },
+    {
+      "appField": "180",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID146",
+      "required": false,
+      "description": "債権者金融口座種別のコード。"
+    },
+    {
+      "appField": "181",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL33",
+      "required": false,
+      "description": "金額を受け取る当事者の銀行、住宅金融組合、信用金庫、証券会社、あるいはそれと類似の事業機関。"
+    },
+    {
+      "appField": "182",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID147",
+      "required": false,
+      "description": "債権者金融機関の、文字で表現された名前。"
+    },
+    {
+      "appField": "183",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID148",
+      "required": false,
+      "description": "債権者の金融機関番号（日本の場合）"
+    },
+    {
+      "appField": "184",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL34",
+      "required": false,
+      "description": "銀行、住宅金融組合、信用金庫、証券会社、あるいはそれと類似の事業の部門のクラス。主に金融サービスと金融取引を提供するために設立された機関の支店。"
+    },
+    {
+      "appField": "185",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID149",
+      "required": false,
+      "description": "金融機関のこの支店の一意ID"
+    },
+    {
+      "appField": "186",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID150",
+      "required": false,
+      "description": "金融機関のこの支店の、文字で表現された名前"
+    },
+    {
+      "appField": "187",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL35",
+      "required": true,
+      "description": "支払人の金融カードのクラス"
+    },
+    {
+      "appField": "188",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID151",
+      "required": true,
+      "description": "支払人の金融カード番号"
+    },
+    {
+      "appField": "189",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID152",
+      "required": false
+    },
+    {
+      "appField": "190",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID153",
+      "required": false,
+      "description": "支払人の金融カード名義人名"
+    },
+    {
+      "appField": "191",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID154",
+      "required": false,
+      "description": "金融カードの発行企業名"
+    },
+    {
+      "appField": "192",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL36",
+      "required": false,
+      "description": "鑑ヘッダの税に関する情報からなるクラス"
+    },
+    {
+      "appField": "193",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID155",
+      "required": false,
+      "description": "鑑ヘッダの明細文書課税分類別税額の合計金\r\n鑑ヘッダでは複数明細文書税額の積み上げだけを行い、税額計算は行わない"
+    },
+    {
+      "appField": "194",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID156",
+      "required": false,
+      "description": "鑑ヘッダ課税分類コード"
+    },
+    {
+      "appField": "195",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID157",
+      "required": false,
+      "description": "消費税の課税分類（標準税率、軽減税率、非課税、免税等）の名称"
+    },
+    {
+      "appField": "196",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID158",
+      "required": false,
+      "description": "明細文書の課税分類毎の税額積み上げ計算のための率。"
+    },
+    {
+      "appField": "197",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID159",
+      "required": false,
+      "description": "金額の税込み、税抜き指定の要否を指定\r\nデフォルトは「空欄」（指定しない）"
+    },
+    {
+      "appField": "198",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID160",
+      "required": false,
+      "description": "取引の税制年度を識別するID\r\nデフォルトは「2019」（2019年度税制）"
+    },
+    {
+      "appField": "199",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL37",
+      "required": true,
+      "description": "鑑ヘッダ取引期間クラス"
+    },
+    {
+      "appField": "200",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID161",
+      "required": false,
+      "description": "インボイス文書の取引開始日"
+    },
+    {
+      "appField": "201",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID162",
+      "required": true,
+      "description": "インボイス文書の取引終了日"
+    },
+    {
+      "appField": "202",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL38",
+      "required": false,
+      "description": "取引決済の目的で支払が行われる、あるいは行われた条件のクラス"
+    },
+    {
+      "appField": "203",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID163",
+      "required": false,
+      "description": "?  Terms payment instructions ID"
+    },
+    {
+      "appField": "204",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID164",
+      "required": false,
+      "description": "支払条件の文字による説明"
+    },
+    {
+      "appField": "205",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID165",
+      "required": false,
+      "description": "支払条件で示された支払期日"
+    },
+    {
+      "appField": "206",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID166",
+      "required": false,
+      "description": "取引決済の支払条件のタイプを識別するコード"
+    },
+    {
+      "appField": "207",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID167",
+      "required": false,
+      "description": "?  Terms amount"
+    },
+    {
+      "appField": "208",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL39",
+      "required": true,
+      "description": "インボイス文書合計金額クラス"
+    },
+    {
+      "appField": "209",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID168",
+      "required": false,
+      "description": "インボイス文書総合計金額（税抜き）"
+    },
+    {
+      "appField": "210",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID169",
+      "required": false,
+      "description": "鑑ヘッダ課税分類税額の総合計税額"
+    },
+    {
+      "appField": "211",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID170",
+      "required": false,
+      "description": "インボイス文書総合計金額（税込み）"
+    },
+    {
+      "appField": "212",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID171",
+      "required": true,
+      "description": "インボイス文書総合計金額のうち、すでに前払いで支払済合計金額\r\n前払いユースケースでは必須"
+    },
+    {
+      "appField": "213",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID172",
+      "required": true,
+      "description": "前払いユースケースの支払責務金額＝"
+    },
+    {
+      "appField": "214",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID173",
+      "required": false,
+      "description": "鑑ヘッダ譲渡資産合計金額(税抜き)"
+    },
+    {
+      "appField": "215",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID174",
+      "required": false,
+      "description": "鑑ヘッダ譲渡資産合計金額(税込み)"
+    },
+    {
+      "appField": "216",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL40",
+      "required": false,
+      "description": "鑑ヘッダ調整に関する情報からなるクラス"
+    },
+    {
+      "appField": "217",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID175",
+      "required": false,
+      "description": "鑑ヘッダ調整理由コード"
+    },
+    {
+      "appField": "218",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID176",
+      "required": false,
+      "description": "鑑ヘッダ調整の内容説明"
+    },
+    {
+      "appField": "219",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID177",
+      "required": true,
+      "description": "鑑ヘッダ調整金額\r\n'＝（修正インボイス金額ー誤りインボイス金額）\r\n調整ユースケースでは必須"
+    },
+    {
+      "appField": "220",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID178",
+      "required": true,
+      "description": "鑑ヘッダ調整取引方向コード"
+    },
+    {
+      "appField": "221",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL41",
+      "required": false,
+      "description": "インボイス調整参照文書クラス"
+    },
+    {
+      "appField": "222",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID179",
+      "required": false,
+      "description": "インボイス調整参照文書ID"
+    },
+    {
+      "appField": "223",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID180",
+      "required": false,
+      "description": "インボイス調整参照文書発行日"
+    },
+    {
+      "appField": "224",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID181",
+      "required": false,
+      "description": "インボイス調整参照文書参照タイプコード"
+    },
+    {
+      "appField": "225",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID182",
+      "required": false,
+      "description": "インボイス参照文書履歴ID"
+    },
+    {
+      "appField": "226",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID183",
+      "required": false,
+      "description": "インボイス調整参照文書タイプコード"
+    },
+    {
+      "appField": "227",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID184",
+      "required": false,
+      "description": "インボイス調整参照文書サブタイプコード"
+    },
+    {
+      "appField": "228",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL42",
+      "required": false,
+      "description": "鑑ヘッダ調整の税クラス"
+    },
+    {
+      "appField": "229",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID185",
+      "required": false,
+      "description": "鑑ヘッダの調整税額\r\n＝修正インボイス税額ー誤りインボイス税額"
+    },
+    {
+      "appField": "230",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID186",
+      "required": false
+    },
+    {
+      "appField": "231",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID187",
+      "required": false,
+      "description": "鑑ヘッダ調整課税分類コード"
+    },
+    {
+      "appField": "232",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL44",
+      "required": true,
+      "description": "消費税外合計金額クラス"
+    },
+    {
+      "appField": "233",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID192",
+      "required": false,
+      "description": "追加請求合計金額（消費税対象外）"
+    },
+    {
+      "appField": "234",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID193",
+      "required": false,
+      "description": "返金合計金額（消費税対象外）"
+    },
+    {
+      "appField": "235",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID194",
+      "required": true,
+      "description": "前回インボイス総合計金額（税込み）"
+    },
+    {
+      "appField": "236",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID195",
+      "required": true,
+      "description": "入金済金額（前回インボイス分）"
+    },
+    {
+      "appField": "237",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID196",
+      "required": false,
+      "description": "消費税外総合計金額＝\r\n前回インボイス総合計金額（税込み）ー入金済金額(前回インボイス分)＋追加請求合計額（消費税対象外）ー返金合計額（消費税対象外）"
+    },
+    {
+      "appField": "238",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL45",
+      "required": false,
+      "description": "消費税外参照文書クラス"
+    },
+    {
+      "appField": "239",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID197",
+      "required": false,
+      "description": "消費税外合計金額が参照する文書に記載の文書ID"
+    },
+    {
+      "appField": "240",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID198",
+      "required": false,
+      "description": "消費税外参照文書発行日"
+    },
+    {
+      "appField": "241",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID199",
+      "required": false,
+      "description": "消費税外参照文書参照タイプコード"
+    },
+    {
+      "appField": "242",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID200",
+      "required": false,
+      "description": "消費税外参照文書履歴ID"
+    },
+    {
+      "appField": "243",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID201",
+      "required": false,
+      "description": "消費税外合計金額が参照する文書に関する情報"
+    },
+    {
+      "appField": "244",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID202",
+      "required": false,
+      "description": "消費税外参照文書タイプコード"
+    },
+    {
+      "appField": "245",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID203",
+      "required": false,
+      "description": "消費税外参照文書添付ファイル"
+    },
+    {
+      "appField": "246",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID204",
+      "required": false,
+      "description": "消費税外参照文書サブタイプコード"
+    },
+    {
+      "appField": "247",
+      "ediField": "鑑ヘッダ",
+      "ediId": "ICL43",
+      "required": false,
+      "description": "Paid amounts"
+    },
+    {
+      "appField": "248",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID188",
+      "required": false,
+      "description": "?  Paid amount"
+    },
+    {
+      "appField": "249",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID189",
+      "required": false,
+      "description": "?  The date when the paid amount is debited to the invoice."
+    },
+    {
+      "appField": "250",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID190",
+      "required": false,
+      "description": "前払者が付与した前払ID"
+    },
+    {
+      "appField": "251",
+      "ediField": "鑑ヘッダ",
+      "ediId": "IID191",
+      "required": false,
+      "description": "前払い支払条件のタイプを指定するコード"
+    },
+    {
+      "appField": "252",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL46",
+      "required": true,
+      "description": "統合文書へ統合される明細文書のクラス"
+    },
+    {
+      "appField": "253",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID205",
+      "required": true,
+      "description": "この統合文書に統合する複数の明細文書を特定し、識別するために付与したID。EDIプロバイダがセットする。\r\nデフォルトは「１」"
+    },
+    {
+      "appField": "254",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID206",
+      "required": true,
+      "description": "この明細文書の取引類型（資産譲渡、補完、返金・追加請求、相殺、調整、参照等）を識別するコード。\r\nデフォルトは資産譲渡"
+    },
+    {
+      "appField": "255",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL47",
+      "required": false,
+      "description": "文書ヘッダの注釈を記述するクラス"
+    },
+    {
+      "appField": "256",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID207",
+      "required": false,
+      "description": "文書ヘッダの注釈内容の表題を示す。\r\n一部に利用制限あり。標準仕様書３．３．５項参照。"
+    },
+    {
+      "appField": "257",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID208",
+      "required": false,
+      "description": "文書ヘッダの注釈表題毎の内容情報を入力するフリースペース。\r\n一部に利用制限あり。標準仕様書３．３．５項参照"
+    },
+    {
+      "appField": "258",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID209",
+      "required": false,
+      "description": "文書ヘッダ注釈の識別ID\r\n共通EDIプロバイダがシリアル番号をセット。標準仕様書３．３．５項参照"
+    },
+    {
+      "appField": "259",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL48",
+      "required": true,
+      "description": "この統合文書が統合する明細文書に関する情報からなるクラス"
+    },
+    {
+      "appField": "260",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID210",
+      "required": true,
+      "description": "この統合文書が統合する明細文書の文書ID"
+    },
+    {
+      "appField": "261",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID211",
+      "required": true,
+      "description": "この統合文書が統合する明細文書の発行日"
+    },
+    {
+      "appField": "262",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID212",
+      "required": false,
+      "description": "この統合文書が統合する明細文書の変更履歴を管理するID。"
+    },
+    {
+      "appField": "263",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID213",
+      "required": true,
+      "description": "統合明細文書タイプコード"
+    },
+    {
+      "appField": "264",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID214",
+      "required": true,
+      "description": "統合明細文書サブタイプコード"
+    },
+    {
+      "appField": "265",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL49",
+      "required": true,
+      "description": "（文書ヘッダ参照）受注書クラス"
+    },
+    {
+      "appField": "266",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID215",
+      "required": true,
+      "description": "（文書ヘッダ参照）受注書ID"
+    },
+    {
+      "appField": "267",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID216",
+      "required": false,
+      "description": "（文書ヘッダ参照）受注書履歴ID"
+    },
+    {
+      "appField": "268",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL50",
+      "required": true,
+      "description": "（文書ヘッダ参照）注文書クラス"
+    },
+    {
+      "appField": "269",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID217",
+      "required": true,
+      "description": "（文書ヘッダ参照）注文書ID"
+    },
+    {
+      "appField": "270",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID218",
+      "required": false,
+      "description": "（文書ヘッダ参照）注文書履歴ID"
+    },
+    {
+      "appField": "271",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL51",
+      "required": true,
+      "description": "（文書ヘッダ参照）契約文書クラス"
+    },
+    {
+      "appField": "272",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID219",
+      "required": true,
+      "description": "（文書ヘッダ参照）契約文書ID"
+    },
+    {
+      "appField": "273",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID220",
+      "required": false,
+      "description": "（文書ヘッダ参照）契約書履歴ID"
+    },
+    {
+      "appField": "274",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL52",
+      "required": false,
+      "description": "納入先に関する情報からなるクラス。"
+    },
+    {
+      "appField": "275",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID221",
+      "required": false,
+      "description": "納入先の企業/工場・事業所・事業部門等を表す発注者が付与したID。"
+    },
+    {
+      "appField": "276",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID222",
+      "required": false,
+      "description": "納入先企業を表す国際企業ID。"
+    },
+    {
+      "appField": "277",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID223",
+      "required": false,
+      "description": "納入先の企業/工場・事業所・事業部門等の名称"
+    },
+    {
+      "appField": "278",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL53",
+      "required": false,
+      "description": "住所に関する情報からなるクラス。"
+    },
+    {
+      "appField": "279",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID224",
+      "required": false,
+      "description": "? ?  Deliver to post code"
+    },
+    {
+      "appField": "280",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID225",
+      "required": false,
+      "description": "? ?  Deliver to address line 1"
+    },
+    {
+      "appField": "281",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID226",
+      "required": false,
+      "description": "? ?  Deliver to address line 2"
+    },
+    {
+      "appField": "282",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID227",
+      "required": false,
+      "description": "? ?  Deliver to address line 3"
+    },
+    {
+      "appField": "283",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID228",
+      "required": false,
+      "description": "納入先の国ID。デフォルトは「JP」"
+    },
+    {
+      "appField": "284",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL54",
+      "required": false,
+      "description": "配送にかかわるイベントのクラス"
+    },
+    {
+      "appField": "285",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID229",
+      "required": false,
+      "description": "?  Actual delivery date"
+    },
+    {
+      "appField": "286",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL55",
+      "required": true,
+      "description": "（文書ヘッダ参照）出荷案内書クラス"
+    },
+    {
+      "appField": "287",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID230",
+      "required": true,
+      "description": "（文書ヘッダ参照）出荷案内書ID"
+    },
+    {
+      "appField": "288",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID231",
+      "required": false,
+      "description": "（文書ヘッダ参照）出荷案内書履歴ID"
+    },
+    {
+      "appField": "289",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID232",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書タイプコード"
+    },
+    {
+      "appField": "290",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID233",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書サブタイプコード"
+    },
+    {
+      "appField": "291",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID234",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書サブタイプコード"
+    },
+    {
+      "appField": "292",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL56",
+      "required": true,
+      "description": "（文書ヘッダ参照）出荷回答書クラス"
+    },
+    {
+      "appField": "293",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID235",
+      "required": true,
+      "description": "（文書ヘッダ参照）出荷回答書ID"
+    },
+    {
+      "appField": "294",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID236",
+      "required": false,
+      "description": "（文書ヘッダ参照）出荷回答書履歴ID"
+    },
+    {
+      "appField": "295",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID237",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書タイプコード"
+    },
+    {
+      "appField": "296",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID238",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書サブタイプコード"
+    },
+    {
+      "appField": "297",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL57",
+      "required": true,
+      "description": "文書ヘッダの決済に関する情報からなるクラス。"
+    },
+    {
+      "appField": "298",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID239",
+      "required": false,
+      "description": "文書ヘッダ取引方向コード"
+    },
+    {
+      "appField": "299",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL58",
+      "required": true,
+      "description": "文書ヘッダ返金のクラス"
+    },
+    {
+      "appField": "300",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID240",
+      "required": true,
+      "description": "文書ヘッダ返金・追加請求判別子\r\n＝返金（Allowance）"
+    },
+    {
+      "appField": "301",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID241",
+      "required": false,
+      "description": "この文書ヘッダ返金を計算するための率"
+    },
+    {
+      "appField": "302",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID242",
+      "required": false,
+      "description": "この文書ヘッダ返金の請求金額"
+    },
+    {
+      "appField": "303",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID243",
+      "required": false,
+      "description": "文書ヘッダ返金理由コード"
+    },
+    {
+      "appField": "304",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID244",
+      "required": false,
+      "description": "この文書ヘッダ返金の理由（内容）の説明"
+    },
+    {
+      "appField": "305",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID245",
+      "required": false,
+      "description": "文書ヘッダ返金計算根拠金額"
+    },
+    {
+      "appField": "306",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL59",
+      "required": true,
+      "description": "文書ヘッダ返金税クラス"
+    },
+    {
+      "appField": "307",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID246",
+      "required": true,
+      "description": "文書ヘッダ返金課税分類コード"
+    },
+    {
+      "appField": "308",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID247",
+      "required": false,
+      "description": "?  Document level allowance TAX category code"
+    },
+    {
+      "appField": "309",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL60",
+      "required": true,
+      "description": "文書ヘッダ追加請求クラス"
+    },
+    {
+      "appField": "310",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID248",
+      "required": true,
+      "description": "文書ヘッダ返金・追加請求判別子\r\n＝追加請求（Charge）"
+    },
+    {
+      "appField": "311",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID249",
+      "required": false,
+      "description": "文書ヘッダ追加請求計算率"
+    },
+    {
+      "appField": "312",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID250",
+      "required": false,
+      "description": "文書ヘッダ追加請求金額"
+    },
+    {
+      "appField": "313",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID251",
+      "required": false,
+      "description": "文書ヘッダ追加請求理由コード"
+    },
+    {
+      "appField": "314",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID252",
+      "required": false,
+      "description": "文書ヘッダ追加請求理由"
+    },
+    {
+      "appField": "315",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID253",
+      "required": false,
+      "description": "文書ヘッダ追加請求計算根拠金額"
+    },
+    {
+      "appField": "316",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL61",
+      "required": true,
+      "description": "文書ヘッダ追加請求税クラス"
+    },
+    {
+      "appField": "317",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID254",
+      "required": true,
+      "description": "文書ヘッダ追加請求課税分類コード"
+    },
+    {
+      "appField": "318",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID255",
+      "required": false,
+      "description": "文書ヘッダ追加請求税率"
+    },
+    {
+      "appField": "319",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL62",
+      "required": true,
+      "description": "文書ヘッダの税に関する情報からなるクラス"
+    },
+    {
+      "appField": "320",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID256",
+      "required": true,
+      "description": "文書ヘッダ課税分類税額"
+    },
+    {
+      "appField": "321",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID257",
+      "required": false,
+      "description": "文書ヘッダ税タイプコード"
+    },
+    {
+      "appField": "322",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID258",
+      "required": true,
+      "description": "文書ヘッダ課税分類譲渡資産合計金額（税抜き）"
+    },
+    {
+      "appField": "323",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID259",
+      "required": true,
+      "description": "文書ヘッダ課税分類コード"
+    },
+    {
+      "appField": "324",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID260",
+      "required": true,
+      "description": "=「JPY」または「外貨」。デフォルトは「JPY」\r\n文書通貨コード（UN01005914）の指定と合わせる。文書通貨コードが「外貨」を指定された場合は文書ヘッダ税クラス（外貨建て適格請求書用）とセットで利用する"
+    },
+    {
+      "appField": "325",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID261",
+      "required": false,
+      "description": "文書ヘッダの課税分類（標準税率、軽減税率、不課税、非課税、免税等）の名称"
+    },
+    {
+      "appField": "326",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID262",
+      "required": true,
+      "description": "文書ヘッダヘッダの課税分類毎の税額計算のための率。"
+    },
+    {
+      "appField": "327",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID263",
+      "required": true,
+      "description": "文書ヘッダ課税分類譲渡資産合計金額(税込み)"
+    },
+    {
+      "appField": "328",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID264",
+      "required": true,
+      "description": "文書ヘッダの金額の税込み、税抜きを指定。\r\nデフォルトは「税抜き」"
+    },
+    {
+      "appField": "329",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID265",
+      "required": false,
+      "description": "文書ヘッダ適用税制ID"
+    },
+    {
+      "appField": "330",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL63",
+      "required": true,
+      "description": "（外貨建て請求書）文書ヘッダ税クラス"
+    },
+    {
+      "appField": "331",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID266",
+      "required": true,
+      "description": "（外貨建て請求書）文書ヘッダ課税分類税額"
+    },
+    {
+      "appField": "332",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID267",
+      "required": true,
+      "description": "（外貨建て請求書）文書ヘッダ課税分類譲渡資産合計金額（税抜き）"
+    },
+    {
+      "appField": "333",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID268",
+      "required": true,
+      "description": "（外貨建て請求書）文書ヘッダ課税分類コード"
+    },
+    {
+      "appField": "334",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID269",
+      "required": true,
+      "description": "（外貨建て請求書）課税分類税通貨コード"
+    },
+    {
+      "appField": "335",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID270",
+      "required": true,
+      "description": "（外貨建て請求書）文書ヘッダ税率"
+    },
+    {
+      "appField": "336",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID271",
+      "required": false,
+      "description": "文書ヘッダ適用税制ID"
+    },
+    {
+      "appField": "337",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL64",
+      "required": true,
+      "description": "文書ヘッダ取引期間クラス"
+    },
+    {
+      "appField": "338",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID272",
+      "required": false,
+      "description": "この文書ヘッダの取引開始日"
+    },
+    {
+      "appField": "339",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID273",
+      "required": true,
+      "description": "この文書ヘッダの取引終了日\r\n文書ヘッダ、または明細行取引期間のいずれかのデータが必須"
+    },
+    {
+      "appField": "340",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL65",
+      "required": true,
+      "description": "文書ヘッダ合計金額クラス"
+    },
+    {
+      "appField": "341",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID274",
+      "required": false,
+      "description": "文書ヘッダ追加請求合計金額"
+    },
+    {
+      "appField": "342",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID275",
+      "required": false,
+      "description": "文書ヘッダ返金合計金額"
+    },
+    {
+      "appField": "343",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID276",
+      "required": true,
+      "description": "?  Invoice total TAX amount"
+    },
+    {
+      "appField": "344",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID277",
+      "required": true,
+      "description": "文書ヘッダグロス合計金額（税抜き）"
+    },
+    {
+      "appField": "345",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID278",
+      "required": true,
+      "description": "文書ヘッダ譲渡資産合計金額(税抜き)"
+    },
+    {
+      "appField": "346",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID279",
+      "required": false,
+      "description": "文書ヘッダ譲渡資産合計金額(税込み)"
+    },
+    {
+      "appField": "347",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID280",
+      "required": true,
+      "description": "文書ヘッダ総合計金額（税込み）"
+    },
+    {
+      "appField": "348",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL66",
+      "required": false,
+      "description": "（外貨建て請求書）文書ヘッダ合計金額クラス"
+    },
+    {
+      "appField": "349",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID281",
+      "required": false,
+      "description": "（外貨建て請求書）文書ヘッダ合計税額"
+    },
+    {
+      "appField": "350",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL69",
+      "required": true,
+      "description": "（文書ヘッダ参照）インボイス対象物クラス"
+    },
+    {
+      "appField": "351",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID289",
+      "required": true,
+      "description": "（文書ヘッダ参照）インボイス対象物ID"
+    },
+    {
+      "appField": "352",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID290",
+      "required": false,
+      "description": "（文書ヘッダ参照）インボイス対象物発行日"
+    },
+    {
+      "appField": "353",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID291",
+      "required": true,
+      "description": "（文書ヘッダ参照）文書参照タイプコード"
+    },
+    {
+      "appField": "354",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID292",
+      "required": false,
+      "description": "（文書ヘッダ参照）インボイス対象物履歴ID"
+    },
+    {
+      "appField": "355",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID293",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書タイプコード"
+    },
+    {
+      "appField": "356",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID294",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書サブタイプコード"
+    },
+    {
+      "appField": "357",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL70",
+      "required": true,
+      "description": "（文書ヘッダ参照）入札書クラス"
+    },
+    {
+      "appField": "358",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID295",
+      "required": true,
+      "description": "（文書ヘッダ参照）入札書ID"
+    },
+    {
+      "appField": "359",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID296",
+      "required": false,
+      "description": "（文書ヘッダ参照）入札書発行日"
+    },
+    {
+      "appField": "360",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID297",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書参照タイプコード"
+    },
+    {
+      "appField": "361",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID298",
+      "required": false,
+      "description": "（文書ヘッダ参照）入札書履歴ID"
+    },
+    {
+      "appField": "362",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID299",
+      "required": false,
+      "description": "（文書ヘッダ参照）入札書説明"
+    },
+    {
+      "appField": "363",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID300",
+      "required": true,
+      "description": "（文書ヘッダ参照）文書タイプコード"
+    },
+    {
+      "appField": "364",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID301",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書添付ファイル"
+    },
+    {
+      "appField": "365",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID302",
+      "required": false,
+      "description": "（文書ヘッ参照）文書サブタイプコード"
+    },
+    {
+      "appField": "366",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL71",
+      "required": true,
+      "description": "（文書ヘッダ参照）前回インボイス文書クラス"
+    },
+    {
+      "appField": "367",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID303",
+      "required": true,
+      "description": "（文書ヘッダ参照）前回インボイス文書ID"
+    },
+    {
+      "appField": "368",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID304",
+      "required": true,
+      "description": "（文書ヘッダ参照）前回インボイス文書発行日"
+    },
+    {
+      "appField": "369",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID305",
+      "required": true,
+      "description": "（文書ヘッダ参照）インボイス文書参照タイプコード"
+    },
+    {
+      "appField": "370",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID306",
+      "required": false,
+      "description": "（文書ヘッダ参照）前回インボイス文書履歴ID"
+    },
+    {
+      "appField": "371",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID307",
+      "required": false,
+      "description": "（文書ヘッダ参照）前回インボイス文書説明"
+    },
+    {
+      "appField": "372",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID308",
+      "required": true,
+      "description": "（文書ヘッダ参照）文書タイプコード"
+    },
+    {
+      "appField": "373",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID309",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書添付ファイル"
+    },
+    {
+      "appField": "374",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID310",
+      "required": false,
+      "description": "（文書ヘッダ参照）文書サブタイプコード"
+    },
+    {
+      "appField": "375",
+      "ediField": "文書ヘッダ",
+      "ediId": "ICL72",
+      "required": false,
+      "description": "購買会計アカウントクラス"
+    },
+    {
+      "appField": "376",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID311",
+      "required": false,
+      "description": "購買会計アカウントタイプコード"
+    },
+    {
+      "appField": "377",
+      "ediField": "文書ヘッダ",
+      "ediId": "IID312",
+      "required": false,
+      "description": "買い手の購買会計アカウント名"
+    },
+    {
+      "appField": "378",
+      "ediField": "明細行",
+      "ediId": "ICL73",
+      "required": true,
+      "description": "明細行に関する情報からなるクラス"
+    },
+    {
+      "appField": "379",
+      "ediField": "明細行",
+      "ediId": "IID313",
+      "required": true,
+      "description": "この文書の明細行に関する情報を特定するために付与した行ID。明細行をユニークに識別するために付番する場合は文書IDとの複合キーで明細行を特定する。"
+    },
+    {
+      "appField": "380",
+      "ediField": "明細行",
+      "ediId": "IID314",
+      "required": true,
+      "description": "この明細行の取引類型（資産譲渡、返金・追加請求、調整等）を識別するコード。\r\nデフォルトは「資産譲渡」"
+    },
+    {
+      "appField": "381",
+      "ediField": "明細行",
+      "ediId": "ICL74",
+      "required": false,
+      "description": "明細行の注釈を記述するクラス"
+    },
+    {
+      "appField": "382",
+      "ediField": "明細行",
+      "ediId": "IID315",
+      "required": false,
+      "description": "明細行の注釈内容の表題を示す。\r\n一部に利用制限あり。標準仕様書３．３．５項参照"
+    },
+    {
+      "appField": "383",
+      "ediField": "明細行",
+      "ediId": "IID316",
+      "required": false,
+      "description": "明細行の注釈表題毎の内容情報を入力するフリースペース。\r\n一部に利用制限あり。標準仕様書３．３．５項参照"
+    },
+    {
+      "appField": "384",
+      "ediField": "明細行",
+      "ediId": "IID317",
+      "required": false,
+      "description": "明細行注釈の識別ID\r\n共通EDIプロバイダがシリアル番号をセット。標準仕様書３．３．５項参照"
+    },
+    {
+      "appField": "385",
+      "ediField": "明細行",
+      "ediId": "ICL75",
+      "required": false,
+      "description": "明細行参照受注書クラス"
+    },
+    {
+      "appField": "386",
+      "ediField": "明細行",
+      "ediId": "IID318",
+      "required": false,
+      "description": "（明細行参照）受注書ID"
+    },
+    {
+      "appField": "387",
+      "ediField": "明細行",
+      "ediId": "IID319",
+      "required": false,
+      "description": "（明細行参照）受注書明細行ID"
+    },
+    {
+      "appField": "388",
+      "ediField": "明細行",
+      "ediId": "IID320",
+      "required": false,
+      "description": "（明細行参照）受注書履歴ID"
+    },
+    {
+      "appField": "389",
+      "ediField": "明細行",
+      "ediId": "ICL76",
+      "required": true,
+      "description": "明細行参照注文書クラス"
+    },
+    {
+      "appField": "390",
+      "ediField": "明細行",
+      "ediId": "IID321",
+      "required": true,
+      "description": "（明細行参照）注文書ID"
+    },
+    {
+      "appField": "391",
+      "ediField": "明細行",
+      "ediId": "IID322",
+      "required": false,
+      "description": "（明細行参照）注文書明細行ID"
+    },
+    {
+      "appField": "392",
+      "ediField": "明細行",
+      "ediId": "IID323",
+      "required": false,
+      "description": "（明細行参照）注文書履歴ID"
+    },
+    {
+      "appField": "393",
+      "ediField": "明細行",
+      "ediId": "ICL78",
+      "required": true,
+      "description": "（明細行参照）出荷案内書クラス"
+    },
+    {
+      "appField": "394",
+      "ediField": "明細行",
+      "ediId": "IID331",
+      "required": true,
+      "description": "（明細行参照）出荷案内書ID"
+    },
+    {
+      "appField": "395",
+      "ediField": "明細行",
+      "ediId": "IID332",
+      "required": false,
+      "description": "（明細行参照）出荷案内書明細行ID"
+    },
+    {
+      "appField": "396",
+      "ediField": "明細行",
+      "ediId": "IID333",
+      "required": false,
+      "description": "（明細行参照）文書参照タイプコード"
+    },
+    {
+      "appField": "397",
+      "ediField": "明細行",
+      "ediId": "IID334",
+      "required": false,
+      "description": "（明細行参照）出荷案内書履歴ID"
+    },
+    {
+      "appField": "398",
+      "ediField": "明細行",
+      "ediId": "IID335",
+      "required": true,
+      "description": "（明細行参照）文書タイプコード"
+    },
+    {
+      "appField": "399",
+      "ediField": "明細行",
+      "ediId": "IID336",
+      "required": false,
+      "description": "（明細行参照）文書添付ファイル"
+    },
+    {
+      "appField": "400",
+      "ediField": "明細行",
+      "ediId": "IID337",
+      "required": false,
+      "description": "（明細行参照）文書サブタイプコード"
+    },
+    {
+      "appField": "401",
+      "ediField": "明細行",
+      "ediId": "ICL79",
+      "required": true,
+      "description": "（明細行参照）文書クラス"
+    },
+    {
+      "appField": "402",
+      "ediField": "明細行",
+      "ediId": "IID338",
+      "required": true,
+      "description": "（明細行参照）文書ID"
+    },
+    {
+      "appField": "403",
+      "ediField": "明細行",
+      "ediId": "IID339",
+      "required": false,
+      "description": "（明細行参照）文書明細行ID"
+    },
+    {
+      "appField": "404",
+      "ediField": "明細行",
+      "ediId": "IID340",
+      "required": false,
+      "description": "（明細行参照）文書参照タイプコード"
+    },
+    {
+      "appField": "405",
+      "ediField": "明細行",
+      "ediId": "IID341",
+      "required": false,
+      "description": "（明細行参照）文書履歴ID"
+    },
+    {
+      "appField": "406",
+      "ediField": "明細行",
+      "ediId": "IID342",
+      "required": true,
+      "description": "（明細行参照）文書タイプコード"
+    },
+    {
+      "appField": "407",
+      "ediField": "明細行",
+      "ediId": "IID343",
+      "required": false,
+      "description": "（明細行参照）文書添付ファイル"
+    },
+    {
+      "appField": "408",
+      "ediField": "明細行",
+      "ediId": "IID344",
+      "required": false,
+      "description": "（明細行参照）文書サブタイプコード"
+    },
+    {
+      "appField": "409",
+      "ediField": "明細行",
+      "ediId": "ICL80",
+      "required": true,
+      "description": "明細行の契約単価に関する情報からなるクラス。"
+    },
+    {
+      "appField": "410",
+      "ediField": "明細行",
+      "ediId": "IID345",
+      "required": false,
+      "description": "単価の区分（確定、仮単価等）を識別するコード"
+    },
+    {
+      "appField": "411",
+      "ediField": "明細行",
+      "ediId": "IID346",
+      "required": true,
+      "description": "発注者と受注者が合意した明細発注品の単価。単価基準数量と単価基準数量単位の指定に従う。\r\n税込み、税抜きの識別はヘッダ部の「UN01013096：税計算方式」で指定（指定がない場合（デフォルト）は税抜き）。"
+    },
+    {
+      "appField": "412",
+      "ediField": "明細行",
+      "ediId": "IID347",
+      "required": false,
+      "description": "✔定貫品目の場合：空欄（デフォルト）、または単価基準数量＝１\r\n✔不定貫品目、ハイブリッド品目の場合：単価基準数量＝単価の基準となる重量・容量"
+    },
+    {
+      "appField": "413",
+      "ediField": "明細行",
+      "ediId": "IID348",
+      "required": false,
+      "description": "単価基準数量単位コード"
+    },
+    {
+      "appField": "414",
+      "ediField": "明細行",
+      "ediId": "ICL81",
+      "required": true,
+      "description": "明細行の納入に関する情報からなるクラス"
+    },
+    {
+      "appField": "415",
+      "ediField": "明細行",
+      "ediId": "IID349",
+      "required": false,
+      "description": "この明細行品目の請求セット数量\r\n流通業の固有仕様"
+    },
+    {
+      "appField": "416",
+      "ediField": "明細行",
+      "ediId": "IID350",
+      "required": false,
+      "description": "請求セット数量単位コード"
+    },
+    {
+      "appField": "417",
+      "ediField": "明細行",
+      "ediId": "IID351",
+      "required": false,
+      "description": "この明細行品目の請求バラ数量\r\n流通業の固有仕様"
+    },
+    {
+      "appField": "418",
+      "ediField": "明細行",
+      "ediId": "IID352",
+      "required": false,
+      "description": "請求バラ数量単位コード"
+    },
+    {
+      "appField": "419",
+      "ediField": "明細行",
+      "ediId": "IID353",
+      "required": false,
+      "description": "請求セット単位数量(入り数）"
+    },
+    {
+      "appField": "420",
+      "ediField": "明細行",
+      "ediId": "IID354",
+      "required": true,
+      "description": "請求入り数数量単位コード"
+    },
+    {
+      "appField": "421",
+      "ediField": "明細行",
+      "ediId": "IID355",
+      "required": true,
+      "description": "この情報項目は取引数量の指定に利用する。\r\nこの項目の属性として数量単位コードを指定することにより、ずべての品目の取引数量指定に利用できる。\r\n流通業の定貫品目取引では、この項目は利用せず「セット数量」または「バラ数量」を利用する。"
+    },
+    {
+      "appField": "422",
+      "ediField": "明細行",
+      "ediId": "IID356",
+      "required": false,
+      "description": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む。"
+    },
+    {
+      "appField": "423",
+      "ediField": "明細行",
+      "ediId": "ICL82",
+      "required": false,
+      "description": "明細行の決済入に関する情報からなるクラス"
+    },
+    {
+      "appField": "424",
+      "ediField": "明細行",
+      "ediId": "IID357",
+      "required": false,
+      "description": "明細行の取引方向を識別するコード\r\nデフォルトは「プラス」\r\n明細行取引類型コードが「調整」を指定場合に利用する。\r\n金額の「プラス」「マイナス」表示を許容する場合は実装しない。"
+    },
+    {
+      "appField": "425",
+      "ediField": "明細行",
+      "ediId": "ICL83",
+      "required": true,
+      "description": "明細行の税に関する情報に関するクラス"
+    },
+    {
+      "appField": "426",
+      "ediField": "明細行",
+      "ediId": "IID358",
+      "required": false,
+      "description": "税の種類を識別するコード。デフォルトは消費税；VAT"
+    },
+    {
+      "appField": "427",
+      "ediField": "明細行",
+      "ediId": "IID359",
+      "required": true,
+      "description": "明細行譲渡資産金額（税抜き）"
+    },
+    {
+      "appField": "428",
+      "ediField": "明細行",
+      "ediId": "IID360",
+      "required": true,
+      "description": "この明細行の消費税の課税分類（標準税率、軽減税率、不課税、非課税、免税等）を識別するコード"
+    },
+    {
+      "appField": "429",
+      "ediField": "明細行",
+      "ediId": "IID361",
+      "required": false,
+      "description": "消費税の課税分類（標準税率、軽減税率、不課税、非課税、免税等）の名称"
+    },
+    {
+      "appField": "430",
+      "ediField": "明細行",
+      "ediId": "IID362",
+      "required": false,
+      "description": "この明細行の税率。\r\n2014年度税制の場合は、明細行課税分類コードと組み合わせて利用する。"
+    },
+    {
+      "appField": "431",
+      "ediField": "明細行",
+      "ediId": "IID363",
+      "required": true,
+      "description": "明細行譲渡資産金額(税込み)"
+    },
+    {
+      "appField": "432",
+      "ediField": "明細行",
+      "ediId": "IID364",
+      "required": false,
+      "description": "この明細行取引の税制年度を識別するID\r\nデフォルトは「2019」（2019年度税制）"
+    },
+    {
+      "appField": "433",
+      "ediField": "明細行",
+      "ediId": "ICL84",
+      "required": true,
+      "description": "明細行インボイス対象物クラス"
+    },
+    {
+      "appField": "434",
+      "ediField": "明細行",
+      "ediId": "IID365",
+      "required": true,
+      "description": "（明細行参照）インボイス対象物ID"
+    },
+    {
+      "appField": "435",
+      "ediField": "明細行",
+      "ediId": "IID366",
+      "required": false,
+      "description": "（明細行参照）インボイス対象物発行日"
+    },
+    {
+      "appField": "436",
+      "ediField": "明細行",
+      "ediId": "IID367",
+      "required": false,
+      "description": "（明細行参照）インボイス対象物明細行ID"
+    },
+    {
+      "appField": "437",
+      "ediField": "明細行",
+      "ediId": "IID368",
+      "required": true,
+      "description": "（明細行参照）文書参照タイプコード"
+    },
+    {
+      "appField": "438",
+      "ediField": "明細行",
+      "ediId": "IID369",
+      "required": false,
+      "description": "（明細行参照）インボイス対象物履歴ID"
+    },
+    {
+      "appField": "439",
+      "ediField": "明細行",
+      "ediId": "IID370",
+      "required": false,
+      "description": "（明細行参照）文書タイプコード"
+    },
+    {
+      "appField": "440",
+      "ediField": "明細行",
+      "ediId": "IID372",
+      "required": false,
+      "description": "（明細行参照）文書サブタイプコード"
+    },
+    {
+      "appField": "441",
+      "ediField": "明細行",
+      "ediId": "ICL85",
+      "required": true,
+      "description": "?  INVOICE LINE ALLOWANCES"
+    },
+    {
+      "appField": "442",
+      "ediField": "明細行",
+      "ediId": "IID373",
+      "required": true,
+      "description": "明細行返金・追加請求判別子\r\n    =返金（Allowance）"
+    },
+    {
+      "appField": "443",
+      "ediField": "明細行",
+      "ediId": "IID374",
+      "required": false,
+      "description": "? ?  Invoice line allowance percentage"
+    },
+    {
+      "appField": "444",
+      "ediField": "明細行",
+      "ediId": "IID375",
+      "required": false,
+      "description": "? ?  Invoice line allowance amount"
+    },
+    {
+      "appField": "445",
+      "ediField": "明細行",
+      "ediId": "IID376",
+      "required": false,
+      "description": "? ?  Invoice line allowance reason code"
+    },
+    {
+      "appField": "446",
+      "ediField": "明細行",
+      "ediId": "IID377",
+      "required": false,
+      "description": "? ?  Invoice line allowance reason"
+    },
+    {
+      "appField": "447",
+      "ediField": "明細行",
+      "ediId": "IID378",
+      "required": false,
+      "description": "明細行返金計算根拠金額"
+    },
+    {
+      "appField": "448",
+      "ediField": "明細行",
+      "ediId": "ICL86",
+      "required": true,
+      "description": "?  INVOICE LINE CHARGES"
+    },
+    {
+      "appField": "449",
+      "ediField": "明細行",
+      "ediId": "IID379",
+      "required": true,
+      "description": "明細行返金・追加請求判別子\r\n    =追加請求（Charge）"
+    },
+    {
+      "appField": "450",
+      "ediField": "明細行",
+      "ediId": "IID380",
+      "required": false,
+      "description": "この明細行追加請求を計算するための率"
+    },
+    {
+      "appField": "451",
+      "ediField": "明細行",
+      "ediId": "IID381",
+      "required": false,
+      "description": "この明細行の追加請求金額。"
+    },
+    {
+      "appField": "452",
+      "ediField": "明細行",
+      "ediId": "IID382",
+      "required": false,
+      "description": "明細行追加請求理由コード"
+    },
+    {
+      "appField": "453",
+      "ediField": "明細行",
+      "ediId": "IID383",
+      "required": false,
+      "description": "この明細行の追加請求理由（内容）の説明"
+    },
+    {
+      "appField": "454",
+      "ediField": "明細行",
+      "ediId": "IID384",
+      "required": false,
+      "description": "明細行追加請求計算根拠金額"
+    },
+    {
+      "appField": "455",
+      "ediField": "明細行",
+      "ediId": "ICL87",
+      "required": false,
+      "description": "明細行の調整に関する情報からなるクラス"
+    },
+    {
+      "appField": "456",
+      "ediField": "明細行",
+      "ediId": "IID385",
+      "required": false,
+      "description": "この明細行の調整理由を示す識別コード"
+    },
+    {
+      "appField": "457",
+      "ediField": "明細行",
+      "ediId": "IID386",
+      "required": false,
+      "description": "この明細行の調整理由を文字で表現した内容"
+    },
+    {
+      "appField": "458",
+      "ediField": "明細行",
+      "ediId": "IID387",
+      "required": true,
+      "description": "この明細行の調整金額\r\n調整ユースケースの場合は必須"
+    },
+    {
+      "appField": "459",
+      "ediField": "明細行",
+      "ediId": "ICL88",
+      "required": true,
+      "description": "明細行の取引期間に関する情報からなるクラス\r\n文書ヘッダ取引期間クラスのデータ入力が無い場合は、すべての明細行取引期間クラスにデータ入力しなければならない。"
+    },
+    {
+      "appField": "460",
+      "ediField": "明細行",
+      "ediId": "IID388",
+      "required": false,
+      "description": "この明細行の取引開始日"
+    },
+    {
+      "appField": "461",
+      "ediField": "明細行",
+      "ediId": "IID389",
+      "required": true,
+      "description": "この明細行の取引終了日.。\r\n文書ヘッダまたは明細行取引期間のいずれかのデータが必須"
+    },
+    {
+      "appField": "462",
+      "ediField": "明細行",
+      "ediId": "ICL89",
+      "required": false,
+      "description": "明細行購買会計アカウントクラス"
+    },
+    {
+      "appField": "463",
+      "ediField": "明細行",
+      "ediId": "IID390",
+      "required": false,
+      "description": "明細行購買会計アカウントタイプコード"
+    },
+    {
+      "appField": "464",
+      "ediField": "明細行",
+      "ediId": "IID391",
+      "required": false,
+      "description": "明細行購買会計アカウント名"
+    },
+    {
+      "appField": "465",
+      "ediField": "明細行",
+      "ediId": "ICL90",
+      "required": true,
+      "description": "取引品目に関する情報からなるクラス。"
+    },
+    {
+      "appField": "466",
+      "ediField": "明細行",
+      "ediId": "IID392",
+      "required": false,
+      "description": "品目名を特定するために付与したID"
+    },
+    {
+      "appField": "467",
+      "ediField": "明細行",
+      "ediId": "IID393",
+      "required": false,
+      "description": "GTIN、JANIDなどの国際的に登録された品目ID"
+    },
+    {
+      "appField": "468",
+      "ediField": "明細行",
+      "ediId": "IID394",
+      "required": false,
+      "description": "受注者が品目を特定するために付与したID"
+    },
+    {
+      "appField": "469",
+      "ediField": "明細行",
+      "ediId": "IID395",
+      "required": false,
+      "description": "発注者が品目を特定するために付与したID"
+    },
+    {
+      "appField": "470",
+      "ediField": "明細行",
+      "ediId": "IID396",
+      "required": false,
+      "description": "品目を特定するために製造者が付与したID"
+    },
+    {
+      "appField": "471",
+      "ediField": "明細行",
+      "ediId": "IID397",
+      "required": true,
+      "description": "? ?  Item name"
+    },
+    {
+      "appField": "472",
+      "ediField": "明細行",
+      "ediId": "IID398",
+      "required": false,
+      "description": "この取引品目内容を文字で説明したもの"
+    },
+    {
+      "appField": "473",
+      "ediField": "明細行",
+      "ediId": "IID399",
+      "required": true,
+      "description": "品目数量単位の区分（定貫品目、不定貫品目、ハイブリッド品目、実測不定貫品目、実測ハイブリッド品目）の判別子。デフォルトは定貫品目"
+    },
+    {
+      "appField": "474",
+      "ediField": "明細行",
+      "ediId": "ICL93",
+      "required": false,
+      "description": "取引品目の分類に関するクラス"
+    },
+    {
+      "appField": "475",
+      "ediField": "明細行",
+      "ediId": "IID400",
+      "required": false,
+      "description": "この取引品目の分類のID"
+    },
+    {
+      "appField": "476",
+      "ediField": "明細行",
+      "ediId": "ICL91",
+      "required": false,
+      "description": "取引品目の特性に関するクラス"
+    },
+    {
+      "appField": "477",
+      "ediField": "明細行",
+      "ediId": "IID401",
+      "required": false,
+      "description": "この取引品目内容を文字で説明したもの"
+    },
+    {
+      "appField": "478",
+      "ediField": "明細行",
+      "ediId": "IID402",
+      "required": false,
+      "description": "? ? ?  Item attribute value"
+    },
+    {
+      "appField": "479",
+      "ediField": "明細行",
+      "ediId": "ICL92",
+      "required": false,
+      "description": "取引品目の原産地に関するクラス"
+    },
+    {
+      "appField": "480",
+      "ediField": "明細行",
+      "ediId": "IID403",
+      "required": false,
+      "description": "この取引品目の原産国を識別する国ID"
+    }
+  ]
+}

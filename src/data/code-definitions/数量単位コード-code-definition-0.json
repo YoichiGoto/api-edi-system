@@ -1,0 +1,253 @@
+{
+  "codeType": "数量単位コード-code-definition-0",
+  "sheetName": "数量単位コード  (code-definition)",
+  "tableType": "code-definition",
+  "region": {
+    "startRow": 9,
+    "endRow": 52,
+    "startCol": 1,
+    "endCol": 4
+  },
+  "codes": [
+    {
+      "code": "H87",
+      "codeName": "piece",
+      "internationalCode": "H87",
+      "internationalCodeName": "piece"
+    },
+    {
+      "code": "T3",
+      "codeName": "thousand piece",
+      "internationalCode": "T3",
+      "internationalCodeName": "thousand piece"
+    },
+    {
+      "code": "PG",
+      "codeName": "Plate",
+      "internationalCode": "PG",
+      "internationalCodeName": "Plate"
+    },
+    {
+      "code": "XST",
+      "codeName": "sheet",
+      "internationalCode": "XST",
+      "internationalCodeName": "sheet"
+    },
+    {
+      "code": "QB",
+      "codeName": "page - hardcopy",
+      "internationalCode": "QB",
+      "internationalCodeName": "page - hardcopy"
+    },
+    {
+      "code": "XBO",
+      "codeName": "bottle",
+      "internationalCode": "XBO",
+      "internationalCodeName": "bottle"
+    },
+    {
+      "code": "XTU",
+      "codeName": "tube",
+      "internationalCode": "XTU",
+      "internationalCodeName": "tube"
+    },
+    {
+      "code": "PI",
+      "codeName": "Pipe",
+      "internationalCode": "PI",
+      "internationalCodeName": "Pipe"
+    },
+    {
+      "code": "XRD",
+      "codeName": "rod",
+      "internationalCode": "XRD",
+      "internationalCodeName": "rod"
+    },
+    {
+      "code": "XRO",
+      "codeName": "Roll",
+      "internationalCode": "XRO",
+      "internationalCodeName": "Roll"
+    },
+    {
+      "code": "XCL",
+      "codeName": "coil",
+      "internationalCode": "XCL",
+      "internationalCodeName": "coil"
+    },
+    {
+      "code": "RL",
+      "codeName": "Reel",
+      "internationalCode": "RL",
+      "internationalCodeName": "Reel"
+    },
+    {
+      "code": "XCN",
+      "codeName": "can",
+      "internationalCode": "XCN",
+      "internationalCodeName": "can"
+    },
+    {
+      "code": "HEA",
+      "codeName": "head",
+      "internationalCode": "HEA",
+      "internationalCodeName": "head"
+    },
+    {
+      "code": "Q3",
+      "codeName": "meal",
+      "internationalCode": "Q3",
+      "internationalCodeName": "meal"
+    },
+    {
+      "code": "SET",
+      "codeName": "set",
+      "internationalCode": "SET",
+      "internationalCodeName": "set"
+    },
+    {
+      "code": "XCS",
+      "codeName": "case",
+      "internationalCode": "XCS",
+      "internationalCodeName": "case"
+    },
+    {
+      "code": "XCT",
+      "codeName": "carton",
+      "internationalCode": "XCT",
+      "internationalCodeName": "carton"
+    },
+    {
+      "code": "KT",
+      "codeName": "kit",
+      "internationalCode": "KT",
+      "internationalCodeName": "kit"
+    },
+    {
+      "code": "XBX",
+      "codeName": "box",
+      "internationalCode": "XBX",
+      "internationalCodeName": "box"
+    },
+    {
+      "code": "PX",
+      "codeName": "Pallet",
+      "internationalCode": "PX",
+      "internationalCodeName": "Pallet"
+    },
+    {
+      "code": "XPK",
+      "codeName": "pack",
+      "internationalCode": "XPK",
+      "internationalCodeName": "pack"
+    },
+    {
+      "code": "XBG",
+      "codeName": "bag",
+      "internationalCode": "XBG",
+      "internationalCodeName": "bag"
+    },
+    {
+      "code": "XBK",
+      "codeName": "basket",
+      "internationalCode": "XBK",
+      "internationalCodeName": "basket"
+    },
+    {
+      "code": "PR",
+      "codeName": "pair",
+      "internationalCode": "PR",
+      "internationalCodeName": "pair"
+    },
+    {
+      "code": "DZN",
+      "codeName": "dozen",
+      "internationalCode": "DZN",
+      "internationalCodeName": "dozen"
+    },
+    {
+      "code": "GRO",
+      "codeName": "gross",
+      "internationalCode": "GRO",
+      "internationalCodeName": "gross"
+    },
+    {
+      "code": "TNE",
+      "codeName": "tonne (metric ton)",
+      "internationalCode": "TNE",
+      "internationalCodeName": "tonne (metric ton)"
+    },
+    {
+      "code": "KGM",
+      "codeName": "kilogram",
+      "internationalCode": "KGM",
+      "internationalCodeName": "kilogram"
+    },
+    {
+      "code": "GRM",
+      "codeName": "gram",
+      "internationalCode": "GRM",
+      "internationalCodeName": "gram"
+    },
+    {
+      "code": "MGM",
+      "codeName": "milligram",
+      "internationalCode": "MGM",
+      "internationalCodeName": "milligram"
+    },
+    {
+      "code": "LTR",
+      "codeName": "litre",
+      "internationalCode": "LTR",
+      "internationalCodeName": "litre"
+    },
+    {
+      "code": "MLT",
+      "codeName": "millilitre",
+      "internationalCode": "MLT",
+      "internationalCodeName": "millilitre"
+    },
+    {
+      "code": "KTM",
+      "codeName": "kilometre",
+      "internationalCode": "KTM",
+      "internationalCodeName": "kilometre"
+    },
+    {
+      "code": "MTR",
+      "codeName": "metre",
+      "internationalCode": "MTR",
+      "internationalCodeName": "metre"
+    },
+    {
+      "code": "CMT",
+      "codeName": "centimetre",
+      "internationalCode": "CMT",
+      "internationalCodeName": "centimetre"
+    },
+    {
+      "code": "MMT",
+      "codeName": "millimetre",
+      "internationalCode": "MMT",
+      "internationalCodeName": "millimetre"
+    },
+    {
+      "code": "MTK",
+      "codeName": "square metre",
+      "internationalCode": "MTK",
+      "internationalCodeName": "square metre"
+    },
+    {
+      "code": "CMK",
+      "codeName": "square centimetre",
+      "internationalCode": "CMK",
+      "internationalCodeName": "square centimetre"
+    },
+    {
+      "code": "MTQ",
+      "codeName": "cubic metre",
+      "internationalCode": "MTQ",
+      "internationalCodeName": "cubic metre"
+    }
+  ]
+}

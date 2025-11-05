@@ -1,0 +1,91 @@
+{
+  "codeType": "文書目的コード-code-definition-0",
+  "sheetName": "文書目的コード  (code-definition)",
+  "tableType": "code-definition",
+  "region": {
+    "startRow": 15,
+    "endRow": 33,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "1",
+      "codeName": "Cancellation",
+      "internationalCode": "1",
+      "internationalCodeName": "Cancellation"
+    },
+    {
+      "code": "3",
+      "codeName": "Deletion",
+      "internationalCode": "3",
+      "internationalCodeName": "Deletion"
+    },
+    {
+      "code": "4",
+      "codeName": "Change",
+      "internationalCode": "4",
+      "internationalCodeName": "Change"
+    },
+    {
+      "code": "6",
+      "codeName": "Confirmation",
+      "internationalCode": "6",
+      "internationalCodeName": "Confirmation"
+    },
+    {
+      "code": "9",
+      "codeName": "Original",
+      "internationalCode": "9",
+      "internationalCodeName": "Original"
+    },
+    {
+      "code": "11",
+      "codeName": "Response",
+      "internationalCode": "11",
+      "internationalCodeName": "Response"
+    },
+    {
+      "code": "19",
+      "codeName": "Seller initiated change",
+      "internationalCode": "19",
+      "internationalCodeName": "Seller initiated change"
+    },
+    {
+      "code": "3",
+      "codeName": "Deletion",
+      "internationalCode": "3",
+      "internationalCodeName": "Deletion"
+    },
+    {
+      "code": "4",
+      "codeName": "Change",
+      "internationalCode": "4",
+      "internationalCodeName": "Change"
+    },
+    {
+      "code": "6",
+      "codeName": "Confirmation",
+      "internationalCode": "6",
+      "internationalCodeName": "Confirmation"
+    },
+    {
+      "code": "9",
+      "codeName": "Original",
+      "internationalCode": "9",
+      "internationalCodeName": "Original"
+    },
+    {
+      "code": "11",
+      "codeName": "Response",
+      "internationalCode": "11",
+      "internationalCodeName": "Response"
+    },
+    {
+      "code": "63",
+      "codeName": "Not accepted, provisional",
+      "internationalCode": "63",
+      "internationalCodeName": "Not accepted, provisional"
+    }
+  ]
+}

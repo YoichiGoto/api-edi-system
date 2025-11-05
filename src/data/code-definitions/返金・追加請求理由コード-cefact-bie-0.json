@@ -1,0 +1,21 @@
+{
+  "codeType": "返金・追加請求理由コード-cefact-bie-0",
+  "sheetName": "返金・追加請求理由コード  (cefact-bie)",
+  "tableType": "cefact-bie",
+  "region": {
+    "startRow": 6,
+    "endRow": 12,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "国際標準\r\nCode値",
+      "codeName": "Name"
+    },
+    {
+      "code": "106",
+      "codeName": "Withheld taxes and social security contributions"
+    }
+  ]
+}

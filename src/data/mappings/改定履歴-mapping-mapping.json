@@ -1,0 +1,27 @@
+{
+  "sheetName": "改定履歴 (mapping)",
+  "messageType": "改定履歴",
+  "tableType": "mapping",
+  "region": {
+    "startRow": 2,
+    "endRow": 4,
+    "startCol": 1,
+    "endCol": 4
+  },
+  "fields": [
+    {
+      "appField": "中小企業共通EDI標準ver.4.1_r0",
+      "ediField": "45047",
+      "ediId": "インボイス対応メッセージ",
+      "required": false,
+      "description": "中小企業共通EDI標準ver.4.1_r0"
+    },
+    {
+      "appField": "中小企業共通EDI標準ver.4.2_r0",
+      "ediField": "45200",
+      "ediId": "インボイス対応メッセージ",
+      "required": false,
+      "description": "中小企業共通EDI標準ver.4.2_r0"
+    }
+  ]
+}

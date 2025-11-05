@@ -1,0 +1,21 @@
+{
+  "codeType": "税タイプコード-cefact-bie-0",
+  "sheetName": "税タイプコード (cefact-bie)",
+  "tableType": "cefact-bie",
+  "region": {
+    "startRow": 6,
+    "endRow": 12,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "国際標準\r\nCode値",
+      "codeName": "Name"
+    },
+    {
+      "code": "VAT",
+      "codeName": "Value added tax"
+    }
+  ]
+}

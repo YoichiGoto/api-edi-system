@@ -1,0 +1,67 @@
+{
+  "codeType": "支払手段タイプコード-code-definition",
+  "sheetName": "支払手段タイプコード (code-definition)",
+  "tableType": "code-definition",
+  "region": {
+    "startRow": 9,
+    "endRow": 20,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "10",
+      "codeName": "In cash",
+      "internationalCode": "10",
+      "internationalCodeName": "In cash"
+    },
+    {
+      "code": "20",
+      "codeName": "Cheque",
+      "internationalCode": "20",
+      "internationalCodeName": "Cheque"
+    },
+    {
+      "code": "30",
+      "codeName": "Credit transfe",
+      "internationalCode": "30",
+      "internationalCodeName": "Credit transfe"
+    },
+    {
+      "code": "46",
+      "codeName": "Interbank debit transfer",
+      "internationalCode": "46",
+      "internationalCodeName": "Interbank debit transfer"
+    },
+    {
+      "code": "49",
+      "codeName": "Direct debit",
+      "internationalCode": "49",
+      "internationalCodeName": "Direct debit"
+    },
+    {
+      "code": "54",
+      "codeName": "Credit card",
+      "internationalCode": "54",
+      "internationalCodeName": "Credit card"
+    },
+    {
+      "code": "55",
+      "codeName": "Debit card",
+      "internationalCode": "55",
+      "internationalCodeName": "Debit card"
+    },
+    {
+      "code": "60",
+      "codeName": "Promissory note",
+      "internationalCode": "60",
+      "internationalCodeName": "Promissory note"
+    },
+    {
+      "code": "68",
+      "codeName": "Online payment service",
+      "internationalCode": "68",
+      "internationalCodeName": "Online payment service"
+    }
+  ]
+}

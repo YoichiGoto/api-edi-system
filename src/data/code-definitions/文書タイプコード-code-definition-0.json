@@ -1,0 +1,61 @@
+{
+  "codeType": "文書タイプコード-code-definition-0",
+  "sheetName": "文書タイプコード (code-definition)",
+  "tableType": "code-definition",
+  "region": {
+    "startRow": 15,
+    "endRow": 28,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "758",
+      "codeName": "Tender",
+      "internationalCode": "758",
+      "internationalCodeName": "Tender"
+    },
+    {
+      "code": "315",
+      "codeName": "Contract",
+      "internationalCode": "315",
+      "internationalCodeName": "Contract"
+    },
+    {
+      "code": "311",
+      "codeName": "Request for quote",
+      "internationalCode": "311",
+      "internationalCodeName": "Request for quote"
+    },
+    {
+      "code": "220",
+      "codeName": "Order",
+      "internationalCode": "220",
+      "internationalCodeName": "Order"
+    },
+    {
+      "code": "231",
+      "codeName": "Purchase order response",
+      "internationalCode": "231",
+      "internationalCodeName": "Purchase order response"
+    },
+    {
+      "code": "164",
+      "codeName": "Purchasing specification",
+      "internationalCode": "164",
+      "internationalCodeName": "Purchasing specification"
+    },
+    {
+      "code": "270",
+      "codeName": "Delivery note",
+      "internationalCode": "270",
+      "internationalCodeName": "Delivery note"
+    },
+    {
+      "code": "351",
+      "codeName": "Despatch advice",
+      "internationalCode": "351",
+      "internationalCodeName": "Despatch advice"
+    }
+  ]
+}

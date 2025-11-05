@@ -1,0 +1,37 @@
+{
+  "sheetName": "注文・中小全項目 (mapping)",
+  "messageType": "order",
+  "tableType": "mapping",
+  "region": {
+    "startRow": 1,
+    "endRow": 5,
+    "startCol": 2,
+    "endCol": 11
+  },
+  "fields": [
+    {
+      "appField": "〇",
+      "ediField": "中小企業共通EDI対応業務アプリの「共通必須」情報情報項目",
+      "required": true,
+      "description": "中小企業共通EDI対応業務アプリの「共通必須」情報情報項目"
+    },
+    {
+      "appField": "●",
+      "ediField": "「選択必須」情報項目。業務アプリが実装しない場合はデフォルトで運用と見做す",
+      "required": true,
+      "description": "「選択必須」情報項目。業務アプリが実装しない場合はデフォルトで運用と見做す"
+    },
+    {
+      "appField": "（●）",
+      "ediField": "同じクラス内のいずれかの情報項目の記載が「選択必須」",
+      "required": true,
+      "description": "同じクラス内のいずれかの情報項目の記載が「選択必須」"
+    },
+    {
+      "appField": "△",
+      "ediField": "ユーザー非公開。共通EDIプロバイダがデータセット",
+      "required": false,
+      "description": "ユーザー非公開。共通EDIプロバイダがデータセット"
+    }
+  ]
+}

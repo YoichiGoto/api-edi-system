@@ -1,0 +1,79 @@
+{
+  "codeType": "明細行一覧-cefact-bie",
+  "sheetName": "明細行一覧 (cefact-bie)",
+  "tableType": "cefact-bie",
+  "region": {
+    "startRow": 2,
+    "endRow": 26,
+    "startCol": 1,
+    "endCol": 6
+  },
+  "codes": [
+    {
+      "code": "UNCL\r\n1229",
+      "codeName": "Document line status code",
+      "internationalCode": "UNCL\r\n1229",
+      "internationalCodeName": "Document line status code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "Document. Line Status Reason. Code",
+      "internationalCode": "JEC",
+      "internationalCodeName": "Document. Line Status Reason. Code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "Document line category code",
+      "internationalCode": "JEC",
+      "internationalCodeName": "Document line category code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "Delivery. CI_ Supply Chain_ Event. Type. Code",
+      "internationalCode": "JEC",
+      "internationalCodeName": "Delivery. CI_ Supply Chain_ Event. Type. Code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "Delivery_ Instructions. Handling. Code",
+      "internationalCode": "JEC",
+      "internationalCodeName": "Delivery_ Instructions. Handling. Code"
+    },
+    {
+      "code": "UNCL\r\n5375",
+      "codeName": "Price. Type. Code",
+      "internationalCode": "UNCL\r\n5375",
+      "internationalCodeName": "Price. Type. Code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "CI_ Trade_ Product. Variable Measure. Indicator",
+      "internationalCode": "JEC",
+      "internationalCodeName": "CI_ Trade_ Product. Variable Measure. Indicator"
+    },
+    {
+      "code": "JEC",
+      "codeName": "CI_ Product_ Characteristic. Type. Code",
+      "internationalCode": "JEC",
+      "internationalCodeName": "CI_ Product_ Characteristic. Type. Code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "CI_ Product_ Characteristic. Content_ Type. Code",
+      "internationalCode": "JEC",
+      "internationalCodeName": "CI_ Product_ Characteristic. Content_ Type. Code"
+    },
+    {
+      "code": "UNCL\r\n4343",
+      "codeName": "Document Line_ Document. Requested_ Response Type. Code",
+      "internationalCode": "UNCL\r\n4343",
+      "internationalCodeName": "Document Line_ Document. Requested_ Response Type. Code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "Document Line_ Document. Response Reason. Code",
+      "internationalCode": "JEC",
+      "internationalCodeName": "Document Line_ Document. Response Reason. Code"
+    }
+  ]
+}

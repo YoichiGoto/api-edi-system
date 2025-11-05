@@ -1,0 +1,25 @@
+{
+  "sheetName": "注文・中小全項目 (unknown)",
+  "messageType": "注文・中小全項目",
+  "tableType": "unknown",
+  "region": {
+    "startRow": 6,
+    "endRow": 10,
+    "startCol": 2,
+    "endCol": 11
+  },
+  "fields": [
+    {
+      "appField": "＋",
+      "ediField": "「中小業界任意」情報項目",
+      "required": false,
+      "description": "「中小業界任意」情報項目"
+    },
+    {
+      "appField": "◎",
+      "ediField": "適格請求書に記載が必要な「法的必須」情報項目（インボイス・メッセージに適用）",
+      "required": true,
+      "description": "適格請求書に記載が必要な「法的必須」情報項目（インボイス・メッセージに適用）"
+    }
+  ]
+}

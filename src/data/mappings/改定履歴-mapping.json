@@ -1,0 +1,20 @@
+{
+  "sheetName": "改定履歴",
+  "messageType": "改定履歴",
+  "fields": [
+    {
+      "appField": "2",
+      "ediField": "中小企業共通EDI標準ver.4.1_r0",
+      "ediId": "45047",
+      "required": false,
+      "description": "中小企業共通EDI標準ver.4.1_r0"
+    },
+    {
+      "appField": "3",
+      "ediField": "中小企業共通EDI標準ver.4.2_r0",
+      "ediId": "45200",
+      "required": false,
+      "description": "中小企業共通EDI標準ver.4.2_r0"
+    }
+  ]
+}

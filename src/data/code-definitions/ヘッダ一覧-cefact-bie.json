@@ -1,0 +1,121 @@
+{
+  "codeType": "ヘッダ一覧-cefact-bie",
+  "sheetName": "ヘッダ一覧 (cefact-bie)",
+  "tableType": "cefact-bie",
+  "region": {
+    "startRow": 2,
+    "endRow": 41,
+    "startCol": 1,
+    "endCol": 6
+  },
+  "codes": [
+    {
+      "code": "JEC\r\n0001",
+      "codeName": "＜付表2＞参照",
+      "internationalCode": "JEC\r\n0001",
+      "internationalCodeName": "＜付表2＞参照"
+    },
+    {
+      "code": "JEC\r\n0002",
+      "codeName": "＜付表2＞参照",
+      "internationalCode": "JEC\r\n0002",
+      "internationalCodeName": "＜付表2＞参照"
+    },
+    {
+      "code": "JEC",
+      "codeName": "＜付表2＞参照",
+      "internationalCode": "JEC",
+      "internationalCodeName": "＜付表2＞参照"
+    },
+    {
+      "code": "JEC",
+      "codeName": "＜付表2＞参照",
+      "internationalCode": "JEC",
+      "internationalCodeName": "＜付表2＞参照"
+    },
+    {
+      "code": "UNCL\r\n1001",
+      "codeName": "Document subtype code",
+      "internationalCode": "UNCL\r\n1001",
+      "internationalCodeName": "Document subtype code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "Document subtype code",
+      "internationalCode": "JEC",
+      "internationalCodeName": "Document subtype code"
+    },
+    {
+      "code": "UNCL\r\n1225",
+      "codeName": "Document purpose Code",
+      "internationalCode": "UNCL\r\n1225",
+      "internationalCodeName": "Document purpose Code"
+    },
+    {
+      "code": "UNCL\r\n1373",
+      "codeName": "Document status. Code",
+      "internationalCode": "UNCL\r\n1373",
+      "internationalCodeName": "Document status. Code"
+    },
+    {
+      "code": "UNCL\r\n3035",
+      "codeName": "Party Role Code",
+      "internationalCode": "UNCL\r\n3035",
+      "internationalCodeName": "Party Role Code"
+    },
+    {
+      "code": "UNCL\r\n4461",
+      "codeName": "Payment Means. Type. Code",
+      "internationalCode": "UNCL\r\n4461",
+      "internationalCodeName": "Payment Means. Type. Code"
+    },
+    {
+      "code": "全銀協",
+      "codeName": "CI_ Creditor_ Financial Account. Type. Code",
+      "internationalCode": "全銀協",
+      "internationalCodeName": "CI_ Creditor_ Financial Account. Type. Code"
+    },
+    {
+      "code": "UNCL\r\n4279",
+      "codeName": "Payment Terms. Type. Code",
+      "internationalCode": "UNCL\r\n4279",
+      "internationalCodeName": "Payment Terms. Type. Code"
+    },
+    {
+      "code": "UNCL\r\n4279",
+      "codeName": "CI_ Advance_ Payment.  Type. Code",
+      "internationalCode": "UNCL\r\n4279",
+      "internationalCodeName": "CI_ Advance_ Payment.  Type. Code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "Inspection_ Event. Type. Code",
+      "internationalCode": "JEC",
+      "internationalCodeName": "Inspection_ Event. Type. Code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "Delivery. CI_ Supply Chain_ Event. Type. Code",
+      "internationalCode": "JEC",
+      "internationalCodeName": "Delivery. CI_ Supply Chain_ Event. Type. Code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "CI_ Instructed_ Temperature. Control. Code",
+      "internationalCode": "JEC",
+      "internationalCodeName": "CI_ Instructed_ Temperature. Control. Code"
+    },
+    {
+      "code": "JEC\r\n0003",
+      "codeName": "Balance Out. Reason. Code",
+      "internationalCode": "JEC\r\n0003",
+      "internationalCodeName": "Balance Out. Reason. Code"
+    },
+    {
+      "code": "UNCL\r\n4343",
+      "codeName": "Requested_ Response Type Code",
+      "internationalCode": "UNCL\r\n4343",
+      "internationalCodeName": "Requested_ Response Type Code"
+    }
+  ]
+}

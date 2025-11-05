@@ -1,0 +1,1573 @@
+{
+  "sheetName": "支払通知 (cefact-bie)",
+  "messageType": "支払通知",
+  "tableType": "cefact-bie",
+  "region": {
+    "startRow": 13,
+    "endRow": 208,
+    "startCol": 1,
+    "endCol": 8
+  },
+  "items": [
+    {
+      "itemName": "支払通知書",
+      "headerDetail": "ヘッダ",
+      "clId": "",
+      "itemDefinition": "支払人が受取人に、支払通知情報および支払対象取引に関する詳細情報を通知する文書（メッセージ）",
+      "repetition": "-",
+      "establishedRevised": "v1/v4.2"
+    },
+    {
+      "itemName": "取引設定クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "CL1",
+      "itemDefinition": "メッセージの設定内容に関する情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "取引ID",
+      "headerDetail": "ヘッダ",
+      "clId": "ID1",
+      "itemDefinition": "メッセージがやり取りされる取引識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "処理日時",
+      "headerDetail": "ヘッダ",
+      "clId": "ID2",
+      "itemDefinition": "メッセージがやり取りされる日時",
+      "repetition": "0..1",
+      "establishedRevised": "v1/v2"
+    },
+    {
+      "itemName": "プロセス設定クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "CL2",
+      "itemDefinition": "取引プロセスに関する情報のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "取引プロセスID",
+      "headerDetail": "ヘッダ",
+      "clId": "ID3",
+      "itemDefinition": "取引プロセスの識別番号\r\n共通EDIプロバイダがプロセスをセットする",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "取引プロセス名",
+      "headerDetail": "ヘッダ",
+      "clId": "ID4",
+      "itemDefinition": "取引プロセスの名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョンID",
+      "headerDetail": "ヘッダ",
+      "clId": "ID5",
+      "itemDefinition": "取引プロセスのバージョン識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョン発行日",
+      "headerDetail": "ヘッダ",
+      "clId": "ID6",
+      "itemDefinition": "取引プロセスのバージョン発行日",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引シナリオ設定クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "CL3",
+      "itemDefinition": "取引シナリオに関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引シナリオID",
+      "headerDetail": "ヘッダ",
+      "clId": "ID7",
+      "itemDefinition": "取引シナリオの識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "取引シナリオ名",
+      "headerDetail": "ヘッダ",
+      "clId": "ID8",
+      "itemDefinition": "取引シナリオの名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "アプリケーション設定クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "CL4",
+      "itemDefinition": "アプリケーションに関する情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "アプリケーションID",
+      "headerDetail": "ヘッダ",
+      "clId": "ID9",
+      "itemDefinition": "業務アプリケーションの識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "アプリケーション名",
+      "headerDetail": "ヘッダ",
+      "clId": "ID10",
+      "itemDefinition": "業務アプリケーションの名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "ドメイン設定クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "CL5",
+      "itemDefinition": "JEC業界横断EDIメッセージドメインに関する情報のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ドメインID",
+      "headerDetail": "ヘッダ",
+      "clId": "ID11",
+      "itemDefinition": "SIPSが付与したメッセージドメイン識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ドメイン名",
+      "headerDetail": "ヘッダ",
+      "clId": "ID12",
+      "itemDefinition": "SIPSが付与したメッセージドメイン名称",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョンID",
+      "headerDetail": "ヘッダ",
+      "clId": "ID13",
+      "itemDefinition": "ドメインのバージョン識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "バージョン発行日",
+      "headerDetail": "ヘッダ",
+      "clId": "ID14",
+      "itemDefinition": "ドメインのバージョン発行日",
+      "repetition": "0..1",
+      "establishedRevised": "v1"
+    },
+    {
+      "itemName": "支払通知文書クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "RCL1",
+      "itemDefinition": "業界横断振込依頼（CIR）処理において当事者間で交換した書類、または電子記録データの集合",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払通知書ID",
+      "headerDetail": "ヘッダ",
+      "clId": "RID1",
+      "itemDefinition": "この交換された 支払通知文書の一意識別子",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払通知書目的コード",
+      "headerDetail": "ヘッダ",
+      "clId": "RID2",
+      "itemDefinition": "この文書の目的（新規、変更、取消、打切り）を管理するために付番したコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "支払通知書タイプコード",
+      "headerDetail": "ヘッダ",
+      "clId": "RID3",
+      "itemDefinition": "この文書が支払通知書であることを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "支払通知書発効日",
+      "headerDetail": "ヘッダ",
+      "clId": "RID4",
+      "itemDefinition": "この 支払通知文書の発行の日付、時刻、日時またはその他の日付時刻値",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "注釈クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "RCL2",
+      "itemDefinition": "注釈内容の情報からなるクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ヘッダ注釈表題",
+      "headerDetail": "ヘッダ",
+      "clId": "RID5",
+      "itemDefinition": "ヘッダの注釈内容の表題を示す。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "ヘッダ注釈内容",
+      "headerDetail": "ヘッダ",
+      "clId": "RID6",
+      "itemDefinition": "ヘッダ注釈内容（支払毎の支払内容）",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ヘッダ注釈ID",
+      "headerDetail": "ヘッダ",
+      "clId": "RID7",
+      "itemDefinition": "ヘッダ注釈の識別ID\r\n共通EDIプロバイダがシリアル番号をセット。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "金融支払クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "RCL3",
+      "itemDefinition": "金融支払通知ヘッダー（CIRH）の取引決済の一部として、2者の当事者間で転送された資金または有価証券に関する支払情報\r\nただし、支払元、支払先はそれぞれ一つに限定して運用する。支払手段は複数あってもよい",
+      "repetition": "1..n",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "金融支払ID",
+      "headerDetail": "ヘッダ",
+      "clId": "RID8",
+      "itemDefinition": "当事者が取引を明確に識別し始めることで割り当てられるIDなど、この支払通知ヘッダーの取引決済支払のエンドツーエンド処理の一意ID\r\nISO20022pain001「取引明細識別番号（振込依頼人発行）」と商流EDIの支払先毎の支払明細を紐付けるために支払人が付与する識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払日時",
+      "headerDetail": "ヘッダ",
+      "clId": "RID9",
+      "itemDefinition": "この支払通知ヘッダーの取引決済支払の依頼する日付、時刻、日時、またはその他の日付時刻値",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "受取人クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "RCL4",
+      "itemDefinition": "受取人当事者情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "受取人企業ID",
+      "headerDetail": "ヘッダ",
+      "clId": "RID10",
+      "itemDefinition": "受取人企業の企業ID",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "受取人国際企業ID",
+      "headerDetail": "ヘッダ",
+      "clId": "RID11",
+      "itemDefinition": "受取人企業の国際企業ID。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "受取人企業名",
+      "headerDetail": "ヘッダ",
+      "clId": "RID12",
+      "itemDefinition": "受取人当事者の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "適格請求書発行事業者登録番号",
+      "headerDetail": "ヘッダ",
+      "clId": "RID13",
+      "itemDefinition": "適格請求書発行事業者登録番号",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "受取人電話番号",
+      "headerDetail": "ヘッダ",
+      "clId": "RID14",
+      "itemDefinition": "連絡先電話番号",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払人クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "RCL5",
+      "itemDefinition": "支払人当事者情報のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払人ID",
+      "headerDetail": "ヘッダ",
+      "clId": "RID15",
+      "itemDefinition": "支払人の企業ID\r\n金融機関が付与した支払人の識別ID",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払人国際企業ID",
+      "headerDetail": "ヘッダ",
+      "clId": "RID16",
+      "itemDefinition": "支払人の国際企業ID。",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払人企業名",
+      "headerDetail": "ヘッダ",
+      "clId": "RID17",
+      "itemDefinition": "支払人の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払人電話番号",
+      "headerDetail": "ヘッダ",
+      "clId": "RID18",
+      "itemDefinition": "連絡先電話番号",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "金額合計クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "RCL6",
+      "itemDefinition": "金額合計情報のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払総合計金額",
+      "headerDetail": "ヘッダ",
+      "clId": "RID19",
+      "itemDefinition": "支払金額（税込み）ー相殺合計金額\r\nISO20022pain001「振込金額」に対応する商流EDIの支払金額",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "相殺合計金額",
+      "headerDetail": "ヘッダ",
+      "clId": "RID20",
+      "itemDefinition": "相殺明細金額の合計額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "税合計金額",
+      "headerDetail": "ヘッダ",
+      "clId": "RID21",
+      "itemDefinition": "税の合計金額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "合計金額（税込み）",
+      "headerDetail": "ヘッダ",
+      "clId": "RID22",
+      "itemDefinition": "全請求書の税込金額の合計。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "総合計金額",
+      "headerDetail": "ヘッダ",
+      "clId": "RID23",
+      "itemDefinition": "全請求書の金額合計",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "合計金額（税抜き）",
+      "headerDetail": "ヘッダ",
+      "clId": "RID24",
+      "itemDefinition": "全請求書の税抜金額合計",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "相殺クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "RCL7",
+      "itemDefinition": "相殺情報のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "相殺項目ID",
+      "headerDetail": "ヘッダ",
+      "clId": "RID25",
+      "itemDefinition": "相殺明細項目を識別する番号",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "相殺項目理由コード",
+      "headerDetail": "ヘッダ",
+      "clId": "RID26",
+      "itemDefinition": "相殺項目理由コード",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "相殺項目理由説明文",
+      "headerDetail": "ヘッダ",
+      "clId": "RID27",
+      "itemDefinition": "相殺明細項目理由の説明文",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "相殺項目金額",
+      "headerDetail": "ヘッダ",
+      "clId": "RID28",
+      "itemDefinition": "相殺明細の金額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払手段クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "RCL8",
+      "itemDefinition": "取引決済の目的で支払が行われる、あるいは行われた手段のクラス。",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払手段タイプコード",
+      "headerDetail": "ヘッダ",
+      "clId": "RID29",
+      "itemDefinition": "決済支払手段を識別するコード(現金、手形など）",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払手段方法コード",
+      "headerDetail": "ヘッダ",
+      "clId": "RID30",
+      "itemDefinition": "決済支払方法を識別するコード（月次支払、出来高払いなど)",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払人口座クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "RCL9",
+      "itemDefinition": "支払人の口座クラス",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "仕向国際金融口座番号",
+      "headerDetail": "ヘッダ",
+      "clId": "RID31",
+      "itemDefinition": "支払人の国際金融口座番号（IBAN)",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "支払人口座名義",
+      "headerDetail": "ヘッダ",
+      "clId": "RID32",
+      "itemDefinition": "支払人の、文字で表現された名称。",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払人口座番号",
+      "headerDetail": "ヘッダ",
+      "clId": "RID33",
+      "itemDefinition": "支払人口座の一意の識別子。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払人口座種別コード",
+      "headerDetail": "ヘッダ",
+      "clId": "RID34",
+      "itemDefinition": "支払人預金口座のタイプ",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "受取人金融口座クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "RCL10",
+      "itemDefinition": "受取人の口座クラス",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "被仕向国際金融口座番号",
+      "headerDetail": "ヘッダ",
+      "clId": "RID35",
+      "itemDefinition": "受取人の国際金融口座番号（IBAN)",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "受取人口座名義",
+      "headerDetail": "ヘッダ",
+      "clId": "RID36",
+      "itemDefinition": "受取人口座の、文字で表現された受取人名。",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "受取人口座番号",
+      "headerDetail": "ヘッダ",
+      "clId": "RID37",
+      "itemDefinition": "受取人口座の一意の識別子。",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "受取人口座種別コード",
+      "headerDetail": "ヘッダ",
+      "clId": "RID38",
+      "itemDefinition": "受取人預金口座のタイプ",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払人金融機関クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "RCL11",
+      "itemDefinition": "支払人金融機関のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "仕向国際金融機関ID",
+      "headerDetail": "ヘッダ",
+      "clId": "RID39",
+      "itemDefinition": "支払人の国際金融機関ID（BIC）",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "支払人金融機関名",
+      "headerDetail": "ヘッダ",
+      "clId": "RID40",
+      "itemDefinition": "支払人の金融機関名",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "支払人金融機関番号",
+      "headerDetail": "ヘッダ",
+      "clId": "RID41",
+      "itemDefinition": "支払人の金融機関番号",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払人金融機関支店クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "RCL12",
+      "itemDefinition": "支払人金融機関支店のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払人金融機関支店番号",
+      "headerDetail": "ヘッダ",
+      "clId": "RID42",
+      "itemDefinition": "支払人金融機関の支店番号",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払人金融機関支店名",
+      "headerDetail": "ヘッダ",
+      "clId": "RID43",
+      "itemDefinition": "支払人金融機関の支店名",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "受取人金融機関クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "RCL13",
+      "itemDefinition": "受取人金融機関のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "被仕向国際金融機関ID",
+      "headerDetail": "ヘッダ",
+      "clId": "RID44",
+      "itemDefinition": "受取人の国際金融機関ID（BIC）",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "受取人金融機関名",
+      "headerDetail": "ヘッダ",
+      "clId": "RID45",
+      "itemDefinition": "受取人の金融機関名",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "受取人金融機関番号",
+      "headerDetail": "ヘッダ",
+      "clId": "RID46",
+      "itemDefinition": "受取人の金融機関番号",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "受取人金融機関支店クラス",
+      "headerDetail": "ヘッダ",
+      "clId": "RCL14",
+      "itemDefinition": "受取人金融機関支店のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "受取人金融機関支店番号",
+      "headerDetail": "ヘッダ",
+      "clId": "RID47",
+      "itemDefinition": "受取人金融機関の支店番号",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "受取人金融機関支店名",
+      "headerDetail": "ヘッダ",
+      "clId": "RID48",
+      "itemDefinition": "受取人金融機関の支店名",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "明細支書クラス",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RCL15",
+      "itemDefinition": "支払明細文書のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "明細文書識別ID",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID49",
+      "itemDefinition": "支払明細文書を識別する番号",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "注釈クラス",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RCL16",
+      "itemDefinition": "注釈内容のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "明細文書注釈表題",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID50",
+      "itemDefinition": "明細文書の注釈内容の表題を示す。\r\n一部に利用制限あり。標準仕様書３．３．５項参照。",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細文書支払内容の注釈",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID51",
+      "itemDefinition": "明細文書の注釈表題毎の内容情報を入力するフリースペース。\r\n一部に利用制限あり。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "明細文書注釈ID",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID52",
+      "itemDefinition": "明細文書注釈の識別ID\r\n共通EDIプロバイダがシリアル番号をセット。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "発注当事者クラス",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RCL17",
+      "itemDefinition": "当事者（発注者）情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "発注者ID",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID53",
+      "itemDefinition": "注文を行う企業/工場・事業所・事業部門等を表す番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "発注企業国際企業ID",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID54",
+      "itemDefinition": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "発注企業名",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID55",
+      "itemDefinition": "発注企業の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "適格請求書発行事業者登録番号",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID56",
+      "itemDefinition": "国税庁へ登録された適格請求書発行事業者登録番号（区分記載請求書発行者についてはなし）\r\nT1234567890123",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "受注当事者クラス",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RCL18",
+      "itemDefinition": "当事者（受注者）情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "受注者ID",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID57",
+      "itemDefinition": "注文を受ける企業/工場・事業所・事業部門等を表す番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "受注企業国際企業ID",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID58",
+      "itemDefinition": "企業を表す国際企業ID。ISO6523に登録された国際企業登録機関を属性で指定する。中小企業共通EDIでは法人IDの利用を推奨",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "受注企業名",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID59",
+      "itemDefinition": "受注企業の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "適格請求書発行事業者登録番号",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID60",
+      "itemDefinition": "国税庁へ登録された適格請求書発行事業者登録番号（区分記載請求書発行者についてはなし）\r\nT1234567890123",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "明細文書決済クラス",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RCL19",
+      "itemDefinition": "支払明細文書の決済情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "決済締日",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID61",
+      "itemDefinition": "支払明細文書（請求書単位）の決済締日",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払予定日",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID62",
+      "itemDefinition": "支払明細文書（請求書単位）の支払予定日",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求日",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID63",
+      "itemDefinition": "請求（取引）を行った日",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求先クラス",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RCL20",
+      "itemDefinition": "当事者（請求先）情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求先ID",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID64",
+      "itemDefinition": "請求を受ける企業等を表す番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求先企業名",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID65",
+      "itemDefinition": "当事者（請求先）の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求先連絡先クラス",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RCL21",
+      "itemDefinition": "請求先の連絡先情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求先担当者名",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID66",
+      "itemDefinition": "連絡先担当者名",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求先部門名",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID67",
+      "itemDefinition": "連絡先部門名",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求先電話番号",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID68",
+      "itemDefinition": "連絡先電話番号",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求者クラス",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RCL22",
+      "itemDefinition": "請求者の情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "請求者ID",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID69",
+      "itemDefinition": "請求する企業等を表す番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "請求者事業者名",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID70",
+      "itemDefinition": "請求者の名称。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "適格請求書発行事業者登録番号",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID71",
+      "itemDefinition": "適格請求書発行事業者の登録番号",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "（参照）インボイス文書クラス",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RCL23",
+      "itemDefinition": "この文書が参照する参照文書に関するクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（参照）インボイス文書ID",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID72",
+      "itemDefinition": "この文書が参照する参照文書を特定する番号",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（参照）インボイス文書発行日",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID73",
+      "itemDefinition": "この明細文書が参照する参照文書（請求書、検収書等）に記載の書面上の発行日付。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（参照）インボイス文書明細行ID",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID74",
+      "itemDefinition": "この明細文書が参照する参照文書（請求書、検収書等）に記載の明細行番号",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（参照）インボイス文書履歴ID",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID75",
+      "itemDefinition": "この明細文書が参照する差㎜商文書の変更履歴を管理する番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（参照）インボイス文書名",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID76",
+      "itemDefinition": "この明細文書が参照する参照文書（請求書、検収書等）に付与した文書名称",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（参照）インボイス文書タイプコード",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID77",
+      "itemDefinition": "この明細文書が参照する参照文書のタイプ（請求書、検収書等）を識別する識別コード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（参照）インボイス文書類型コード",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID78",
+      "itemDefinition": "この明細文書が参照する参照文書の類型（適格請求書等対応、適格請求書等非対応等）を識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（参照）インボイス文書サブタイプコード",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID79",
+      "itemDefinition": "この明細文書が参照する納品書等のサブタイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "(参照)インボイス文書注釈クラス",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RCL24",
+      "itemDefinition": "(参照)インボイス文書の注釈内容のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "請求金額（税込み）",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID80",
+      "itemDefinition": "（参照）インボイス文書の請求金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "（参照）インボイス文書注釈ID",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID81",
+      "itemDefinition": "共通EDIプロバイダが設定\r\n＝１（固定値）",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "支払合計金額クラス",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RCL25",
+      "itemDefinition": "支払合計金額の情報のクラス",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払総合計金額",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID82",
+      "itemDefinition": "明細文書毎の支払総合計金額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "税合計金額",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID83",
+      "itemDefinition": "明細文書毎の税合計金額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払明細金額（税抜き）の合計金額",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID84",
+      "itemDefinition": "明細文書毎の課税対象支払合計金額（税込み）",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払明細金額（税込み）の合計金額",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID85",
+      "itemDefinition": "明細文書毎の課税対象支払合計金額（税抜き）",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ヘッダ税クラス",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RCL26",
+      "itemDefinition": "この明細文書のヘッダの税に関する情報のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "税額",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID86",
+      "itemDefinition": "課税分類毎の消費税額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ヘッダ税タイプコード",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID87",
+      "itemDefinition": "税の種類を識別するコード\r\nデフォルトは消費税",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ヘッダ課税対象合計金額（税抜き）",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID88",
+      "itemDefinition": "課税分類毎の税抜き課税対象合計金額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ヘッダ課税分類コード",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID89",
+      "itemDefinition": "消費税の課税分類(標準税率、軽減税率など)を識別するための識別コード。税クラスの繰返しの自動識別キーとして使用",
+      "repetition": "0..1",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "ヘッダ課税分類名",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID90",
+      "itemDefinition": "消費税の課税分類(標準税率、軽減税率など)を識別するための分類名",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ヘッダ税率",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID91",
+      "itemDefinition": "課税分類の消費税率",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "ヘッダ課税対象合計金額（税込み）",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID92",
+      "itemDefinition": "課税分類毎の税額を含む課税対象合計金額",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "税計算方式",
+      "headerDetail": "明細文書ヘッダ",
+      "clId": "RID93",
+      "itemDefinition": "金額の税込み、税抜きを指定。\r\n※単価が「税込み」の場合は必須。「税抜き」の場合は任意",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "明細文書明細行クラス",
+      "headerDetail": "明細行",
+      "clId": "RCL27",
+      "itemDefinition": "この支払明細文書の明細行情報のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "明細行ID",
+      "headerDetail": "明細行",
+      "clId": "RID94",
+      "itemDefinition": "支払明細文書の明細行番号",
+      "repetition": "1..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "明細行注釈クラス",
+      "headerDetail": "明細行",
+      "clId": "RCL28",
+      "itemDefinition": "明細行の注釈を記述するクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行注釈表題",
+      "headerDetail": "明細行",
+      "clId": "RID95",
+      "itemDefinition": "明細行の注釈内容の表題を示す。\r\n一部に利用制限あり。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行注釈内容",
+      "headerDetail": "明細行",
+      "clId": "RID96",
+      "itemDefinition": "明細行の注釈表題毎の内容情報を入力するフリースペース。\r\n一部に利用制限あり。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行注釈ID",
+      "headerDetail": "明細行",
+      "clId": "RID97",
+      "itemDefinition": "明細行注釈の識別ID\r\n共通EDIプロバイダがシリアル番号をセット。標準仕様書３．３．５項参照",
+      "repetition": "0..1",
+      "establishedRevised": "v4.1"
+    },
+    {
+      "itemName": "明細行決済クラス",
+      "headerDetail": "明細行",
+      "clId": "RCL29",
+      "itemDefinition": "明細行の決済情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "明細行請求日",
+      "headerDetail": "明細行",
+      "clId": "RID98",
+      "itemDefinition": "この明細行の請求日",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "参照インボイス文書明細行クラス",
+      "headerDetail": "明細行",
+      "clId": "RCL30",
+      "itemDefinition": "この明細文書の明細行が参照する参照文書の明細行に関するクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "（明細行参照）インボイス文書ID",
+      "headerDetail": "明細行",
+      "clId": "RID99",
+      "itemDefinition": "この明細文書の明細行が参照する参照文書（請求書、検収書等）を特定する番号",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "（明細行参照）インボイス文書発行日",
+      "headerDetail": "明細行",
+      "clId": "RID100",
+      "itemDefinition": "この明細文書の明細行が参照する参照文書（請求書、検収書等）に記載した文書の書面上の発行日付。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "（明細行参照）インボイス文書明細行ID",
+      "headerDetail": "明細行",
+      "clId": "RID101",
+      "itemDefinition": "この明細文書の明細行が参照する参照文書（請求書、検収書等）に記載の明細行番号",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "（明細行参照）インボイス文書履歴ID",
+      "headerDetail": "明細行",
+      "clId": "RID102",
+      "itemDefinition": "この明細文書の明細行が参照する差㎜商文書の変更履歴を管理する番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（明細行参照）インボイス文書名",
+      "headerDetail": "明細行",
+      "clId": "RID103",
+      "itemDefinition": "この明細文書の明細行が参照する参照文書（請求書、検収書等）に付与した文書名称",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "（明細行参照）インボイス文書タイプコード",
+      "headerDetail": "明細行",
+      "clId": "RID104",
+      "itemDefinition": "この明細文書の明細行が参照する参照文書のタイプ（請求書、検収書等）を識別する識別コード",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "（明細行参照）インボイス文書類型コード",
+      "headerDetail": "明細行",
+      "clId": "RID105",
+      "itemDefinition": "この明細文書の明細行が参照する参照文書の類型（適格請求書等対応、適格請求書等非対応等）を識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "（明細行参照）インボイス文書サブタイプコード",
+      "headerDetail": "明細行",
+      "clId": "RID106",
+      "itemDefinition": "この明細文書が参照する納品書等のサブタイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行参照注文書クラス",
+      "headerDetail": "明細行",
+      "clId": "RCL31",
+      "itemDefinition": "この支払明細文書の明細行の参照注文書クラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "（明細行参照）注文書ID",
+      "headerDetail": "明細行",
+      "clId": "RID107",
+      "itemDefinition": "この明細行が参照する注文書の番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "（明細行参照）注文書行ID",
+      "headerDetail": "明細行",
+      "clId": "RID108",
+      "itemDefinition": "この明細行が参照する注文書の行番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "（明細行参照）注文書履歴ID",
+      "headerDetail": "明細行",
+      "clId": "RID109",
+      "itemDefinition": "この明細行が参照する注文書の変更履歴を管理する番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "価格クラス",
+      "headerDetail": "明細行",
+      "clId": "RCL32",
+      "itemDefinition": "価格情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "単価コード",
+      "headerDetail": "明細行",
+      "clId": "RID110",
+      "itemDefinition": "単価の種別を示す識別コード",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払単価",
+      "headerDetail": "明細行",
+      "clId": "RID111",
+      "itemDefinition": "発注者と受注者が合意した明細発注品の１単位あたりの取引単価。税込み、税抜きの識別は「UN01013096：税計算方式」で指定（指定がない場合は税抜き）。",
+      "repetition": "1..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "単価基準数量",
+      "headerDetail": "明細行",
+      "clId": "RID112",
+      "itemDefinition": "✔定貫品目の場合：空欄（デフォルト）、または単価基準数量＝１\r\n✔不定貫品目、ハイブリッド品目の場合：単価基準数量＝単価の基準となる重量・容量",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "単価基準数量単位コード",
+      "headerDetail": "明細行",
+      "clId": "RID113",
+      "itemDefinition": "単価基準数量の数量単位を指定するコード。単価基準数量単位コード値を単価基準数量の属性として組込む",
+      "repetition": "",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行参照受注書クラス",
+      "headerDetail": "明細行",
+      "clId": "RCL33",
+      "itemDefinition": "この支払明細文書の明細行の参照受注書クラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "（明細行参照）受注書ID",
+      "headerDetail": "明細行",
+      "clId": "RID114",
+      "itemDefinition": "この明細行が参照する受注書の番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "（明細行参照）受注書行ID",
+      "headerDetail": "明細行",
+      "clId": "RID115",
+      "itemDefinition": "この明細行が参照する受注書の番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "（明細行参照）受注書履歴ID",
+      "headerDetail": "明細行",
+      "clId": "RID116",
+      "itemDefinition": "この明細行が参照する受注書の変更履歴を管理する番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行配送クラス",
+      "headerDetail": "明細行",
+      "clId": "RCL34",
+      "itemDefinition": "配送情報のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払通知数量",
+      "headerDetail": "明細行",
+      "clId": "RID117",
+      "itemDefinition": "この情報項目は取引数量の指定に利用する。\r\nこの項目の属性として数量単位コードを指定することにより、ずべての品目の取引数量指定に利用できる。\r\n流通業の定貫品目取引では、この項目は利用せず「セット数量」または「バラ数量」を利用する。",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "支払通知数量単位コード",
+      "headerDetail": "明細行",
+      "clId": "RID118",
+      "itemDefinition": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "支払通知セット単位数量(入り数）",
+      "headerDetail": "明細行",
+      "clId": "RID119",
+      "itemDefinition": "✔検収数量の 数量単位指定が定貫品目（バラ）の場合：利用しない\r\n✔ 検収数量の数量単位指定が定貫品目（セット）の場合：1セット当たりのバラ数量を入力。\r\n✔ 検収数量の数量単位指定が不定貫品目（個数でカウントできない品目）の場合：利用しない。\r\n✔検収数量の数量単位指定がハイブリッド品目の場合：検収数量で指定した数量の1単位当たりの重量等を入力",
+      "repetition": "0..1",
+      "establishedRevised": "v3/v4"
+    },
+    {
+      "itemName": "支払通知入り数数量単位コード",
+      "headerDetail": "明細行",
+      "clId": "RID120",
+      "itemDefinition": "数量の数量単位を指定するコード。数量単位コード値を数量の属性として組込む",
+      "repetition": "",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "配送イベントクラス",
+      "headerDetail": "明細行",
+      "clId": "RCL35",
+      "itemDefinition": "配送イベントのクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "配送ID",
+      "headerDetail": "明細行",
+      "clId": "RID121",
+      "itemDefinition": "発注者が付与した配送のユニーク識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "配送日",
+      "headerDetail": "明細行",
+      "clId": "RID122",
+      "itemDefinition": "配送した日\r\n（物品配送を伴う取引の場合）",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "品目クラス",
+      "headerDetail": "明細行",
+      "clId": "RCL36",
+      "itemDefinition": "取引対象品目のクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "品目ID",
+      "headerDetail": "明細行",
+      "clId": "RID123",
+      "itemDefinition": "品目の識別番号",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "品目名",
+      "headerDetail": "明細行",
+      "clId": "RID124",
+      "itemDefinition": "品目の名称",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "品目摘要",
+      "headerDetail": "明細行",
+      "clId": "RID125",
+      "itemDefinition": "この取引品目を文字で説明したもの",
+      "repetition": "0..1",
+      "establishedRevised": "v2"
+    },
+    {
+      "itemName": "品目数量単位判別子",
+      "headerDetail": "明細行",
+      "clId": "RID126",
+      "itemDefinition": "品目数量単位の区分（定貫品目、不定貫品目、ハイブリッド品目、実測不定貫品目、実測ハイブリッド品目）の判別子。デフォルトは定貫品目",
+      "repetition": "0..1",
+      "establishedRevised": "v4.2"
+    },
+    {
+      "itemName": "明細行税クラス",
+      "headerDetail": "明細行",
+      "clId": "RCL37",
+      "itemDefinition": "明細行の税に関する情報に関するクラス",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行譲渡資産金額（税抜き）",
+      "headerDetail": "明細行",
+      "clId": "RID127",
+      "itemDefinition": "この明細行の税抜き譲渡資産金額（支払単価×検収数量）\r\n支払単価×数量で指定できない場合は金額",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行課税分類コード",
+      "headerDetail": "明細行",
+      "clId": "RID128",
+      "itemDefinition": "この明細行の消費税の課税分類（標準税率、軽減税率、不課税、非課税、免税等）を識別するコード",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行税率",
+      "headerDetail": "明細行",
+      "clId": "RID129",
+      "itemDefinition": "この明細行の課税分類区分を識別するため、明細行課税分類コードと組み合わせて利用する。",
+      "repetition": "1..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "明細行譲渡資産金額(税込み)",
+      "headerDetail": "明細行",
+      "clId": "RID130",
+      "itemDefinition": "この明細行の税額を含む譲渡資産金額",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "ヘッダ参照文書クラス",
+      "headerDetail": "明細行",
+      "clId": "RCL38",
+      "itemDefinition": "適格請求書に関連するヘッダ参照文書(請求書、検収書)のクラス",
+      "repetition": "0..n",
+      "establishedRevised": "v3"
+    },
+    {
+      "itemName": "（ヘッダ参照）文書ID",
+      "headerDetail": "明細行",
+      "clId": "RID131",
+      "itemDefinition": "ヘッダ参照文書の番号",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "（ヘッダ参照）文書発行日",
+      "headerDetail": "明細行",
+      "clId": "RID132",
+      "itemDefinition": "ヘッダ参照文書の発行日",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "（ヘッダ参照）文書履歴ID",
+      "headerDetail": "明細行",
+      "clId": "RID133",
+      "itemDefinition": "ヘッダ参照文書の変更履歴を管理する番号。",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    },
+    {
+      "itemName": "（ヘッダ参照）文書名",
+      "headerDetail": "明細行",
+      "clId": "RID134",
+      "itemDefinition": "ヘッダ参照文書名",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "（ヘッダ参照）文書タイプコード",
+      "headerDetail": "明細行",
+      "clId": "RID135",
+      "itemDefinition": "ヘッダ参照文書のタイプを示すコード",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "（ヘッダ参照）文書類型コード",
+      "headerDetail": "明細行",
+      "clId": "RID136",
+      "itemDefinition": "ヘッダ参照文書の類型を識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v2/v3"
+    },
+    {
+      "itemName": "（ヘッダ参照）文書サブタイプコード",
+      "headerDetail": "明細行",
+      "clId": "RID137",
+      "itemDefinition": "ヘッダ参照文書のサブタイプを識別するコード",
+      "repetition": "0..1",
+      "establishedRevised": "v4"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "sheetName": "注文・中小流通業 (information-items)",
+  "messageType": "注文・中小流通業",
+  "tableType": "information-items",
+  "region": {
+    "startRow": 11,
+    "endRow": 190,
+    "startCol": 7,
+    "endCol": 10
+  },
+  "fields": [
+    {
+      "appField": "中小\r\n流通業",
+      "ediField": "インボイス\r\n対応",
+      "required": false
+    },
+    {
+      "appField": "（●）",
+      "ediField": "◎",
+      "required": true
+    },
+    {
+      "appField": "＊",
+      "ediField": "◎",
+      "required": false
+    },
+    {
+      "appField": "（●）",
+      "ediField": "◎",
+      "required": true
+    },
+    {
+      "appField": "○",
+      "ediField": "◎",
+      "required": true
+    },
+    {
+      "appField": "●",
+      "ediField": "（◎）",
+      "required": true
+    },
+    {
+      "appField": "○",
+      "ediField": "◎",
+      "required": true
+    },
+    {
+      "appField": "○",
+      "ediField": "（◎）",
+      "required": true
+    },
+    {
+      "appField": "（●）",
+      "ediField": "◎",
+      "required": true
+    },
+    {
+      "appField": "（●）",
+      "ediField": "◎",
+      "required": true
+    }
+  ]
+}

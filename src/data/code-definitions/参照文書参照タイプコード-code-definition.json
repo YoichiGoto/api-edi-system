@@ -1,0 +1,25 @@
+{
+  "codeType": "参照文書参照タイプコード-code-definition",
+  "sheetName": "参照文書参照タイプコード (code-definition)",
+  "tableType": "code-definition",
+  "region": {
+    "startRow": 9,
+    "endRow": 13,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "IV",
+      "codeName": "Invoice document identifier",
+      "internationalCode": "IV",
+      "internationalCodeName": "Invoice document identifier"
+    },
+    {
+      "code": "OI",
+      "codeName": "Previous invoice number",
+      "internationalCode": "OI",
+      "internationalCodeName": "Previous invoice number"
+    }
+  ]
+}

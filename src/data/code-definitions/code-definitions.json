@@ -1,0 +1,1494 @@
+[
+  {
+    "codeType": "改定履歴-code-definition-0",
+    "sheetName": "改定履歴 (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 2,
+      "endRow": 4,
+      "startCol": 1,
+      "endCol": 4
+    },
+    "codes": [
+      {
+        "code": "識別コード定義表全体",
+        "codeName": "45047"
+      },
+      {
+        "code": "国際サブセット定義表",
+        "codeName": "45200"
+      }
+    ]
+  },
+  {
+    "codeType": "ヘッダ一覧-cefact-bie",
+    "sheetName": "ヘッダ一覧 (cefact-bie)",
+    "tableType": "cefact-bie",
+    "region": {
+      "startRow": 2,
+      "endRow": 41,
+      "startCol": 1,
+      "endCol": 6
+    },
+    "codes": [
+      {
+        "code": "JEC\r\n0001",
+        "codeName": "＜付表2＞参照",
+        "internationalCode": "JEC\r\n0001",
+        "internationalCodeName": "＜付表2＞参照"
+      },
+      {
+        "code": "JEC\r\n0002",
+        "codeName": "＜付表2＞参照",
+        "internationalCode": "JEC\r\n0002",
+        "internationalCodeName": "＜付表2＞参照"
+      },
+      {
+        "code": "JEC",
+        "codeName": "＜付表2＞参照",
+        "internationalCode": "JEC",
+        "internationalCodeName": "＜付表2＞参照"
+      },
+      {
+        "code": "JEC",
+        "codeName": "＜付表2＞参照",
+        "internationalCode": "JEC",
+        "internationalCodeName": "＜付表2＞参照"
+      },
+      {
+        "code": "UNCL\r\n1001",
+        "codeName": "Document subtype code",
+        "internationalCode": "UNCL\r\n1001",
+        "internationalCodeName": "Document subtype code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "Document subtype code",
+        "internationalCode": "JEC",
+        "internationalCodeName": "Document subtype code"
+      },
+      {
+        "code": "UNCL\r\n1225",
+        "codeName": "Document purpose Code",
+        "internationalCode": "UNCL\r\n1225",
+        "internationalCodeName": "Document purpose Code"
+      },
+      {
+        "code": "UNCL\r\n1373",
+        "codeName": "Document status. Code",
+        "internationalCode": "UNCL\r\n1373",
+        "internationalCodeName": "Document status. Code"
+      },
+      {
+        "code": "UNCL\r\n3035",
+        "codeName": "Party Role Code",
+        "internationalCode": "UNCL\r\n3035",
+        "internationalCodeName": "Party Role Code"
+      },
+      {
+        "code": "UNCL\r\n4461",
+        "codeName": "Payment Means. Type. Code",
+        "internationalCode": "UNCL\r\n4461",
+        "internationalCodeName": "Payment Means. Type. Code"
+      },
+      {
+        "code": "全銀協",
+        "codeName": "CI_ Creditor_ Financial Account. Type. Code",
+        "internationalCode": "全銀協",
+        "internationalCodeName": "CI_ Creditor_ Financial Account. Type. Code"
+      },
+      {
+        "code": "UNCL\r\n4279",
+        "codeName": "Payment Terms. Type. Code",
+        "internationalCode": "UNCL\r\n4279",
+        "internationalCodeName": "Payment Terms. Type. Code"
+      },
+      {
+        "code": "UNCL\r\n4279",
+        "codeName": "CI_ Advance_ Payment.  Type. Code",
+        "internationalCode": "UNCL\r\n4279",
+        "internationalCodeName": "CI_ Advance_ Payment.  Type. Code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "Inspection_ Event. Type. Code",
+        "internationalCode": "JEC",
+        "internationalCodeName": "Inspection_ Event. Type. Code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "Delivery. CI_ Supply Chain_ Event. Type. Code",
+        "internationalCode": "JEC",
+        "internationalCodeName": "Delivery. CI_ Supply Chain_ Event. Type. Code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "CI_ Instructed_ Temperature. Control. Code",
+        "internationalCode": "JEC",
+        "internationalCodeName": "CI_ Instructed_ Temperature. Control. Code"
+      },
+      {
+        "code": "JEC\r\n0003",
+        "codeName": "Balance Out. Reason. Code",
+        "internationalCode": "JEC\r\n0003",
+        "internationalCodeName": "Balance Out. Reason. Code"
+      },
+      {
+        "code": "UNCL\r\n4343",
+        "codeName": "Requested_ Response Type Code",
+        "internationalCode": "UNCL\r\n4343",
+        "internationalCodeName": "Requested_ Response Type Code"
+      }
+    ]
+  },
+  {
+    "codeType": "明細行一覧-cefact-bie",
+    "sheetName": "明細行一覧 (cefact-bie)",
+    "tableType": "cefact-bie",
+    "region": {
+      "startRow": 2,
+      "endRow": 26,
+      "startCol": 1,
+      "endCol": 6
+    },
+    "codes": [
+      {
+        "code": "UNCL\r\n1229",
+        "codeName": "Document line status code",
+        "internationalCode": "UNCL\r\n1229",
+        "internationalCodeName": "Document line status code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "Document. Line Status Reason. Code",
+        "internationalCode": "JEC",
+        "internationalCodeName": "Document. Line Status Reason. Code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "Document line category code",
+        "internationalCode": "JEC",
+        "internationalCodeName": "Document line category code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "Delivery. CI_ Supply Chain_ Event. Type. Code",
+        "internationalCode": "JEC",
+        "internationalCodeName": "Delivery. CI_ Supply Chain_ Event. Type. Code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "Delivery_ Instructions. Handling. Code",
+        "internationalCode": "JEC",
+        "internationalCodeName": "Delivery_ Instructions. Handling. Code"
+      },
+      {
+        "code": "UNCL\r\n5375",
+        "codeName": "Price. Type. Code",
+        "internationalCode": "UNCL\r\n5375",
+        "internationalCodeName": "Price. Type. Code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "CI_ Trade_ Product. Variable Measure. Indicator",
+        "internationalCode": "JEC",
+        "internationalCodeName": "CI_ Trade_ Product. Variable Measure. Indicator"
+      },
+      {
+        "code": "JEC",
+        "codeName": "CI_ Product_ Characteristic. Type. Code",
+        "internationalCode": "JEC",
+        "internationalCodeName": "CI_ Product_ Characteristic. Type. Code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "CI_ Product_ Characteristic. Content_ Type. Code",
+        "internationalCode": "JEC",
+        "internationalCodeName": "CI_ Product_ Characteristic. Content_ Type. Code"
+      },
+      {
+        "code": "UNCL\r\n4343",
+        "codeName": "Document Line_ Document. Requested_ Response Type. Code",
+        "internationalCode": "UNCL\r\n4343",
+        "internationalCodeName": "Document Line_ Document. Requested_ Response Type. Code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "Document Line_ Document. Response Reason. Code",
+        "internationalCode": "JEC",
+        "internationalCodeName": "Document Line_ Document. Response Reason. Code"
+      }
+    ]
+  },
+  {
+    "codeType": "インボイス一覧-cefact-bie-0",
+    "sheetName": "インボイス一覧 (cefact-bie)",
+    "tableType": "cefact-bie",
+    "region": {
+      "startRow": 2,
+      "endRow": 28,
+      "startCol": 1,
+      "endCol": 5
+    },
+    "codes": [
+      {
+        "code": "ISO\r\n6523",
+        "codeName": "CI_ Universal_ Communication. Channel. Code",
+        "internationalCode": "ISO\r\n6523",
+        "internationalCodeName": "CI_ Universal_ Communication. Channel. Code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "CI_ Trade_ Party. Type. Code",
+        "internationalCode": "JEC",
+        "internationalCodeName": "CI_ Trade_ Party. Type. Code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "Document category code",
+        "internationalCode": "JEC",
+        "internationalCodeName": "Document category code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "Tax. Calculation Method. Code",
+        "internationalCode": "JEC",
+        "internationalCodeName": "Tax. Calculation Method. Code"
+      },
+      {
+        "code": "UNCL\r\n5305",
+        "codeName": "Tax category code",
+        "internationalCode": "UNCL\r\n5305",
+        "internationalCodeName": "Tax category code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "Local Tax System. Identifier",
+        "internationalCode": "JEC",
+        "internationalCodeName": "Local Tax System. Identifier"
+      },
+      {
+        "code": "UNCL\r\n5153",
+        "codeName": "Tax. Type. Code",
+        "internationalCode": "UNCL\r\n5153",
+        "internationalCodeName": "Tax. Type. Code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "Direction. Code",
+        "internationalCode": "JEC",
+        "internationalCodeName": "Direction. Code"
+      },
+      {
+        "code": "JEC",
+        "codeName": "CI_ Trade_ Allowance Charge. Charge. Indicator",
+        "internationalCode": "JEC",
+        "internationalCodeName": "CI_ Trade_ Allowance Charge. Charge. Indicator"
+      },
+      {
+        "code": "UNCL\r\n5189",
+        "codeName": "CI_ Trade_ Allowance Charge. Reason. Code",
+        "internationalCode": "UNCL\r\n5189",
+        "internationalCodeName": "CI_ Trade_ Allowance Charge. Reason. Code"
+      },
+      {
+        "code": "UNCL\r\n1153",
+        "codeName": "Referenced_ Document. Reference_ Type. Code",
+        "internationalCode": "UNCL\r\n1153",
+        "internationalCodeName": "Referenced_ Document. Reference_ Type. Code"
+      },
+      {
+        "code": "UNCL\r\n4343",
+        "codeName": "CIIH_ Exchanged_ Document. Requested_ Response Type. Code",
+        "internationalCode": "UNCL\r\n4343",
+        "internationalCodeName": "CIIH_ Exchanged_ Document. Requested_ Response Type. Code"
+      }
+    ]
+  },
+  {
+    "codeType": "国際アドレス登録機関コード-code-definition",
+    "sheetName": "国際アドレス登録機関コード (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 9,
+      "endRow": 16,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "0060",
+        "codeName": "D-U-N-S Number",
+        "internationalCode": "0060",
+        "internationalCodeName": "D-U-N-S Number"
+      },
+      {
+        "code": "0088",
+        "codeName": "GLN",
+        "internationalCode": "0088",
+        "internationalCodeName": "GLN"
+      },
+      {
+        "code": "0147",
+        "codeName": "Standard Company Code",
+        "internationalCode": "0147",
+        "internationalCodeName": "Standard Company Code"
+      },
+      {
+        "code": "0170",
+        "codeName": "Teikoku Company Code",
+        "internationalCode": "0170",
+        "internationalCodeName": "Teikoku Company Code"
+      }
+    ]
+  },
+  {
+    "codeType": "課税分類コード-code-definition-0",
+    "sheetName": "課税分類コード (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 12,
+      "endRow": 20,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "AA",
+        "codeName": "Lower rate",
+        "internationalCode": "AA",
+        "internationalCodeName": "Lower rate"
+      },
+      {
+        "code": "AE",
+        "codeName": "VAT Reverse Charge",
+        "internationalCode": "AE",
+        "internationalCodeName": "VAT Reverse Charge"
+      },
+      {
+        "code": "E",
+        "codeName": "Exempt from tax",
+        "internationalCode": "E",
+        "internationalCodeName": "Exempt from tax"
+      },
+      {
+        "code": "G",
+        "codeName": "Free export item, tax not charged",
+        "internationalCode": "G",
+        "internationalCodeName": "Free export item, tax not charged"
+      },
+      {
+        "code": "O",
+        "codeName": "Services outside scope of tax",
+        "internationalCode": "O",
+        "internationalCodeName": "Services outside scope of tax"
+      },
+      {
+        "code": "S",
+        "codeName": "Standard rate",
+        "internationalCode": "S",
+        "internationalCodeName": "Standard rate"
+      }
+    ]
+  },
+  {
+    "codeType": "税タイプコード-cefact-bie-0",
+    "sheetName": "税タイプコード (cefact-bie)",
+    "tableType": "cefact-bie",
+    "region": {
+      "startRow": 6,
+      "endRow": 12,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "国際標準\r\nCode値",
+        "codeName": "Name"
+      },
+      {
+        "code": "VAT",
+        "codeName": "Value added tax"
+      }
+    ]
+  },
+  {
+    "codeType": "返金・追加請求理由コード-cefact-bie-0",
+    "sheetName": "返金・追加請求理由コード  (cefact-bie)",
+    "tableType": "cefact-bie",
+    "region": {
+      "startRow": 6,
+      "endRow": 12,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "国際標準\r\nCode値",
+        "codeName": "Name"
+      },
+      {
+        "code": "106",
+        "codeName": "Withheld taxes and social security contributions"
+      }
+    ]
+  },
+  {
+    "codeType": "参照文書参照タイプコード-code-definition",
+    "sheetName": "参照文書参照タイプコード (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 9,
+      "endRow": 13,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "IV",
+        "codeName": "Invoice document identifier",
+        "internationalCode": "IV",
+        "internationalCodeName": "Invoice document identifier"
+      },
+      {
+        "code": "OI",
+        "codeName": "Previous invoice number",
+        "internationalCode": "OI",
+        "internationalCodeName": "Previous invoice number"
+      }
+    ]
+  },
+  {
+    "codeType": "インボイス回答タイプコード-code-definition",
+    "sheetName": "インボイス回答タイプコード (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 13,
+      "endRow": 20,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "AP",
+        "codeName": "Accepted",
+        "internationalCode": "AP",
+        "internationalCodeName": "Accepted"
+      },
+      {
+        "code": "CA",
+        "codeName": "Conditionally accepted",
+        "internationalCode": "CA",
+        "internationalCodeName": "Conditionally accepted"
+      },
+      {
+        "code": "RE",
+        "codeName": "Rejected",
+        "internationalCode": "RE",
+        "internationalCodeName": "Rejected"
+      },
+      {
+        "code": "AP",
+        "codeName": "Accepted",
+        "internationalCode": "AP",
+        "internationalCodeName": "Accepted"
+      },
+      {
+        "code": "RE",
+        "codeName": "Rejected",
+        "internationalCode": "RE",
+        "internationalCodeName": "Rejected"
+      }
+    ]
+  },
+  {
+    "codeType": "文書タイプコード-code-definition-0",
+    "sheetName": "文書タイプコード (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 15,
+      "endRow": 28,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "758",
+        "codeName": "Tender",
+        "internationalCode": "758",
+        "internationalCodeName": "Tender"
+      },
+      {
+        "code": "315",
+        "codeName": "Contract",
+        "internationalCode": "315",
+        "internationalCodeName": "Contract"
+      },
+      {
+        "code": "311",
+        "codeName": "Request for quote",
+        "internationalCode": "311",
+        "internationalCodeName": "Request for quote"
+      },
+      {
+        "code": "220",
+        "codeName": "Order",
+        "internationalCode": "220",
+        "internationalCodeName": "Order"
+      },
+      {
+        "code": "231",
+        "codeName": "Purchase order response",
+        "internationalCode": "231",
+        "internationalCodeName": "Purchase order response"
+      },
+      {
+        "code": "164",
+        "codeName": "Purchasing specification",
+        "internationalCode": "164",
+        "internationalCodeName": "Purchasing specification"
+      },
+      {
+        "code": "270",
+        "codeName": "Delivery note",
+        "internationalCode": "270",
+        "internationalCodeName": "Delivery note"
+      },
+      {
+        "code": "351",
+        "codeName": "Despatch advice",
+        "internationalCode": "351",
+        "internationalCodeName": "Despatch advice"
+      }
+    ]
+  },
+  {
+    "codeType": "文書タイプコード-unknown-1",
+    "sheetName": "文書タイプコード (unknown)",
+    "tableType": "unknown",
+    "region": {
+      "startRow": 34,
+      "endRow": 43,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "389",
+        "codeName": "Self-billed invoice"
+      },
+      {
+        "code": "527",
+        "codeName": "Self billed debit note"
+      },
+      {
+        "code": "81",
+        "codeName": "Credit note related to goods or services"
+      },
+      {
+        "code": "82",
+        "codeName": "Metered services invoice"
+      },
+      {
+        "code": "380",
+        "codeName": "Commercial invoice\r\n（デフォルト）"
+      }
+    ]
+  },
+  {
+    "codeType": "文書タイプコード-unknown-2",
+    "sheetName": "文書タイプコード (unknown)",
+    "tableType": "unknown",
+    "region": {
+      "startRow": 68,
+      "endRow": 73,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "236",
+        "codeName": "Delivery forecast"
+      },
+      {
+        "code": "288",
+        "codeName": "Kanban schedule"
+      },
+      {
+        "code": "162",
+        "codeName": "Certified inspection and test results"
+      },
+      {
+        "code": "163",
+        "codeName": "Material inspection and receiving report"
+      }
+    ]
+  },
+  {
+    "codeType": "文書目的コード-code-definition-0",
+    "sheetName": "文書目的コード  (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 15,
+      "endRow": 33,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "1",
+        "codeName": "Cancellation",
+        "internationalCode": "1",
+        "internationalCodeName": "Cancellation"
+      },
+      {
+        "code": "3",
+        "codeName": "Deletion",
+        "internationalCode": "3",
+        "internationalCodeName": "Deletion"
+      },
+      {
+        "code": "4",
+        "codeName": "Change",
+        "internationalCode": "4",
+        "internationalCodeName": "Change"
+      },
+      {
+        "code": "6",
+        "codeName": "Confirmation",
+        "internationalCode": "6",
+        "internationalCodeName": "Confirmation"
+      },
+      {
+        "code": "9",
+        "codeName": "Original",
+        "internationalCode": "9",
+        "internationalCodeName": "Original"
+      },
+      {
+        "code": "11",
+        "codeName": "Response",
+        "internationalCode": "11",
+        "internationalCodeName": "Response"
+      },
+      {
+        "code": "19",
+        "codeName": "Seller initiated change",
+        "internationalCode": "19",
+        "internationalCodeName": "Seller initiated change"
+      },
+      {
+        "code": "3",
+        "codeName": "Deletion",
+        "internationalCode": "3",
+        "internationalCodeName": "Deletion"
+      },
+      {
+        "code": "4",
+        "codeName": "Change",
+        "internationalCode": "4",
+        "internationalCodeName": "Change"
+      },
+      {
+        "code": "6",
+        "codeName": "Confirmation",
+        "internationalCode": "6",
+        "internationalCodeName": "Confirmation"
+      },
+      {
+        "code": "9",
+        "codeName": "Original",
+        "internationalCode": "9",
+        "internationalCodeName": "Original"
+      },
+      {
+        "code": "11",
+        "codeName": "Response",
+        "internationalCode": "11",
+        "internationalCodeName": "Response"
+      },
+      {
+        "code": "63",
+        "codeName": "Not accepted, provisional",
+        "internationalCode": "63",
+        "internationalCodeName": "Not accepted, provisional"
+      }
+    ]
+  },
+  {
+    "codeType": "文書目的コード-unknown-1",
+    "sheetName": "文書目的コード  (unknown)",
+    "tableType": "unknown",
+    "region": {
+      "startRow": 25,
+      "endRow": 33,
+      "startCol": 16,
+      "endCol": 18
+    },
+    "codes": [
+      {
+        "code": "3",
+        "codeName": "前回文書取消"
+      },
+      {
+        "code": "4",
+        "codeName": "変更"
+      },
+      {
+        "code": "6",
+        "codeName": "確定"
+      },
+      {
+        "code": "9",
+        "codeName": "新規（デフォルト）"
+      },
+      {
+        "code": "11",
+        "codeName": "回答"
+      },
+      {
+        "code": "63",
+        "codeName": "受取不可"
+      }
+    ]
+  },
+  {
+    "codeType": "注文状態コード-code-definition-0",
+    "sheetName": "注文状態コード (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 9,
+      "endRow": 15,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "5",
+        "codeName": "Information only",
+        "internationalCode": "5",
+        "internationalCodeName": "Information only"
+      },
+      {
+        "code": "29",
+        "codeName": "Provisional",
+        "internationalCode": "29",
+        "internationalCodeName": "Provisional"
+      },
+      {
+        "code": "37",
+        "codeName": "Document complete",
+        "internationalCode": "37",
+        "internationalCodeName": "Document complete"
+      }
+    ]
+  },
+  {
+    "codeType": "企業役割コード-code-definition",
+    "sheetName": "企業役割コード (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 9,
+      "endRow": 19,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "CC",
+        "codeName": "Claimant",
+        "internationalCode": "CC",
+        "internationalCodeName": "Claimant"
+      },
+      {
+        "code": "CN",
+        "codeName": "Consignee",
+        "internationalCode": "CN",
+        "internationalCodeName": "Consignee"
+      },
+      {
+        "code": "DDB",
+        "codeName": "Initial sender",
+        "internationalCode": "DDB",
+        "internationalCodeName": "Initial sender"
+      },
+      {
+        "code": "FT",
+        "codeName": "Financial settlement party",
+        "internationalCode": "FT",
+        "internationalCodeName": "Financial settlement party"
+      },
+      {
+        "code": "MF",
+        "codeName": "Manufacturer of goods",
+        "internationalCode": "MF",
+        "internationalCodeName": "Manufacturer of goods"
+      },
+      {
+        "code": "PC",
+        "codeName": "Actual purchaser's customer",
+        "internationalCode": "PC",
+        "internationalCodeName": "Actual purchaser's customer"
+      },
+      {
+        "code": "RE",
+        "codeName": "Party to receive commercial invoice remittance",
+        "internationalCode": "RE",
+        "internationalCodeName": "Party to receive commercial invoice remittance"
+      },
+      {
+        "code": "UD",
+        "codeName": "Ultimate customer",
+        "internationalCode": "UD",
+        "internationalCodeName": "Ultimate customer"
+      }
+    ]
+  },
+  {
+    "codeType": "支払手段タイプコード-code-definition",
+    "sheetName": "支払手段タイプコード (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 9,
+      "endRow": 20,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "10",
+        "codeName": "In cash",
+        "internationalCode": "10",
+        "internationalCodeName": "In cash"
+      },
+      {
+        "code": "20",
+        "codeName": "Cheque",
+        "internationalCode": "20",
+        "internationalCodeName": "Cheque"
+      },
+      {
+        "code": "30",
+        "codeName": "Credit transfe",
+        "internationalCode": "30",
+        "internationalCodeName": "Credit transfe"
+      },
+      {
+        "code": "46",
+        "codeName": "Interbank debit transfer",
+        "internationalCode": "46",
+        "internationalCodeName": "Interbank debit transfer"
+      },
+      {
+        "code": "49",
+        "codeName": "Direct debit",
+        "internationalCode": "49",
+        "internationalCodeName": "Direct debit"
+      },
+      {
+        "code": "54",
+        "codeName": "Credit card",
+        "internationalCode": "54",
+        "internationalCodeName": "Credit card"
+      },
+      {
+        "code": "55",
+        "codeName": "Debit card",
+        "internationalCode": "55",
+        "internationalCodeName": "Debit card"
+      },
+      {
+        "code": "60",
+        "codeName": "Promissory note",
+        "internationalCode": "60",
+        "internationalCodeName": "Promissory note"
+      },
+      {
+        "code": "68",
+        "codeName": "Online payment service",
+        "internationalCode": "68",
+        "internationalCodeName": "Online payment service"
+      }
+    ]
+  },
+  {
+    "codeType": "支払条件タイプコード-code-definition",
+    "sheetName": "支払条件タイプコード (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 9,
+      "endRow": 20,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "1",
+        "codeName": "Basic",
+        "internationalCode": "1",
+        "internationalCodeName": "Basic"
+      },
+      {
+        "code": "2",
+        "codeName": "End of month",
+        "internationalCode": "2",
+        "internationalCodeName": "End of month"
+      },
+      {
+        "code": "3",
+        "codeName": "Fixed date",
+        "internationalCode": "3",
+        "internationalCodeName": "Fixed date"
+      },
+      {
+        "code": "14",
+        "codeName": "Paid against statement",
+        "internationalCode": "14",
+        "internationalCodeName": "Paid against statement"
+      },
+      {
+        "code": "30",
+        "codeName": "Adjustment payment",
+        "internationalCode": "30",
+        "internationalCodeName": "Adjustment payment"
+      },
+      {
+        "code": "32",
+        "codeName": "Advanced payment",
+        "internationalCode": "32",
+        "internationalCodeName": "Advanced payment"
+      },
+      {
+        "code": "40",
+        "codeName": "Partial advance",
+        "internationalCode": "40",
+        "internationalCodeName": "Partial advance"
+      },
+      {
+        "code": "56",
+        "codeName": "Cash",
+        "internationalCode": "56",
+        "internationalCodeName": "Cash"
+      },
+      {
+        "code": "78",
+        "codeName": "Factoring",
+        "internationalCode": "78",
+        "internationalCodeName": "Factoring"
+      }
+    ]
+  },
+  {
+    "codeType": "前払タイプコード-code-definition",
+    "sheetName": "前払タイプコード (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 9,
+      "endRow": 17,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "1",
+        "codeName": "Basic",
+        "internationalCode": "1",
+        "internationalCodeName": "Basic"
+      },
+      {
+        "code": "2",
+        "codeName": "End of month",
+        "internationalCode": "2",
+        "internationalCodeName": "End of month"
+      },
+      {
+        "code": "3",
+        "codeName": "Fixed date",
+        "internationalCode": "3",
+        "internationalCodeName": "Fixed date"
+      },
+      {
+        "code": "14",
+        "codeName": "Paid against statement",
+        "internationalCode": "14",
+        "internationalCodeName": "Paid against statement"
+      },
+      {
+        "code": "56",
+        "codeName": "Cash",
+        "internationalCode": "56",
+        "internationalCodeName": "Cash"
+      },
+      {
+        "code": "78",
+        "codeName": "Factoring",
+        "internationalCode": "78",
+        "internationalCodeName": "Factoring"
+      }
+    ]
+  },
+  {
+    "codeType": "ヘッダ回答タイプコード-code-definition",
+    "sheetName": "ヘッダ回答タイプコード (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 11,
+      "endRow": 20,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "AJ",
+        "codeName": "Pending",
+        "internationalCode": "AJ",
+        "internationalCodeName": "Pending"
+      },
+      {
+        "code": "AP",
+        "codeName": "Accepted",
+        "internationalCode": "AP",
+        "internationalCodeName": "Accepted"
+      },
+      {
+        "code": "CA",
+        "codeName": "Conditionally accepted",
+        "internationalCode": "CA",
+        "internationalCodeName": "Conditionally accepted"
+      },
+      {
+        "code": "RE",
+        "codeName": "Rejected",
+        "internationalCode": "RE",
+        "internationalCodeName": "Rejected"
+      },
+      {
+        "code": "AP",
+        "codeName": "Accepted",
+        "internationalCode": "AP",
+        "internationalCodeName": "Accepted"
+      },
+      {
+        "code": "CA",
+        "codeName": "Conditionally accepted",
+        "internationalCode": "CA",
+        "internationalCodeName": "Conditionally accepted"
+      },
+      {
+        "code": "RE",
+        "codeName": "Rejected",
+        "internationalCode": "RE",
+        "internationalCodeName": "Rejected"
+      }
+    ]
+  },
+  {
+    "codeType": "明細状態コード-code-definition",
+    "sheetName": "明細状態コード  (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 11,
+      "endRow": 18,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "1",
+        "codeName": "Added",
+        "internationalCode": "1",
+        "internationalCodeName": "Added"
+      },
+      {
+        "code": "2",
+        "codeName": "Deleted",
+        "internationalCode": "2",
+        "internationalCodeName": "Deleted"
+      },
+      {
+        "code": "3",
+        "codeName": "Changed",
+        "internationalCode": "3",
+        "internationalCodeName": "Changed"
+      },
+      {
+        "code": "37",
+        "codeName": "Cancelled",
+        "internationalCode": "37",
+        "internationalCodeName": "Cancelled"
+      },
+      {
+        "code": "39",
+        "codeName": "New",
+        "internationalCode": "39",
+        "internationalCodeName": "New"
+      }
+    ]
+  },
+  {
+    "codeType": "明細回答タイプコード-code-definition",
+    "sheetName": "明細回答タイプコード (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 13,
+      "endRow": 21,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "AP",
+        "codeName": "Accepted",
+        "internationalCode": "AP",
+        "internationalCodeName": "Accepted"
+      },
+      {
+        "code": "CA",
+        "codeName": "Conditionally accepted",
+        "internationalCode": "CA",
+        "internationalCodeName": "Conditionally accepted"
+      },
+      {
+        "code": "RE",
+        "codeName": "Rejected",
+        "internationalCode": "RE",
+        "internationalCodeName": "Rejected"
+      },
+      {
+        "code": "AP",
+        "codeName": "Accepted",
+        "internationalCode": "AP",
+        "internationalCodeName": "Accepted"
+      },
+      {
+        "code": "CA",
+        "codeName": "Conditionally accepted",
+        "internationalCode": "CA",
+        "internationalCodeName": "Conditionally accepted"
+      },
+      {
+        "code": "RE",
+        "codeName": "Rejected",
+        "internationalCode": "RE",
+        "internationalCodeName": "Rejected"
+      }
+    ]
+  },
+  {
+    "codeType": "単価コード-code-definition",
+    "sheetName": "単価コード (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 9,
+      "endRow": 16,
+      "startCol": 1,
+      "endCol": 3
+    },
+    "codes": [
+      {
+        "code": "AA",
+        "codeName": "Cancellation price",
+        "internationalCode": "AA",
+        "internationalCodeName": "Cancellation price"
+      },
+      {
+        "code": "CT",
+        "codeName": "Contract",
+        "internationalCode": "CT",
+        "internationalCodeName": "Contract"
+      },
+      {
+        "code": "QT",
+        "codeName": "Quoted",
+        "internationalCode": "QT",
+        "internationalCodeName": "Quoted"
+      },
+      {
+        "code": "PV",
+        "codeName": "Provisional price",
+        "internationalCode": "PV",
+        "internationalCodeName": "Provisional price"
+      },
+      {
+        "code": "TW",
+        "codeName": "Theoretical weight",
+        "internationalCode": "TW",
+        "internationalCodeName": "Theoretical weight"
+      }
+    ]
+  },
+  {
+    "codeType": "品目数量単位判別子-unknown-1",
+    "sheetName": "品目数量単位判別子 (unknown)",
+    "tableType": "unknown",
+    "region": {
+      "startRow": 16,
+      "endRow": 18,
+      "startCol": 7,
+      "endCol": 9
+    },
+    "codes": [
+      {
+        "code": "D",
+        "codeName": "不定貫品目"
+      },
+      {
+        "code": "D1",
+        "codeName": "実測不定貫品目"
+      }
+    ]
+  },
+  {
+    "codeType": "数量単位コード-code-definition-0",
+    "sheetName": "数量単位コード  (code-definition)",
+    "tableType": "code-definition",
+    "region": {
+      "startRow": 9,
+      "endRow": 52,
+      "startCol": 1,
+      "endCol": 4
+    },
+    "codes": [
+      {
+        "code": "H87",
+        "codeName": "piece",
+        "internationalCode": "H87",
+        "internationalCodeName": "piece"
+      },
+      {
+        "code": "T3",
+        "codeName": "thousand piece",
+        "internationalCode": "T3",
+        "internationalCodeName": "thousand piece"
+      },
+      {
+        "code": "PG",
+        "codeName": "Plate",
+        "internationalCode": "PG",
+        "internationalCodeName": "Plate"
+      },
+      {
+        "code": "XST",
+        "codeName": "sheet",
+        "internationalCode": "XST",
+        "internationalCodeName": "sheet"
+      },
+      {
+        "code": "QB",
+        "codeName": "page - hardcopy",
+        "internationalCode": "QB",
+        "internationalCodeName": "page - hardcopy"
+      },
+      {
+        "code": "XBO",
+        "codeName": "bottle",
+        "internationalCode": "XBO",
+        "internationalCodeName": "bottle"
+      },
+      {
+        "code": "XTU",
+        "codeName": "tube",
+        "internationalCode": "XTU",
+        "internationalCodeName": "tube"
+      },
+      {
+        "code": "PI",
+        "codeName": "Pipe",
+        "internationalCode": "PI",
+        "internationalCodeName": "Pipe"
+      },
+      {
+        "code": "XRD",
+        "codeName": "rod",
+        "internationalCode": "XRD",
+        "internationalCodeName": "rod"
+      },
+      {
+        "code": "XRO",
+        "codeName": "Roll",
+        "internationalCode": "XRO",
+        "internationalCodeName": "Roll"
+      },
+      {
+        "code": "XCL",
+        "codeName": "coil",
+        "internationalCode": "XCL",
+        "internationalCodeName": "coil"
+      },
+      {
+        "code": "RL",
+        "codeName": "Reel",
+        "internationalCode": "RL",
+        "internationalCodeName": "Reel"
+      },
+      {
+        "code": "XCN",
+        "codeName": "can",
+        "internationalCode": "XCN",
+        "internationalCodeName": "can"
+      },
+      {
+        "code": "HEA",
+        "codeName": "head",
+        "internationalCode": "HEA",
+        "internationalCodeName": "head"
+      },
+      {
+        "code": "Q3",
+        "codeName": "meal",
+        "internationalCode": "Q3",
+        "internationalCodeName": "meal"
+      },
+      {
+        "code": "SET",
+        "codeName": "set",
+        "internationalCode": "SET",
+        "internationalCodeName": "set"
+      },
+      {
+        "code": "XCS",
+        "codeName": "case",
+        "internationalCode": "XCS",
+        "internationalCodeName": "case"
+      },
+      {
+        "code": "XCT",
+        "codeName": "carton",
+        "internationalCode": "XCT",
+        "internationalCodeName": "carton"
+      },
+      {
+        "code": "KT",
+        "codeName": "kit",
+        "internationalCode": "KT",
+        "internationalCodeName": "kit"
+      },
+      {
+        "code": "XBX",
+        "codeName": "box",
+        "internationalCode": "XBX",
+        "internationalCodeName": "box"
+      },
+      {
+        "code": "PX",
+        "codeName": "Pallet",
+        "internationalCode": "PX",
+        "internationalCodeName": "Pallet"
+      },
+      {
+        "code": "XPK",
+        "codeName": "pack",
+        "internationalCode": "XPK",
+        "internationalCodeName": "pack"
+      },
+      {
+        "code": "XBG",
+        "codeName": "bag",
+        "internationalCode": "XBG",
+        "internationalCodeName": "bag"
+      },
+      {
+        "code": "XBK",
+        "codeName": "basket",
+        "internationalCode": "XBK",
+        "internationalCodeName": "basket"
+      },
+      {
+        "code": "PR",
+        "codeName": "pair",
+        "internationalCode": "PR",
+        "internationalCodeName": "pair"
+      },
+      {
+        "code": "DZN",
+        "codeName": "dozen",
+        "internationalCode": "DZN",
+        "internationalCodeName": "dozen"
+      },
+      {
+        "code": "GRO",
+        "codeName": "gross",
+        "internationalCode": "GRO",
+        "internationalCodeName": "gross"
+      },
+      {
+        "code": "TNE",
+        "codeName": "tonne (metric ton)",
+        "internationalCode": "TNE",
+        "internationalCodeName": "tonne (metric ton)"
+      },
+      {
+        "code": "KGM",
+        "codeName": "kilogram",
+        "internationalCode": "KGM",
+        "internationalCodeName": "kilogram"
+      },
+      {
+        "code": "GRM",
+        "codeName": "gram",
+        "internationalCode": "GRM",
+        "internationalCodeName": "gram"
+      },
+      {
+        "code": "MGM",
+        "codeName": "milligram",
+        "internationalCode": "MGM",
+        "internationalCodeName": "milligram"
+      },
+      {
+        "code": "LTR",
+        "codeName": "litre",
+        "internationalCode": "LTR",
+        "internationalCodeName": "litre"
+      },
+      {
+        "code": "MLT",
+        "codeName": "millilitre",
+        "internationalCode": "MLT",
+        "internationalCodeName": "millilitre"
+      },
+      {
+        "code": "KTM",
+        "codeName": "kilometre",
+        "internationalCode": "KTM",
+        "internationalCodeName": "kilometre"
+      },
+      {
+        "code": "MTR",
+        "codeName": "metre",
+        "internationalCode": "MTR",
+        "internationalCodeName": "metre"
+      },
+      {
+        "code": "CMT",
+        "codeName": "centimetre",
+        "internationalCode": "CMT",
+        "internationalCodeName": "centimetre"
+      },
+      {
+        "code": "MMT",
+        "codeName": "millimetre",
+        "internationalCode": "MMT",
+        "internationalCodeName": "millimetre"
+      },
+      {
+        "code": "MTK",
+        "codeName": "square metre",
+        "internationalCode": "MTK",
+        "internationalCodeName": "square metre"
+      },
+      {
+        "code": "CMK",
+        "codeName": "square centimetre",
+        "internationalCode": "CMK",
+        "internationalCodeName": "square centimetre"
+      },
+      {
+        "code": "MTQ",
+        "codeName": "cubic metre",
+        "internationalCode": "MTQ",
+        "internationalCodeName": "cubic metre"
+      }
+    ]
+  }
+]

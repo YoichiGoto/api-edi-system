@@ -1,0 +1,43 @@
+{
+  "codeType": "明細状態コード-code-definition",
+  "sheetName": "明細状態コード  (code-definition)",
+  "tableType": "code-definition",
+  "region": {
+    "startRow": 11,
+    "endRow": 18,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "1",
+      "codeName": "Added",
+      "internationalCode": "1",
+      "internationalCodeName": "Added"
+    },
+    {
+      "code": "2",
+      "codeName": "Deleted",
+      "internationalCode": "2",
+      "internationalCodeName": "Deleted"
+    },
+    {
+      "code": "3",
+      "codeName": "Changed",
+      "internationalCode": "3",
+      "internationalCodeName": "Changed"
+    },
+    {
+      "code": "37",
+      "codeName": "Cancelled",
+      "internationalCode": "37",
+      "internationalCodeName": "Cancelled"
+    },
+    {
+      "code": "39",
+      "codeName": "New",
+      "internationalCode": "39",
+      "internationalCodeName": "New"
+    }
+  ]
+}

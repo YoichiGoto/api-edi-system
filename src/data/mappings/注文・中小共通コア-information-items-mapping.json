@@ -1,0 +1,63 @@
+{
+  "sheetName": "注文・中小共通コア (information-items)",
+  "messageType": "注文・中小共通コア",
+  "tableType": "information-items",
+  "region": {
+    "startRow": 11,
+    "endRow": 164,
+    "startCol": 7,
+    "endCol": 10
+  },
+  "fields": [
+    {
+      "appField": "中小\r\n共通コア",
+      "ediField": "インボイス\r\n対応",
+      "required": false
+    },
+    {
+      "appField": "（●）",
+      "ediField": "◎",
+      "required": true
+    },
+    {
+      "appField": "＊",
+      "ediField": "◎",
+      "required": false
+    },
+    {
+      "appField": "（●）",
+      "ediField": "◎",
+      "required": true
+    },
+    {
+      "appField": "○",
+      "ediField": "◎",
+      "required": true
+    },
+    {
+      "appField": "●",
+      "ediField": "（◎）",
+      "required": true
+    },
+    {
+      "appField": "○",
+      "ediField": "◎",
+      "required": true
+    },
+    {
+      "appField": "○",
+      "ediField": "（◎）",
+      "required": true
+    },
+    {
+      "appField": "（●）",
+      "ediField": "◎",
+      "required": true
+    },
+    {
+      "appField": "（●）",
+      "ediField": "◎",
+      "required": true
+    }
+  ]
+}

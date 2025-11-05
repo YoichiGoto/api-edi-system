@@ -1,0 +1,21 @@
+{
+  "codeType": "改定履歴-code-definition-0",
+  "sheetName": "改定履歴 (code-definition)",
+  "tableType": "code-definition",
+  "region": {
+    "startRow": 2,
+    "endRow": 4,
+    "startCol": 1,
+    "endCol": 4
+  },
+  "codes": [
+    {
+      "code": "識別コード定義表全体",
+      "codeName": "45047"
+    },
+    {
+      "code": "国際サブセット定義表",
+      "codeName": "45200"
+    }
+  ]
+}

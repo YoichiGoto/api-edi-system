@@ -1,0 +1,55 @@
+{
+  "codeType": "ヘッダ回答タイプコード-code-definition",
+  "sheetName": "ヘッダ回答タイプコード (code-definition)",
+  "tableType": "code-definition",
+  "region": {
+    "startRow": 11,
+    "endRow": 20,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "AJ",
+      "codeName": "Pending",
+      "internationalCode": "AJ",
+      "internationalCodeName": "Pending"
+    },
+    {
+      "code": "AP",
+      "codeName": "Accepted",
+      "internationalCode": "AP",
+      "internationalCodeName": "Accepted"
+    },
+    {
+      "code": "CA",
+      "codeName": "Conditionally accepted",
+      "internationalCode": "CA",
+      "internationalCodeName": "Conditionally accepted"
+    },
+    {
+      "code": "RE",
+      "codeName": "Rejected",
+      "internationalCode": "RE",
+      "internationalCodeName": "Rejected"
+    },
+    {
+      "code": "AP",
+      "codeName": "Accepted",
+      "internationalCode": "AP",
+      "internationalCodeName": "Accepted"
+    },
+    {
+      "code": "CA",
+      "codeName": "Conditionally accepted",
+      "internationalCode": "CA",
+      "internationalCodeName": "Conditionally accepted"
+    },
+    {
+      "code": "RE",
+      "codeName": "Rejected",
+      "internationalCode": "RE",
+      "internationalCodeName": "Rejected"
+    }
+  ]
+}

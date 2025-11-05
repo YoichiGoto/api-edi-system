@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SME Invoice Message Schema",
+  "description": "JSON schema for SME Invoice message (共通EDI標準)",
+  "type": "object",
+  "required": ["messageType", "receiverId", "data"],
+  "properties": {
+    "messageType": {
+      "type": "string",
+      "enum": ["invoice", "consolidated_invoice"],
+      "description": "Message type"
+    },
+    "receiverId": {
+      "type": "string",
+      "description": "Receiver application ID"
+    },
+    "data": {
+      "type": "object",
+      "required": ["invoiceNumber", "invoiceDate", "seller", "buyer"],
+      "properties": {
+        "invoiceNumber": {
+          "type": "string",
+          "description": "Invoice number"
+        },
+        "invoiceDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Invoice date (ISO8601: YYYY-MM-DD)"
+        },
+        "seller": {
+          "type": "object",
+          "required": ["name", "registrationNumber"],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "registrationNumber": {
+              "type": "string",
+              "description": "適格請求書発行事業者の登録番号"
+            },
+            "address": {
+              "type": "string"
+            }
+          }
+        },
+        "buyer": {
+          "type": "object",
+          "required": ["name"],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "address": {
+              "type": "string"
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["productName", "quantity", "unitPrice", "taxRate"],
+            "properties": {
+              "productName": {
+                "type": "string"
+              },
+              "productId": {
+                "type": "string"
+              },
+              "quantity": {
+                "type": "number"
+              },
+              "unit": {
+                "type": "string"
+              },
+              "unitPrice": {
+                "type": "number"
+              },
+              "taxRate": {
+                "type": "number",
+                "enum": [0, 0.08, 0.1],
+                "description": "Tax rate (0%, 8%, 10%)"
+              },
+              "taxAmount": {
+                "type": "number"
+              },
+              "amount": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "totalAmount": {
+          "type": "number"
+        },
+        "totalTaxAmount": {
+          "type": "number"
+        },
+        "totalAmountWithTax": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}
+

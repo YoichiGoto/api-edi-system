@@ -1,0 +1,907 @@
+{
+  "sheetName": "注文・中小全項目 (information-items)",
+  "messageType": "注文・中小全項目",
+  "tableType": "information-items",
+  "region": {
+    "startRow": 11,
+    "endRow": 257,
+    "startCol": 7,
+    "endCol": 11
+  },
+  "fields": [
+    {
+      "appField": "中小\r\n共通コア",
+      "ediField": "中小\r\n製造業",
+      "ediId": "中小\r\n建設業",
+      "required": false
+    },
+    {
+      "appField": "〇",
+      "ediField": "〇",
+      "ediId": "〇",
+      "required": false
+    },
+    {
+      "appField": "〇",
+      "ediField": "〇",
+      "ediId": "〇",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "〇",
+      "ediField": "〇",
+      "ediId": "〇",
+      "required": false
+    },
+    {
+      "appField": "●",
+      "ediField": "●",
+      "ediId": "●",
+      "required": true
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "△",
+      "ediField": "△",
+      "ediId": "△",
+      "required": false
+    },
+    {
+      "appField": "〇",
+      "ediField": "〇",
+      "ediId": "〇",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "（●）",
+      "ediField": "（●）",
+      "ediId": "（●）",
+      "required": true
+    },
+    {
+      "appField": "（●）",
+      "ediField": "（●）",
+      "ediId": "（●）",
+      "required": true
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "〇",
+      "ediField": "〇",
+      "ediId": "〇",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "（●）",
+      "ediField": "（●）",
+      "ediId": "（●）",
+      "required": true
+    },
+    {
+      "appField": "（●）",
+      "ediField": "（●）",
+      "ediId": "（●）",
+      "required": true
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "○",
+      "ediField": "○",
+      "ediId": "○",
+      "required": true
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "●",
+      "ediField": "●",
+      "ediId": "●",
+      "required": true
+    },
+    {
+      "appField": "○",
+      "ediField": "○",
+      "ediId": "○",
+      "required": true
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "●",
+      "ediField": "●",
+      "ediId": "●",
+      "required": true
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "○",
+      "ediField": "○",
+      "ediId": "○",
+      "required": true
+    },
+    {
+      "appField": "○",
+      "ediField": "○",
+      "ediId": "○",
+      "required": true
+    },
+    {
+      "appField": "●",
+      "ediField": "●",
+      "ediId": "●",
+      "required": true
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "○",
+      "ediField": "○",
+      "ediId": "○",
+      "required": true
+    },
+    {
+      "appField": "△",
+      "ediField": "△",
+      "ediId": "△",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "△",
+      "ediField": "△",
+      "ediId": "△",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "〇",
+      "ediField": "〇",
+      "ediId": "〇",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "〇",
+      "ediField": "〇",
+      "ediId": "〇",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "〇",
+      "ediField": "〇",
+      "ediId": "〇",
+      "required": false
+    },
+    {
+      "appField": "〇",
+      "ediField": "〇",
+      "ediId": "〇",
+      "required": false
+    },
+    {
+      "appField": "○",
+      "ediField": "○",
+      "ediId": "○",
+      "required": true
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "●",
+      "ediField": "●",
+      "ediId": "●",
+      "required": true
+    },
+    {
+      "appField": "〇",
+      "ediField": "〇",
+      "ediId": "〇",
+      "required": false
+    },
+    {
+      "appField": "〇",
+      "ediField": "〇",
+      "ediId": "〇",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "●",
+      "ediField": "●",
+      "ediId": "●",
+      "required": true
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "（●）",
+      "ediField": "（●）",
+      "ediId": "（●）",
+      "required": true
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "（●）",
+      "ediField": "（●）",
+      "ediId": "（●）",
+      "required": true
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "○",
+      "ediField": "○",
+      "ediId": "○",
+      "required": true
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "（●）",
+      "ediField": "（●）",
+      "ediId": "（●）",
+      "required": true
+    },
+    {
+      "appField": "（●）",
+      "ediField": "（●）",
+      "ediId": "（●）",
+      "required": true
+    },
+    {
+      "appField": "●",
+      "ediField": "●",
+      "ediId": "●",
+      "required": true
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    },
+    {
+      "appField": "＊",
+      "ediField": "＊",
+      "ediId": "＊",
+      "required": false
+    }
+  ]
+}

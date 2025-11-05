@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SME Order Message Schema",
+  "description": "JSON schema for SME Order message (共通EDI標準)",
+  "type": "object",
+  "required": ["messageType", "receiverId", "data"],
+  "properties": {
+    "messageType": {
+      "type": "string",
+      "enum": ["order"],
+      "description": "Message type"
+    },
+    "receiverId": {
+      "type": "string",
+      "description": "Receiver application ID"
+    },
+    "data": {
+      "type": "object",
+      "required": ["orderNumber", "orderDate", "buyer", "seller"],
+      "properties": {
+        "orderNumber": {
+          "type": "string",
+          "description": "Order number"
+        },
+        "orderDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Order date (ISO8601: YYYY-MM-DD)"
+        },
+        "buyer": {
+          "type": "object",
+          "required": ["name"],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "address": {
+              "type": "string"
+            }
+          }
+        },
+        "seller": {
+          "type": "object",
+          "required": ["name"],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "address": {
+              "type": "string"
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["productName", "quantity"],
+            "properties": {
+              "productName": {
+                "type": "string"
+              },
+              "productId": {
+                "type": "string"
+              },
+              "quantity": {
+                "type": "number"
+              },
+              "unit": {
+                "type": "string"
+              },
+              "unitPrice": {
+                "type": "number"
+              },
+              "amount": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

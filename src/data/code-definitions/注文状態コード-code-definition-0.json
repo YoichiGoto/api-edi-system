@@ -1,0 +1,31 @@
+{
+  "codeType": "注文状態コード-code-definition-0",
+  "sheetName": "注文状態コード (code-definition)",
+  "tableType": "code-definition",
+  "region": {
+    "startRow": 9,
+    "endRow": 15,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "5",
+      "codeName": "Information only",
+      "internationalCode": "5",
+      "internationalCodeName": "Information only"
+    },
+    {
+      "code": "29",
+      "codeName": "Provisional",
+      "internationalCode": "29",
+      "internationalCodeName": "Provisional"
+    },
+    {
+      "code": "37",
+      "codeName": "Document complete",
+      "internationalCode": "37",
+      "internationalCodeName": "Document complete"
+    }
+  ]
+}

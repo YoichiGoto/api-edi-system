@@ -1,0 +1,85 @@
+{
+  "codeType": "インボイス一覧-cefact-bie-0",
+  "sheetName": "インボイス一覧 (cefact-bie)",
+  "tableType": "cefact-bie",
+  "region": {
+    "startRow": 2,
+    "endRow": 28,
+    "startCol": 1,
+    "endCol": 5
+  },
+  "codes": [
+    {
+      "code": "ISO\r\n6523",
+      "codeName": "CI_ Universal_ Communication. Channel. Code",
+      "internationalCode": "ISO\r\n6523",
+      "internationalCodeName": "CI_ Universal_ Communication. Channel. Code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "CI_ Trade_ Party. Type. Code",
+      "internationalCode": "JEC",
+      "internationalCodeName": "CI_ Trade_ Party. Type. Code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "Document category code",
+      "internationalCode": "JEC",
+      "internationalCodeName": "Document category code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "Tax. Calculation Method. Code",
+      "internationalCode": "JEC",
+      "internationalCodeName": "Tax. Calculation Method. Code"
+    },
+    {
+      "code": "UNCL\r\n5305",
+      "codeName": "Tax category code",
+      "internationalCode": "UNCL\r\n5305",
+      "internationalCodeName": "Tax category code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "Local Tax System. Identifier",
+      "internationalCode": "JEC",
+      "internationalCodeName": "Local Tax System. Identifier"
+    },
+    {
+      "code": "UNCL\r\n5153",
+      "codeName": "Tax. Type. Code",
+      "internationalCode": "UNCL\r\n5153",
+      "internationalCodeName": "Tax. Type. Code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "Direction. Code",
+      "internationalCode": "JEC",
+      "internationalCodeName": "Direction. Code"
+    },
+    {
+      "code": "JEC",
+      "codeName": "CI_ Trade_ Allowance Charge. Charge. Indicator",
+      "internationalCode": "JEC",
+      "internationalCodeName": "CI_ Trade_ Allowance Charge. Charge. Indicator"
+    },
+    {
+      "code": "UNCL\r\n5189",
+      "codeName": "CI_ Trade_ Allowance Charge. Reason. Code",
+      "internationalCode": "UNCL\r\n5189",
+      "internationalCodeName": "CI_ Trade_ Allowance Charge. Reason. Code"
+    },
+    {
+      "code": "UNCL\r\n1153",
+      "codeName": "Referenced_ Document. Reference_ Type. Code",
+      "internationalCode": "UNCL\r\n1153",
+      "internationalCodeName": "Referenced_ Document. Reference_ Type. Code"
+    },
+    {
+      "code": "UNCL\r\n4343",
+      "codeName": "CIIH_ Exchanged_ Document. Requested_ Response Type. Code",
+      "internationalCode": "UNCL\r\n4343",
+      "internationalCodeName": "CIIH_ Exchanged_ Document. Requested_ Response Type. Code"
+    }
+  ]
+}

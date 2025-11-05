@@ -1,0 +1,49 @@
+{
+  "codeType": "前払タイプコード-code-definition",
+  "sheetName": "前払タイプコード (code-definition)",
+  "tableType": "code-definition",
+  "region": {
+    "startRow": 9,
+    "endRow": 17,
+    "startCol": 1,
+    "endCol": 3
+  },
+  "codes": [
+    {
+      "code": "1",
+      "codeName": "Basic",
+      "internationalCode": "1",
+      "internationalCodeName": "Basic"
+    },
+    {
+      "code": "2",
+      "codeName": "End of month",
+      "internationalCode": "2",
+      "internationalCodeName": "End of month"
+    },
+    {
+      "code": "3",
+      "codeName": "Fixed date",
+      "internationalCode": "3",
+      "internationalCodeName": "Fixed date"
+    },
+    {
+      "code": "14",
+      "codeName": "Paid against statement",
+      "internationalCode": "14",
+      "internationalCodeName": "Paid against statement"
+    },
+    {
+      "code": "56",
+      "codeName": "Cash",
+      "internationalCode": "56",
+      "internationalCodeName": "Cash"
+    },
+    {
+      "code": "78",
+      "codeName": "Factoring",
+      "internationalCode": "78",
+      "internationalCodeName": "Factoring"
+    }
+  ]
+}
