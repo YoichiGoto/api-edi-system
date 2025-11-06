@@ -61,7 +61,7 @@ JWT_SECRET=your_jwt_secret_key_here
 API_KEY_HEADER=zag-api-key
 
 # Gemini API (オプション)
-GEMINI_API_KEY=AIzaSyBO-Fr-0f19fJsRsvG41tuzirlOB39BQxM
+GEMINI_API_KEY= 
 ```
 
 ## データベースパスワードの取得方法
