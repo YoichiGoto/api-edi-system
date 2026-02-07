@@ -60,8 +60,8 @@ JWT_SECRET=your_jwt_secret_key_here
 # API Key Configuration
 API_KEY_HEADER=zag-api-key
 
-# Gemini API (オプション)
-GEMINI_API_KEY= 
+# Gemini API (オプション) - .env にのみ記載し、Git にコミットしないでください
+GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
 ## データベースパスワードの取得方法
